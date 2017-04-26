@@ -8,15 +8,16 @@ Visual Studio 2015 Community<br>
 MySQL 5.6
 
 #Requerimentos
-NETFramework 4.0 e DirectX atualizado.
+NETFramework 4.5 para os servidores.
+NETFramework 4.0 e DirectX atualizado para o cliente
 
 #Servidores
 O jogo usa 3 servidores para dividir o processamento e aumentar a quantidade de jogares.<br>
 Banco de dados usado, MySQL.
 
-![Screeshot](http://i.imgur.com/99xp0L0.png)
-![Screenshot](http://i.imgur.com/M1OFUzS.png)
-![Screeshot](http://i.imgur.com/ancS2N0.png)
+![Screeshot](http://i.imgur.com/9gMp2cI.png)
+![Screenshot](http://i.imgur.com/vZwvHu9.png)
+![Screeshot](http://i.imgur.com/R2WtCGl.png)
 
 #Cliente
 Personagens<br>
