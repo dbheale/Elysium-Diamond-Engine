@@ -1,0 +1,40 @@
+2017/04/22 21:15:49: ID: 252000
+2017/04/22 21:15:49: Game Server Name: Canal 1
+2017/04/22 21:15:49: Discovery: Elysium Diamond #1.0.0
+2017/04/22 21:15:49: Port: 55970
+2017/04/22 21:15:49: MaximumConnections: 2000
+2017/04/22 21:15:49: Sleep: 1
+2017/04/22 21:15:49: Logs: Ativado
+2017/04/22 21:15:49: Carregando config mysql
+2017/04/22 21:15:49: Connectado ao banco de dados
+2017/04/22 21:15:50: WorldServer 1  ID: Artemis
+2017/04/22 21:15:50: WorldServer 2  ID: 
+2017/04/22 21:15:50: WorldServer 3  ID: 
+2017/04/22 21:15:50: WorldServer 4  ID: 
+2017/04/22 21:15:50: WorldServer 5  ID: 
+2017/04/22 21:15:50: Carregando experiência
+2017/04/22 21:15:50: Level Max: 121
+2017/04/22 21:15:50: Exp Max: 22353256174
+2017/04/22 21:15:50: Carregando guilds
+2017/04/22 21:15:50: Carregando membros
+2017/04/22 21:15:50: Carregando classe(s) base
+2017/04/22 21:15:50: Carregando classe(s) incremento
+2017/04/22 21:15:50: Carregando NPC
+2017/04/22 21:15:50: Carregando scripts
+2017/04/22 21:15:50: Game Server Start
+2017/04/22 21:15:52: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/22 21:15:52: Status changed to connected: 127.0.0.1
+2017/04/22 21:41:11: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 9CEA3762542F860B
+2017/04/22 21:41:11: Discovery Response IPEndPoint: 187.57.69.227
+2017/04/22 21:41:11: Status changed to connected: 187.57.69.227
+2017/04/22 21:41:11: Received From Client: 9CEA3762542F860B
+2017/04/22 21:41:11: Player Found ID: 3 Name: Teste123
+2017/04/22 21:41:11: Teste123 joined map id 1
+2017/04/22 21:41:24: ID: 3 Teste123 Status changed to disconnected: 187.57.69.227
+2017/04/22 21:41:41: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 C5C30BC60D53B8B7
+2017/04/22 21:41:42: Discovery Response IPEndPoint: 187.57.69.227
+2017/04/22 21:41:42: Status changed to connected: 187.57.69.227
+2017/04/22 21:41:42: Received From Client: C5C30BC60D53B8B7
+2017/04/22 21:41:42: Player Found ID: 2 Name: Sacee
+2017/04/22 21:41:42: Sacee joined map id 1
+2017/04/22 21:42:05: ID: 2 Sacee Status changed to disconnected: 187.57.69.227

@@ -1,0 +1,5 @@
+C:\Users\DragonicK\Desktop\Elysium\bin\Debug\Elysium.dll
+C:\Users\DragonicK\Desktop\Elysium\bin\Debug\Elysium.pdb
+C:\Users\DragonicK\Desktop\Elysium\obj\Debug\Elysium.csprojResolveAssemblyReference.cache
+C:\Users\DragonicK\Desktop\Elysium\obj\Debug\Elysium.dll
+C:\Users\DragonicK\Desktop\Elysium\obj\Debug\Elysium.pdb

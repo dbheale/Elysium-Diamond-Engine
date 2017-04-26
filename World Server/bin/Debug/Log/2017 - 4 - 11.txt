@@ -1,0 +1,77 @@
+2017/04/11 23:50:16: ID: 2147483646
+2017/04/11 23:50:16: Server Name: artemis
+2017/04/11 23:50:16: Discovery: Elysium Diamond #1.0.0
+2017/04/11 23:50:16: Port: 55901
+2017/04/11 23:50:16: Maximum Connections: 2000
+2017/04/11 23:50:16: Logs: Ativado
+2017/04/11 23:50:16: Sleep: 1
+04/11/2017 23:50:16: Create Character: True
+04/11/2017 23:50:16: Delete Character: True
+04/11/2017 23:50:16: Carregando config do mysql
+04/11/2017 23:50:16: Connectado ao banco de dados
+04/11/2017 23:50:18: World Server Start.
+2017/04/11 23:50:51: ID: 2147483646
+2017/04/11 23:50:51: Server Name: artemis
+2017/04/11 23:50:51: Discovery: Elysium Diamond #1.0.0
+2017/04/11 23:50:51: Port: 55901
+2017/04/11 23:50:51: Maximum Connections: 2000
+2017/04/11 23:50:51: Logs: Ativado
+2017/04/11 23:50:51: Sleep: 1
+04/11/2017 23:50:51: Create Character: True
+04/11/2017 23:50:51: Delete Character: True
+04/11/2017 23:50:51: Carregando config do mysql
+04/11/2017 23:50:51: Connectado ao banco de dados
+04/11/2017 23:50:52: World Server Start.
+2017/04/11 23:51:22: ID: 2147483646
+2017/04/11 23:51:22: Server Name: artemis
+2017/04/11 23:51:22: Discovery: Elysium Diamond #1.0.0
+2017/04/11 23:51:22: Port: 55901
+2017/04/11 23:51:22: Maximum Connections: 2000
+2017/04/11 23:51:22: Logs: Ativado
+2017/04/11 23:51:22: Sleep: 1
+04/11/2017 23:51:22: Create Character: True
+04/11/2017 23:51:22: Delete Character: True
+04/11/2017 23:51:22: Carregando config do mysql
+04/11/2017 23:51:22: Connectado ao banco de dados
+04/11/2017 23:51:23: World Server Start.
+2017/04/11 23:51:52: ID: 2147483646
+2017/04/11 23:51:52: Server Name: artemis
+2017/04/11 23:51:52: Discovery: Elysium Diamond #1.0.0
+2017/04/11 23:51:52: Port: 55901
+2017/04/11 23:51:52: Maximum Connections: 2000
+2017/04/11 23:51:52: Logs: Ativado
+2017/04/11 23:51:52: Sleep: 1
+04/11/2017 23:51:52: Create Character: True
+04/11/2017 23:51:52: Delete Character: True
+04/11/2017 23:51:52: Carregando config do mysql
+04/11/2017 23:51:52: Connectado ao banco de dados
+04/11/2017 23:51:55: World Server Start.
+04/11/2017 23:52:02: Discovery Response IPEndPoint: 127.0.0.1
+04/11/2017 23:52:02: Status changed to connected: 127.0.0.1
+04/11/2017 23:52:02: Login Server ID: 2147483647
+04/11/2017 23:52:16: Conectado ao Game Server #Canal 1
+04/11/2017 23:52:48: Data From Login Server ID: 8 Account: akaruz CCB253A0DCDC334F
+04/11/2017 23:52:48: Discovery Response IPEndPoint: 187.10.63.176
+04/11/2017 23:52:49: Status changed to connected: 187.10.63.176
+04/11/2017 23:52:49: Data From Client: CCB253A0DCDC334F
+04/11/2017 23:52:49: Player Found ID: 8 Account: akaruz CCB253A0DCDC334F
+04/11/2017 23:52:49: PreLoad ID: 8 Account: akaruz
+04/11/2017 23:52:50: GameServer Login Attempt: akaruz 187.10.63.176
+04/11/2017 23:53:08: Data From Login Server ID: 14 Account: dragonick 09E7FFA0A3066EA1
+04/11/2017 23:53:09: Discovery Response IPEndPoint: 187.10.63.176
+04/11/2017 23:53:09: Status changed to connected: 187.10.63.176
+04/11/2017 23:53:09: Data From Client: 09E7FFA0A3066EA1
+04/11/2017 23:53:09: Player Found ID: 14 Account: dragonick 09E7FFA0A3066EA1
+04/11/2017 23:53:09: PreLoad ID: 14 Account: dragonick
+04/11/2017 23:53:11: GameServer Login Attempt: dragonick 187.10.63.176
+04/11/2017 23:53:17: Global-> 錬金術師: sddasasd
+04/11/2017 23:53:22: Global-> 錬金術師: quer chupar meu cu?
+04/11/2017 23:53:49: Global-> 錬金術師: aaaaaa
+04/11/2017 23:53:55: Global-> Joanlac: vc é um viadao
+04/11/2017 23:53:59: Global-> 錬金術師: seu pai aquele gordo
+04/11/2017 23:54:02: Global-> Joanlac: gordo é sua tia
+04/11/2017 23:54:03: Global-> Joanlac: a
+04/11/2017 23:54:05: Global-> Joanlac: aquela capitalista
+04/11/2017 23:54:32: Status changed to disconnected: 8 akaruz 187.10.63.176 CCB253A0DCDC334F
+04/11/2017 23:54:46: Status changed to disconnected: 14 dragonick 187.10.63.176 09E7FFA0A3066EA1
+04/11/2017 23:56:05: Status changed to disconnected: 2147483647  127.0.0.1 

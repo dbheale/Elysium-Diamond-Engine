@@ -1,0 +1,11 @@
+C:\Users\DragonicK\Desktop\TextEditor\bin\Debug\TextEditor.exe.config
+C:\Users\DragonicK\Desktop\TextEditor\bin\Debug\TextEditor.exe
+C:\Users\DragonicK\Desktop\TextEditor\bin\Debug\TextEditor.pdb
+C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.csprojResolveAssemblyReference.cache
+C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.NpcForm.resources
+C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
+C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.Cache
+C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.exe
+C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.pdb
+C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.Form1.resources
+C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.ExpForm.resources

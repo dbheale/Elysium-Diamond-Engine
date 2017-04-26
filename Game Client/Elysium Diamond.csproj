@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DBC6EF5C-B54C-4C1B-A90B-DC8BA2945D06}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Elysium_Diamond</RootNamespace>
+    <AssemblyName>Elysium Diamond</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>elysiumico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lidgren.Network, Version=2012.1.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Release\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SharpDX, Version=2.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9, Version=2.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.XAudio2, Version=2.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SharpDX.XAudio2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ClasseDescription.cs" />
+    <Compile Include="Enumeration\MessageType.cs" />
+    <Compile Include="DirectX\EngineChat.cs" />
+    <Compile Include="DirectX\EngineChatText.cs" />
+    <Compile Include="DirectX\EngineColor.cs" />
+    <Compile Include="DirectX\Sound\EngineMusic.cs" />
+    <Compile Include="EngineWindow\System\WindowOption.cs" />
+    <Compile Include="EngineWindow\System\WindowChat.cs" />
+    <Compile Include="Enumeration\GameState.cs" />
+    <Compile Include="GameClient\Client.cs" />
+    <Compile Include="GameClient\PlayerData.cs" />
+    <Compile Include="GameClient\PlayerSlotData.cs" />
+    <Compile Include="Common\Configuration.cs" />
+    <Compile Include="Common\IPAddress.cs" />
+    <Compile Include="Enumeration\Language.cs" />
+    <Compile Include="Enumeration\PacketList.cs" />
+    <Compile Include="CreateDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateDevice.Designer.cs">
+      <DependentUpon>CreateDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectX\Controls\Common\EngineButtonStyle.cs" />
+    <Compile Include="DirectX\Controls\EngineExperienceBar.cs" />
+    <Compile Include="DirectX\Controls\EngineShortCut.cs" />
+    <Compile Include="DirectX\Controls\EngineInputBoxAction.cs" />
+    <Compile Include="DirectX\EngineNpc.cs" />
+    <Compile Include="DirectX\EngineCharacter.cs" />
+    <Compile Include="DirectX\Font\EngineFontStyle.cs" />
+    <Compile Include="DirectX\Controls\Common\EngineButton.cs" />
+    <Compile Include="DirectX\Sound\EngineMultimedia.cs" />
+    <Compile Include="DirectX\Sound\EngineSound.cs" />
+    <Compile Include="DirectX\Sound\EngineSoundEnum.cs" />
+    <Compile Include="DirectX\Sound\EngineSoundManager.cs" />
+    <Compile Include="DirectX\EngineCore.cs" />
+    <Compile Include="DirectX\Font\EngineFont.cs" />
+    <Compile Include="EngineWindow\WindowCharacterStatus.cs" />
+    <Compile Include="EngineWindow\WindowShortCut.cs" />
+    <Compile Include="Maps\MapManager.cs" />
+    <Compile Include="Network\CommonData.cs" />
+    <Compile Include="EngineWindow\System\WindowServerRow.cs" />
+    <Compile Include="DirectX\Controls\EngineInputBox.cs" />
+    <Compile Include="DirectX\Controls\Common\EngineLabel.cs" />
+    <Compile Include="DirectX\Controls\EngineMessageBox.cs" />
+    <Compile Include="DirectX\Controls\Common\EngineObject.cs" />
+    <Compile Include="DirectX\Controls\Common\EngineTextBox.cs" />
+    <Compile Include="DirectX\EngineTexture.cs" />
+    <Compile Include="EngineWindow\System\WindowCharacter.cs" />
+    <Compile Include="EngineWindow\WindowGame.cs" />
+    <Compile Include="EngineWindow\System\WindowLogin.cs" />
+    <Compile Include="EngineWindow\System\WindowNewCharacter.cs" />
+    <Compile Include="EngineWindow\System\WindowServer.cs" />
+    <Compile Include="Network\Game Server\GameData.cs" />
+    <Compile Include="Network\Game Server\GamePacket.cs" />
+    <Compile Include="Network\Login Server\LoginData.cs" />
+    <Compile Include="Network\Login Server\LoginPacket.cs" />
+    <Compile Include="Network\Message.cs" />
+    <Compile Include="Network\NetworkSocket.cs" />
+    <Compile Include="Network\NetworkPacket.cs" />
+    <Compile Include="Network\SocketEnum.cs" />
+    <Compile Include="Network\World Server\WorldData.cs" />
+    <Compile Include="Network\World Server\WorldPacket.cs" />
+    <Compile Include="Npcs\NpcData.cs" />
+    <Compile Include="Npcs\NpcEliteType.cs" />
+    <Compile Include="Npcs\NpcManager.cs" />
+    <Compile Include="Npcs\NpcType.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ClasseManager.cs" />
+    <Compile Include="Resource\ExperienceManager.cs" />
+    <Compile Include="Resource\SpriteManager.cs" />
+    <Compile Include="Resource\SpriteTexture.cs" />
+    <Compile Include="GameClient\StatsBase.cs" />
+    <EmbeddedResource Include="CreateDevice.resx">
+      <DependentUpon>CreateDevice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="elysiumico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

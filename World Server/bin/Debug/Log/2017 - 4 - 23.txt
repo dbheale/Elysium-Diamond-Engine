@@ -1,0 +1,210 @@
+2017/04/23 2:09:44: ID: 2147483646
+2017/04/23 2:09:44: Server Name: artemis
+2017/04/23 2:09:44: Discovery: Elysium Diamond #1.0.0
+2017/04/23 2:09:44: Port: 55901
+2017/04/23 2:09:44: Maximum Connections: 2000
+2017/04/23 2:09:44: Logs: Ativado
+2017/04/23 2:09:44: Sleep: 1
+2017/04/23 2:09:44: Create Character: False
+2017/04/23 2:09:44: Delete Character: False
+2017/04/23 2:09:44: Carregando config do mysql
+2017/04/23 2:09:44: Connectado ao banco de dados
+2017/04/23 2:09:48: Carregando scripts
+04/23/2017 02:09:48: World Server Start.
+04/23/2017 02:09:54: Discovery Response IPEndPoint: 127.0.0.1
+04/23/2017 02:09:54: Status changed to connected: 127.0.0.1
+04/23/2017 02:09:54: Login Server ID: 2147483647
+04/23/2017 02:10:28: Conectado ao Game Server #Canal 1
+04/23/2017 02:11:04: Data From Login Server ID: 1 Account: akaruz A67749BAEB103F12
+04/23/2017 02:11:04: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 02:11:04: Status changed to connected: 187.57.69.227
+04/23/2017 02:11:04: Data From Client: A67749BAEB103F12
+04/23/2017 02:11:04: Player Found ID: 1 Account: akaruz A67749BAEB103F12
+04/23/2017 02:11:04: PreLoad ID: 1 Account: akaruz
+04/23/2017 02:11:07: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 02:11:36: Status changed to disconnected: 1 akaruz 187.57.69.227 A67749BAEB103F12
+04/23/2017 02:11:57: Game Server #Canal 1 desconectado
+04/23/2017 02:12:18: Conectado ao Game Server #Canal 1
+04/23/2017 02:12:27: Data From Login Server ID: 1 Account: akaruz 7DCDC5044B785E72
+04/23/2017 02:12:28: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 02:12:28: Status changed to connected: 187.57.69.227
+04/23/2017 02:12:28: Data From Client: 7DCDC5044B785E72
+04/23/2017 02:12:28: Player Found ID: 1 Account: akaruz 7DCDC5044B785E72
+04/23/2017 02:12:28: PreLoad ID: 1 Account: akaruz
+04/23/2017 02:12:30: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 02:12:32: Channel-> Caronne: saa
+04/23/2017 02:12:59: Status changed to disconnected: 1 akaruz 187.57.69.227 7DCDC5044B785E72
+2017/04/23 2:25:35: ID: 2147483646
+2017/04/23 2:25:35: Server Name: artemis
+2017/04/23 2:25:35: Discovery: Elysium Diamond #1.0.0
+2017/04/23 2:25:35: Port: 55901
+2017/04/23 2:25:35: Maximum Connections: 2000
+2017/04/23 2:25:35: Logs: Ativado
+2017/04/23 2:25:35: Sleep: 1
+2017/04/23 2:25:35: Create Character: False
+2017/04/23 2:25:35: Delete Character: False
+2017/04/23 2:25:35: Carregando config do mysql
+2017/04/23 2:25:35: Connectado ao banco de dados
+2017/04/23 2:25:37: Carregando scripts
+04/23/2017 02:25:38: World Server Start.
+04/23/2017 02:25:38: Conectado ao Game Server #Canal 1
+04/23/2017 02:25:43: Discovery Response IPEndPoint: 127.0.0.1
+04/23/2017 02:25:43: Status changed to connected: 127.0.0.1
+04/23/2017 02:25:43: Login Server ID: 2147483647
+04/23/2017 02:25:51: Data From Login Server ID: 1 Account: akaruz 195B49C237BC7FF8
+04/23/2017 02:25:52: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 02:25:52: Status changed to connected: 187.57.69.227
+04/23/2017 02:25:52: Data From Client: 195B49C237BC7FF8
+04/23/2017 02:25:52: Player Found ID: 1 Account: akaruz 195B49C237BC7FF8
+04/23/2017 02:25:52: PreLoad ID: 1 Account: akaruz
+04/23/2017 02:25:53: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 02:26:19: Status changed to disconnected: 1 akaruz 187.57.69.227 195B49C237BC7FF8
+04/23/2017 02:28:44: Data From Login Server ID: 1 Account: akaruz 1DA4045EFD9195BD
+04/23/2017 02:28:45: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 02:28:45: Status changed to connected: 187.57.69.227
+04/23/2017 02:28:45: Data From Client: 1DA4045EFD9195BD
+04/23/2017 02:28:45: Player Found ID: 1 Account: akaruz 1DA4045EFD9195BD
+04/23/2017 02:28:45: PreLoad ID: 1 Account: akaruz
+04/23/2017 02:28:46: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 02:28:56: Channel-> Sacee: daa
+04/23/2017 02:29:44: Status changed to disconnected: 1 akaruz 187.57.69.227 1DA4045EFD9195BD
+04/23/2017 02:29:52: Game Server #Canal 1 desconectado
+04/23/2017 02:31:38: Conectado ao Game Server #Canal 1
+04/23/2017 02:31:45: Data From Login Server ID: 1 Account: akaruz B8576A920F988935
+04/23/2017 02:31:45: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 02:31:45: Status changed to connected: 187.57.69.227
+04/23/2017 02:31:45: Data From Client: B8576A920F988935
+04/23/2017 02:31:45: Player Found ID: 1 Account: akaruz B8576A920F988935
+04/23/2017 02:31:45: PreLoad ID: 1 Account: akaruz
+04/23/2017 02:31:46: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 02:33:04: Channel-> Sacee: sssssssssssssssssssss
+04/23/2017 02:33:36: Data From Login Server ID: 2 Account: dragonick 4BA764EE8D059039
+04/23/2017 02:33:37: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 02:33:37: Status changed to connected: 187.57.69.227
+04/23/2017 02:33:37: Data From Client: 4BA764EE8D059039
+04/23/2017 02:33:37: Player Found ID: 2 Account: dragonick 4BA764EE8D059039
+04/23/2017 02:33:37: PreLoad ID: 2 Account: dragonick
+04/23/2017 02:33:41: GameServer Login Attempt: dragonick 187.57.69.227
+04/23/2017 02:33:52: Channel-> asd: wss
+04/23/2017 02:34:28: Status changed to disconnected: 2 dragonick 187.57.69.227 4BA764EE8D059039
+04/23/2017 02:35:23: Game Server #Canal 1 desconectado
+04/23/2017 02:35:30: Status changed to disconnected: 1 akaruz 187.57.69.227 B8576A920F988935
+04/23/2017 02:38:18: Conectado ao Game Server #Canal 1
+04/23/2017 02:38:23: Data From Login Server ID: 1 Account: akaruz 35B8F9EC67AA6937
+04/23/2017 02:38:23: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 02:38:23: Status changed to connected: 187.57.69.227
+04/23/2017 02:38:23: Data From Client: 35B8F9EC67AA6937
+04/23/2017 02:38:23: Player Found ID: 1 Account: akaruz 35B8F9EC67AA6937
+04/23/2017 02:38:23: PreLoad ID: 1 Account: akaruz
+04/23/2017 02:38:25: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 02:38:29: Channel-> Sacee: wsssss
+04/23/2017 02:41:49: Status changed to disconnected: 1 akaruz 187.57.69.227 35B8F9EC67AA6937
+04/23/2017 02:41:55: Game Server #Canal 1 desconectado
+04/23/2017 02:45:28: Conectado ao Game Server #Canal 1
+04/23/2017 02:45:36: Data From Login Server ID: 1 Account: akaruz B85C35C7ED8CFD33
+04/23/2017 02:45:37: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 02:45:37: Status changed to connected: 187.57.69.227
+04/23/2017 02:45:37: Data From Client: B85C35C7ED8CFD33
+04/23/2017 02:45:37: Player Found ID: 1 Account: akaruz B85C35C7ED8CFD33
+04/23/2017 02:45:37: PreLoad ID: 1 Account: akaruz
+04/23/2017 02:45:38: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 02:45:50: Channel-> Teste123: wdddddddddddddddd
+04/23/2017 02:46:33: Game Server #Canal 1 desconectado
+04/23/2017 02:46:36: Status changed to disconnected: 1 akaruz 187.57.69.227 B85C35C7ED8CFD33
+04/23/2017 02:46:48: Conectado ao Game Server #Canal 1
+04/23/2017 02:46:48: Data From Login Server ID: 1 Account: akaruz 71413EA4FDF93FAB
+04/23/2017 02:46:48: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 02:46:48: Status changed to connected: 187.57.69.227
+04/23/2017 02:46:48: Data From Client: 71413EA4FDF93FAB
+04/23/2017 02:46:48: Player Found ID: 1 Account: akaruz 71413EA4FDF93FAB
+04/23/2017 02:46:48: PreLoad ID: 1 Account: akaruz
+04/23/2017 02:46:50: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 02:48:28: Status changed to disconnected: 1 akaruz 187.57.69.227 71413EA4FDF93FAB
+04/23/2017 02:48:29: Game Server #Canal 1 desconectado
+2017/04/23 12:22:53: ID: 2147483646
+2017/04/23 12:22:53: Server Name: artemis
+2017/04/23 12:22:53: Discovery: Elysium Diamond #1.0.0
+2017/04/23 12:22:53: Port: 55901
+2017/04/23 12:22:53: Maximum Connections: 2000
+2017/04/23 12:22:53: Logs: Ativado
+2017/04/23 12:22:53: Sleep: 1
+2017/04/23 12:22:53: Create Character: False
+2017/04/23 12:22:53: Delete Character: False
+2017/04/23 12:22:53: Carregando config do mysql
+2017/04/23 12:22:53: Connectado ao banco de dados
+2017/04/23 12:22:56: Carregando scripts
+04/23/2017 12:22:56: World Server Start.
+04/23/2017 12:23:01: Discovery Response IPEndPoint: 127.0.0.1
+04/23/2017 12:23:01: Status changed to connected: 127.0.0.1
+04/23/2017 12:23:01: Login Server ID: 2147483647
+04/23/2017 12:23:16: Conectado ao Game Server #Canal 1
+04/23/2017 12:23:58: Data From Login Server ID: 1 Account: akaruz 7A9AF54402CBF758
+04/23/2017 12:23:58: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 12:23:58: Status changed to connected: 187.57.69.227
+04/23/2017 12:23:58: Data From Client: 7A9AF54402CBF758
+04/23/2017 12:23:58: Player Found ID: 1 Account: akaruz 7A9AF54402CBF758
+04/23/2017 12:23:58: PreLoad ID: 1 Account: akaruz
+04/23/2017 12:23:59: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 12:24:02: Channel-> Sacee: aa
+04/23/2017 12:27:45: Status changed to disconnected: 1 akaruz 187.57.69.227 7A9AF54402CBF758
+04/23/2017 12:28:58: Game Server #Canal 1 desconectado
+04/23/2017 12:31:36: Conectado ao Game Server #Canal 1
+04/23/2017 12:31:41: Data From Login Server ID: 1 Account: akaruz 27123AC9312A7AD5
+04/23/2017 12:31:42: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 12:31:42: Status changed to connected: 187.57.69.227
+04/23/2017 12:31:42: Data From Client: 27123AC9312A7AD5
+04/23/2017 12:31:42: Player Found ID: 1 Account: akaruz 27123AC9312A7AD5
+04/23/2017 12:31:42: PreLoad ID: 1 Account: akaruz
+04/23/2017 12:31:43: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 12:35:07: Status changed to disconnected: 1 akaruz 187.57.69.227 27123AC9312A7AD5
+04/23/2017 12:35:17: Data From Login Server ID: 1 Account: akaruz D1AB728028027F3D
+04/23/2017 12:35:18: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 12:35:18: Status changed to connected: 187.57.69.227
+04/23/2017 12:35:18: Data From Client: D1AB728028027F3D
+04/23/2017 12:35:18: Player Found ID: 1 Account: akaruz D1AB728028027F3D
+04/23/2017 12:35:18: PreLoad ID: 1 Account: akaruz
+04/23/2017 12:35:19: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 12:35:21: Channel-> Sacee: aa
+04/23/2017 12:35:43: Disconnected by login server: akaruz
+04/23/2017 12:35:43: Status changed to disconnected: 1 akaruz 187.57.69.227 D1AB728028027F3D
+04/23/2017 12:35:45: Data From Login Server ID: 1 Account: akaruz FF83114CC5EC32E9
+04/23/2017 12:35:45: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 12:35:45: Status changed to connected: 187.57.69.227
+04/23/2017 12:35:45: Data From Client: FF83114CC5EC32E9
+04/23/2017 12:35:45: Player Found ID: 1 Account: akaruz FF83114CC5EC32E9
+04/23/2017 12:35:45: PreLoad ID: 1 Account: akaruz
+04/23/2017 12:35:47: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 12:35:50: Channel-> Sacee: s
+04/23/2017 12:36:18: Disconnected by login server: akaruz
+04/23/2017 12:36:18: Status changed to disconnected: 1 akaruz 187.57.69.227 FF83114CC5EC32E9
+04/23/2017 12:36:20: Data From Login Server ID: 1 Account: akaruz 604E154171931ADD
+04/23/2017 12:36:20: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 12:36:20: Status changed to connected: 187.57.69.227
+04/23/2017 12:36:20: Data From Client: 604E154171931ADD
+04/23/2017 12:36:20: Player Found ID: 1 Account: akaruz 604E154171931ADD
+04/23/2017 12:36:20: PreLoad ID: 1 Account: akaruz
+04/23/2017 12:36:22: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 12:36:25: Channel-> Caronne: aaaaaaaawwwwwwd
+04/23/2017 12:39:02: Game Server #Canal 1 desconectado
+04/23/2017 12:39:07: Status changed to disconnected: 1 akaruz 187.57.69.227 604E154171931ADD
+04/23/2017 12:39:16: Conectado ao Game Server #Canal 1
+04/23/2017 12:39:23: Data From Login Server ID: 1 Account: akaruz 14CCA2816A326786
+04/23/2017 12:39:23: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 12:39:23: Status changed to connected: 187.57.69.227
+04/23/2017 12:39:23: Data From Client: 14CCA2816A326786
+04/23/2017 12:39:23: Player Found ID: 1 Account: akaruz 14CCA2816A326786
+04/23/2017 12:39:23: PreLoad ID: 1 Account: akaruz
+04/23/2017 12:39:25: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 12:40:17: Game Server #Canal 1 desconectado
+04/23/2017 12:40:22: Status changed to disconnected: 1 akaruz 187.57.69.227 14CCA2816A326786
+04/23/2017 12:41:06: Conectado ao Game Server #Canal 1
+04/23/2017 12:41:16: Data From Login Server ID: 1 Account: akaruz 88BCD2B5A114E24E
+04/23/2017 12:41:17: Discovery Response IPEndPoint: 187.57.69.227
+04/23/2017 12:41:17: Status changed to connected: 187.57.69.227
+04/23/2017 12:41:17: Data From Client: 88BCD2B5A114E24E
+04/23/2017 12:41:17: Player Found ID: 1 Account: akaruz 88BCD2B5A114E24E
+04/23/2017 12:41:17: PreLoad ID: 1 Account: akaruz
+04/23/2017 12:41:18: GameServer Login Attempt: akaruz 187.57.69.227
+04/23/2017 12:41:22: Channel-> Sacee: wd
+04/23/2017 12:43:47: Game Server #Canal 1 desconectado
+04/23/2017 12:43:52: Status changed to disconnected: 1 akaruz 187.57.69.227 88BCD2B5A114E24E

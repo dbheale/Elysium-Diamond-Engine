@@ -1,0 +1,8 @@
+D:\Programing Files\Elysium Diamond\CheckSumGen\bin\Release\CheckSumGen.exe
+D:\Programing Files\Elysium Diamond\CheckSumGen\bin\Release\CheckSumGen.pdb
+D:\Programing Files\Elysium Diamond\CheckSumGen\obj\Release\CheckSumGen.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\CheckSumGen\obj\Release\CheckSumGen.Form1.resources
+D:\Programing Files\Elysium Diamond\CheckSumGen\obj\Release\CheckSumGen.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\CheckSumGen\obj\Release\CheckSumGen.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\CheckSumGen\obj\Release\CheckSumGen.exe
+D:\Programing Files\Elysium Diamond\CheckSumGen\obj\Release\CheckSumGen.pdb

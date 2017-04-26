@@ -1,0 +1,24 @@
+C:\Users\DragonicK\Desktop\AccountEditor\bin\Debug\AccountEditor.exe
+C:\Users\DragonicK\Desktop\AccountEditor\bin\Debug\AccountEditor.pdb
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.csprojResolveAssemblyReference.cache
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.Properties.Resources.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.csproj.GenerateResource.Cache
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.exe
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.pdb
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.FormCharacter.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.FormAccount.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.MainForm.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.NewAccount.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.NewCharacter.resources
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.exe
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.pdb
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.FormCharacter.resources
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.FormAccount.resources
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.MainForm.resources
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.NewAccount.resources
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.NewCharacter.resources
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Account Editor\obj\Debug\AccountEditor.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Account Editor\bin\Debug\AccountEditor.exe
+D:\Programing Files\Elysium Diamond\Account Editor\bin\Debug\AccountEditor.pdb

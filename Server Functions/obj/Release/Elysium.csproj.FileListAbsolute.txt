@@ -1,0 +1,9 @@
+C:\Users\DragonicK\Desktop\Elysium\bin\Release\Elysium.dll
+C:\Users\DragonicK\Desktop\Elysium\bin\Release\Elysium.pdb
+C:\Users\DragonicK\Desktop\Elysium\obj\Release\Elysium.dll
+C:\Users\DragonicK\Desktop\Elysium\obj\Release\Elysium.pdb
+D:\Programing Files\Elysium Diamond\Server Functions\bin\Release\Elysium.dll
+D:\Programing Files\Elysium Diamond\Server Functions\bin\Release\Elysium.pdb
+D:\Programing Files\Elysium Diamond\Server Functions\obj\Release\Elysium.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Server Functions\obj\Release\Elysium.dll
+D:\Programing Files\Elysium Diamond\Server Functions\obj\Release\Elysium.pdb

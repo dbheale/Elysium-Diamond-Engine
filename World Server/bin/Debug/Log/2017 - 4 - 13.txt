@@ -1,0 +1,27 @@
+04/13/2017 23:34:40: ID: 2147483646
+04/13/2017 23:34:40: Server Name: artemis
+04/13/2017 23:34:40: Discovery: Elysium Diamond #1.0.0
+04/13/2017 23:34:40: Port: 55901
+04/13/2017 23:34:40: Maximum Connections: 2000
+04/13/2017 23:34:40: Logs: Ativado
+04/13/2017 23:34:40: Sleep: 1
+04/13/2017 23:34:40: Create Character: True
+04/13/2017 23:34:40: Delete Character: True
+04/13/2017 23:34:40: Carregando config do mysql
+04/13/2017 23:34:40: Connectado ao banco de dados
+04/13/2017 23:34:42: World Server Start.
+04/13/2017 23:34:49: Discovery Response IPEndPoint: 127.0.0.1
+04/13/2017 23:34:49: Status changed to connected: 127.0.0.1
+04/13/2017 23:34:49: Login Server ID: 2147483647
+04/13/2017 23:35:42: Conectado ao Game Server #Canal 1
+04/13/2017 23:36:19: Data From Login Server ID: 8 Account: akaruz 53A62193569D95CD
+04/13/2017 23:36:19: Discovery Response IPEndPoint: 187.34.54.177
+04/13/2017 23:36:19: Status changed to connected: 187.34.54.177
+04/13/2017 23:36:19: Data From Client: 53A62193569D95CD
+04/13/2017 23:36:19: Player Found ID: 8 Account: akaruz 53A62193569D95CD
+04/13/2017 23:36:19: PreLoad ID: 8 Account: akaruz
+04/13/2017 23:36:21: GameServer Login Attempt: akaruz 187.34.54.177
+04/13/2017 23:36:25: Global-> Caronne: dddddddddddddd
+04/13/2017 23:36:26: Global-> Caronne: ue
+04/13/2017 23:36:35: Global-> Caronne: nao era isso que eu tinha em m
+04/13/2017 23:36:53: Global-> Caronne: q

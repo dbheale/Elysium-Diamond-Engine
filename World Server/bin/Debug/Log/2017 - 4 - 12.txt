@@ -1,0 +1,24 @@
+04/12/2017 10:24:43: ID: 2147483646
+04/12/2017 10:24:43: Server Name: artemis
+04/12/2017 10:24:43: Discovery: Elysium Diamond #1.0.0
+04/12/2017 10:24:43: Port: 55901
+04/12/2017 10:24:43: Maximum Connections: 2000
+04/12/2017 10:24:43: Logs: Ativado
+04/12/2017 10:24:43: Sleep: 1
+04/12/2017 10:24:43: Create Character: True
+04/12/2017 10:24:43: Delete Character: True
+04/12/2017 10:24:43: Carregando config do mysql
+04/12/2017 10:24:43: Connectado ao banco de dados
+04/12/2017 10:24:46: World Server Start.
+04/12/2017 10:35:20: ID: 2147483646
+04/12/2017 10:35:20: Server Name: artemis
+04/12/2017 10:35:20: Discovery: Elysium Diamond #1.0.0
+04/12/2017 10:35:20: Port: 55901
+04/12/2017 10:35:20: Maximum Connections: 2000
+04/12/2017 10:35:20: Logs: Ativado
+04/12/2017 10:35:20: Sleep: 1
+04/12/2017 10:35:20: Create Character: True
+04/12/2017 10:35:20: Delete Character: True
+04/12/2017 10:35:20: Carregando config do mysql
+04/12/2017 10:35:20: Connectado ao banco de dados
+04/12/2017 10:35:21: World Server Start.

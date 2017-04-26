@@ -1,0 +1,110 @@
+2017/04/21 3:04:32: ID: 2147483646
+2017/04/21 3:04:32: Server Name: artemis
+2017/04/21 3:04:32: Discovery: Elysium Diamond #1.0.0
+2017/04/21 3:04:32: Port: 55901
+2017/04/21 3:04:32: Maximum Connections: 2000
+2017/04/21 3:04:32: Logs: Ativado
+2017/04/21 3:04:32: Sleep: 1
+2017/04/21 3:04:32: Create Character: False
+2017/04/21 3:04:32: Delete Character: False
+2017/04/21 3:04:32: Carregando config do mysql
+2017/04/21 3:04:32: Connectado ao banco de dados
+2017/04/21 3:04:33: Carregando scripts
+04/21/2017 03:04:35: World Server Start.
+2017/04/21 17:55:09: ID: 2147483646
+2017/04/21 17:55:09: Server Name: artemis
+2017/04/21 17:55:09: Discovery: Elysium Diamond #1.0.0
+2017/04/21 17:55:09: Port: 55901
+2017/04/21 17:55:09: Maximum Connections: 2000
+2017/04/21 17:55:09: Logs: Ativado
+2017/04/21 17:55:09: Sleep: 1
+2017/04/21 17:55:09: Create Character: False
+2017/04/21 17:55:09: Delete Character: False
+2017/04/21 17:55:09: Carregando config do mysql
+2017/04/21 17:55:09: Connectado ao banco de dados
+2017/04/21 17:55:13: Carregando scripts
+2017/04/21 17:55:29: ID: 2147483646
+2017/04/21 17:55:29: Server Name: artemis
+2017/04/21 17:55:29: Discovery: Elysium Diamond #1.0.0
+2017/04/21 17:55:29: Port: 55901
+2017/04/21 17:55:29: Maximum Connections: 2000
+2017/04/21 17:55:29: Logs: Ativado
+2017/04/21 17:55:29: Sleep: 1
+2017/04/21 17:55:29: Create Character: False
+2017/04/21 17:55:29: Delete Character: False
+2017/04/21 17:55:29: Carregando config do mysql
+2017/04/21 17:55:29: Connectado ao banco de dados
+2017/04/21 17:55:32: Carregando scripts
+2017/04/21 17:55:56: ID: 2147483646
+2017/04/21 17:55:56: Server Name: artemis
+2017/04/21 17:55:56: Discovery: Elysium Diamond #1.0.0
+2017/04/21 17:55:56: Port: 55901
+2017/04/21 17:55:56: Maximum Connections: 2000
+2017/04/21 17:55:56: Logs: Ativado
+2017/04/21 17:55:56: Sleep: 1
+2017/04/21 17:55:56: Create Character: False
+2017/04/21 17:55:56: Delete Character: False
+2017/04/21 17:55:56: Carregando config do mysql
+2017/04/21 17:55:56: Connectado ao banco de dados
+2017/04/21 17:55:57: Carregando scripts
+2017/04/21 17:56:10: ID: 2147483646
+2017/04/21 17:56:10: Server Name: artemis
+2017/04/21 17:56:10: Discovery: Elysium Diamond #1.0.0
+2017/04/21 17:56:10: Port: 55901
+2017/04/21 17:56:10: Maximum Connections: 2000
+2017/04/21 17:56:10: Logs: Ativado
+2017/04/21 17:56:10: Sleep: 1
+2017/04/21 17:56:10: Create Character: False
+2017/04/21 17:56:10: Delete Character: False
+2017/04/21 17:56:10: Carregando config do mysql
+2017/04/21 17:56:10: Connectado ao banco de dados
+2017/04/21 17:56:11: Carregando scripts
+2017/04/21 17:57:41: ID: 2147483646
+2017/04/21 17:57:41: Server Name: artemis
+2017/04/21 17:57:41: Discovery: Elysium Diamond #1.0.0
+2017/04/21 17:57:41: Port: 55901
+2017/04/21 17:57:41: Maximum Connections: 2000
+2017/04/21 17:57:41: Logs: Ativado
+2017/04/21 17:57:41: Sleep: 1
+2017/04/21 17:57:41: Create Character: False
+2017/04/21 17:57:41: Delete Character: False
+2017/04/21 17:57:41: Carregando config do mysql
+2017/04/21 17:57:41: Connectado ao banco de dados
+2017/04/21 17:57:42: Carregando scripts
+04/21/2017 17:57:43: World Server Start.
+2017/04/21 17:57:47: ID: 2147483646
+2017/04/21 17:57:47: Server Name: artemis
+2017/04/21 17:57:47: Discovery: Elysium Diamond #1.0.0
+2017/04/21 17:57:47: Port: 55901
+2017/04/21 17:57:47: Maximum Connections: 2000
+2017/04/21 17:57:47: Logs: Ativado
+2017/04/21 17:57:47: Sleep: 1
+2017/04/21 17:57:47: Create Character: False
+2017/04/21 17:57:47: Delete Character: False
+2017/04/21 17:57:47: Carregando config do mysql
+2017/04/21 17:57:47: Connectado ao banco de dados
+2017/04/21 17:57:47: Carregando scripts
+04/21/2017 17:57:48: World Server Start.
+04/21/2017 17:57:52: Discovery Response IPEndPoint: 127.0.0.1
+04/21/2017 17:57:52: Status changed to connected: 127.0.0.1
+04/21/2017 17:57:52: Login Server ID: 2147483647
+04/21/2017 17:59:28: Conectado ao Game Server #Canal 1
+04/21/2017 17:59:48: Status changed to disconnected: 2147483647  127.0.0.1 
+04/21/2017 18:00:40: Discovery Response IPEndPoint: 127.0.0.1
+04/21/2017 18:00:40: Status changed to connected: 127.0.0.1
+04/21/2017 18:00:40: Login Server ID: 2147483647
+04/21/2017 18:00:59: Data From Login Server ID: 1 Account: akaruz 4D2EBF88ED5EF4EE
+04/21/2017 18:00:59: Discovery Response IPEndPoint: 187.57.21.139
+04/21/2017 18:00:59: Status changed to connected: 187.57.21.139
+04/21/2017 18:00:59: Data From Client: 4D2EBF88ED5EF4EE
+04/21/2017 18:00:59: Player Found ID: 1 Account: akaruz 4D2EBF88ED5EF4EE
+04/21/2017 18:00:59: PreLoad ID: 1 Account: akaruz
+04/21/2017 18:01:26: Status changed to disconnected: 1 akaruz 187.57.21.139 4D2EBF88ED5EF4EE
+04/21/2017 18:01:56: Data From Login Server ID: 1 Account: akaruz 69A3D413CFC7BCBD
+04/21/2017 18:01:56: Discovery Response IPEndPoint: 187.57.21.139
+04/21/2017 18:01:56: Status changed to connected: 187.57.21.139
+04/21/2017 18:01:56: Data From Client: 69A3D413CFC7BCBD
+04/21/2017 18:01:56: Player Found ID: 1 Account: akaruz 69A3D413CFC7BCBD
+04/21/2017 18:01:56: PreLoad ID: 1 Account: akaruz
+04/21/2017 18:02:39: Status changed to disconnected: 1 akaruz 187.57.21.139 69A3D413CFC7BCBD
+04/21/2017 18:03:15: Status changed to disconnected: 2147483647  127.0.0.1 

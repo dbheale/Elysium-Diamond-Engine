@@ -1,0 +1,16 @@
+C:\Users\ジュリオ\Desktop\NpcEditor\bin\Debug\NpcEditor.exe
+C:\Users\ジュリオ\Desktop\NpcEditor\bin\Debug\NpcEditor.pdb
+C:\Users\ジュリオ\Desktop\NpcEditor\obj\Debug\NpcEditor.csprojResolveAssemblyReference.cache
+C:\Users\ジュリオ\Desktop\NpcEditor\obj\Debug\NpcEditor.Form1.resources
+C:\Users\ジュリオ\Desktop\NpcEditor\obj\Debug\NpcEditor.Properties.Resources.resources
+C:\Users\ジュリオ\Desktop\NpcEditor\obj\Debug\NpcEditor.csproj.GenerateResource.Cache
+C:\Users\ジュリオ\Desktop\NpcEditor\obj\Debug\NpcEditor.exe
+C:\Users\ジュリオ\Desktop\NpcEditor\obj\Debug\NpcEditor.pdb
+D:\Programing Files\Elysium Diamond\NpcEditor\obj\Debug\NpcEditor.exe
+D:\Programing Files\Elysium Diamond\NpcEditor\obj\Debug\NpcEditor.pdb
+D:\Programing Files\Elysium Diamond\NpcEditor\bin\Debug\NpcEditor.exe
+D:\Programing Files\Elysium Diamond\NpcEditor\bin\Debug\NpcEditor.pdb
+D:\Programing Files\Elysium Diamond\NpcEditor\obj\Debug\NpcEditor.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\NpcEditor\obj\Debug\NpcEditor.Form1.resources
+D:\Programing Files\Elysium Diamond\NpcEditor\obj\Debug\NpcEditor.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\NpcEditor\obj\Debug\NpcEditor.csproj.GenerateResource.Cache

@@ -1,0 +1,40 @@
+2017/04/11 23:52:06: Game Server Name: Canal 1
+2017/04/11 23:52:06: Discovery: Elysium Diamond #1.0.0
+2017/04/11 23:52:06: Port: 55970
+2017/04/11 23:52:06: MaximumConnections: 2000
+2017/04/11 23:52:06: ConnectionTimeOut: 25
+2017/04/11 23:52:06: Logs: True
+2017/04/11 23:52:06: Sleep: 1
+2017/04/11 23:52:06: Game Server ID: gameserver_1
+2017/04/11 23:52:06: Carregando config mysql
+2017/04/11 23:52:09: Connectado ao banco de dados
+2017/04/11 23:52:09: WorldServer 1  ID: Artemis
+2017/04/11 23:52:09: WorldServer 2  ID: 
+2017/04/11 23:52:09: WorldServer 3  ID: 
+2017/04/11 23:52:09: WorldServer 4  ID: 
+2017/04/11 23:52:09: WorldServer 5  ID: 
+2017/04/11 23:52:09: Carregando experiência
+2017/04/11 23:52:09: Level Max: 121
+2017/04/11 23:52:09: Exp Max: 22353256174
+2017/04/11 23:52:09: Carregando guilds
+2017/04/11 23:52:09: Carregando membros
+2017/04/11 23:52:09: Carregando classe(s) base
+2017/04/11 23:52:09: Carregando classe(s) incremento
+2017/04/11 23:52:09: Carregando NPC
+2017/04/11 23:52:09: Game Server Start
+2017/04/11 23:52:15: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/11 23:52:16: Status changed to connected: 127.0.0.1
+2017/04/11 23:52:50: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 CCB253A0DCDC334F
+2017/04/11 23:52:50: Discovery Response IPEndPoint: 187.10.63.176
+2017/04/11 23:52:51: Status changed to connected: 187.10.63.176
+2017/04/11 23:52:51: Received From Client: CCB253A0DCDC334F
+2017/04/11 23:52:51: Player Found ID: 39 Name: Joanlac
+2017/04/11 23:52:51: Joanlac joined map id 1
+2017/04/11 23:53:11: Data From World Server ID: 14 Account: dragonick Char ID: 42 Slot: 1 09E7FFA0A3066EA1
+2017/04/11 23:53:12: Discovery Response IPEndPoint: 187.10.63.176
+2017/04/11 23:53:12: Status changed to connected: 187.10.63.176
+2017/04/11 23:53:13: Received From Client: 09E7FFA0A3066EA1
+2017/04/11 23:53:13: Player Found ID: 42 Name: 錬金術師
+2017/04/11 23:53:13: 錬金術師 joined map id 1
+2017/04/11 23:54:33: ID: 39 Joanlac Status changed to disconnected: 187.10.63.176
+2017/04/11 23:54:47: ID: 42 錬金術師 Status changed to disconnected: 187.10.63.176

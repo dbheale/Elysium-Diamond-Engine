@@ -1,0 +1,13 @@
+C:\Users\DragonicK\Desktop\Classe Editor\bin\Release\Classe Editor.exe
+C:\Users\DragonicK\Desktop\Classe Editor\bin\Release\Classe Editor.pdb
+C:\Users\DragonicK\Desktop\Classe Editor\bin\Release\DarkUI.dll
+C:\Users\DragonicK\Desktop\Classe Editor\bin\Release\MySql.Data.dll
+C:\Users\DragonicK\Desktop\Classe Editor\obj\Release\Classe_Editor.FormClasse.resources
+C:\Users\DragonicK\Desktop\Classe Editor\obj\Release\Classe_Editor.MainForm.resources
+C:\Users\DragonicK\Desktop\Classe Editor\obj\Release\Classe_Editor.Properties.Resources.resources
+C:\Users\DragonicK\Desktop\Classe Editor\obj\Release\Classe_Editor.UserControl1.resources
+C:\Users\DragonicK\Desktop\Classe Editor\obj\Release\Classe Editor.csproj.GenerateResource.Cache
+C:\Users\DragonicK\Desktop\Classe Editor\obj\Release\Classe Editor.exe
+C:\Users\DragonicK\Desktop\Classe Editor\obj\Release\Classe Editor.pdb
+C:\Users\DragonicK\Desktop\Classe Editor\obj\Release\Classe Editor.csprojResolveAssemblyReference.cache
+C:\Users\DragonicK\Desktop\Classe Editor\bin\Release\Newtonsoft.Json.dll

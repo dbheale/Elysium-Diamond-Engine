@@ -1,0 +1,981 @@
+2017/04/04 4:31:46: ID: 2147483646
+2017/04/04 4:31:46: Server Name: artemis
+2017/04/04 4:31:46: Discovery: Elysium Diamond #1.0.0
+2017/04/04 4:31:46: Port: 55901
+2017/04/04 4:31:46: Maximum Connections: 2000
+2017/04/04 4:31:46: Logs: Ativado
+2017/04/04 4:31:46: Sleep: 1
+04/04/2017 04:31:47: Create Character: True
+04/04/2017 04:31:47: Delete Character: True
+04/04/2017 04:31:47: Carregando config do mysql
+04/04/2017 04:31:47: Connectado ao banco de dados
+04/04/2017 04:31:48: World Server Start.
+04/04/2017 04:31:54: Discovery Response IPEndPoint: 127.0.0.1
+04/04/2017 04:31:54: Status changed to connected: 127.0.0.1
+04/04/2017 04:31:54: Login Server ID: 2147483647
+04/04/2017 04:32:58: Conectado ao Game Server #Canal 1
+04/04/2017 04:32:59: Data From Login Server ID: 8 Account: akaruz FDD94EA2AC18E84D
+04/04/2017 04:33:00: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 04:33:00: Status changed to connected: 187.57.68.189
+04/04/2017 04:33:00: Data From Client: FDD94EA2AC18E84D
+04/04/2017 04:33:00: Player Found ID: 8 Account: akaruz FDD94EA2AC18E84D
+04/04/2017 04:33:00: PreLoad ID: 8 Account: akaruz
+04/04/2017 04:33:02: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 04:33:43: Status changed to disconnected: 8 akaruz 187.57.68.189 FDD94EA2AC18E84D
+04/04/2017 04:34:05: Data From Login Server ID: 8 Account: akaruz B30BBF6E7132364B
+04/04/2017 04:34:05: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 04:34:06: Status changed to connected: 187.57.68.189
+04/04/2017 04:34:06: Data From Client: B30BBF6E7132364B
+04/04/2017 04:34:06: Player Found ID: 8 Account: akaruz B30BBF6E7132364B
+04/04/2017 04:34:06: PreLoad ID: 8 Account: akaruz
+04/04/2017 04:34:07: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 04:34:36: Disconnected by login server: akaruz
+04/04/2017 04:34:36: Status changed to disconnected: 8 akaruz 187.57.68.189 B30BBF6E7132364B
+04/04/2017 04:34:38: Data From Login Server ID: 8 Account: akaruz A7D1E0A186DEC345
+04/04/2017 04:34:39: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 04:34:39: Status changed to connected: 187.57.68.189
+04/04/2017 04:34:39: Data From Client: A7D1E0A186DEC345
+04/04/2017 04:34:39: Player Found ID: 8 Account: akaruz A7D1E0A186DEC345
+04/04/2017 04:34:39: PreLoad ID: 8 Account: akaruz
+04/04/2017 04:34:40: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 04:35:16: Status changed to disconnected: 8 akaruz 187.57.68.189 A7D1E0A186DEC345
+04/04/2017 04:41:39: Data From Login Server ID: 8 Account: akaruz CF16622BDD1DA62F
+04/04/2017 04:41:39: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 04:41:39: Status changed to connected: 187.57.68.189
+04/04/2017 04:41:39: Data From Client: CF16622BDD1DA62F
+04/04/2017 04:41:39: Player Found ID: 8 Account: akaruz CF16622BDD1DA62F
+04/04/2017 04:41:39: PreLoad ID: 8 Account: akaruz
+04/04/2017 04:41:41: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 04:42:33: Status changed to disconnected: 8 akaruz 187.57.68.189 CF16622BDD1DA62F
+04/04/2017 04:50:20: Data From Login Server ID: 8 Account: akaruz B3425AA2E90DEEE7
+04/04/2017 04:50:20: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 04:50:21: Status changed to connected: 187.57.68.189
+04/04/2017 04:50:21: Data From Client: B3425AA2E90DEEE7
+04/04/2017 04:50:21: Player Found ID: 8 Account: akaruz B3425AA2E90DEEE7
+04/04/2017 04:50:21: PreLoad ID: 8 Account: akaruz
+04/04/2017 04:50:23: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 04:51:06: Disconnected by login server: akaruz
+04/04/2017 04:51:06: Status changed to disconnected: 8 akaruz 187.57.68.189 B3425AA2E90DEEE7
+04/04/2017 04:51:08: Data From Login Server ID: 8 Account: akaruz CDF6BA00F83D7F0A
+04/04/2017 04:51:10: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 04:51:10: Status changed to connected: 187.57.68.189
+04/04/2017 04:51:10: Data From Client: CDF6BA00F83D7F0A
+04/04/2017 04:51:10: Player Found ID: 8 Account: akaruz CDF6BA00F83D7F0A
+04/04/2017 04:51:10: PreLoad ID: 8 Account: akaruz
+04/04/2017 04:51:12: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 04:51:53: Status changed to disconnected: 8 akaruz 187.57.68.189 CDF6BA00F83D7F0A
+04/04/2017 04:52:07: Data From Login Server ID: 8 Account: akaruz B11946D8F780151F
+04/04/2017 04:52:07: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 04:52:08: Status changed to connected: 187.57.68.189
+04/04/2017 04:52:08: Data From Client: B11946D8F780151F
+04/04/2017 04:52:08: Player Found ID: 8 Account: akaruz B11946D8F780151F
+04/04/2017 04:52:08: PreLoad ID: 8 Account: akaruz
+04/04/2017 04:52:09: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 04:52:43: Status changed to disconnected: 8 akaruz 187.57.68.189 B11946D8F780151F
+04/04/2017 04:57:51: Data From Login Server ID: 8 Account: akaruz 86F109D1B96B3C32
+04/04/2017 04:57:52: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 04:57:52: Status changed to connected: 187.57.68.189
+04/04/2017 04:57:52: Data From Client: 86F109D1B96B3C32
+04/04/2017 04:57:52: Player Found ID: 8 Account: akaruz 86F109D1B96B3C32
+04/04/2017 04:57:52: PreLoad ID: 8 Account: akaruz
+04/04/2017 04:57:54: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 04:57:59: Global-> Joanlac: gggg
+04/04/2017 04:58:25: Status changed to disconnected: 8 akaruz 187.57.68.189 86F109D1B96B3C32
+04/04/2017 04:58:55: Data From Login Server ID: 8 Account: akaruz 97134F110849628F
+04/04/2017 04:58:56: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 04:58:56: Status changed to connected: 187.57.68.189
+04/04/2017 04:58:56: Data From Client: 97134F110849628F
+04/04/2017 04:58:56: Player Found ID: 8 Account: akaruz 97134F110849628F
+04/04/2017 04:58:56: PreLoad ID: 8 Account: akaruz
+04/04/2017 04:58:57: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 04:59:35: Status changed to disconnected: 8 akaruz 187.57.68.189 97134F110849628F
+04/04/2017 05:04:54: Data From Login Server ID: 8 Account: akaruz 988D4B9D4C04C961
+04/04/2017 05:04:55: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:04:55: Status changed to connected: 187.57.68.189
+04/04/2017 05:04:55: Data From Client: 988D4B9D4C04C961
+04/04/2017 05:04:55: Player Found ID: 8 Account: akaruz 988D4B9D4C04C961
+04/04/2017 05:04:55: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:04:56: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:05:04: Global-> Nadaila: seu cu
+04/04/2017 05:05:16: Global-> Nadaila: vai dar o cu
+04/04/2017 05:05:18: Global-> Nadaila: arromado
+04/04/2017 05:05:19: Global-> Nadaila: aafdsasdf
+04/04/2017 05:05:20: Global-> Nadaila: asdfjasdfkjqkwjeqwe
+04/04/2017 05:05:23: Global-> Nadaila: ddddddddddddddddddddddd
+04/04/2017 05:05:56: Status changed to disconnected: 8 akaruz 187.57.68.189 988D4B9D4C04C961
+04/04/2017 05:06:17: Data From Login Server ID: 8 Account: akaruz 1FE9E590D5DFDEB2
+04/04/2017 05:06:17: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:06:17: Status changed to connected: 187.57.68.189
+04/04/2017 05:06:18: Data From Client: 1FE9E590D5DFDEB2
+04/04/2017 05:06:18: Player Found ID: 8 Account: akaruz 1FE9E590D5DFDEB2
+04/04/2017 05:06:18: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:06:19: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:06:24: Global-> Joanlac: aa
+04/04/2017 05:06:33: Global-> Joanlac: vai toma nos eu cu
+04/04/2017 05:06:35: Global-> Joanlac: aidsfjaihsudfuijh
+04/04/2017 05:06:37: Global-> Joanlac: adkladsgljkasdf
+04/04/2017 05:06:39: Global-> Joanlac: qw.eq;w.e;a.
+04/04/2017 05:06:42: Global-> Joanlac: enanalkd
+04/04/2017 05:06:43: Global-> Joanlac: asdflkasdflkj
+04/04/2017 05:07:19: Status changed to disconnected: 8 akaruz 187.57.68.189 1FE9E590D5DFDEB2
+04/04/2017 05:07:35: Data From Login Server ID: 8 Account: akaruz A388D159B900C32C
+04/04/2017 05:07:35: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:07:36: Status changed to connected: 187.57.68.189
+04/04/2017 05:07:36: Data From Client: A388D159B900C32C
+04/04/2017 05:07:36: Player Found ID: 8 Account: akaruz A388D159B900C32C
+04/04/2017 05:07:36: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:07:37: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:07:41: Global-> Nadaila: asdfsadfasdf
+04/04/2017 05:07:52: Global-> Nadaila: adsfgasdfaghydf
+04/04/2017 05:07:54: Global-> Nadaila: asdkasdfkasdfkl
+04/04/2017 05:07:55: Global-> Nadaila: qweuhqwuehqhuwe
+04/04/2017 05:07:57: Global-> Nadaila: asfdksdfmnzxcmnzvc
+04/04/2017 05:07:58: Global-> Nadaila: asldk,mq,mqwe
+04/04/2017 05:08:00: Global-> Nadaila: zmnasmdnasdn
+04/04/2017 05:08:02: Global-> Nadaila: paoewrwerqw.e,qw.e,q.e,
+04/04/2017 05:08:03: Global-> Nadaila: asdflksdaflkadsflkasldfk
+04/04/2017 05:08:05: Global-> Nadaila: lakdsflkfads
+04/04/2017 05:08:20: Global-> Nadaila: asdfhiasidjfijasdfjiasdfjijasd
+04/04/2017 05:08:22: Global-> Nadaila: lqewklqewklweklwkqelkqwelkqwle
+04/04/2017 05:08:26: Global-> Nadaila: asdoifaosdifoiasdfoiasdofiiaos
+04/04/2017 05:08:29: Global-> Nadaila: vai se fuder
+04/04/2017 05:09:11: Status changed to disconnected: 8 akaruz 187.57.68.189 A388D159B900C32C
+04/04/2017 05:09:14: Data From Login Server ID: 8 Account: akaruz 947CF38CD880F967
+04/04/2017 05:09:15: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:09:15: Status changed to connected: 187.57.68.189
+04/04/2017 05:09:15: Data From Client: 947CF38CD880F967
+04/04/2017 05:09:15: Player Found ID: 8 Account: akaruz 947CF38CD880F967
+04/04/2017 05:09:15: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:09:17: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:09:22: Global-> Caronne: ahsdfuahudfuhashdufahsudfsdhuf
+04/04/2017 05:09:26: Global-> Caronne: aokfsdoksadfokaosdkfoaksdfokas
+04/04/2017 05:09:28: Global-> Caronne: asdfahsdfhu
+04/04/2017 05:09:32: Global-> Caronne: vaadsfokasdlfkqweoi12921301923
+04/04/2017 05:09:38: Global-> Caronne: aauhauh aeorkqwoeiq qe qeoqi e
+04/04/2017 05:09:41: Global-> Caronne: 102390129321039
+04/04/2017 05:10:36: Status changed to disconnected: 8 akaruz 187.57.68.189 947CF38CD880F967
+04/04/2017 05:10:38: Data From Login Server ID: 8 Account: akaruz 04E0DB2669135A7A
+04/04/2017 05:10:39: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:10:39: Status changed to connected: 187.57.68.189
+04/04/2017 05:10:40: Data From Client: 04E0DB2669135A7A
+04/04/2017 05:10:40: Player Found ID: 8 Account: akaruz 04E0DB2669135A7A
+04/04/2017 05:10:40: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:10:41: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:11:09: Status changed to disconnected: 8 akaruz 187.57.68.189 04E0DB2669135A7A
+04/04/2017 05:13:40: Data From Login Server ID: 14 Account: dragonick 2E92769FD54591BD
+04/04/2017 05:13:40: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:13:40: Status changed to connected: 187.57.68.189
+04/04/2017 05:13:41: Data From Client: 2E92769FD54591BD
+04/04/2017 05:13:41: Player Found ID: 14 Account: dragonick 2E92769FD54591BD
+04/04/2017 05:13:41: PreLoad ID: 14 Account: dragonick
+04/04/2017 05:13:42: GameServer Login Attempt: dragonick 187.57.68.189
+04/04/2017 05:13:45: Global-> 錬金術師: AAA
+04/04/2017 05:13:52: Global-> 錬金術師: nihaoma nishi wo de peng youre
+04/04/2017 05:13:55: Global-> 錬金術師: avai afd
+04/04/2017 05:13:57: Global-> 錬金術師: vai se fude o
+04/04/2017 05:14:00: Global-> 錬金術師: viadao da porra toma no cu seu
+04/04/2017 05:14:01: Global-> 錬金術師: afff
+04/04/2017 05:14:06: Global-> 錬金術師: quero ver a cara de quem ver o
+04/04/2017 05:14:08: Global-> 錬金術師: ver os logs
+04/04/2017 05:14:48: Status changed to disconnected: 14 dragonick 187.57.68.189 2E92769FD54591BD
+04/04/2017 05:15:51: Data From Login Server ID: 8 Account: akaruz F87D55AFBD04CBC3
+04/04/2017 05:15:52: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:15:52: Status changed to connected: 187.57.68.189
+04/04/2017 05:15:52: Data From Client: F87D55AFBD04CBC3
+04/04/2017 05:15:52: Player Found ID: 8 Account: akaruz F87D55AFBD04CBC3
+04/04/2017 05:15:52: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:15:54: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:16:00: Global-> Joanlac: seu cu
+04/04/2017 05:16:02: Global-> Joanlac: viado
+04/04/2017 05:16:03: Global-> Joanlac: do caraio
+04/04/2017 05:16:06: Global-> Joanlac: é vai se fuder
+04/04/2017 05:16:10: Global-> Joanlac: tem que se foder e acabou
+04/04/2017 05:16:12: Global-> Joanlac: é
+04/04/2017 05:16:14: Global-> Joanlac: é mesmo
+04/04/2017 05:16:23: Global-> Joanlac: cant to you lie
+04/04/2017 05:16:50: Status changed to disconnected: 8 akaruz 187.57.68.189 F87D55AFBD04CBC3
+04/04/2017 05:17:11: Data From Login Server ID: 8 Account: akaruz 5736B95E3806C2CE
+04/04/2017 05:17:12: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:17:12: Status changed to connected: 187.57.68.189
+04/04/2017 05:17:12: Data From Client: 5736B95E3806C2CE
+04/04/2017 05:17:12: Player Found ID: 8 Account: akaruz 5736B95E3806C2CE
+04/04/2017 05:17:12: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:17:14: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:17:21: Global-> Caronne: toma no cu ninguem quer
+04/04/2017 05:17:25: Global-> Caronne: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+04/04/2017 05:17:29: Global-> Caronne: aaerokaeok ahue aeok adafm adf
+04/04/2017 05:17:33: Global-> Caronne: amafn dnf sdpq qe we  asd
+04/04/2017 05:17:36: Global-> Caronne: asdfoiadfoiqweqwe
+04/04/2017 05:17:38: Global-> Caronne: serio
+04/04/2017 05:17:42: Global-> Caronne: aham
+04/04/2017 05:18:14: Status changed to disconnected: 8 akaruz 187.57.68.189 5736B95E3806C2CE
+04/04/2017 05:18:21: Data From Login Server ID: 8 Account: akaruz C3F6AEC77A3DD411
+04/04/2017 05:18:22: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:18:22: Status changed to connected: 187.57.68.189
+04/04/2017 05:18:22: Data From Client: C3F6AEC77A3DD411
+04/04/2017 05:18:22: Player Found ID: 8 Account: akaruz C3F6AEC77A3DD411
+04/04/2017 05:18:22: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:18:23: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:18:27: Global-> Nadaila: asdasdfasdf
+04/04/2017 05:18:29: Global-> Nadaila: lakdfasdfoiqwoie
+04/04/2017 05:18:32: Global-> Nadaila: 102391203912093123
+04/04/2017 05:18:33: Global-> Nadaila: serio
+04/04/2017 05:18:36: Global-> Nadaila: vixi
+04/04/2017 05:18:38: Global-> Nadaila: seu cu viado
+04/04/2017 05:18:41: Global-> Nadaila: o terabin é guei
+04/04/2017 05:18:44: Global-> Nadaila: mas nada a ver ow
+04/04/2017 05:18:46: Global-> Nadaila: seiro msm
+04/04/2017 05:18:50: Global-> Nadaila: até pq 1 + 1 da 10
+04/04/2017 05:18:57: Global-> Nadaila: qmf alar mau
+04/04/2017 05:18:58: Global-> Nadaila: do
+04/04/2017 05:19:01: Global-> Nadaila: seu pai
+04/04/2017 05:19:04: Global-> Nadaila: aahuehu
+04/04/2017 05:19:41: Disconnected by login server: akaruz
+04/04/2017 05:19:41: Status changed to disconnected: 8 akaruz 187.57.68.189 C3F6AEC77A3DD411
+04/04/2017 05:19:42: Data From Login Server ID: 8 Account: akaruz 7976928658397B98
+04/04/2017 05:19:42: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:19:43: Status changed to connected: 187.57.68.189
+04/04/2017 05:19:43: Data From Client: 7976928658397B98
+04/04/2017 05:19:43: Player Found ID: 8 Account: akaruz 7976928658397B98
+04/04/2017 05:19:43: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:19:45: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:19:51: Global-> Nadaila: testando sua testa
+04/04/2017 05:19:55: Global-> Nadaila: de jumenta
+04/04/2017 05:20:00: Global-> Nadaila: ate pq o marlos tmb é guei
+04/04/2017 05:20:04: Global-> Nadaila: o paulo porreto nem se fala
+04/04/2017 05:20:08: Global-> Nadaila: imagine ot erabin qndo deu o
+04/04/2017 05:20:11: Global-> Nadaila: toba pela primeira vez
+04/04/2017 05:20:14: Global-> Nadaila: serio
+04/04/2017 05:20:28: Global-> Nadaila: aaa
+04/04/2017 05:20:30: Global-> Nadaila: 
+04/04/2017 05:20:32: Global-> Nadaila: ue
+04/04/2017 05:20:36: Global-> Nadaila: eeee
+04/04/2017 05:20:55: Disconnected by login server: akaruz
+04/04/2017 05:20:55: Status changed to disconnected: 8 akaruz 187.57.68.189 7976928658397B98
+04/04/2017 05:21:01: Data From Login Server ID: 14 Account: dragonick 5DE07A5B6C6E716B
+04/04/2017 05:21:01: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:21:01: Status changed to connected: 187.57.68.189
+04/04/2017 05:21:02: Data From Client: 5DE07A5B6C6E716B
+04/04/2017 05:21:02: Player Found ID: 14 Account: dragonick 5DE07A5B6C6E716B
+04/04/2017 05:21:02: PreLoad ID: 14 Account: dragonick
+04/04/2017 05:21:03: GameServer Login Attempt: dragonick 187.57.68.189
+04/04/2017 05:21:12: Global-> 錬金術師: tem qeu se foder pronto e
+04/04/2017 05:21:14: Global-> 錬金術師: e acabou
+04/04/2017 05:21:18: Global-> 錬金術師: tudo guei
+04/04/2017 05:21:20: Global-> 錬金術師: serio
+04/04/2017 05:21:24: Global-> 錬金術師: seu cu viado
+04/04/2017 05:21:31: Global-> 錬金術師: o etaerqwlek sa mas nem sempre
+04/04/2017 05:21:33: Global-> 錬金術師: aqndo
+04/04/2017 05:21:35: Global-> 錬金術師: eee
+04/04/2017 05:21:37: Global-> 錬金術師: mas eai
+04/04/2017 05:21:40: Global-> 錬金術師: o que vc vai fazer da vida hoj
+04/04/2017 05:22:11: Status changed to disconnected: 14 dragonick 187.57.68.189 5DE07A5B6C6E716B
+04/04/2017 05:23:01: Data From Login Server ID: 8 Account: akaruz ED28280C6A392160
+04/04/2017 05:23:02: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:23:02: Status changed to connected: 187.57.68.189
+04/04/2017 05:23:03: Data From Client: ED28280C6A392160
+04/04/2017 05:23:03: Player Found ID: 8 Account: akaruz ED28280C6A392160
+04/04/2017 05:23:03: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:23:04: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:23:10: Global-> Caronne: testes 123
+04/04/2017 05:23:13: Global-> Caronne: nem sempre sua mae gosta
+04/04/2017 05:23:15: Global-> Caronne: de uma pica bemg rande
+04/04/2017 05:23:42: Status changed to disconnected: 8 akaruz 187.57.68.189 ED28280C6A392160
+04/04/2017 05:25:05: Data From Login Server ID: 8 Account: akaruz E9B21B9EEC097CE2
+04/04/2017 05:25:05: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:25:05: Status changed to connected: 187.57.68.189
+04/04/2017 05:25:05: Data From Client: E9B21B9EEC097CE2
+04/04/2017 05:25:05: Player Found ID: 8 Account: akaruz E9B21B9EEC097CE2
+04/04/2017 05:25:05: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:25:06: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:25:13: Global-> Joanlac: dajahao
+04/04/2017 05:25:27: Global-> Joanlac: da jia hao
+04/04/2017 05:25:42: Global-> Joanlac: baobao shi wo de peng you
+04/04/2017 05:25:44: Global-> Joanlac: aaqlekq
+04/04/2017 05:25:47: Global-> Joanlac: momo
+04/04/2017 05:25:50: Global-> Joanlac: who are momo
+04/04/2017 05:25:52: Global-> Joanlac: moewoqoq
+04/04/2017 05:25:55: Global-> Joanlac: qasdladda
+04/04/2017 05:25:58: Global-> Joanlac: ashdahsudhuashduahusdhuashduq
+04/04/2017 05:26:01: Global-> Joanlac: affff
+04/04/2017 05:26:03: Global-> Joanlac: aerew
+04/04/2017 05:26:05: Global-> Joanlac: qqq
+04/04/2017 05:26:08: Global-> Joanlac: queijo
+04/04/2017 05:26:10: Global-> Joanlac: seu cu
+04/04/2017 05:26:33: Disconnected by login server: akaruz
+04/04/2017 05:26:33: Status changed to disconnected: 8 akaruz 187.57.68.189 E9B21B9EEC097CE2
+04/04/2017 05:26:35: Data From Login Server ID: 8 Account: akaruz 640C9CAF6F054F84
+04/04/2017 05:26:35: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:26:35: Status changed to connected: 187.57.68.189
+04/04/2017 05:26:35: Data From Client: 640C9CAF6F054F84
+04/04/2017 05:26:35: Player Found ID: 8 Account: akaruz 640C9CAF6F054F84
+04/04/2017 05:26:35: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:26:37: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:26:41: Global-> Caronne: asdsadf
+04/04/2017 05:26:43: Global-> Caronne: qeoqwieoiqwe
+04/04/2017 05:26:44: Global-> Caronne: apdofapsdf
+04/04/2017 05:26:46: Global-> Caronne: qmsxkajsdkjads
+04/04/2017 05:26:48: Global-> Caronne: sdanqwekijqwe
+04/04/2017 05:26:50: Global-> Caronne: lqwkelqwke
+04/04/2017 05:26:52: Global-> Caronne: qwljeqwjkejhq
+04/04/2017 05:26:55: Global-> Caronne: askdjzmncanma
+04/04/2017 05:26:58: Global-> Caronne: qpqojasduahsqw asm seu cu
+04/04/2017 05:27:02: Global-> Caronne: asdlkmasdqwekjqwekj seu cvi vo
+04/04/2017 05:27:09: Global-> Caronne: ashd mas nem con tod aq 22
+04/04/2017 05:27:15: Global-> Caronne: aoqiwe all qp 12123 asdasdz a
+04/04/2017 05:27:17: Global-> Caronne: aaa
+04/04/2017 05:27:19: Global-> Caronne: qqueijo
+04/04/2017 05:27:27: Global-> Caronne: é
+04/04/2017 05:27:31: Global-> Caronne: /vai toma no cu
+04/04/2017 05:27:32: Global-> Caronne: aaa
+04/04/2017 05:27:34: Global-> Caronne: bb
+04/04/2017 05:27:41: Global-> Caronne: aqelqwk asndjz eroiq sadfpo aa
+04/04/2017 05:27:50: Global-> Caronne: mas vem ca, vc e ofeio e anqe
+04/04/2017 05:27:56: Global-> Caronne: sua mae ja disse q vc tem tent
+04/04/2017 05:28:31: Status changed to disconnected: 8 akaruz 187.57.68.189 640C9CAF6F054F84
+04/04/2017 05:28:36: Data From Login Server ID: 8 Account: akaruz 5C76911F585DD107
+04/04/2017 05:28:37: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:28:37: Status changed to connected: 187.57.68.189
+04/04/2017 05:28:37: Data From Client: 5C76911F585DD107
+04/04/2017 05:28:37: Player Found ID: 8 Account: akaruz 5C76911F585DD107
+04/04/2017 05:28:37: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:28:38: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:28:42: Global-> Nadaila: ahuahuqwe
+04/04/2017 05:28:43: Global-> Nadaila: serioe r
+04/04/2017 05:28:45: Global-> Nadaila: aqqq
+04/04/2017 05:28:49: Global-> Nadaila: a barata diz que tem sete saia
+04/04/2017 05:28:51: Global-> Nadaila: de filo
+04/04/2017 05:28:56: Global-> Nadaila: e mentira da barata ela tem e
+04/04/2017 05:28:58: Global-> Nadaila: e uma so
+04/04/2017 05:29:03: Global-> Nadaila: ha ha ha ho ho ho
+04/04/2017 05:29:07: Global-> Nadaila: ela tem é uma só
+04/04/2017 05:29:13: Global-> Nadaila: faz 15 dias que eu nao tomo ban
+04/04/2017 05:29:14: Global-> Nadaila: banho
+04/04/2017 05:29:16: Global-> Nadaila: serio msm
+04/04/2017 05:29:18: Global-> Nadaila: to mentindo nao
+04/04/2017 05:29:20: Global-> Nadaila: prora
+04/04/2017 05:29:21: Global-> Nadaila: porra viado
+04/04/2017 05:29:23: Global-> Nadaila: para de mula
+04/04/2017 05:29:29: Global-> Nadaila: mas dar o cu pro meu cachorro
+04/04/2017 05:29:31: Global-> Nadaila: ninguem quer ne
+04/04/2017 05:29:34: Global-> Nadaila: ta
+04/04/2017 05:29:38: Global-> Nadaila: se vc ta dizendo quem sou eu
+04/04/2017 05:29:42: Global-> Nadaila: eu nao sou o terabin pra ficar
+04/04/2017 05:29:44: Global-> Nadaila: falando merda no chat
+04/04/2017 05:29:47: Global-> Nadaila: mas vai q
+04/04/2017 05:29:52: Global-> Nadaila: sua mae aparece ai pra dar o c
+04/04/2017 05:29:53: Global-> Nadaila: pra gente
+04/04/2017 05:30:18: Status changed to disconnected: 8 akaruz 187.57.68.189 5C76911F585DD107
+04/04/2017 05:30:44: Data From Login Server ID: 8 Account: akaruz 9CC94D94DC1BC9FD
+04/04/2017 05:30:45: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:30:46: Status changed to connected: 187.57.68.189
+04/04/2017 05:30:46: Data From Client: 9CC94D94DC1BC9FD
+04/04/2017 05:30:46: Player Found ID: 8 Account: akaruz 9CC94D94DC1BC9FD
+04/04/2017 05:30:46: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:30:48: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:30:52: Global-> Caronne: aadsfgfsd
+04/04/2017 05:30:54: Global-> Caronne: serio isso
+04/04/2017 05:30:57: Global-> Caronne: q vc vai toma noc u
+04/04/2017 05:31:05: Global-> Caronne: aaoe ahfh pq na oe ses ada x
+04/04/2017 05:31:13: Global-> Caronne: am an oo ee sim e sne fng
+04/04/2017 05:31:19: Global-> Caronne: qaa pee peng ou ni shi wo
+04/04/2017 05:31:27: Global-> Caronne: xing lang tching dong due hao
+04/04/2017 05:31:45: Global-> Caronne: ni hao baba mao baa ni hao due
+04/04/2017 05:31:47: Global-> Caronne: a
+04/04/2017 05:31:49: Global-> Caronne: 
+04/04/2017 05:32:15: Status changed to disconnected: 8 akaruz 187.57.68.189 9CC94D94DC1BC9FD
+04/04/2017 05:39:15: Data From Login Server ID: 8 Account: akaruz F9DFA3D979DC49B6
+04/04/2017 05:39:15: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:39:15: Status changed to connected: 187.57.68.189
+04/04/2017 05:39:15: Data From Client: F9DFA3D979DC49B6
+04/04/2017 05:39:15: Player Found ID: 8 Account: akaruz F9DFA3D979DC49B6
+04/04/2017 05:39:15: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:39:17: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:39:21: Global-> Caronne: asdfasfduh
+04/04/2017 05:39:24: Global-> Caronne: adfaksdflasdlfk
+04/04/2017 05:39:28: Global-> Caronne: 1231o2312o3 kjwkwejr 102391203
+04/04/2017 05:39:32: Global-> Caronne: lskflsdkfowie 120931023921039
+04/04/2017 05:39:36: Global-> Caronne: slfkdsnsgmfn wrjwer oqwie 1203
+04/04/2017 05:39:40: Global-> Caronne: snjnslkjwe 123js hsuurte 10239
+04/04/2017 05:40:20: Status changed to disconnected: 8 akaruz 187.57.68.189 F9DFA3D979DC49B6
+04/04/2017 05:46:43: Data From Login Server ID: 8 Account: akaruz EF1F3A183060BABF
+04/04/2017 05:46:43: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:46:44: Status changed to connected: 187.57.68.189
+04/04/2017 05:46:44: Data From Client: EF1F3A183060BABF
+04/04/2017 05:46:44: Player Found ID: 8 Account: akaruz EF1F3A183060BABF
+04/04/2017 05:46:44: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:46:45: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:46:49: Global-> Joanlac: meu cu
+04/04/2017 05:46:51: Global-> Joanlac: seu cu
+04/04/2017 05:46:53: Global-> Joanlac: teu cu
+04/04/2017 05:46:54: Global-> Joanlac: vosso cu
+04/04/2017 05:46:56: Global-> Joanlac: nosso cu
+04/04/2017 05:47:02: Global-> Joanlac: bunda cu
+04/04/2017 05:47:05: Global-> Joanlac: xana cu
+04/04/2017 05:47:07: Global-> Joanlac: seu cu
+04/04/2017 05:47:09: Global-> Joanlac: viad
+04/04/2017 05:47:11: Global-> Joanlac: viado
+04/04/2017 05:47:15: Global-> Joanlac: aaaa
+04/04/2017 05:47:18: Global-> Joanlac: hu3
+04/04/2017 05:47:19: Global-> Joanlac: ue
+04/04/2017 05:47:45: Status changed to disconnected: 8 akaruz 187.57.68.189 EF1F3A183060BABF
+04/04/2017 05:48:14: Data From Login Server ID: 8 Account: akaruz 0856A1FAD5B795A5
+04/04/2017 05:48:15: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:48:15: Status changed to connected: 187.57.68.189
+04/04/2017 05:48:15: Data From Client: 0856A1FAD5B795A5
+04/04/2017 05:48:15: Player Found ID: 8 Account: akaruz 0856A1FAD5B795A5
+04/04/2017 05:48:15: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:48:18: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:48:24: Global-> Caronne: tue ji
+04/04/2017 05:48:48: Status changed to disconnected: 8 akaruz 187.57.68.189 0856A1FAD5B795A5
+04/04/2017 05:49:04: Data From Login Server ID: 8 Account: akaruz 67321296C9D7A903
+04/04/2017 05:49:05: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:49:05: Status changed to connected: 187.57.68.189
+04/04/2017 05:49:05: Data From Client: 67321296C9D7A903
+04/04/2017 05:49:05: Player Found ID: 8 Account: akaruz 67321296C9D7A903
+04/04/2017 05:49:05: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:49:08: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:49:12: Global-> Caronne: eeee
+04/04/2017 05:49:15: Global-> Caronne: ta ligado ne
+04/04/2017 05:49:17: Global-> Caronne: q quem manda aqui
+04/04/2017 05:49:19: Global-> Caronne: eu ja nao sei
+04/04/2017 05:49:23: Global-> Caronne: mas vai se fuder prora
+04/04/2017 05:49:24: Global-> Caronne: porra
+04/04/2017 05:49:26: Global-> Caronne: porra
+04/04/2017 05:49:29: Global-> Caronne: é o cu da cachorra
+04/04/2017 05:49:45: Global-> Caronne: que bom
+04/04/2017 05:50:13: Status changed to disconnected: 8 akaruz 187.57.68.189 67321296C9D7A903
+04/04/2017 05:52:38: Data From Login Server ID: 8 Account: akaruz AFCE4BB1115E6B4F
+04/04/2017 05:52:39: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 05:52:39: Status changed to connected: 187.57.68.189
+04/04/2017 05:52:39: Data From Client: AFCE4BB1115E6B4F
+04/04/2017 05:52:39: Player Found ID: 8 Account: akaruz AFCE4BB1115E6B4F
+04/04/2017 05:52:39: PreLoad ID: 8 Account: akaruz
+04/04/2017 05:52:41: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 05:52:44: Global-> Nadaila: aadsfok
+04/04/2017 05:52:47: Global-> Nadaila: lkepe ka
+04/04/2017 05:52:50: Global-> Nadaila: mas nem sempre
+04/04/2017 05:52:52: Global-> Nadaila: guei msm
+04/04/2017 05:52:55: Global-> Nadaila: alakq
+04/04/2017 05:52:58: Global-> Nadaila: ue
+04/04/2017 05:53:00: Global-> Nadaila: q lokura
+04/04/2017 05:53:02: Global-> Nadaila: mas gente
+04/04/2017 05:53:04: Global-> Nadaila: e isso
+04/04/2017 05:53:33: Status changed to disconnected: 8 akaruz 187.57.68.189 AFCE4BB1115E6B4F
+04/04/2017 06:05:42: Data From Login Server ID: 8 Account: akaruz F0B425228075796E
+04/04/2017 06:05:43: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:05:43: Status changed to connected: 187.57.68.189
+04/04/2017 06:05:43: Data From Client: F0B425228075796E
+04/04/2017 06:05:43: Player Found ID: 8 Account: akaruz F0B425228075796E
+04/04/2017 06:05:43: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:05:44: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:05:49: Global-> Joanlac: kalalal aal
+04/04/2017 06:05:50: Global-> Joanlac: 
+04/04/2017 06:05:54: Global-> Joanlac: seu seu
+04/04/2017 06:05:56: Global-> Joanlac: toa ta ta
+04/04/2017 06:05:58: Global-> Joanlac: alal al a
+04/04/2017 06:06:00: Global-> Joanlac: oe oe
+04/04/2017 06:06:02: Global-> Joanlac: 
+04/04/2017 06:06:06: Global-> Joanlac: seu cu viado
+04/04/2017 06:06:10: Global-> Joanlac: sesueu asdhauhsd
+04/04/2017 06:06:19: Global-> Joanlac: kaka eoior asd qwe aja nern ql
+04/04/2017 06:06:26: Global-> Joanlac: znan qje ahs eo pew qjsd asd p
+04/04/2017 06:06:33: Global-> Joanlac: aja qhwe wk fa fdf eoeirw pew
+04/04/2017 06:07:32: Status changed to disconnected: 8 akaruz 187.57.68.189 F0B425228075796E
+04/04/2017 06:08:28: Data From Login Server ID: 8 Account: akaruz E466290BE5E896AB
+04/04/2017 06:08:29: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:08:29: Status changed to connected: 187.57.68.189
+04/04/2017 06:08:29: Data From Client: E466290BE5E896AB
+04/04/2017 06:08:29: Player Found ID: 8 Account: akaruz E466290BE5E896AB
+04/04/2017 06:08:29: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:08:31: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:08:35: Global-> Joanlac: afdasdfhuahusdf
+04/04/2017 06:08:39: Global-> Joanlac: seu cu viadao
+04/04/2017 06:08:41: Global-> Joanlac: meu toaba
+04/04/2017 06:08:50: Global-> Joanlac: queria dizer algo pra vcs sobr
+04/04/2017 06:08:53: Global-> Joanlac: sobre o terabin
+04/04/2017 06:08:58: Global-> Joanlac: ele nao é tão homem quanto par
+04/04/2017 06:09:05: Global-> Joanlac: parece mais um viadao do que um
+04/04/2017 06:09:06: Global-> Joanlac: gay
+04/04/2017 06:09:10: Global-> Joanlac: e eu falo mesmo, ate pq
+04/04/2017 06:09:13: Global-> Joanlac: eu nao escondo nada de ninguem
+04/04/2017 06:09:18: Global-> Joanlac: ja ele, esconde de tudo e de t
+04/04/2017 06:10:53: Status changed to disconnected: 8 akaruz 187.57.68.189 E466290BE5E896AB
+04/04/2017 06:14:47: Data From Login Server ID: 8 Account: akaruz 915FF072A6DCC85C
+04/04/2017 06:14:47: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:14:48: Status changed to connected: 187.57.68.189
+04/04/2017 06:14:48: Data From Client: 915FF072A6DCC85C
+04/04/2017 06:14:48: Player Found ID: 8 Account: akaruz 915FF072A6DCC85C
+04/04/2017 06:14:48: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:14:50: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:14:54: Global-> Caronne: aasfdsfd adfasdfkjasdf
+04/04/2017 06:14:59: Global-> Caronne: seu cu viado
+04/04/2017 06:15:01: Global-> Caronne: vai dar o toba
+04/04/2017 06:15:04: Global-> Caronne: chupa meu pau
+04/04/2017 06:15:06: Global-> Caronne: arrombado do caralho
+04/04/2017 06:15:16: Global-> Caronne: aha ekqo sndad enen qee aa bc
+04/04/2017 06:15:20: Global-> Caronne: mas nem sempre o que é bom
+04/04/2017 06:15:23: Global-> Caronne: se torna rium
+04/04/2017 06:15:31: Global-> Caronne: parece que tava bom, depois
+04/04/2017 06:15:36: Global-> Caronne: ficou ruim ruim e agora parece
+04/04/2017 06:15:43: Global-> Caronne: que piorou só porque a dilma e
+04/04/2017 06:15:45: Global-> Caronne: entrou no poder
+04/04/2017 06:16:33: Status changed to disconnected: 8 akaruz 187.57.68.189 915FF072A6DCC85C
+04/04/2017 06:16:56: Data From Login Server ID: 8 Account: akaruz 99A9F70D024382C0
+04/04/2017 06:16:56: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:16:56: Status changed to connected: 187.57.68.189
+04/04/2017 06:16:57: Data From Client: 99A9F70D024382C0
+04/04/2017 06:16:57: Player Found ID: 8 Account: akaruz 99A9F70D024382C0
+04/04/2017 06:16:57: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:16:59: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:17:08: Global-> Joanlac: aere aerwer
+04/04/2017 06:17:13: Global-> Joanlac: ahjh aa qwel we 12o3i zadf 09e
+04/04/2017 06:17:15: Global-> Joanlac: ahuehae hauehae
+04/04/2017 06:17:17: Global-> Joanlac: lksflkzcvmasd asdkj
+04/04/2017 06:17:19: Global-> Joanlac: asdfhasdfh
+04/04/2017 06:17:21: Global-> Joanlac: qwoeiqweoiqwe
+04/04/2017 06:17:22: Global-> Joanlac: lkdfaf
+04/04/2017 06:17:24: Global-> Joanlac: adsfoasdfoiqwe
+04/04/2017 06:17:26: Global-> Joanlac: asdfoiasdfoi
+04/04/2017 06:18:14: Status changed to disconnected: 8 akaruz 187.57.68.189 99A9F70D024382C0
+04/04/2017 06:36:27: Data From Login Server ID: 8 Account: akaruz 269A4472855B068F
+04/04/2017 06:36:28: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:36:28: Status changed to connected: 187.57.68.189
+04/04/2017 06:36:28: Data From Client: 269A4472855B068F
+04/04/2017 06:36:28: Player Found ID: 8 Account: akaruz 269A4472855B068F
+04/04/2017 06:36:28: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:36:34: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:36:42: Global-> Joanlac: seu pai
+04/04/2017 06:36:45: Global-> Joanlac: é um viadao
+04/04/2017 06:36:52: Global-> Joanlac: to sabendo já que o terabin é
+04/04/2017 06:37:15: Status changed to disconnected: 8 akaruz 187.57.68.189 269A4472855B068F
+04/04/2017 06:37:30: Data From Login Server ID: 8 Account: akaruz CC11468F00664A66
+04/04/2017 06:37:30: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:37:31: Status changed to connected: 187.57.68.189
+04/04/2017 06:37:31: Data From Client: CC11468F00664A66
+04/04/2017 06:37:31: Player Found ID: 8 Account: akaruz CC11468F00664A66
+04/04/2017 06:37:31: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:37:33: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:37:36: Global-> Joanlac: aafdaf
+04/04/2017 06:37:40: Global-> Joanlac: vai toma no seu cu
+04/04/2017 06:37:42: Global-> Joanlac: aaaa
+04/04/2017 06:37:43: Global-> Joanlac: gueizao
+04/04/2017 06:38:10: Status changed to disconnected: 8 akaruz 187.57.68.189 CC11468F00664A66
+04/04/2017 06:38:11: Data From Login Server ID: 8 Account: akaruz 398402BD8895F246
+04/04/2017 06:38:12: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:38:12: Status changed to connected: 187.57.68.189
+04/04/2017 06:38:13: Data From Client: 398402BD8895F246
+04/04/2017 06:38:13: Player Found ID: 8 Account: akaruz 398402BD8895F246
+04/04/2017 06:38:13: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:38:14: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:38:22: Global-> Nadaila: sua tia é tão gorda, mas tão go
+04/04/2017 06:38:28: Global-> Nadaila: que se ela roubar pão na casa
+04/04/2017 06:38:31: Global-> Nadaila: joão
+04/04/2017 06:38:36: Global-> Nadaila: ela peida na caçarolha
+04/04/2017 06:38:46: Global-> Nadaila: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+04/04/2017 06:39:24: Status changed to disconnected: 8 akaruz 187.57.68.189 398402BD8895F246
+04/04/2017 06:39:38: Data From Login Server ID: 8 Account: akaruz D2490DE874D51983
+04/04/2017 06:39:38: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:39:39: Status changed to connected: 187.57.68.189
+04/04/2017 06:39:39: Data From Client: D2490DE874D51983
+04/04/2017 06:39:39: Player Found ID: 8 Account: akaruz D2490DE874D51983
+04/04/2017 06:39:39: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:39:40: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:39:44: Global-> Joanlac: aaaadsfuhasdfhuashudfuhasdhfuaf
+04/04/2017 06:39:49: Global-> Joanlac: sua tia é mesmo muito gorda
+04/04/2017 06:39:54: Global-> Joanlac: tenho razao
+04/04/2017 06:39:56: Global-> Joanlac: até pq
+04/04/2017 06:40:00: Global-> Joanlac: ela é tão, mas tão gorda que
+04/04/2017 06:40:05: Global-> Joanlac: se peidar dentro de casa
+04/04/2017 06:40:08: Global-> Joanlac: não sobra nada
+04/04/2017 06:40:34: Status changed to disconnected: 8 akaruz 187.57.68.189 D2490DE874D51983
+04/04/2017 06:40:36: Data From Login Server ID: 14 Account: dragonick 10FA34A4392B1882
+04/04/2017 06:40:37: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:40:37: Status changed to connected: 187.57.68.189
+04/04/2017 06:40:37: Data From Client: 10FA34A4392B1882
+04/04/2017 06:40:37: Player Found ID: 14 Account: dragonick 10FA34A4392B1882
+04/04/2017 06:40:37: PreLoad ID: 14 Account: dragonick
+04/04/2017 06:40:38: GameServer Login Attempt: dragonick 187.57.68.189
+04/04/2017 06:40:43: Global-> 錬金術師: aaadsfiasdfijasdfajsdifasidjfia
+04/04/2017 06:40:48: Global-> 錬金術師: é sua tia é realmente gorda
+04/04/2017 06:41:12: Status changed to disconnected: 14 dragonick 187.57.68.189 10FA34A4392B1882
+04/04/2017 06:41:42: Data From Login Server ID: 14 Account: dragonick 3CE6A6DF1FA068EA
+04/04/2017 06:41:43: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:41:43: Status changed to connected: 187.57.68.189
+04/04/2017 06:41:44: Data From Client: 3CE6A6DF1FA068EA
+04/04/2017 06:41:44: Player Found ID: 14 Account: dragonick 3CE6A6DF1FA068EA
+04/04/2017 06:41:44: PreLoad ID: 14 Account: dragonick
+04/04/2017 06:41:45: GameServer Login Attempt: dragonick 187.57.68.189
+04/04/2017 06:41:52: Global-> 錬金術師: aafqweoiqweoiqweqweqwoeiqweoiq
+04/04/2017 06:41:56: Global-> 錬金術師: mas eai viadao
+04/04/2017 06:41:59: Global-> 錬金術師: q ce vai fazer hoje
+04/04/2017 06:42:00: Global-> 錬金術師: fala ae
+04/04/2017 06:42:04: Global-> 錬金術師: arrombado pau no cu dis infern
+04/04/2017 06:42:09: Global-> 錬金術師: aaa
+04/04/2017 06:42:11: Global-> 錬金術師: sua mae me ama
+04/04/2017 06:42:49: Status changed to disconnected: 14 dragonick 187.57.68.189 3CE6A6DF1FA068EA
+04/04/2017 06:44:20: Data From Login Server ID: 8 Account: akaruz BF77E9BFD46DD5E8
+04/04/2017 06:44:20: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:44:21: Status changed to connected: 187.57.68.189
+04/04/2017 06:44:21: Data From Client: BF77E9BFD46DD5E8
+04/04/2017 06:44:21: Player Found ID: 8 Account: akaruz BF77E9BFD46DD5E8
+04/04/2017 06:44:21: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:44:22: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:44:29: Global-> Caronne: afdad afd husd fklqwe as dq ewq
+04/04/2017 06:44:33: Global-> Caronne: mas eai viadao do caraio
+04/04/2017 06:44:38: Global-> Caronne: ja aprendeu a tomar no cu
+04/04/2017 06:44:46: Global-> Caronne: é vc msm, vai se foder seu pau
+04/04/2017 06:44:48: Global-> Caronne: no cu
+04/04/2017 06:44:50: Global-> Caronne: arrombado
+04/04/2017 06:44:53: Global-> Caronne: que isso cara
+04/04/2017 06:44:56: Global-> Caronne: que isso ada
+04/04/2017 06:45:03: Global-> Caronne: tem que se foder pronto e acab
+04/04/2017 06:45:40: Status changed to disconnected: 8 akaruz 187.57.68.189 BF77E9BFD46DD5E8
+04/04/2017 06:46:05: Data From Login Server ID: 14 Account: dragonick 882B08CAE148DCE9
+04/04/2017 06:46:06: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:46:06: Status changed to connected: 187.57.68.189
+04/04/2017 06:46:06: Data From Client: 882B08CAE148DCE9
+04/04/2017 06:46:06: Player Found ID: 14 Account: dragonick 882B08CAE148DCE9
+04/04/2017 06:46:06: PreLoad ID: 14 Account: dragonick
+04/04/2017 06:46:08: GameServer Login Attempt: dragonick 187.57.68.189
+04/04/2017 06:46:12: Global-> 錬金術師: cagao
+04/04/2017 06:46:17: Global-> 錬金術師: seu cagao cara, cagao
+04/04/2017 06:46:19: Global-> 錬金術師: vai se foder
+04/04/2017 06:46:21: Global-> 錬金術師: vc é uma rrombado
+04/04/2017 06:46:27: Global-> 錬金術師: sua mae caga e anda todo diaaa
+04/04/2017 06:46:33: Global-> 錬金術師: e o corno do seu pai não faz n
+04/04/2017 06:46:54: Global-> 錬金術師: aquela arrombada pau no cu
+04/04/2017 06:47:25: Status changed to disconnected: 14 dragonick 187.57.68.189 882B08CAE148DCE9
+04/04/2017 06:50:28: Data From Login Server ID: 14 Account: dragonick EE17E3E467DA7B4D
+04/04/2017 06:50:28: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:50:29: Status changed to connected: 187.57.68.189
+04/04/2017 06:50:29: Data From Client: EE17E3E467DA7B4D
+04/04/2017 06:50:29: Player Found ID: 14 Account: dragonick EE17E3E467DA7B4D
+04/04/2017 06:50:29: PreLoad ID: 14 Account: dragonick
+04/04/2017 06:50:30: GameServer Login Attempt: dragonick 187.57.68.189
+04/04/2017 06:51:30: Status changed to disconnected: 14 dragonick 187.57.68.189 EE17E3E467DA7B4D
+04/04/2017 06:52:00: Data From Login Server ID: 14 Account: dragonick 28E1A3C249FA4903
+04/04/2017 06:52:00: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:52:01: Status changed to connected: 187.57.68.189
+04/04/2017 06:52:01: Data From Client: 28E1A3C249FA4903
+04/04/2017 06:52:01: Player Found ID: 14 Account: dragonick 28E1A3C249FA4903
+04/04/2017 06:52:01: PreLoad ID: 14 Account: dragonick
+04/04/2017 06:52:02: GameServer Login Attempt: dragonick 187.57.68.189
+04/04/2017 06:53:00: Status changed to disconnected: 14 dragonick 187.57.68.189 28E1A3C249FA4903
+04/04/2017 06:53:14: Data From Login Server ID: 8 Account: akaruz 2898DF32CF10990A
+04/04/2017 06:53:14: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 06:53:15: Status changed to connected: 187.57.68.189
+04/04/2017 06:53:15: Data From Client: 2898DF32CF10990A
+04/04/2017 06:53:15: Player Found ID: 8 Account: akaruz 2898DF32CF10990A
+04/04/2017 06:53:15: PreLoad ID: 8 Account: akaruz
+04/04/2017 06:53:17: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 06:54:01: Global-> Caronne: agora, vou dizer que peidei e
+04/04/2017 06:54:20: Global-> Caronne: pura albumina
+04/04/2017 06:54:22: Global-> Caronne: serio msm
+04/04/2017 06:54:25: Global-> Caronne: aahdufhausdfuhadshufahusdfhuq
+04/04/2017 06:54:30: Global-> Caronne: aafdoi adfoia faodisf aosdifao
+04/04/2017 06:54:36: Global-> Caronne: meu pau no seu cu seu viado ca
+04/04/2017 06:55:12: Status changed to disconnected: 8 akaruz 187.57.68.189 2898DF32CF10990A
+2017/04/04 7:33:23: ID: 2147483646
+2017/04/04 7:33:23: Server Name: artemis
+2017/04/04 7:33:23: Discovery: Elysium Diamond #1.0.0
+2017/04/04 7:33:23: Port: 55901
+2017/04/04 7:33:23: Maximum Connections: 2000
+2017/04/04 7:33:23: Logs: Ativado
+2017/04/04 7:33:23: Sleep: 1
+04/04/2017 07:33:24: Create Character: True
+04/04/2017 07:33:24: Delete Character: True
+04/04/2017 07:33:24: Carregando config do mysql
+04/04/2017 07:33:24: Connectado ao banco de dados
+04/04/2017 07:33:25: World Server Start.
+04/04/2017 07:33:25: Conectado ao Game Server #Canal 1
+04/04/2017 07:33:34: Discovery Response IPEndPoint: 127.0.0.1
+04/04/2017 07:33:34: Status changed to connected: 127.0.0.1
+04/04/2017 07:33:34: Login Server ID: 2147483647
+04/04/2017 07:34:27: Data From Login Server ID: 8 Account: akaruz 786C220B3054B804
+04/04/2017 07:34:28: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 07:34:28: Status changed to connected: 187.57.68.189
+04/04/2017 07:34:28: Data From Client: 786C220B3054B804
+04/04/2017 07:34:28: Player Found ID: 8 Account: akaruz 786C220B3054B804
+04/04/2017 07:34:28: PreLoad ID: 8 Account: akaruz
+04/04/2017 07:34:31: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 07:34:37: Global-> Joanlac: arrombado msm
+04/04/2017 07:35:12: Global-> Joanlac: toma no seu cu cara
+04/04/2017 07:35:17: Global-> Joanlac: vai cuidar da sua vida, vacilã
+04/04/2017 07:35:20: Global-> Joanlac: vacilão
+04/04/2017 07:35:53: Status changed to disconnected: 8 akaruz 187.57.68.189 786C220B3054B804
+2017/04/04 8:20:42: ID: 2147483646
+2017/04/04 8:20:42: Server Name: artemis
+2017/04/04 8:20:42: Discovery: Elysium Diamond #1.0.0
+2017/04/04 8:20:42: Port: 55901
+2017/04/04 8:20:42: Maximum Connections: 2000
+2017/04/04 8:20:42: Logs: Ativado
+2017/04/04 8:20:42: Sleep: 1
+04/04/2017 08:20:42: Create Character: True
+04/04/2017 08:20:42: Delete Character: True
+04/04/2017 08:20:42: Carregando config do mysql
+04/04/2017 08:20:42: Connectado ao banco de dados
+04/04/2017 08:20:44: World Server Start.
+04/04/2017 08:20:44: Discovery Response IPEndPoint: 127.0.0.1
+04/04/2017 08:20:44: Status changed to connected: 127.0.0.1
+04/04/2017 08:20:44: Login Server ID: 2147483647
+04/04/2017 08:20:44: Conectado ao Game Server #Canal 1
+2017/04/04 8:32:57: ID: 2147483646
+2017/04/04 8:32:57: Server Name: artemis
+2017/04/04 8:32:57: Discovery: Elysium Diamond #1.0.0
+2017/04/04 8:32:57: Port: 55901
+2017/04/04 8:32:57: Maximum Connections: 2000
+2017/04/04 8:32:57: Logs: Ativado
+2017/04/04 8:32:57: Sleep: 1
+04/04/2017 08:32:58: Create Character: True
+04/04/2017 08:32:58: Delete Character: True
+04/04/2017 08:32:58: Carregando config do mysql
+04/04/2017 08:32:58: Connectado ao banco de dados
+04/04/2017 08:32:59: World Server Start.
+04/04/2017 08:32:59: Conectado ao Game Server #Canal 1
+04/04/2017 08:33:04: Discovery Response IPEndPoint: 127.0.0.1
+04/04/2017 08:33:04: Status changed to connected: 127.0.0.1
+04/04/2017 08:33:04: Login Server ID: 2147483647
+04/04/2017 08:33:28: Data From Login Server ID: 8 Account: akaruz DD8B37850C1F94BE
+04/04/2017 08:33:29: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 08:33:29: Status changed to connected: 187.57.68.189
+04/04/2017 08:33:29: Data From Client: DD8B37850C1F94BE
+04/04/2017 08:33:29: Player Found ID: 8 Account: akaruz DD8B37850C1F94BE
+04/04/2017 08:33:29: PreLoad ID: 8 Account: akaruz
+04/04/2017 08:33:31: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 08:33:37: Global-> Joanlac: aaa
+04/04/2017 08:33:42: Global-> Joanlac: vai dar o cu seu arrombado
+04/04/2017 08:34:25: Global-> Joanlac: viadao do calraoh, fila da put
+04/04/2017 08:35:17: Status changed to disconnected: 8 akaruz 187.57.68.189 DD8B37850C1F94BE
+2017/04/04 8:37:26: ID: 2147483646
+2017/04/04 8:37:26: Server Name: artemis
+2017/04/04 8:37:26: Discovery: Elysium Diamond #1.0.0
+2017/04/04 8:37:26: Port: 55901
+2017/04/04 8:37:26: Maximum Connections: 2000
+2017/04/04 8:37:26: Logs: Ativado
+2017/04/04 8:37:26: Sleep: 1
+04/04/2017 08:37:26: Create Character: True
+04/04/2017 08:37:26: Delete Character: True
+04/04/2017 08:37:26: Carregando config do mysql
+04/04/2017 08:37:26: Connectado ao banco de dados
+04/04/2017 08:37:27: World Server Start.
+04/04/2017 08:37:28: Conectado ao Game Server #Canal 1
+04/04/2017 08:37:54: Discovery Response IPEndPoint: 127.0.0.1
+04/04/2017 08:37:54: Status changed to connected: 127.0.0.1
+04/04/2017 08:37:54: Login Server ID: 2147483647
+04/04/2017 08:38:09: Data From Login Server ID: 8 Account: akaruz 814FB88BCEDA530A
+04/04/2017 08:38:10: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 08:38:10: Status changed to connected: 187.57.68.189
+04/04/2017 08:38:10: Data From Client: 814FB88BCEDA530A
+04/04/2017 08:38:10: Player Found ID: 8 Account: akaruz 814FB88BCEDA530A
+04/04/2017 08:38:10: PreLoad ID: 8 Account: akaruz
+04/04/2017 08:38:12: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 08:38:24: Global-> Caronne: aa
+04/04/2017 08:39:19: Status changed to disconnected: 8 akaruz 187.57.68.189 814FB88BCEDA530A
+04/04/2017 08:48:44: Data From Login Server ID: 8 Account: akaruz 3EB82E0DF8DCFA31
+04/04/2017 08:48:44: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 08:48:45: Status changed to connected: 187.57.68.189
+04/04/2017 08:48:45: Data From Client: 3EB82E0DF8DCFA31
+04/04/2017 08:48:45: Player Found ID: 8 Account: akaruz 3EB82E0DF8DCFA31
+04/04/2017 08:48:45: PreLoad ID: 8 Account: akaruz
+04/04/2017 08:48:47: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 08:48:52: Global-> Joanlac: ggaa
+04/04/2017 08:48:55: Global-> Joanlac: afdasf
+04/04/2017 08:49:12: Global-> Joanlac: aaa
+04/04/2017 08:49:44: Status changed to disconnected: 8 akaruz 187.57.68.189 3EB82E0DF8DCFA31
+04/04/2017 08:52:36: Data From Login Server ID: 8 Account: akaruz BFB2057EBAC6F0A3
+04/04/2017 08:52:36: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 08:52:36: Status changed to connected: 187.57.68.189
+04/04/2017 08:52:36: Data From Client: BFB2057EBAC6F0A3
+04/04/2017 08:52:36: Player Found ID: 8 Account: akaruz BFB2057EBAC6F0A3
+04/04/2017 08:52:36: PreLoad ID: 8 Account: akaruz
+04/04/2017 08:52:38: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 08:53:03: Status changed to disconnected: 8 akaruz 187.57.68.189 BFB2057EBAC6F0A3
+2017/04/04 9:12:35: ID: 2147483646
+2017/04/04 9:12:35: Server Name: artemis
+2017/04/04 9:12:35: Discovery: Elysium Diamond #1.0.0
+2017/04/04 9:12:35: Port: 55901
+2017/04/04 9:12:35: Maximum Connections: 2000
+2017/04/04 9:12:35: Logs: Ativado
+2017/04/04 9:12:35: Sleep: 1
+04/04/2017 09:12:36: Create Character: True
+04/04/2017 09:12:36: Delete Character: True
+04/04/2017 09:12:36: Carregando config do mysql
+04/04/2017 09:12:36: Connectado ao banco de dados
+04/04/2017 09:12:37: World Server Start.
+04/04/2017 09:12:37: Conectado ao Game Server #Canal 1
+04/04/2017 09:13:04: Discovery Response IPEndPoint: 127.0.0.1
+04/04/2017 09:13:04: Status changed to connected: 127.0.0.1
+04/04/2017 09:13:04: Login Server ID: 2147483647
+04/04/2017 09:13:23: Data From Login Server ID: 8 Account: akaruz 179DD33A5665739F
+04/04/2017 09:13:23: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 09:13:23: Status changed to connected: 187.57.68.189
+04/04/2017 09:13:23: Data From Client: 179DD33A5665739F
+04/04/2017 09:13:23: Player Found ID: 8 Account: akaruz 179DD33A5665739F
+04/04/2017 09:13:23: PreLoad ID: 8 Account: akaruz
+04/04/2017 09:13:25: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 09:13:50: Status changed to disconnected: 8 akaruz 187.57.68.189 179DD33A5665739F
+04/04/2017 09:14:00: Data From Login Server ID: 8 Account: akaruz 3D4AE25142EC6687
+04/04/2017 09:14:00: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 09:14:00: Status changed to connected: 187.57.68.189
+04/04/2017 09:14:01: Data From Client: 3D4AE25142EC6687
+04/04/2017 09:14:01: Player Found ID: 8 Account: akaruz 3D4AE25142EC6687
+04/04/2017 09:14:01: PreLoad ID: 8 Account: akaruz
+04/04/2017 09:14:02: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 09:14:06: Global-> Joanlac: sd
+04/04/2017 09:14:38: Status changed to disconnected: 8 akaruz 187.57.68.189 3D4AE25142EC6687
+04/04/2017 09:14:45: Data From Login Server ID: 8 Account: akaruz 8AA9DB09475F9A27
+04/04/2017 09:14:46: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 09:14:46: Status changed to connected: 187.57.68.189
+04/04/2017 09:14:47: Data From Client: 8AA9DB09475F9A27
+04/04/2017 09:14:47: Player Found ID: 8 Account: akaruz 8AA9DB09475F9A27
+04/04/2017 09:14:47: PreLoad ID: 8 Account: akaruz
+04/04/2017 09:15:00: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 09:15:07: Global-> Joanlac: w
+04/04/2017 09:15:40: Status changed to disconnected: 8 akaruz 187.57.68.189 8AA9DB09475F9A27
+04/04/2017 09:16:09: Data From Login Server ID: 8 Account: akaruz 06AD0C33BA8BEDD7
+04/04/2017 09:16:09: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 09:16:10: Status changed to connected: 187.57.68.189
+04/04/2017 09:16:10: Data From Client: 06AD0C33BA8BEDD7
+04/04/2017 09:16:10: Player Found ID: 8 Account: akaruz 06AD0C33BA8BEDD7
+04/04/2017 09:16:10: PreLoad ID: 8 Account: akaruz
+04/04/2017 09:16:11: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 09:16:32: Status changed to disconnected: 2147483647  127.0.0.1 
+2017/04/04 11:12:03: ID: 2147483646
+2017/04/04 11:12:03: Server Name: artemis
+2017/04/04 11:12:03: Discovery: Elysium Diamond #1.0.0
+2017/04/04 11:12:03: Port: 55901
+2017/04/04 11:12:03: Maximum Connections: 2000
+2017/04/04 11:12:03: Logs: Ativado
+2017/04/04 11:12:03: Sleep: 1
+04/04/2017 11:12:03: Create Character: True
+04/04/2017 11:12:03: Delete Character: True
+04/04/2017 11:12:03: Carregando config do mysql
+04/04/2017 11:12:03: Connectado ao banco de dados
+04/04/2017 11:12:04: World Server Start.
+04/04/2017 11:12:06: Discovery Response IPEndPoint: 127.0.0.1
+04/04/2017 11:12:06: Status changed to connected: 127.0.0.1
+04/04/2017 11:12:07: Login Server ID: 2147483647
+04/04/2017 11:12:14: Conectado ao Game Server #Canal 1
+04/04/2017 11:12:17: Data From Login Server ID: 8 Account: akaruz 947793FBE2CC50E7
+04/04/2017 11:12:17: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:12:17: Status changed to connected: 187.57.68.189
+04/04/2017 11:12:18: Data From Client: 947793FBE2CC50E7
+04/04/2017 11:12:18: Player Found ID: 8 Account: akaruz 947793FBE2CC50E7
+04/04/2017 11:12:18: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:12:19: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:13:43: Status changed to disconnected: 8 akaruz 187.57.68.189 947793FBE2CC50E7
+04/04/2017 11:14:18: Data From Login Server ID: 8 Account: akaruz 57C57F6DF29191E8
+04/04/2017 11:14:19: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:14:19: Status changed to connected: 187.57.68.189
+04/04/2017 11:14:19: Data From Client: 57C57F6DF29191E8
+04/04/2017 11:14:19: Player Found ID: 8 Account: akaruz 57C57F6DF29191E8
+04/04/2017 11:14:19: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:14:21: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:14:29: Global-> Nadaila: meucu
+04/04/2017 11:14:34: Global-> Nadaila: vai se foder fdp
+04/04/2017 11:14:43: Global-> Nadaila: voce tem que eé dar a bunda
+04/04/2017 11:15:04: Global-> Nadaila: cu
+04/04/2017 11:15:06: Global-> Nadaila: aaaaa
+04/04/2017 11:15:09: Global-> Nadaila: ahahuerwhuehurwehuruhwerhu
+04/04/2017 11:15:13: Global-> Nadaila: qwoeiqwoeiqwoeqwlekqwelkqwlekq
+04/04/2017 11:15:18: Global-> Nadaila: qwoeiqwewqhu qwehuq asjajsd qo
+04/04/2017 11:15:23: Global-> Nadaila: alka qwmen znwe reoiqwe qewp q
+04/04/2017 11:15:30: Global-> Nadaila: aan ehq vping auq weel a zna s
+04/04/2017 11:15:35: Global-> Nadaila: qqqqqqqqqqqqqqqqqqqqqqqqqqaaaa
+04/04/2017 11:16:08: Status changed to disconnected: 8 akaruz 187.57.68.189 57C57F6DF29191E8
+2017/04/04 11:19:36: ID: 2147483646
+2017/04/04 11:19:36: Server Name: artemis
+2017/04/04 11:19:36: Discovery: Elysium Diamond #1.0.0
+2017/04/04 11:19:36: Port: 55901
+2017/04/04 11:19:36: Maximum Connections: 2000
+2017/04/04 11:19:36: Logs: Ativado
+2017/04/04 11:19:36: Sleep: 1
+04/04/2017 11:19:36: Create Character: True
+04/04/2017 11:19:36: Delete Character: True
+04/04/2017 11:19:36: Carregando config do mysql
+04/04/2017 11:19:36: Connectado ao banco de dados
+04/04/2017 11:19:37: World Server Start.
+04/04/2017 11:19:37: Conectado ao Game Server #Canal 1
+04/04/2017 11:19:56: Discovery Response IPEndPoint: 127.0.0.1
+04/04/2017 11:19:56: Status changed to connected: 127.0.0.1
+04/04/2017 11:19:56: Login Server ID: 2147483647
+04/04/2017 11:20:05: Data From Login Server ID: 8 Account: akaruz 5D7C53FCEC427244
+04/04/2017 11:20:06: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:20:06: Status changed to connected: 187.57.68.189
+04/04/2017 11:20:07: Data From Client: 5D7C53FCEC427244
+04/04/2017 11:20:07: Player Found ID: 8 Account: akaruz 5D7C53FCEC427244
+04/04/2017 11:20:07: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:20:08: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:21:06: Disconnected by login server: akaruz
+04/04/2017 11:21:06: Status changed to disconnected: 8 akaruz 187.57.68.189 5D7C53FCEC427244
+04/04/2017 11:21:08: Data From Login Server ID: 8 Account: akaruz 1B07B0C8EB754BF0
+04/04/2017 11:21:09: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:21:09: Status changed to connected: 187.57.68.189
+04/04/2017 11:21:09: Data From Client: 1B07B0C8EB754BF0
+04/04/2017 11:21:09: Player Found ID: 8 Account: akaruz 1B07B0C8EB754BF0
+04/04/2017 11:21:09: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:21:10: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:22:04: Status changed to disconnected: 8 akaruz 187.57.68.189 1B07B0C8EB754BF0
+04/04/2017 11:22:15: Data From Login Server ID: 8 Account: akaruz 52F56C826D554415
+04/04/2017 11:22:16: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:22:16: Status changed to connected: 187.57.68.189
+04/04/2017 11:22:17: Data From Client: 52F56C826D554415
+04/04/2017 11:22:17: Player Found ID: 8 Account: akaruz 52F56C826D554415
+04/04/2017 11:22:17: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:22:18: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:22:37: Global-> Joanlac: toma no meu cu mesmo
+04/04/2017 11:22:46: Global-> Joanlac: so tem filha da puta arrombado
+04/04/2017 11:23:14: Status changed to disconnected: 8 akaruz 187.57.68.189 52F56C826D554415
+04/04/2017 11:23:28: Data From Login Server ID: 8 Account: akaruz 52B70B99CDFC7BD1
+04/04/2017 11:23:29: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:23:29: Status changed to connected: 187.57.68.189
+04/04/2017 11:23:30: Data From Client: 52B70B99CDFC7BD1
+04/04/2017 11:23:30: Player Found ID: 8 Account: akaruz 52B70B99CDFC7BD1
+04/04/2017 11:23:30: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:23:36: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:24:21: Status changed to disconnected: 8 akaruz 187.57.68.189 52B70B99CDFC7BD1
+04/04/2017 11:25:00: Data From Login Server ID: 8 Account: akaruz 94E16FF211E90589
+04/04/2017 11:25:01: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:25:01: Status changed to connected: 187.57.68.189
+04/04/2017 11:25:01: Data From Client: 94E16FF211E90589
+04/04/2017 11:25:01: Player Found ID: 8 Account: akaruz 94E16FF211E90589
+04/04/2017 11:25:01: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:25:02: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:25:18: Global-> Joanlac: 
+04/04/2017 11:25:22: Global-> Joanlac: vai todo mundo tomar no cu
+04/04/2017 11:25:27: Global-> Joanlac: vai todo mundo tomar no cau ca
+04/04/2017 11:25:54: Status changed to disconnected: 8 akaruz 187.57.68.189 94E16FF211E90589
+04/04/2017 11:26:03: Data From Login Server ID: 8 Account: akaruz 10061F4A6AAF78CD
+04/04/2017 11:26:04: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:26:04: Status changed to connected: 187.57.68.189
+04/04/2017 11:26:05: Data From Client: 10061F4A6AAF78CD
+04/04/2017 11:26:05: Player Found ID: 8 Account: akaruz 10061F4A6AAF78CD
+04/04/2017 11:26:05: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:26:06: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:26:56: Status changed to disconnected: 8 akaruz 187.57.68.189 10061F4A6AAF78CD
+04/04/2017 11:27:31: Data From Login Server ID: 8 Account: akaruz D56F4A79946C741C
+04/04/2017 11:27:32: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:27:32: Status changed to connected: 187.57.68.189
+04/04/2017 11:27:32: Data From Client: D56F4A79946C741C
+04/04/2017 11:27:32: Player Found ID: 8 Account: akaruz D56F4A79946C741C
+04/04/2017 11:27:32: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:27:33: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:28:13: Status changed to disconnected: 8 akaruz 187.57.68.189 D56F4A79946C741C
+04/04/2017 11:28:48: Data From Login Server ID: 8 Account: akaruz 3CFA8A3C87DC9A54
+04/04/2017 11:28:49: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:28:49: Status changed to connected: 187.57.68.189
+04/04/2017 11:28:49: Data From Client: 3CFA8A3C87DC9A54
+04/04/2017 11:28:49: Player Found ID: 8 Account: akaruz 3CFA8A3C87DC9A54
+04/04/2017 11:28:49: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:28:51: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:29:19: Disconnected by login server: akaruz
+04/04/2017 11:29:19: Status changed to disconnected: 8 akaruz 187.57.68.189 3CFA8A3C87DC9A54
+04/04/2017 11:29:21: Data From Login Server ID: 8 Account: akaruz C149AD3AE7282CCA
+04/04/2017 11:29:21: Discovery Response IPEndPoint: 187.57.68.189
+04/04/2017 11:29:21: Status changed to connected: 187.57.68.189
+04/04/2017 11:29:21: Data From Client: C149AD3AE7282CCA
+04/04/2017 11:29:21: Player Found ID: 8 Account: akaruz C149AD3AE7282CCA
+04/04/2017 11:29:21: PreLoad ID: 8 Account: akaruz
+04/04/2017 11:29:22: GameServer Login Attempt: akaruz 187.57.68.189
+04/04/2017 11:30:17: Status changed to disconnected: 8 akaruz 187.57.68.189 C149AD3AE7282CCA

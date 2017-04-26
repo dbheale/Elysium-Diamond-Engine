@@ -1,0 +1,16 @@
+2017/04/24 1:15:46: ID: 2147483646
+2017/04/24 1:15:46: Server Name: artemis
+2017/04/24 1:15:46: Discovery: Elysium Diamond #1.0.0
+2017/04/24 1:15:46: Port: 55901
+2017/04/24 1:15:46: Maximum Connections: 2000
+2017/04/24 1:15:46: Logs: Ativado
+2017/04/24 1:15:46: Sleep: 1
+2017/04/24 1:15:46: Create Character: False
+2017/04/24 1:15:46: Delete Character: False
+2017/04/24 1:15:46: Carregando config do mysql
+2017/04/24 1:15:46: Connectado ao banco de dados
+2017/04/24 1:15:46: Carregando scripts
+04/24/2017 01:15:47: World Server Start.
+04/24/2017 01:15:53: Discovery Response IPEndPoint: 127.0.0.1
+04/24/2017 01:15:53: Status changed to connected: 127.0.0.1
+04/24/2017 01:15:53: Login Server ID: 2147483647

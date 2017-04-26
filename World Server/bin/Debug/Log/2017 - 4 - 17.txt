@@ -1,0 +1,56 @@
+04/17/2017 17:23:38: ID: 2147483646
+04/17/2017 17:23:38: Server Name: artemis
+04/17/2017 17:23:38: Discovery: Elysium Diamond #1.0.0
+04/17/2017 17:23:38: Port: 55901
+04/17/2017 17:23:38: Maximum Connections: 2000
+04/17/2017 17:23:38: Logs: Ativado
+04/17/2017 17:23:38: Sleep: 1
+04/17/2017 17:23:38: Create Character: True
+04/17/2017 17:23:38: Delete Character: True
+04/17/2017 17:23:38: Carregando config do mysql
+04/17/2017 17:23:38: Connectado ao banco de dados
+04/17/2017 17:23:39: World Server Start.
+04/17/2017 17:23:45: Discovery Response IPEndPoint: 127.0.0.1
+04/17/2017 17:23:48: Status changed to connected: 127.0.0.1
+04/17/2017 17:23:48: Login Server ID: 2147483647
+04/17/2017 17:23:57: Data From Login Server ID: 1 Account: akaruz CC923EE5B85039CB
+04/17/2017 17:23:58: Discovery Response IPEndPoint: 187.34.54.177
+04/17/2017 17:24:00: Status changed to connected: 187.34.54.177
+04/17/2017 17:24:00: Data From Client: CC923EE5B85039CB
+04/17/2017 17:24:00: Player Found ID: 1 Account: akaruz CC923EE5B85039CB
+04/17/2017 17:24:00: PreLoad ID: 1 Account: akaruz
+04/17/2017 17:24:25: Data From Login Server ID: 2 Account: dragonick 985530BE93C323FC
+04/17/2017 17:24:25: Discovery Response IPEndPoint: 187.34.54.177
+04/17/2017 17:24:27: Status changed to connected: 187.34.54.177
+04/17/2017 17:24:27: Data From Client: 985530BE93C323FC
+04/17/2017 17:24:27: Player Found ID: 2 Account: dragonick 985530BE93C323FC
+04/17/2017 17:24:27: PreLoad ID: 2 Account: dragonick
+04/17/2017 17:49:19: ID: 2147483646
+04/17/2017 17:49:19: Server Name: artemis
+04/17/2017 17:49:19: Discovery: Elysium Diamond #1.0.0
+04/17/2017 17:49:19: Port: 55901
+04/17/2017 17:49:19: Maximum Connections: 2000
+04/17/2017 17:49:19: Logs: Ativado
+04/17/2017 17:49:19: Sleep: 1
+04/17/2017 17:49:19: Create Character: True
+04/17/2017 17:49:19: Delete Character: True
+04/17/2017 17:49:19: Carregando config do mysql
+04/17/2017 17:49:19: Connectado ao banco de dados
+04/17/2017 17:49:22: World Server Start.
+04/17/2017 17:49:29: Discovery Response IPEndPoint: 127.0.0.1
+04/17/2017 17:49:31: Status changed to connected: 127.0.0.1
+04/17/2017 17:49:31: Login Server ID: 2147483647
+04/17/2017 17:49:44: Data From Login Server ID: 1 Account: akaruz BA7C292EE7B13C41
+04/17/2017 17:49:44: Discovery Response IPEndPoint: 187.34.54.177
+04/17/2017 17:49:47: Status changed to connected: 187.34.54.177
+04/17/2017 17:49:47: Data From Client: BA7C292EE7B13C41
+04/17/2017 17:49:47: Player Found ID: 1 Account: akaruz BA7C292EE7B13C41
+04/17/2017 17:49:47: PreLoad ID: 1 Account: akaruz
+04/17/2017 17:51:00: Status changed to disconnected: 1 akaruz 187.34.54.177 BA7C292EE7B13C41
+04/17/2017 20:33:44: Status changed to disconnected: 2147483647  127.0.0.1 
+04/17/2017 20:33:50: Discovery Response IPEndPoint: 127.0.0.1
+04/17/2017 20:36:23: Status changed to connected: 127.0.0.1
+04/17/2017 20:36:23: Login Server ID: 2147483647
+04/17/2017 20:36:23: Status changed to disconnected: 2147483647  127.0.0.1 
+04/17/2017 20:36:23: Discovery Response IPEndPoint: 127.0.0.1
+04/17/2017 20:36:24: Discovery Response IPEndPoint: 127.0.0.1
