@@ -1,0 +1,407 @@
+2017/07/16 6:19:07: WorldID: 2
+2017/07/16 6:19:07: Server Name: artemis
+2017/07/16 6:19:07: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:19:07: Port: 55901
+2017/07/16 6:19:07: Maximum Connections: 1000
+2017/07/16 6:19:07: Logs: Enabled
+2017/07/16 6:19:07: Sleep: 1
+2017/07/16 6:19:07: Pin: False
+2017/07/16 6:19:07: PinMaxAttempt: 5
+2017/07/16 6:19:07: PinBannedTime: 15
+2017/07/16 6:19:07: Connect Ip: 127.0.0.1
+2017/07/16 6:19:07: Connect Port: 57550
+2017/07/16 6:19:07: Trying to connect database
+2017/07/16 6:19:09: Database is connected successfully
+2017/07/16 6:19:09: Loading server messages
+2017/07/16 6:19:09: Loading black market items
+2017/07/16 6:19:09: Loading scripts
+2017/07/16 6:22:22: WorldID: 2
+2017/07/16 6:22:22: Server Name: artemis
+2017/07/16 6:22:22: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:22:22: Port: 55901
+2017/07/16 6:22:22: Maximum Connections: 1000
+2017/07/16 6:22:22: Logs: Enabled
+2017/07/16 6:22:22: Sleep: 1
+2017/07/16 6:22:22: Pin: False
+2017/07/16 6:22:22: PinMaxAttempt: 5
+2017/07/16 6:22:22: PinBannedTime: 15
+2017/07/16 6:22:22: Connect Ip: 127.0.0.1
+2017/07/16 6:22:22: Connect Port: 57550
+2017/07/16 6:22:22: Trying to connect database
+2017/07/16 6:22:22: Database is connected successfully
+2017/07/16 6:22:23: Loading server messages
+2017/07/16 6:22:23: Loading black market items
+2017/07/16 6:22:23: Loading scripts
+2017/07/16 6:22:45: WorldID: 2
+2017/07/16 6:22:45: Server Name: artemis
+2017/07/16 6:22:45: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:22:45: Port: 55901
+2017/07/16 6:22:45: Maximum Connections: 1000
+2017/07/16 6:22:45: Logs: Enabled
+2017/07/16 6:22:45: Sleep: 1
+2017/07/16 6:22:45: Pin: False
+2017/07/16 6:22:45: PinMaxAttempt: 5
+2017/07/16 6:22:45: PinBannedTime: 15
+2017/07/16 6:22:45: Connect Ip: 127.0.0.1
+2017/07/16 6:22:45: Connect Port: 57550
+2017/07/16 6:22:45: Trying to connect database
+2017/07/16 6:22:46: Database is connected successfully
+2017/07/16 6:22:46: Loading server messages
+2017/07/16 6:22:46: Loading black market items
+2017/07/16 6:22:46: Loading scripts
+2017/07/16 6:23:21: WorldID: 2
+2017/07/16 6:23:21: Server Name: artemis
+2017/07/16 6:23:21: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:23:21: Port: 55901
+2017/07/16 6:23:21: Maximum Connections: 1000
+2017/07/16 6:23:21: Logs: Enabled
+2017/07/16 6:23:21: Sleep: 1
+2017/07/16 6:23:21: Pin: False
+2017/07/16 6:23:21: PinMaxAttempt: 5
+2017/07/16 6:23:21: PinBannedTime: 15
+2017/07/16 6:23:21: Connect Ip: 127.0.0.1
+2017/07/16 6:23:21: Connect Port: 57550
+2017/07/16 6:23:21: Trying to connect database
+2017/07/16 6:23:24: Database is connected successfully
+2017/07/16 6:23:24: Loading server messages
+2017/07/16 6:23:24: Loading black market items
+2017/07/16 6:23:24: Loading scripts
+2017/07/16 6:24:05: WorldID: 2
+2017/07/16 6:24:05: Server Name: artemis
+2017/07/16 6:24:05: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:24:05: Port: 55901
+2017/07/16 6:24:05: Maximum Connections: 1000
+2017/07/16 6:24:05: Logs: Enabled
+2017/07/16 6:24:05: Sleep: 1
+2017/07/16 6:24:05: Pin: False
+2017/07/16 6:24:05: PinMaxAttempt: 5
+2017/07/16 6:24:05: PinBannedTime: 15
+2017/07/16 6:24:05: Connect Ip: 127.0.0.1
+2017/07/16 6:24:05: Connect Port: 57550
+2017/07/16 6:24:05: Trying to connect database
+2017/07/16 6:24:05: Database is connected successfully
+2017/07/16 6:24:05: Loading server messages
+2017/07/16 6:24:05: Loading black market items
+2017/07/16 6:24:05: Loading scripts
+2017/07/16 6:25:10: WorldID: 2
+2017/07/16 6:25:10: Server Name: artemis
+2017/07/16 6:25:10: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:25:10: Port: 55901
+2017/07/16 6:25:10: Maximum Connections: 1000
+2017/07/16 6:25:10: Logs: Enabled
+2017/07/16 6:25:10: Sleep: 1
+2017/07/16 6:25:10: Pin: False
+2017/07/16 6:25:10: PinMaxAttempt: 5
+2017/07/16 6:25:10: PinBannedTime: 15
+2017/07/16 6:25:10: Connect Ip: 127.0.0.1
+2017/07/16 6:25:10: Connect Port: 57550
+2017/07/16 6:25:10: Trying to connect database
+2017/07/16 6:25:10: Database is connected successfully
+2017/07/16 6:25:10: Loading server messages
+2017/07/16 6:25:10: Loading black market items
+2017/07/16 6:25:10: Loading scripts
+2017/07/16 6:25:12: Create Character: Enabled
+2017/07/16 6:25:12: Delete Character: Enabled
+2017/07/16 6:25:12: World Server Start
+2017/07/16 6:25:27: WorldID: 2
+2017/07/16 6:25:27: Server Name: artemis
+2017/07/16 6:25:27: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:25:27: Port: 55901
+2017/07/16 6:25:27: Maximum Connections: 1000
+2017/07/16 6:25:27: Logs: Enabled
+2017/07/16 6:25:27: Sleep: 1
+2017/07/16 6:25:27: Pin: False
+2017/07/16 6:25:27: PinMaxAttempt: 5
+2017/07/16 6:25:27: PinBannedTime: 15
+2017/07/16 6:25:27: Connect Ip: 127.0.0.1
+2017/07/16 6:25:27: Connect Port: 57550
+2017/07/16 6:25:27: Trying to connect database
+2017/07/16 6:25:27: Database is connected successfully
+2017/07/16 6:25:27: Loading server messages
+2017/07/16 6:25:27: Loading black market items
+2017/07/16 6:25:27: Loading scripts
+2017/07/16 6:25:28: Create Character: Enabled
+2017/07/16 6:25:28: Delete Character: Enabled
+2017/07/16 6:25:29: World Server Start
+2017/07/16 6:25:54: WorldID: 2
+2017/07/16 6:25:54: Server Name: artemis
+2017/07/16 6:25:54: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:25:54: Port: 55901
+2017/07/16 6:25:54: Maximum Connections: 1000
+2017/07/16 6:25:54: Logs: Enabled
+2017/07/16 6:25:54: Sleep: 1
+2017/07/16 6:25:54: Pin: False
+2017/07/16 6:25:54: PinMaxAttempt: 5
+2017/07/16 6:25:54: PinBannedTime: 15
+2017/07/16 6:25:54: Connect Ip: 127.0.0.1
+2017/07/16 6:25:54: Connect Port: 57550
+2017/07/16 6:25:55: Trying to connect database
+2017/07/16 6:25:55: Database is connected successfully
+2017/07/16 6:25:55: Loading server messages
+2017/07/16 6:25:55: Loading black market items
+2017/07/16 6:25:55: Loading scripts
+2017/07/16 6:26:29: WorldID: 2
+2017/07/16 6:26:29: Server Name: artemis
+2017/07/16 6:26:29: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:26:29: Port: 55901
+2017/07/16 6:26:29: Maximum Connections: 1000
+2017/07/16 6:26:29: Logs: Enabled
+2017/07/16 6:26:29: Sleep: 1
+2017/07/16 6:26:29: Pin: False
+2017/07/16 6:26:29: PinMaxAttempt: 5
+2017/07/16 6:26:29: PinBannedTime: 15
+2017/07/16 6:26:29: Connect Ip: 127.0.0.1
+2017/07/16 6:26:29: Connect Port: 57550
+2017/07/16 6:26:29: Trying to connect database
+2017/07/16 6:26:29: Database is connected successfully
+2017/07/16 6:26:29: Loading server messages
+2017/07/16 6:26:29: Loading black market items
+2017/07/16 6:26:29: Loading scripts
+2017/07/16 6:26:30: Create Character: Enabled
+2017/07/16 6:26:30: Delete Character: Enabled
+2017/07/16 6:26:31: World Server Start
+2017/07/16 6:27:07: WorldID: 2
+2017/07/16 6:27:07: Server Name: artemis
+2017/07/16 6:27:07: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:27:07: Port: 55901
+2017/07/16 6:27:07: Maximum Connections: 1000
+2017/07/16 6:27:07: Logs: Enabled
+2017/07/16 6:27:07: Sleep: 1
+2017/07/16 6:27:07: Pin: False
+2017/07/16 6:27:07: PinMaxAttempt: 5
+2017/07/16 6:27:07: PinBannedTime: 15
+2017/07/16 6:27:07: Connect Ip: 127.0.0.1
+2017/07/16 6:27:07: Connect Port: 57550
+2017/07/16 6:27:07: Trying to connect database
+2017/07/16 6:27:08: Database is connected successfully
+2017/07/16 6:27:08: Loading server messages
+2017/07/16 6:27:08: Loading black market items
+2017/07/16 6:27:08: Loading scripts
+2017/07/16 6:27:10: Create Character: Enabled
+2017/07/16 6:27:10: Delete Character: Enabled
+2017/07/16 6:27:11: World Server Start
+2017/07/16 6:28:21: WorldID: 2
+2017/07/16 6:28:21: Server Name: artemis
+2017/07/16 6:28:21: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:28:21: Port: 55901
+2017/07/16 6:28:21: Maximum Connections: 1000
+2017/07/16 6:28:21: Logs: Enabled
+2017/07/16 6:28:21: Sleep: 1
+2017/07/16 6:28:21: Pin: False
+2017/07/16 6:28:21: PinMaxAttempt: 5
+2017/07/16 6:28:21: PinBannedTime: 15
+2017/07/16 6:28:21: Connect Ip: 127.0.0.1
+2017/07/16 6:28:21: Connect Port: 57550
+2017/07/16 6:28:21: Trying to connect database
+2017/07/16 6:28:22: Database is connected successfully
+2017/07/16 6:28:22: Loading server messages
+2017/07/16 6:28:22: Loading black market items
+2017/07/16 6:28:22: Loading scripts
+2017/07/16 6:28:26: Create Character: Enabled
+2017/07/16 6:28:26: Delete Character: Enabled
+2017/07/16 6:28:26: World Server Start
+2017/07/16 6:28:41: WorldID: 2
+2017/07/16 6:28:41: Server Name: artemis
+2017/07/16 6:28:41: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:28:41: Port: 55901
+2017/07/16 6:28:41: Maximum Connections: 1000
+2017/07/16 6:28:41: Logs: Enabled
+2017/07/16 6:28:41: Sleep: 1
+2017/07/16 6:28:41: Pin: False
+2017/07/16 6:28:41: PinMaxAttempt: 5
+2017/07/16 6:28:41: PinBannedTime: 15
+2017/07/16 6:28:41: Connect Ip: 127.0.0.1
+2017/07/16 6:28:41: Connect Port: 57550
+2017/07/16 6:28:41: Trying to connect database
+2017/07/16 6:28:42: Database is connected successfully
+2017/07/16 6:28:42: Loading server messages
+2017/07/16 6:28:42: Loading black market items
+2017/07/16 6:28:42: Loading scripts
+2017/07/16 6:28:46: Create Character: Enabled
+2017/07/16 6:28:46: Delete Character: Enabled
+2017/07/16 6:28:46: World Server Start
+2017/07/16 6:29:26: WorldID: 2
+2017/07/16 6:29:26: Server Name: artemis
+2017/07/16 6:29:26: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:29:26: Port: 55901
+2017/07/16 6:29:26: Maximum Connections: 1000
+2017/07/16 6:29:26: Logs: Enabled
+2017/07/16 6:29:26: Sleep: 1
+2017/07/16 6:29:26: Pin: False
+2017/07/16 6:29:26: PinMaxAttempt: 5
+2017/07/16 6:29:26: PinBannedTime: 15
+2017/07/16 6:29:26: Connect Ip: 127.0.0.1
+2017/07/16 6:29:26: Connect Port: 57550
+2017/07/16 6:29:26: Trying to connect database
+2017/07/16 6:29:26: Database is connected successfully
+2017/07/16 6:29:26: Loading server messages
+2017/07/16 6:29:26: Loading black market items
+2017/07/16 6:29:27: Loading scripts
+2017/07/16 6:29:55: Create Character: Enabled
+2017/07/16 6:29:55: Delete Character: Enabled
+2017/07/16 6:29:56: World Server Start
+2017/07/16 6:30:57: WorldID: 2
+2017/07/16 6:30:57: Server Name: artemis
+2017/07/16 6:30:57: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:30:57: Port: 55901
+2017/07/16 6:30:57: Maximum Connections: 1000
+2017/07/16 6:30:57: Logs: Enabled
+2017/07/16 6:30:57: Sleep: 1
+2017/07/16 6:30:57: Pin: False
+2017/07/16 6:30:57: PinMaxAttempt: 5
+2017/07/16 6:30:57: PinBannedTime: 15
+2017/07/16 6:30:57: Connect Ip: 127.0.0.1
+2017/07/16 6:30:57: Connect Port: 57550
+2017/07/16 6:30:57: Trying to connect database
+2017/07/16 6:30:58: Database is connected successfully
+2017/07/16 6:30:58: Loading server messages
+2017/07/16 6:30:58: Loading black market items
+2017/07/16 6:30:58: Loading scripts
+2017/07/16 6:31:02: Create Character: Enabled
+2017/07/16 6:31:02: Delete Character: Enabled
+2017/07/16 6:31:02: World Server Start
+2017/07/16 6:32:34: WorldID: 2
+2017/07/16 6:32:34: Server Name: artemis
+2017/07/16 6:32:34: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:32:34: Port: 55901
+2017/07/16 6:32:35: Maximum Connections: 1000
+2017/07/16 6:32:35: Logs: Enabled
+2017/07/16 6:32:35: Sleep: 1
+2017/07/16 6:32:35: Pin: False
+2017/07/16 6:32:35: PinMaxAttempt: 5
+2017/07/16 6:32:35: PinBannedTime: 15
+2017/07/16 6:32:35: Connect Ip: 127.0.0.1
+2017/07/16 6:32:35: Connect Port: 57550
+2017/07/16 6:32:35: Trying to connect database
+2017/07/16 6:32:35: Database is connected successfully
+2017/07/16 6:32:35: Loading server messages
+2017/07/16 6:32:35: Loading black market items
+2017/07/16 6:32:35: Loading scripts
+2017/07/16 6:32:39: Create Character: Enabled
+2017/07/16 6:32:39: Delete Character: Enabled
+2017/07/16 6:32:40: World Server Start
+2017/07/16 6:34:46: WorldID: 2
+2017/07/16 6:34:46: Server Name: artemis
+2017/07/16 6:34:46: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:34:46: Port: 55901
+2017/07/16 6:34:46: Maximum Connections: 1000
+2017/07/16 6:34:46: Logs: Enabled
+2017/07/16 6:34:46: Sleep: 1
+2017/07/16 6:34:46: Pin: False
+2017/07/16 6:34:46: PinMaxAttempt: 5
+2017/07/16 6:34:46: PinBannedTime: 15
+2017/07/16 6:34:46: Connect Ip: 127.0.0.1
+2017/07/16 6:34:46: Connect Port: 57550
+2017/07/16 6:34:46: Trying to connect database
+2017/07/16 6:34:47: Database is connected successfully
+2017/07/16 6:34:47: Loading server messages
+2017/07/16 6:34:47: Loading black market items
+2017/07/16 6:34:47: Loading scripts
+2017/07/16 6:34:49: Create Character: Enabled
+2017/07/16 6:34:49: Delete Character: Enabled
+2017/07/16 6:34:49: World Server Start
+2017/07/16 6:35:04: WorldID: 2
+2017/07/16 6:35:04: Server Name: artemis
+2017/07/16 6:35:04: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:35:04: Port: 55901
+2017/07/16 6:35:04: Maximum Connections: 1000
+2017/07/16 6:35:04: Logs: Enabled
+2017/07/16 6:35:04: Sleep: 1
+2017/07/16 6:35:04: Pin: False
+2017/07/16 6:35:04: PinMaxAttempt: 5
+2017/07/16 6:35:04: PinBannedTime: 15
+2017/07/16 6:35:04: Connect Ip: 127.0.0.1
+2017/07/16 6:35:04: Connect Port: 57550
+2017/07/16 6:35:04: Trying to connect database
+2017/07/16 6:35:04: Database is connected successfully
+2017/07/16 6:35:04: Loading server messages
+2017/07/16 6:35:04: Loading black market items
+2017/07/16 6:35:04: Loading scripts
+2017/07/16 6:35:06: Create Character: Enabled
+2017/07/16 6:35:06: Delete Character: Enabled
+2017/07/16 6:35:06: World Server Start
+2017/07/16 6:36:48: WorldID: 2
+2017/07/16 6:36:48: Server Name: artemis
+2017/07/16 6:36:48: Discovery: Elysium Diamond #1.0.0
+2017/07/16 6:36:48: Port: 55901
+2017/07/16 6:36:48: Maximum Connections: 1000
+2017/07/16 6:36:48: Logs: Enabled
+2017/07/16 6:36:48: Sleep: 1
+2017/07/16 6:36:48: Pin: False
+2017/07/16 6:36:48: PinMaxAttempt: 5
+2017/07/16 6:36:48: PinBannedTime: 15
+2017/07/16 6:36:48: Connect Ip: 127.0.0.1
+2017/07/16 6:36:48: Connect Port: 57550
+2017/07/16 6:36:48: Trying to connect database
+2017/07/16 6:36:49: Database is connected successfully
+2017/07/16 6:36:49: Loading server messages
+2017/07/16 6:36:49: Loading black market items
+2017/07/16 6:36:49: Loading scripts
+2017/07/16 6:36:50: Create Character: Enabled
+2017/07/16 6:36:50: Delete Character: Enabled
+2017/07/16 6:36:50: World Server Start
+2017/07/16 7:12:39: WorldID: 2
+2017/07/16 7:12:39: Server Name: artemis
+2017/07/16 7:12:39: Discovery: Elysium Diamond #1.0.0
+2017/07/16 7:12:39: Port: 55901
+2017/07/16 7:12:39: Maximum Connections: 1000
+2017/07/16 7:12:39: Logs: Enabled
+2017/07/16 7:12:39: Sleep: 1
+2017/07/16 7:12:39: Pin: False
+2017/07/16 7:12:39: PinMaxAttempt: 5
+2017/07/16 7:12:39: PinBannedTime: 15
+2017/07/16 7:12:39: Connect Ip: 127.0.0.1
+2017/07/16 7:12:39: Connect Port: 57550
+2017/07/16 7:12:39: Trying to connect database
+2017/07/16 7:12:39: Database is connected successfully
+2017/07/16 7:12:39: Loading server messages
+2017/07/16 7:12:39: Loading black market items
+2017/07/16 7:12:39: Loading scripts
+2017/07/16 7:12:56: WorldID: 2
+2017/07/16 7:12:56: Server Name: artemis
+2017/07/16 7:12:56: Discovery: Elysium Diamond #1.0.0
+2017/07/16 7:12:56: Port: 55901
+2017/07/16 7:12:56: Maximum Connections: 1000
+2017/07/16 7:12:56: Logs: Enabled
+2017/07/16 7:12:56: Sleep: 1
+2017/07/16 7:12:56: Pin: False
+2017/07/16 7:12:56: PinMaxAttempt: 5
+2017/07/16 7:12:56: PinBannedTime: 15
+2017/07/16 7:12:56: Connect Ip: 127.0.0.1
+2017/07/16 7:12:56: Connect Port: 57550
+2017/07/16 7:12:56: Trying to connect database
+2017/07/16 7:12:56: Database is connected successfully
+2017/07/16 7:12:56: Loading server messages
+2017/07/16 7:12:56: Loading black market items
+2017/07/16 7:12:56: Loading scripts
+2017/07/16 7:12:57: Create Character: Enabled
+2017/07/16 7:12:57: Delete Character: Enabled
+2017/07/16 7:12:58: World Server Start
+2017/07/16 7:40:08: WorldID: 2
+2017/07/16 7:40:08: Server Name: artemis
+2017/07/16 7:40:08: Discovery: Elysium Diamond #1.0.0
+2017/07/16 7:40:08: Port: 55901
+2017/07/16 7:40:08: Maximum Connections: 1000
+2017/07/16 7:40:08: Logs: Enabled
+2017/07/16 7:40:08: Sleep: 1
+2017/07/16 7:40:08: Pin: False
+2017/07/16 7:40:08: PinMaxAttempt: 5
+2017/07/16 7:40:08: PinBannedTime: 15
+2017/07/16 7:40:08: Connect Ip: 127.0.0.1
+2017/07/16 7:40:08: Connect Port: 57550
+2017/07/16 7:40:08: Trying to connect database
+2017/07/16 7:40:08: Database is connected successfully
+2017/07/16 7:40:08: Loading server messages
+2017/07/16 7:40:08: Loading black market items
+2017/07/16 7:40:08: Loading scripts
+2017/07/16 7:40:09: Create Character: Enabled
+2017/07/16 7:40:09: Delete Character: Enabled
+2017/07/16 7:40:10: World Server Start
+2017/07/16 7:40:20: Connect Server connected
+2017/07/16 7:40:40: Received from login server ID: 1 Account: akaruz 8E1E5F72C44D387F
+2017/07/16 7:40:40: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/16 7:40:40: Status changed to connected: 127.0.0.1
+2017/07/16 7:40:40: Received from client: 8E1E5F72C44D387F
+2017/07/16 7:40:40: Player found ID: 1 Account: akaruz 8E1E5F72C44D387F
+2017/07/16 7:40:40: PreLoad ID: 1 Account: akaruz
+2017/07/16 7:40:43: Login Attempt: akaruz 127.0.0.1

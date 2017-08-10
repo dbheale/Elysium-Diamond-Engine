@@ -1,0 +1,43 @@
+2017/06/10 17:16:04: ID: -1
+2017/06/10 17:16:04: Discovery: Elysium Diamond #1.0.0
+2017/06/10 17:16:04: Port: 44405
+2017/06/10 17:16:04: Maximum Connection: 1000
+2017/06/10 17:16:04: Sleep: 1
+2017/06/10 17:16:04: Versão: 1.2.10
+2017/06/10 17:16:04: GeoIp: Desativado
+2017/06/10 17:16:04: CheckSum: Desativado
+2017/06/10 17:16:04: PinCheckTime: 15
+2017/06/10 17:16:04: Servidor adicionado: 火星 (JP) 普通
+2017/06/10 17:16:04: Servidor adicionado: 木星 (JP) 普通
+2017/06/10 17:16:04: Servidor adicionado: 화성 (KR) 표준
+2017/06/10 17:16:04: Servidor adicionado: Local Server (BR) Privado
+2017/06/10 17:16:04: Connectado ao banco de dados
+2017/06/10 17:16:05: Conectando World Server
+2017/06/10 17:16:06: Login Server Start
+2017/06/10 17:16:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/10 17:16:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/10 17:16:16: Status changed to connected: 127.0.0.1
+2017/06/10 17:16:23: User Login: akaruz 127.0.0.1
+2017/06/10 17:16:49: Status changed to disconnected: 0  127.0.0.1 864FF289AFED624E
+2017/06/10 17:42:49: ID: -1
+2017/06/10 17:42:49: Discovery: Elysium Diamond #1.0.0
+2017/06/10 17:42:49: Port: 44405
+2017/06/10 17:42:49: Maximum Connection: 1000
+2017/06/10 17:42:49: Sleep: 1
+2017/06/10 17:42:49: Versão: 1.2.10
+2017/06/10 17:42:49: GeoIp: Desativado
+2017/06/10 17:42:49: CheckSum: Desativado
+2017/06/10 17:42:49: PinCheckTime: 15
+2017/06/10 17:42:49: Servidor adicionado: 火星 (JP) 普通
+2017/06/10 17:42:49: Servidor adicionado: 木星 (JP) 普通
+2017/06/10 17:42:49: Servidor adicionado: 화성 (KR) 표준
+2017/06/10 17:42:49: Servidor adicionado: Local Server (BR) Privado
+2017/06/10 17:42:49: Connectado ao banco de dados
+2017/06/10 17:42:51: Conectando World Server
+2017/06/10 17:42:51: Login Server Start
+2017/06/10 17:43:02: Connected World Server #火星
+2017/06/10 17:43:18: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/10 17:43:18: Status changed to connected: 127.0.0.1
+2017/06/10 17:43:21: User Login: akaruz 127.0.0.1
+2017/06/10 17:43:22: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/10 17:46:05: Status changed to disconnected: 1 akaruz 127.0.0.1 79060E0CC9583E5A

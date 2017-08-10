@@ -1,9 +1,10 @@
 ﻿using Elysium_Diamond.Common;
 using Elysium_Diamond.DirectX;
+using Elysium_Diamond.EngineWindow;
 
 namespace Elysium_Diamond.Network {
     public class Message {
-        public static void Show(PacketList packet, int value = 0) {
+        public static void Show(PacketList packet, short value = 0) {
             switch (packet) {
                 case PacketList.Disconnect:
                     Configuration.Disconnected = true;
@@ -35,7 +36,7 @@ namespace Elysium_Diamond.Network {
                     EngineMessageBox.Show("Ocorreu um erro");
                     break;
 
-                case PacketList.LS_CL_AccountBanned:
+                case PacketList.AccountBanned:
                     EngineMessageBox.Enabled = true;
                     EngineMessageBox.Show("Este usuário está banido");
                     break;
@@ -60,30 +61,56 @@ namespace Elysium_Diamond.Network {
                     EngineMessageBox.Show("Versão invalida");
                     break;
 
-                case PacketList.WorldServer_Client_CharacterDeleted:
+                case PacketList.WS_CL_CharacterDeleted:
+                    if (EngineCore.GameState != 3) return;
                     EngineMessageBox.Enabled = true;
                     EngineMessageBox.Show("Personagem deletado");
                     break;
 
-                case PacketList.WorldServer_Client_CharNameInUse:
+                case PacketList.WS_CL_CharNameInUse:
                     EngineMessageBox.Enabled = true;
                     EngineMessageBox.Show("Nome já está em uso");
                     break;
 
-                case PacketList.WorldServer_Client_CharacterCreationDisabled:
+                case PacketList.WS_CL_CharacterCreationDisabled:
                     EngineMessageBox.Enabled = true;
                     EngineMessageBox.Show("Criação de personagens desativado");
                     break;
 
-                case PacketList.WorldServer_Client_CharacterDeleteDisabled:
+                case PacketList.WS_CL_CharacterDeleteDisabled:
                     EngineMessageBox.Enabled = true;
                     EngineMessageBox.Show("Exclusão de personagens desativado");
                     break;
 
-                case PacketList.WorldServer_Client_InvalidLevelToDelete:
+                case PacketList.WS_CL_InvalidLevelToDelete:
                     EngineMessageBox.Enabled = true;
                     EngineMessageBox.Show("Limite de level para exclusão 1 ~ 50");
                     break;
+
+                case PacketList.WS_CL_PinStatusOK:
+                    EngineMessageBox.Enabled = true;
+                    EngineMessageBox.Show("O pin foi salvo, digite novamente para confirmar");
+                    WindowPin.ChangeState(PinState.Login);
+                    break;
+
+                case PacketList.WS_CL_InvalidPin:
+                    EngineMessageBox.Enabled = true;
+                    EngineMessageBox.Show("O pin atual está incorreto");
+                    WindowPin.ChangeState(PinState.Change);
+                    break;
+
+                case PacketList.WS_CL_ShowMessageBox:
+                    EngineMessageBox.Enabled = false;
+                    EngineMessageBox.Show("Aguardando conexão");
+                    break;
+
+                case PacketList.InvalidCharacterName:
+                    EngineMessageBox.Enabled = true;
+                    EngineMessageBox.Show("O nome de personagem não foi encontrado");
+                    WindowCash.WaitData = false;
+                    break;
+
+
             }
         }
     }

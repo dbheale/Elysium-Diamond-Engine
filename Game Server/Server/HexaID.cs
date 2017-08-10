@@ -1,4 +1,4 @@
-﻿using Elysium;
+﻿using Elysium.Service;
 
 namespace GameServer.Server {
     public class HexaID {
@@ -9,7 +9,7 @@ namespace GameServer.Server {
         public int CharacterID { get; set; }
         public int CharSlot { get; set; }
         public byte LanguageID { get; set; }
-        public short AccessLevel { get; set; }
+        public byte AccessLevel { get; set; }
 
         public PlayerService Service { get; set; }
 

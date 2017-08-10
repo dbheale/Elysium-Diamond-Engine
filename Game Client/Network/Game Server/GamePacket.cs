@@ -10,9 +10,9 @@ namespace Elysium_Diamond.Network {
         /// </summary>
         public static void GameServerHexID() {
             var buffer = NetworkSocket.CreateMessage();
-            buffer.Write((int)PacketList.Client_GameServer_SendPlayerHexID);
+            buffer.Write((short)PacketList.Client_GameServer_SendPlayerHexID);
             buffer.Write(Configuration.HexID);
-            NetworkSocket.SendData(SocketEnum.GameServer, buffer, NetDeliveryMethod.Unreliable);
+            NetworkSocket.SendData(SocketEnum.GameServer, buffer);
         }
 
         /// <summary>
@@ -21,17 +21,25 @@ namespace Elysium_Diamond.Network {
         /// <param name="dir"></param>
         public static void PlayerMove(EngineCharacter.Direction dir) {
             var buffer = NetworkSocket.CreateMessage();
-            buffer.Write((int)PacketList.Client_GameServer_PlayerMove);
+            buffer.Write((short)PacketList.Client_GameServer_PlayerMove);
             buffer.Write(EngineCharacter.GetDir(dir));
-            NetworkSocket.SendData(SocketEnum.GameServer, buffer, NetDeliveryMethod.Unreliable);
+            NetworkSocket.SendData(SocketEnum.GameServer, buffer);
         }
 
         public static void RequestPing() {
             var buffer = NetworkSocket.CreateMessage();
-            buffer.Write((int)PacketList.Ping);
+            buffer.Write((short)PacketList.Ping);
 
-            NetworkSocket.SendData(SocketEnum.GameServer, buffer, NetDeliveryMethod.Unreliable);
-            Common.Configuration.PingStart = Environment.TickCount;
+            NetworkSocket.SendData(SocketEnum.GameServer, buffer);
+            Configuration.PingStart = Environment.TickCount;
+        }
+
+        public static void IncrementStat(byte stat) {
+            var buffer = NetworkSocket.CreateMessage();
+            buffer.Write((short)PacketList.CL_GS_IncrementStat);
+            buffer.Write(stat);
+
+            NetworkSocket.SendData(SocketEnum.GameServer, buffer);
         }
     }
 }

@@ -5,15 +5,25 @@ using Color = SharpDX.Color;
 
 namespace Elysium_Diamond.DirectX {
     public class EngineLabel : EngineObject {
+        private Color _textColor;
+        private byte _textTransparency;
+
         /// <summary>
         /// Obtem ou altera o texto.
         /// </summary>
         public string Text { get; set; }
 
         /// <summary>
-        /// Obtem ou altera a cor.
+        /// Obtem ou altera a cor do texto.
         /// </summary>
-        public Color TextColor { get; set; }
+        public Color TextColor {
+            get {
+                return _textColor;
+            }
+            set {
+                _textColor = new Color(value.R, value.G, value.B, _textTransparency);
+            }
+        }
 
         /// <summary>
         /// Obtem ou altera a visibilidade do texto.
@@ -23,12 +33,27 @@ namespace Elysium_Diamond.DirectX {
         /// <summary>
         /// Obtem ou altera a transparência da cor de texto.
         /// </summary>
-        public byte TextTransparency { get; set; }
+        public byte TextTransparency {
+            get {
+                return _textTransparency;
+            }
+            set {
+                _textTransparency = value;
+                _textColor = new Color(_textColor.R, _textColor.G, _textColor.B, value);
+            }
+        }
+
+        /// <summary>
+        /// Posição do texto dentro do controle.
+        /// </summary>
+        public Point TextPosition { get; set; }
 
         /// <summary>
         /// Obtem ou altera o estilo de fonte.
         /// </summary>
         public EngineFontStyle TextFontStyle { get; set; }
+
+        public FontDrawFlags FontDrawFlags { get; set; }
 
         /// <summary>
         /// Instancia a classe.
@@ -55,7 +80,7 @@ namespace Elysium_Diamond.DirectX {
             TextVisible = true;
             TextTransparency = byte.MaxValue;
             TextFontStyle = EngineFontStyle.Regular;
-            Texture = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\{name}.png", width, height);
+            Texture = EngineTexture.TextureFromFile($"./Data/Graphics/{name}.png", width, height);
             Size = new Size2(width, height);
             SourceRect = new Rectangle(0, 0, width, height);
         }
@@ -73,9 +98,9 @@ namespace Elysium_Diamond.DirectX {
         public void DrawTextCenter() {
             if (!TextVisible) { return; }
 
-            Draw();
-            EngineFont.DrawText(null, Text, Size, new Point(Position.X, Position.Y + 4), new Color(TextColor.R, TextColor.R, TextColor.B, TextTransparency), TextFontStyle, FontDrawFlags.Left, false);
+            EngineFont.DrawText(Text, Size, new Point(Position.X + TextPosition.X, Position.Y + TextPosition.Y), new Color(TextColor.R, TextColor.G, TextColor.B, TextTransparency), TextFontStyle, FontDrawFlags.Left, false);
         }
+
 
         /// <summary>
         /// Desenha o texto.
@@ -83,8 +108,17 @@ namespace Elysium_Diamond.DirectX {
         public void DrawText() {
             if (!TextVisible) { return; }
 
-            Draw();
-            EngineFont.DrawText(null, Text, Position.X, Position.Y, new Color(TextColor.R, TextColor.R, TextColor.B, TextTransparency), TextFontStyle);
+            EngineFont.DrawText(Text, Position.X + TextPosition.X, Position.Y + TextPosition.Y, _textColor, TextFontStyle);
+        }
+
+        /// <summary>
+        /// Desenha o texto.
+        /// </summary>
+        /// <param name="text"></param>
+        public void DrawText(string text) {
+            if (!TextVisible) { return; }
+
+            EngineFont.DrawText(text, new Rectangle(Position.X + TextPosition.X, Position.Y + TextPosition.Y, Size.Width, Size.Height), _textColor, TextFontStyle, FontDrawFlags);
         }
     }
 }

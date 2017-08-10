@@ -7,39 +7,50 @@ using Elysium_Diamond.Network;
 namespace Elysium_Diamond.EngineWindow {
     public static class WindowServer {
         /// <summary>
-        /// Lista de Servidores
+        /// Índice da janela.
+        /// </summary>
+        public static int Index { get; set; }
+
+        /// <summary>
+        /// Mostra ou esconde a janela.
+        /// </summary>
+        public static bool Visible { get; set; }
+
+        /// <summary>
+        /// Posição do controle na tela.
+        /// </summary>
+        public static Point Position { get; set; }
+
+        /// <summary>
+        /// Lista de Servidores.
         /// </summary>
         public static List<WindowServerRow> Server { get; set; }
 
         /// <summary>
-        /// Posição da lista
-        /// </summary>
-        private static Point position { get; set; }
-
-        /// <summary>
-        /// Imagem de fundo
+        /// Imagem de fundo.
         /// </summary>
         private static EngineObject background { get; set; }
 
         /// <summary>
-        /// Boto
+        /// Botão de voltar.
         /// </summary>
         private static EngineButton button { get; set; }
 
         /// <summary>
-        /// Inicia e configura os controles
+        /// Inicia e configura os controles.
         /// </summary>
         public static void Initialize() {
-            position = new Point(272, 150);
+            Position = new Point(272, 150);
+            Visible = true;
 
             background = new EngineObject($"{Common.Configuration.GamePath}\\Data\\Graphics\\window_select.png", 480, 384);
-            background.Position = position;
+            background.Position = Position;
             background.Transparency = 230;
             background.Size = new Size2(480, 384);
             background.SourceRect = new Rectangle(0, 0, 480, 384);
 
             button = new EngineButton("back", 128, 32);
-            button.Position = new Point(position.X + 175, position.Y + 300);
+            button.Position = new Point(Position.X + 175, Position.Y + 300);
             button.SourceRect = new Rectangle(0, 0, 128, 32);
             button.BorderRect = new Rectangle(20, 2, 86, 26);
             button.Size = new Size2(128, 32);
@@ -47,20 +58,20 @@ namespace Elysium_Diamond.EngineWindow {
 
             //inicia a lista de servidores
             Server = new List<WindowServerRow>();
-            Server.Add(new WindowServerRow(new Point(position.X + 50, position.Y + 50)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 50)));
             Server[0].Index = 0;
-            Server.Add(new WindowServerRow(new Point(position.X + 50, position.Y + 99)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 99)));
             Server[1].Index = 1;
-            Server.Add(new WindowServerRow(new Point(position.X + 50, position.Y + 148)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 148)));
             Server[2].Index = 2;
-            Server.Add(new WindowServerRow(new Point(position.X + 50, position.Y + 197)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 197)));
             Server[3].Index = 3;
-            Server.Add(new WindowServerRow(new Point(position.X + 50, position.Y + 246)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 246)));
             Server[4].Index = 4;
         }
 
         /// <summary>
-        /// Desenha os controles
+        /// Desenha os controles.
         /// </summary>
         public static void Draw() {
             background.Draw();
@@ -75,13 +86,12 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void Button_MouseUp(object sender, EventArgs e) {
+        public static void Button_MouseUp(object sender, EngineEventArgs e) {
             if (EngineMessageBox.Visible || Common.Configuration.Disconnected) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
             LoginPacket.BackToLogin();
-            NetworkSocket.DiscoverServer(SocketEnum.GameServer);
 
             WindowLogin.textbox[0].CursorEnabled = true;
             WindowLogin.textbox[1].CursorEnabled = false;

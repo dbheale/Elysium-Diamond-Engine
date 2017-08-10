@@ -77,11 +77,11 @@ namespace Elysium_Diamond.EngineWindow {
             background.BorderRect = new Rectangle(14, 8, 360, 35);
             background.Position = position;
             background.MouseUp += Background_MouseUp;
-            this.Position = position;
+            Position = position;
 
             //carrega a textura apenas uma vez
             if (texture[0] == null) {
-                texture[0] = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\row1.png", 384, 64);  //350, 35
+                texture[0] = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\row1.png", 384, 64);  
                 texture[1] = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\row2.png", 384, 64);
             }
         }
@@ -97,7 +97,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// Desenha os controles.
         /// </summary>
         public void Draw() {
-            if (String.IsNullOrEmpty(IP)) { return; }
+            if (string.IsNullOrEmpty(IP)) { return; }
 
             if (background.InsideButton()) {
                 step = 1;
@@ -109,7 +109,7 @@ namespace Elysium_Diamond.EngineWindow {
             //muda a textura quando selecionado
             background.Draw(texture[step]);
 
-            EngineFont.DrawText(null, Name + " " + Region + " " + Status, new Size2(384, 0), new Point(Position.X, Position.Y + 30), color, EngineFontStyle.Regular, FontDrawFlags.Center, false);
+            EngineFont.DrawText(Name + " " + Region + " " + Status, new Size2(384, 0), new Point(Position.X, Position.Y + 30), color, EngineFontStyle.Regular, FontDrawFlags.Center, false);
         }
 
         /// <summary>
@@ -117,7 +117,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public void Background_MouseUp(object sender, EventArgs e) {
+        public void Background_MouseUp(object sender, EngineEventArgs e) {
             if (EngineMessageBox.Visible) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
@@ -131,7 +131,6 @@ namespace Elysium_Diamond.EngineWindow {
             EngineMessageBox.Enabled = false;
             EngineMessageBox.Show("Aguardando conexão");
         }
-
 
         #region "IDisposable"
         bool disposed = false;
@@ -155,12 +154,3 @@ namespace Elysium_Diamond.EngineWindow {
         #endregion
     }
 }
-
-
-
-/* public ServerType Type { get; set; }
-public enum ServerType {
-    WorldServer,
-    GameServer,
-    EventServer
-} */

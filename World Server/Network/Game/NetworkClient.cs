@@ -1,12 +1,15 @@
 ﻿using Lidgren.Network;
 using WorldServer.Common;
+using WorldServer.Server;
 using Elysium;
 
 namespace WorldServer.Network {
-    public class NetworkClient {
-        private string IP = string.Empty;
-        private string LocalIP = string.Empty;
-        private int Port;
+    public sealed class NetworkClient {
+        private string ip = string.Empty;
+        private string local_ip = string.Empty;
+        private int port;
+
+        public int GameServerID { get; set; }
 
         public NetClient Socket;
         private NetIncomingMessage incMsg;
@@ -17,11 +20,12 @@ namespace WorldServer.Network {
         /// <param name="localAddress"></param>
         /// <param name="address"></param>
         /// <param name="port"></param>
-        public void InitializeClient(string localAddress, string address, int port) {
+        public void InitializeClient(string localAddress, string address, int port, int gameID) {
             if (Socket == null) {
-                LocalIP = localAddress;
-                IP = address;
-                Port = port;
+                local_ip = localAddress;
+                ip = address;
+                this.port = port;
+                GameServerID = gameID;
 
                 // Networking //
                 var config = new NetPeerConfiguration(Configuration.Discovery);
@@ -62,11 +66,11 @@ namespace WorldServer.Network {
 
             if (Connected()) { return true; }
 
-            if (string.IsNullOrEmpty(LocalIP)) {
-                if (Socket.DiscoverKnownPeer(IP, Port)) { return true; }
+            if (string.IsNullOrEmpty(local_ip)) {
+                if (Socket.DiscoverKnownPeer(ip, port)) { return true; }
             }
             else {
-                if (Socket.DiscoverKnownPeer(LocalIP, Port)) { return true; }
+                if (Socket.DiscoverKnownPeer(local_ip, port)) { return true; }
             }
 
             return false;
@@ -102,12 +106,18 @@ namespace WorldServer.Network {
                 switch (incMsg.MessageType) {
                     case NetIncomingMessageType.DiscoveryResponse:
                         Socket.Connect(incMsg.SenderEndPoint);
-                        Logs.Write($"Conectado ao Game Server #{Configuration.GameServer[index].Name}", System.Drawing.Color.Green);
+                        Logs.Write($"Conectado ao Game Server #{AutoBalance.Channel[index].Name}", System.Drawing.Color.Green);
                         break;
                     case NetIncomingMessageType.StatusChanged:
                         NetConnectionStatus status = (NetConnectionStatus)incMsg.ReadByte();
+
+                        //envia confirmação
+                        if (status == NetConnectionStatus.Connected) {
+                            GamePacket.ConnectionID(index);
+                        }
+
                         if (status == NetConnectionStatus.Disconnected) {
-                            Logs.Write($"Game Server #{Configuration.GameServer[index].Name} desconectado", System.Drawing.Color.Green);
+                            Logs.Write($"Game Server #{AutoBalance.Channel[index].Name} desconectado", System.Drawing.Color.Green);
                         }
                         break;
                     case NetIncomingMessageType.Data:

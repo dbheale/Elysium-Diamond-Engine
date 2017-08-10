@@ -1,4 +1,4 @@
-﻿public enum GameState : byte {
+﻿public enum GameState {
     None,
     Login,
     Server,
@@ -6,4 +6,3 @@
     NewCharacter,
     Game
 }
-       

@@ -1,11 +1,73 @@
-﻿using System.Drawing;
+﻿using System.IO;
+using System.Linq;
+using System.Drawing;
 using System.Drawing.Imaging;
-using System.IO;
+using System.Collections.Generic;
 using SharpDX;
 using SharpDX.Direct3D9;
 
 namespace Elysium_Diamond.DirectX {
-    public static class EngineTexture {
+    public class EngineTexture {
+        /// <summary>
+        /// Número de Identificação
+        /// </summary>
+        public int ID { get; set; }
+
+        /// <summary>
+        /// Textura
+        /// </summary>
+        public Texture Texture { get; set; }
+
+        /// <summary>
+        /// Construtor
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="texture"></param>
+        public EngineTexture(int id, Texture texture) {
+            ID = id;
+            Texture = texture;
+        }
+
+        private static HashSet<EngineTexture> userinterfaces { get; set; } = new HashSet<EngineTexture>();
+        private static HashSet<EngineTexture> sprites { get; set; } = new HashSet<EngineTexture>();
+        private static HashSet<EngineTexture> icons { get; set; } = new HashSet<EngineTexture>();
+
+        /// <summary>
+        /// Campo de referência.
+        /// </summary>
+        private static HashSet<EngineTexture> reference;
+
+        /// <summary>
+        /// Adiciona uma nova textura ao hashset.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="texture"></param>
+        /// <param name="type"></param>
+        public static void AddTexture(int id, Texture texture, EngineTextureType type) {
+            if (type == EngineTextureType.GraphicUserInterface) reference = userinterfaces;
+            if (type == EngineTextureType.Sprites) reference = sprites;
+            if (type == EngineTextureType.Icons) reference = icons;
+
+            reference.Add(new EngineTexture(id, texture));
+        }
+
+        /// <summary>
+        /// Realiza a busca pelo número da textura.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static Texture FindTextureByID(int id, EngineTextureType type) {
+            if (type == EngineTextureType.GraphicUserInterface) reference = userinterfaces;
+            if (type == EngineTextureType.Sprites) reference = sprites;
+            if (type == EngineTextureType.Icons) reference = icons;
+
+            var find_texture = from sData in reference
+                               where sData.ID.Equals(id)
+                               select sData;
+
+            return find_texture.FirstOrDefault().Texture;
+        }
+
         /// <summary>
         /// Carrega a textura a partir de um arquivo.
         /// </summary>
@@ -91,5 +153,4 @@ namespace Elysium_Diamond.DirectX {
             return Texture.FromMemory(EngineCore.Device, buffer, width, height, 0, Usage.None, Format.A16B16G16R16, Pool.Managed, Filter.None, Filter.None, 0);
         }
     }
-
 }

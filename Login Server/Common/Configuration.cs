@@ -1,16 +1,26 @@
-﻿using System;
-using System.IO;
-using System.Collections;
-using System.Text;
-using System.Linq;
-using LoginServer.Server;
+﻿using LoginServer.Server;
 
 namespace LoginServer.Common {
     public static class Configuration {
         /// <summary>
-        /// ID de login server.
-        /// </summary>
+        /// ID do servidor.
+        /// </summary>  
         public static int ID { get; set; }
+
+        /// <summary>
+        /// Porta de conexão do servidor.
+        /// </summary>
+        public static int Port { get; set; }
+
+        /// <summary>
+        /// Ip do connect server.
+        /// </summary>
+        public static string ConnectIp { get; set; }
+
+        /// <summary>
+        /// Porta do connect server.
+        /// </summary>
+        public static int ConnectPort { get; set; }
 
         /// <summary>
         /// Descoberta de conexão.
@@ -18,14 +28,9 @@ namespace LoginServer.Common {
         public static string Discovery { get; set; }
 
         /// <summary>
-        /// Porta do servidor.
-        /// </summary>
-        public static int LoginServerPort { get; set; }
-
-        /// <summary>
         /// Quantidade máxima de conexões.
         /// </summary>
-        public static int MaximumConnections { get; set; }
+        public static int MaxConnections { get; set; }
 
         /// <summary>
         /// Sleep do loop principal.
@@ -35,7 +40,7 @@ namespace LoginServer.Common {
         /// <summary>
         /// Desativa o login temporariamente.
         /// </summary>
-        public static bool DisableLogin { get; set; }
+        public static bool IsLoginDisabled { get; set; }
 
         /// <summary>
         /// Versão do cliente e servidor
@@ -43,13 +48,13 @@ namespace LoginServer.Common {
         public static string Version { get; set; }
 
         /// <summary>
-        /// Ativa ou desativa o envio do estado do world server no cliente.
+        /// Tempo de verificação do PIN.
         /// </summary>
-        public static bool WorldStatusData { get; set; }
+        public static int PinCheckTime { get; set; }
 
         /// <summary>
         /// Lista de canal ou servidor.
         /// </summary>
-        public static ServerData[] Server { get; set; } = new ServerData[Constant.MAX_SERVER];
+        public static ServerData[] Server { get; set; } = new ServerData[Constants.MaxServer];
     }
 }

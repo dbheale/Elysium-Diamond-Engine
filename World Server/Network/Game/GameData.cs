@@ -1,21 +1,29 @@
-﻿using Lidgren.Network;
+﻿using WorldServer.Server;
+using Lidgren.Network;
 
 namespace WorldServer.Network {
-
-    public class GameData {
+    public static class GameData {
         public static void HandleData(int index, NetIncomingMessage msg) {
-            if (msg.LengthBytes < 4) { return; }
-            // Packet Header //
-            var header = msg.ReadInt32();
+            if (msg.LengthBytes < 2) { return; }
 
-            // Check Packet Header Number //
+            var header = msg.ReadInt16();
+
             if (header < 0) { return; }
 
-            // Handle Incoming Message //
             switch (header) {
-                case (int)PacketList.None: break;
-                case (int)PacketList.CL_WS_SendPlayerHexID: GamePacket.HexID(index); break;
+                case (short)PacketList.None: break;
+                case (short)PacketList.GS_WS_UpdateUserStatus: UpdateUserStatus(msg.ReadInt32()); break;
             }
+        }
+        /// <summary>
+        /// Indica que o usuario conectou ao game server e carrega os dados.
+        /// </summary>
+        /// <param name="msg"></param>
+        public static void UpdateUserStatus(int accountID) {
+            var pData = Authentication.FindByAccountID(accountID);
+            pData.IsGameConnected = true;
+
+            PlayerLogin.EnterGame(pData);
         }
     }
 }

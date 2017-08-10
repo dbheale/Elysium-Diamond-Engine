@@ -3,8 +3,15 @@
     /// Dados de canal ou servidor.
     /// </summary>
     public struct ServerData {
+        public bool Enabled { get; set; }
+
         /// <summary>
-        /// IP externo para World Server.
+        /// Identificação do World Server.
+        /// </summary>
+        public int ID { get; set; }
+
+        /// <summary>
+        /// IP externo do World Server.
         /// </summary>
         public string WorldServerIP { get; set; }
 

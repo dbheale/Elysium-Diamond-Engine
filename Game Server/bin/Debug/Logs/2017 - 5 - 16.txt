@@ -1,0 +1,549 @@
+2017/05/16 1:33:54: ID: 252000
+2017/05/16 1:33:54: Game Server Name: Canal 1
+2017/05/16 1:33:54: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:33:54: Port: 55970
+2017/05/16 1:33:54: MaximumConnections: 2000
+2017/05/16 1:33:54: Sleep: 1
+2017/05/16 1:33:54: Logs: Ativado
+2017/05/16 1:33:54: Carregando config mysql
+2017/05/16 1:33:54: Connectado ao banco de dados
+2017/05/16 1:33:55: WorldServer 1  ID: Artemis
+2017/05/16 1:33:55: WorldServer 2  ID: 
+2017/05/16 1:33:55: WorldServer 3  ID: 
+2017/05/16 1:33:55: WorldServer 4  ID: 
+2017/05/16 1:33:55: WorldServer 5  ID: 
+2017/05/16 1:33:55: Carregando items
+2017/05/16 1:33:55: 8 items carregados
+2017/05/16 1:33:55: Carregando experiência
+2017/05/16 1:33:55: Max Level: 121 EXP: 22353256174
+2017/05/16 1:33:55: Carregando guilds
+2017/05/16 1:33:55: Carregando membros
+2017/05/16 1:33:55: Carregando classe(s) base
+2017/05/16 1:33:55: Carregando classe(s) incremento
+2017/05/16 1:33:55: Carregando NPC
+2017/05/16 1:33:55: Carregando scripts
+2017/05/16 1:33:55: Game Server Start
+2017/05/16 1:34:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:34:00: Status changed to connected: 127.0.0.1
+2017/05/16 1:34:31: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 96C019F2710512FC
+2017/05/16 1:34:32: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:34:32: Status changed to connected: 127.0.0.1
+2017/05/16 1:34:32: Received From Client: 96C019F2710512FC
+2017/05/16 1:34:32: Player Found ID: 16 Name: Caronne
+2017/05/16 1:36:06: ID: 252000
+2017/05/16 1:36:06: Game Server Name: Canal 1
+2017/05/16 1:36:06: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:36:06: Port: 55970
+2017/05/16 1:36:06: MaximumConnections: 2000
+2017/05/16 1:36:06: Sleep: 1
+2017/05/16 1:36:06: Logs: Ativado
+2017/05/16 1:36:06: Carregando config mysql
+2017/05/16 1:36:06: Connectado ao banco de dados
+2017/05/16 1:36:06: WorldServer 1  ID: Artemis
+2017/05/16 1:36:06: WorldServer 2  ID: 
+2017/05/16 1:36:06: WorldServer 3  ID: 
+2017/05/16 1:36:06: WorldServer 4  ID: 
+2017/05/16 1:36:06: WorldServer 5  ID: 
+2017/05/16 1:36:06: Carregando items
+2017/05/16 1:36:06: 8 items carregados
+2017/05/16 1:36:06: Carregando experiência
+2017/05/16 1:36:06: Max Level: 121 EXP: 22353256174
+2017/05/16 1:36:06: Carregando guilds
+2017/05/16 1:36:06: Carregando membros
+2017/05/16 1:36:06: Carregando classe(s) base
+2017/05/16 1:36:06: Carregando classe(s) incremento
+2017/05/16 1:36:06: Carregando NPC
+2017/05/16 1:36:06: Carregando scripts
+2017/05/16 1:36:07: Game Server Start
+2017/05/16 1:36:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:36:10: Status changed to connected: 127.0.0.1
+2017/05/16 1:36:32: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 28187DDE2570918D
+2017/05/16 1:36:32: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:36:32: Status changed to connected: 127.0.0.1
+2017/05/16 1:36:32: Received From Client: 28187DDE2570918D
+2017/05/16 1:36:32: Player Found ID: 16 Name: Caronne
+2017/05/16 1:36:58: ID: 252000
+2017/05/16 1:36:58: Game Server Name: Canal 1
+2017/05/16 1:36:58: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:36:58: Port: 55970
+2017/05/16 1:36:58: MaximumConnections: 2000
+2017/05/16 1:36:58: Sleep: 1
+2017/05/16 1:36:58: Logs: Ativado
+2017/05/16 1:36:58: Carregando config mysql
+2017/05/16 1:36:58: Connectado ao banco de dados
+2017/05/16 1:36:58: WorldServer 1  ID: Artemis
+2017/05/16 1:36:58: WorldServer 2  ID: 
+2017/05/16 1:36:58: WorldServer 3  ID: 
+2017/05/16 1:36:58: WorldServer 4  ID: 
+2017/05/16 1:36:58: WorldServer 5  ID: 
+2017/05/16 1:36:58: Carregando items
+2017/05/16 1:36:58: 8 items carregados
+2017/05/16 1:36:58: Carregando experiência
+2017/05/16 1:36:58: Max Level: 121 EXP: 22353256174
+2017/05/16 1:36:58: Carregando guilds
+2017/05/16 1:36:58: Carregando membros
+2017/05/16 1:36:58: Carregando classe(s) base
+2017/05/16 1:36:58: Carregando classe(s) incremento
+2017/05/16 1:36:58: Carregando NPC
+2017/05/16 1:36:58: Carregando scripts
+2017/05/16 1:36:58: Game Server Start
+2017/05/16 1:37:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:37:00: Status changed to connected: 127.0.0.1
+2017/05/16 1:37:16: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 FB70CB78962CACF9
+2017/05/16 1:37:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:37:16: Status changed to connected: 127.0.0.1
+2017/05/16 1:37:16: Received From Client: FB70CB78962CACF9
+2017/05/16 1:37:16: Player Found ID: 16 Name: Caronne
+2017/05/16 1:37:24: ID: 252000
+2017/05/16 1:37:24: Game Server Name: Canal 1
+2017/05/16 1:37:24: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:37:24: Port: 55970
+2017/05/16 1:37:24: MaximumConnections: 2000
+2017/05/16 1:37:24: Sleep: 1
+2017/05/16 1:37:24: Logs: Ativado
+2017/05/16 1:37:24: Carregando config mysql
+2017/05/16 1:37:24: Connectado ao banco de dados
+2017/05/16 1:37:24: WorldServer 1  ID: Artemis
+2017/05/16 1:37:24: WorldServer 2  ID: 
+2017/05/16 1:37:24: WorldServer 3  ID: 
+2017/05/16 1:37:24: WorldServer 4  ID: 
+2017/05/16 1:37:24: WorldServer 5  ID: 
+2017/05/16 1:37:24: Carregando items
+2017/05/16 1:37:24: 8 items carregados
+2017/05/16 1:37:24: Carregando experiência
+2017/05/16 1:37:24: Max Level: 121 EXP: 22353256174
+2017/05/16 1:37:24: Carregando guilds
+2017/05/16 1:37:24: Carregando membros
+2017/05/16 1:37:24: Carregando classe(s) base
+2017/05/16 1:37:24: Carregando classe(s) incremento
+2017/05/16 1:37:24: Carregando NPC
+2017/05/16 1:37:24: Carregando scripts
+2017/05/16 1:37:24: Game Server Start
+2017/05/16 1:37:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:37:43: Status changed to connected: 127.0.0.1
+2017/05/16 1:37:43: Received From Client: 621A28F9C3F7070B
+2017/05/16 1:37:43: ID: 0  Status changed to disconnected: 127.0.0.1
+2017/05/16 1:37:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:37:50: Status changed to connected: 127.0.0.1
+2017/05/16 1:41:11: ID: 252000
+2017/05/16 1:41:11: Game Server Name: Canal 1
+2017/05/16 1:41:11: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:41:11: Port: 55970
+2017/05/16 1:41:11: MaximumConnections: 2000
+2017/05/16 1:41:11: Sleep: 1
+2017/05/16 1:41:11: Logs: Ativado
+2017/05/16 1:41:11: Carregando config mysql
+2017/05/16 1:41:11: Connectado ao banco de dados
+2017/05/16 1:41:11: WorldServer 1  ID: Artemis
+2017/05/16 1:41:11: WorldServer 2  ID: 
+2017/05/16 1:41:11: WorldServer 3  ID: 
+2017/05/16 1:41:11: WorldServer 4  ID: 
+2017/05/16 1:41:11: WorldServer 5  ID: 
+2017/05/16 1:41:11: Carregando items
+2017/05/16 1:41:11: 8 items carregados
+2017/05/16 1:41:11: Carregando experiência
+2017/05/16 1:41:11: Max Level: 121 EXP: 22353256174
+2017/05/16 1:41:11: Carregando guilds
+2017/05/16 1:41:11: Carregando membros
+2017/05/16 1:41:12: Carregando classe(s) base
+2017/05/16 1:41:12: Carregando classe(s) incremento
+2017/05/16 1:41:12: Carregando NPC
+2017/05/16 1:41:12: Carregando scripts
+2017/05/16 1:41:12: Game Server Start
+2017/05/16 1:41:20: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:41:20: Status changed to connected: 127.0.0.1
+2017/05/16 1:41:25: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 6574E763DDD7B874
+2017/05/16 1:41:26: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:41:26: Status changed to connected: 127.0.0.1
+2017/05/16 1:41:26: Received From Client: 6574E763DDD7B874
+2017/05/16 1:41:26: Player Found ID: 16 Name: Caronne
+2017/05/16 1:45:39: ID: 252000
+2017/05/16 1:45:39: Game Server Name: Canal 1
+2017/05/16 1:45:39: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:45:39: Port: 55970
+2017/05/16 1:45:39: MaximumConnections: 2000
+2017/05/16 1:45:39: Sleep: 1
+2017/05/16 1:45:39: Logs: Ativado
+2017/05/16 1:45:39: Carregando config mysql
+2017/05/16 1:45:39: Connectado ao banco de dados
+2017/05/16 1:45:40: WorldServer 1  ID: Artemis
+2017/05/16 1:45:40: WorldServer 2  ID: 
+2017/05/16 1:45:40: WorldServer 3  ID: 
+2017/05/16 1:45:40: WorldServer 4  ID: 
+2017/05/16 1:45:40: WorldServer 5  ID: 
+2017/05/16 1:45:40: Carregando items
+2017/05/16 1:45:40: 8 items carregados
+2017/05/16 1:45:40: Carregando experiência
+2017/05/16 1:45:40: Max Level: 121 EXP: 22353256174
+2017/05/16 1:45:40: Carregando guilds
+2017/05/16 1:45:40: Carregando membros
+2017/05/16 1:45:40: Carregando classe(s) base
+2017/05/16 1:45:40: Carregando classe(s) incremento
+2017/05/16 1:45:40: Carregando NPC
+2017/05/16 1:45:40: Carregando scripts
+2017/05/16 1:45:40: Game Server Start
+2017/05/16 1:45:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:45:50: Status changed to connected: 127.0.0.1
+2017/05/16 1:45:53: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 DC672B210066BADA
+2017/05/16 1:45:54: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:45:54: Status changed to connected: 127.0.0.1
+2017/05/16 1:45:54: Received From Client: DC672B210066BADA
+2017/05/16 1:45:54: Player Found ID: 16 Name: Caronne
+2017/05/16 1:47:30: ID: 252000
+2017/05/16 1:47:30: Game Server Name: Canal 1
+2017/05/16 1:47:30: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:47:30: Port: 55970
+2017/05/16 1:47:30: MaximumConnections: 2000
+2017/05/16 1:47:30: Sleep: 1
+2017/05/16 1:47:30: Logs: Ativado
+2017/05/16 1:47:30: Carregando config mysql
+2017/05/16 1:47:30: Connectado ao banco de dados
+2017/05/16 1:47:30: WorldServer 1  ID: Artemis
+2017/05/16 1:47:30: WorldServer 2  ID: 
+2017/05/16 1:47:30: WorldServer 3  ID: 
+2017/05/16 1:47:30: WorldServer 4  ID: 
+2017/05/16 1:47:30: WorldServer 5  ID: 
+2017/05/16 1:47:30: Carregando items
+2017/05/16 1:47:30: 8 items carregados
+2017/05/16 1:47:30: Carregando experiência
+2017/05/16 1:47:30: Max Level: 121 EXP: 22353256174
+2017/05/16 1:47:30: Carregando guilds
+2017/05/16 1:47:30: Carregando membros
+2017/05/16 1:47:30: Carregando classe(s) base
+2017/05/16 1:47:30: Carregando classe(s) incremento
+2017/05/16 1:47:30: Carregando NPC
+2017/05/16 1:47:30: Carregando scripts
+2017/05/16 1:47:31: Game Server Start
+2017/05/16 1:47:40: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:47:40: Status changed to connected: 127.0.0.1
+2017/05/16 1:47:45: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 D90C045B2A03E7DE
+2017/05/16 1:47:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:47:45: Status changed to connected: 127.0.0.1
+2017/05/16 1:47:45: Received From Client: D90C045B2A03E7DE
+2017/05/16 1:47:50: Player Found ID: 16 Name: Caronne
+2017/05/16 1:51:43: ID: 252000
+2017/05/16 1:51:43: Game Server Name: Canal 1
+2017/05/16 1:51:43: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:51:43: Port: 55970
+2017/05/16 1:51:43: MaximumConnections: 2000
+2017/05/16 1:51:43: Sleep: 1
+2017/05/16 1:51:43: Logs: Ativado
+2017/05/16 1:51:43: Carregando config mysql
+2017/05/16 1:51:43: Connectado ao banco de dados
+2017/05/16 1:51:43: WorldServer 1  ID: Artemis
+2017/05/16 1:51:43: WorldServer 2  ID: 
+2017/05/16 1:51:43: WorldServer 3  ID: 
+2017/05/16 1:51:43: WorldServer 4  ID: 
+2017/05/16 1:51:43: WorldServer 5  ID: 
+2017/05/16 1:51:43: Carregando items
+2017/05/16 1:51:43: 8 items carregados
+2017/05/16 1:51:43: Carregando experiência
+2017/05/16 1:51:43: Max Level: 121 EXP: 22353256174
+2017/05/16 1:51:43: Carregando guilds
+2017/05/16 1:51:43: Carregando membros
+2017/05/16 1:51:43: Carregando classe(s) base
+2017/05/16 1:51:43: Carregando classe(s) incremento
+2017/05/16 1:51:43: Carregando NPC
+2017/05/16 1:51:43: Carregando scripts
+2017/05/16 1:51:44: Game Server Start
+2017/05/16 1:51:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:51:50: Status changed to connected: 127.0.0.1
+2017/05/16 1:51:56: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 431E3E71AB8F685F
+2017/05/16 1:51:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:51:57: Status changed to connected: 127.0.0.1
+2017/05/16 1:51:57: Received From Client: 431E3E71AB8F685F
+2017/05/16 1:51:57: Player Found ID: 16 Name: Caronne
+2017/05/16 1:53:33: ID: 252000
+2017/05/16 1:53:33: Game Server Name: Canal 1
+2017/05/16 1:53:33: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:53:33: Port: 55970
+2017/05/16 1:53:33: MaximumConnections: 2000
+2017/05/16 1:53:33: Sleep: 1
+2017/05/16 1:53:33: Logs: Ativado
+2017/05/16 1:53:33: Carregando config mysql
+2017/05/16 1:53:33: Connectado ao banco de dados
+2017/05/16 1:53:33: WorldServer 1  ID: Artemis
+2017/05/16 1:53:33: WorldServer 2  ID: 
+2017/05/16 1:53:33: WorldServer 3  ID: 
+2017/05/16 1:53:33: WorldServer 4  ID: 
+2017/05/16 1:53:33: WorldServer 5  ID: 
+2017/05/16 1:53:33: Carregando items
+2017/05/16 1:53:33: 8 items carregados
+2017/05/16 1:53:33: Carregando experiência
+2017/05/16 1:53:33: Max Level: 121 EXP: 22353256174
+2017/05/16 1:53:33: Carregando guilds
+2017/05/16 1:53:33: Carregando membros
+2017/05/16 1:53:33: Carregando classe(s) base
+2017/05/16 1:53:33: Carregando classe(s) incremento
+2017/05/16 1:53:33: Carregando NPC
+2017/05/16 1:53:34: Carregando scripts
+2017/05/16 1:53:34: Game Server Start
+2017/05/16 1:53:40: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:53:40: Status changed to connected: 127.0.0.1
+2017/05/16 1:53:53: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 722A757D95F9334D
+2017/05/16 1:53:53: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:53:53: Status changed to connected: 127.0.0.1
+2017/05/16 1:53:53: Received From Client: 722A757D95F9334D
+2017/05/16 1:53:53: Player Found ID: 16 Name: Caronne
+2017/05/16 1:53:53: Caronne joined map id 1
+2017/05/16 1:59:09: ID: 252000
+2017/05/16 1:59:09: Game Server Name: Canal 1
+2017/05/16 1:59:09: Discovery: Elysium Diamond #1.0.0
+2017/05/16 1:59:09: Port: 55970
+2017/05/16 1:59:09: MaximumConnections: 2000
+2017/05/16 1:59:09: Sleep: 1
+2017/05/16 1:59:09: Logs: Ativado
+2017/05/16 1:59:09: Carregando config mysql
+2017/05/16 1:59:09: Connectado ao banco de dados
+2017/05/16 1:59:10: WorldServer 1  ID: Artemis
+2017/05/16 1:59:10: WorldServer 2  ID: 
+2017/05/16 1:59:10: WorldServer 3  ID: 
+2017/05/16 1:59:10: WorldServer 4  ID: 
+2017/05/16 1:59:10: WorldServer 5  ID: 
+2017/05/16 1:59:10: Carregando items
+2017/05/16 1:59:10: 8 items carregados
+2017/05/16 1:59:10: Carregando experiência
+2017/05/16 1:59:10: Max Level: 121 EXP: 22353256174
+2017/05/16 1:59:10: Carregando guilds
+2017/05/16 1:59:10: Carregando membros
+2017/05/16 1:59:10: Carregando classe(s) base
+2017/05/16 1:59:10: Carregando classe(s) incremento
+2017/05/16 1:59:10: Carregando NPC
+2017/05/16 1:59:10: Carregando scripts
+2017/05/16 1:59:10: Game Server Start
+2017/05/16 1:59:20: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:59:20: Status changed to connected: 127.0.0.1
+2017/05/16 1:59:24: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 3652A1F04C8557FB
+2017/05/16 1:59:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 1:59:25: Status changed to connected: 127.0.0.1
+2017/05/16 1:59:25: Received From Client: 3652A1F04C8557FB
+2017/05/16 1:59:25: Player Found ID: 16 Name: Caronne
+2017/05/16 1:59:25: Caronne joined map id 1
+2017/05/16 2:07:00: ID: 252000
+2017/05/16 2:07:00: Game Server Name: Canal 1
+2017/05/16 2:07:00: Discovery: Elysium Diamond #1.0.0
+2017/05/16 2:07:00: Port: 55970
+2017/05/16 2:07:00: MaximumConnections: 2000
+2017/05/16 2:07:00: Sleep: 1
+2017/05/16 2:07:00: Logs: Ativado
+2017/05/16 2:07:00: Carregando config mysql
+2017/05/16 2:07:00: Connectado ao banco de dados
+2017/05/16 2:07:00: WorldServer 1  ID: Artemis
+2017/05/16 2:07:00: WorldServer 2  ID: 
+2017/05/16 2:07:00: WorldServer 3  ID: 
+2017/05/16 2:07:00: WorldServer 4  ID: 
+2017/05/16 2:07:00: WorldServer 5  ID: 
+2017/05/16 2:07:00: Carregando items
+2017/05/16 2:07:00: 8 items carregados
+2017/05/16 2:07:00: Carregando experiência
+2017/05/16 2:07:00: Max Level: 121 EXP: 22353256174
+2017/05/16 2:07:00: Carregando guilds
+2017/05/16 2:07:00: Carregando membros
+2017/05/16 2:07:00: Carregando classe(s) base
+2017/05/16 2:07:00: Carregando classe(s) incremento
+2017/05/16 2:07:00: Carregando NPC
+2017/05/16 2:07:00: Carregando scripts
+2017/05/16 2:07:00: Game Server Start
+2017/05/16 2:07:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 2:07:10: Status changed to connected: 127.0.0.1
+2017/05/16 2:07:13: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 8ED0B9CE2D784ED7
+2017/05/16 2:07:14: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 2:07:14: Status changed to connected: 127.0.0.1
+2017/05/16 2:07:14: Received From Client: 8ED0B9CE2D784ED7
+2017/05/16 2:07:14: Player Found ID: 16 Name: Caronne
+2017/05/16 2:07:14: Caronne joined map id 1
+2017/05/16 2:10:42: ID: 252000
+2017/05/16 2:10:42: Game Server Name: Canal 1
+2017/05/16 2:10:42: Discovery: Elysium Diamond #1.0.0
+2017/05/16 2:10:42: Port: 55970
+2017/05/16 2:10:42: MaximumConnections: 2000
+2017/05/16 2:10:42: Sleep: 1
+2017/05/16 2:10:42: Logs: Ativado
+2017/05/16 2:10:42: Carregando config mysql
+2017/05/16 2:10:42: Connectado ao banco de dados
+2017/05/16 2:10:43: WorldServer 1  ID: Artemis
+2017/05/16 2:10:43: WorldServer 2  ID: 
+2017/05/16 2:10:43: WorldServer 3  ID: 
+2017/05/16 2:10:43: WorldServer 4  ID: 
+2017/05/16 2:10:43: WorldServer 5  ID: 
+2017/05/16 2:10:43: Carregando items
+2017/05/16 2:10:43: 8 items carregados
+2017/05/16 2:10:43: Carregando experiência
+2017/05/16 2:10:43: Max Level: 121 EXP: 22353256174
+2017/05/16 2:10:43: Carregando guilds
+2017/05/16 2:10:43: Carregando membros
+2017/05/16 2:10:43: Carregando classe(s) base
+2017/05/16 2:10:43: Carregando classe(s) incremento
+2017/05/16 2:10:43: Carregando NPC
+2017/05/16 2:10:43: Carregando scripts
+2017/05/16 2:10:43: Game Server Start
+2017/05/16 2:10:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 2:10:50: Status changed to connected: 127.0.0.1
+2017/05/16 2:10:57: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 8D3725B439DE3931
+2017/05/16 2:10:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 2:10:57: Status changed to connected: 127.0.0.1
+2017/05/16 2:10:57: Received From Client: 8D3725B439DE3931
+2017/05/16 2:10:57: Player Found ID: 16 Name: Caronne
+2017/05/16 2:10:57: Caronne joined map id 1
+2017/05/16 3:24:46: ID: 252000
+2017/05/16 3:24:46: Game Server Name: Canal 1
+2017/05/16 3:24:46: Discovery: Elysium Diamond #1.0.0
+2017/05/16 3:24:46: Port: 55970
+2017/05/16 3:24:46: MaximumConnections: 2000
+2017/05/16 3:24:46: Sleep: 1
+2017/05/16 3:24:46: Logs: Ativado
+2017/05/16 3:24:46: Carregando config mysql
+2017/05/16 3:24:46: Connectado ao banco de dados
+2017/05/16 3:24:46: WorldServer 1  ID: Artemis
+2017/05/16 3:24:46: WorldServer 2  ID: 
+2017/05/16 3:24:46: WorldServer 3  ID: 
+2017/05/16 3:24:46: WorldServer 4  ID: 
+2017/05/16 3:24:46: WorldServer 5  ID: 
+2017/05/16 3:24:46: Carregando items
+2017/05/16 3:24:46: 8 items carregados
+2017/05/16 3:24:46: Carregando experiência
+2017/05/16 3:24:46: Max Level: 121 EXP: 22353256174
+2017/05/16 3:24:46: Carregando guilds
+2017/05/16 3:24:46: Carregando membros
+2017/05/16 3:24:46: Carregando classe(s) base
+2017/05/16 3:24:46: Carregando classe(s) incremento
+2017/05/16 3:24:46: Carregando NPC
+2017/05/16 3:24:46: Carregando scripts
+2017/05/16 3:24:46: Game Server Start
+2017/05/16 3:30:28: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 3:30:28: Status changed to connected: 127.0.0.1
+2017/05/16 3:31:20: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 112C07ACF3E921E5
+2017/05/16 3:31:21: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 3:31:21: Status changed to connected: 127.0.0.1
+2017/05/16 3:31:21: Received From Client: 112C07ACF3E921E5
+2017/05/16 3:31:21: Player Found ID: 16 Name: Caronne
+2017/05/16 3:31:21: Caronne joined map id 1
+2017/05/16 3:31:54: ID: 16 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/16 3:32:00: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 D55EC6F0B6B08A58
+2017/05/16 3:32:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 3:32:00: Status changed to connected: 127.0.0.1
+2017/05/16 3:32:00: Received From Client: D55EC6F0B6B08A58
+2017/05/16 3:32:00: Player Found ID: 16 Name: Caronne
+2017/05/16 3:32:00: Caronne joined map id 1
+2017/05/16 3:33:34: ID: 16 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/16 3:38:58: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 3:38:58: Status changed to connected: 127.0.0.1
+2017/05/16 3:39:14: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 AA6972F8018E53DA
+2017/05/16 3:39:15: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 3:39:15: Status changed to connected: 127.0.0.1
+2017/05/16 3:39:15: Received From Client: AA6972F8018E53DA
+2017/05/16 3:39:15: Player Found ID: 16 Name: Caronne
+2017/05/16 3:39:15: Caronne joined map id 1
+2017/05/16 3:40:00: ID: 16 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/16 3:41:27: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 3:41:27: Status changed to connected: 127.0.0.1
+2017/05/16 3:41:35: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 BC98BC2BAC3139A4
+2017/05/16 3:41:36: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 3:41:36: Status changed to connected: 127.0.0.1
+2017/05/16 3:41:36: Received From Client: BC98BC2BAC3139A4
+2017/05/16 3:41:36: Player Found ID: 16 Name: Caronne
+2017/05/16 3:41:36: Caronne joined map id 1
+2017/05/16 3:44:21: ID: 252000
+2017/05/16 3:44:21: Game Server Name: Canal 1
+2017/05/16 3:44:21: Discovery: Elysium Diamond #1.0.0
+2017/05/16 3:44:21: Port: 55970
+2017/05/16 3:44:21: MaximumConnections: 2000
+2017/05/16 3:44:21: Sleep: 1
+2017/05/16 3:44:21: Logs: Ativado
+2017/05/16 3:44:21: Carregando config mysql
+2017/05/16 3:44:21: Connectado ao banco de dados
+2017/05/16 3:44:21: WorldServer 1  ID: Artemis
+2017/05/16 3:44:21: WorldServer 2  ID: 
+2017/05/16 3:44:21: WorldServer 3  ID: 
+2017/05/16 3:44:21: WorldServer 4  ID: 
+2017/05/16 3:44:21: WorldServer 5  ID: 
+2017/05/16 3:44:21: Carregando items
+2017/05/16 3:44:21: 8 items carregados
+2017/05/16 3:44:21: Carregando experiência
+2017/05/16 3:44:21: Max Level: 121 EXP: 22353256174
+2017/05/16 3:44:21: Carregando guilds
+2017/05/16 3:44:21: Carregando membros
+2017/05/16 3:44:21: Carregando classe(s) base
+2017/05/16 3:44:21: Carregando classe(s) incremento
+2017/05/16 3:44:21: Carregando NPC
+2017/05/16 3:44:21: Carregando scripts
+2017/05/16 3:44:22: Game Server Start
+2017/05/16 5:57:53: ID: 252000
+2017/05/16 5:57:53: Game Server Name: Canal 1
+2017/05/16 5:57:53: Discovery: Elysium Diamond #1.0.0
+2017/05/16 5:57:53: Port: 55970
+2017/05/16 5:57:53: MaximumConnections: 2000
+2017/05/16 5:57:53: Sleep: 1
+2017/05/16 5:57:53: Logs: Ativado
+2017/05/16 5:57:53: Carregando config mysql
+2017/05/16 5:57:53: Connectado ao banco de dados
+2017/05/16 5:57:53: WorldServer 1  ID: Artemis
+2017/05/16 5:57:53: WorldServer 2  ID: 
+2017/05/16 5:57:53: WorldServer 3  ID: 
+2017/05/16 5:57:53: WorldServer 4  ID: 
+2017/05/16 5:57:53: WorldServer 5  ID: 
+2017/05/16 5:57:53: Carregando items
+2017/05/16 5:57:53: 8 items carregados
+2017/05/16 5:57:53: Carregando experiência
+2017/05/16 5:57:53: Max Level: 121 EXP: 22353256174
+2017/05/16 5:57:53: Carregando guilds
+2017/05/16 5:57:53: Carregando membros
+2017/05/16 5:57:53: Carregando classe(s) base
+2017/05/16 5:57:53: Carregando classe(s) incremento
+2017/05/16 5:57:53: Carregando NPC
+2017/05/16 5:57:53: Carregando scripts
+2017/05/16 5:57:54: Game Server Start
+2017/05/16 5:58:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 5:58:00: Status changed to connected: 127.0.0.1
+2017/05/16 5:58:05: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 15DAF6E381EB9CAE
+2017/05/16 5:58:06: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 5:58:06: Status changed to connected: 127.0.0.1
+2017/05/16 5:58:06: Received From Client: 15DAF6E381EB9CAE
+2017/05/16 5:58:06: Player Found ID: 16 Name: Caronne
+2017/05/16 5:58:06: Caronne joined map id 1
+2017/05/16 5:59:32: ID: 16 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/16 6:02:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 6:02:00: Status changed to connected: 127.0.0.1
+2017/05/16 6:02:09: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 0 553E73E0B9D9DCD9
+2017/05/16 6:02:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 6:02:10: Status changed to connected: 127.0.0.1
+2017/05/16 6:02:10: Received From Client: 553E73E0B9D9DCD9
+2017/05/16 6:02:10: Player Found ID: 16 Name: Caronne
+2017/05/16 6:02:10: Caronne joined map id 1
+2017/05/16 6:04:31: ID: 16 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/16 6:15:12: ID: 252000
+2017/05/16 6:15:12: Game Server Name: Canal 1
+2017/05/16 6:15:12: Discovery: Elysium Diamond #1.0.0
+2017/05/16 6:15:12: Port: 55970
+2017/05/16 6:15:12: MaximumConnections: 2000
+2017/05/16 6:15:12: Sleep: 1
+2017/05/16 6:15:12: Logs: Ativado
+2017/05/16 6:15:12: Carregando config mysql
+2017/05/16 6:15:12: Connectado ao banco de dados
+2017/05/16 6:15:12: WorldServer 1  ID: Artemis
+2017/05/16 6:15:12: WorldServer 2  ID: 
+2017/05/16 6:15:12: WorldServer 3  ID: 
+2017/05/16 6:15:12: WorldServer 4  ID: 
+2017/05/16 6:15:12: WorldServer 5  ID: 
+2017/05/16 6:15:12: Carregando items
+2017/05/16 6:15:12: 8 items carregados
+2017/05/16 6:15:12: Carregando experiência
+2017/05/16 6:15:12: Max Level: 121 EXP: 22353256174
+2017/05/16 6:15:12: Carregando guilds
+2017/05/16 6:15:12: Carregando membros
+2017/05/16 6:15:12: Carregando classe(s) base
+2017/05/16 6:15:12: Carregando classe(s) incremento
+2017/05/16 6:15:12: Carregando NPC
+2017/05/16 6:15:12: Carregando scripts
+2017/05/16 6:15:12: Game Server Start
+2017/05/16 6:15:14: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 6:15:14: Status changed to connected: 127.0.0.1
+2017/05/16 6:20:22: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 6:20:22: Status changed to connected: 127.0.0.1
+2017/05/16 6:21:15: Data From World Server ID: 1 Account: akaruz Char ID: 17 Slot: 0 98568D7F44353C55
+2017/05/16 6:21:15: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/16 6:21:15: Status changed to connected: 127.0.0.1
+2017/05/16 6:21:15: Received From Client: 98568D7F44353C55
+2017/05/16 6:21:15: Player Found ID: 17 Name: Caronne
+2017/05/16 6:21:15: Caronne joined map id 1
+2017/05/16 6:21:49: ID: 17 Caronne Status changed to disconnected: 127.0.0.1

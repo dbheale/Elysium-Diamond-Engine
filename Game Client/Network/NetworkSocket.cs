@@ -4,6 +4,8 @@ using Elysium_Diamond.Common;
 
 namespace Elysium_Diamond.Network {
     public static class NetworkSocket {
+        //public static bool[] Enabled { get; set; } = new bool[Configuration.MAX_GAME_SERVER];
+
         static int[] tick = new int[Configuration.MAX_GAME_SERVER];
         static NetClient[] client = new NetClient[Configuration.MAX_GAME_SERVER];
         static NetIncomingMessage[] incMsg = new NetIncomingMessage[Configuration.MAX_GAME_SERVER];
@@ -27,6 +29,7 @@ namespace Elysium_Diamond.Network {
             config.AutoFlushSendQueue = true;
 
             for (var index = 0; index < Configuration.MAX_GAME_SERVER; index++) {
+                //Enabled[index] = true;
                 client[index] = new NetClient(config);
                 client[index].Start();
                 client[index].Socket.Blocking = false;
@@ -47,6 +50,7 @@ namespace Elysium_Diamond.Network {
         /// <param name="socket"></param>
         /// <returns></returns>
         public static bool DiscoverServer(SocketEnum socket) {
+            //if (!Enabled[(int)socket]) return false;
             //verificar ip
             if (string.IsNullOrEmpty(Configuration.IPAddress[(int)socket].IP)) { return false; }
 

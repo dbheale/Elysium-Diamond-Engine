@@ -1,0 +1,44 @@
+2017/04/21 17:54:58: ID: 2147483647
+2017/04/21 17:54:58: Discovery: Elysium Diamond #1.0.0
+2017/04/21 17:54:58: Port: 44405
+2017/04/21 17:54:58: Maximum Connection: 2000
+2017/04/21 17:54:58: Sleep: 1
+2017/04/21 17:54:58: Version: 1.1.155
+2017/04/21 17:54:58: GeoIp: Desativado
+2017/04/21 17:54:58: CheckSum: Desativado
+2017/04/21 17:54:58: Servidor adicionado: 火星 (JP) 普通
+2017/04/21 17:54:58: Servidor adicionado: 木星 (JP) 普通
+2017/04/21 17:54:58: Servidor adicionado: 화성 (KR) 표준
+2017/04/21 17:54:58: Servidor adicionado: Local Server (BR) Privado
+2017/04/21 17:54:58: Connectado ao banco de dados
+2017/04/21 17:55:01: Conectando World Server.
+2017/04/21 17:55:01: Login Server Start.
+2017/04/21 17:57:52: Connected World Server #火星
+2017/04/21 17:59:32: Discovery Response IPEndPoint: 187.57.21.139
+2017/04/21 17:59:32: Status changed to connected: 187.57.21.139
+2017/04/21 18:00:38: ID: 2147483647
+2017/04/21 18:00:38: Discovery: Elysium Diamond #1.0.0
+2017/04/21 18:00:38: Port: 44405
+2017/04/21 18:00:38: Maximum Connection: 2000
+2017/04/21 18:00:38: Sleep: 1
+2017/04/21 18:00:38: Version: 1.1.155
+2017/04/21 18:00:38: GeoIp: Desativado
+2017/04/21 18:00:38: CheckSum: Desativado
+2017/04/21 18:00:38: Servidor adicionado: 火星 (JP) 普通
+2017/04/21 18:00:38: Servidor adicionado: 木星 (JP) 普通
+2017/04/21 18:00:38: Servidor adicionado: 화성 (KR) 표준
+2017/04/21 18:00:38: Servidor adicionado: Local Server (BR) Privado
+2017/04/21 18:00:38: Connectado ao banco de dados
+2017/04/21 18:00:39: Conectando World Server.
+2017/04/21 18:00:39: Login Server Start.
+2017/04/21 18:00:40: Connected World Server #火星
+2017/04/21 18:00:55: Discovery Response IPEndPoint: 187.57.21.139
+2017/04/21 18:00:55: Status changed to connected: 187.57.21.139
+2017/04/21 18:00:58: User Login: akaruz 187.57.21.139
+2017/04/21 18:00:59: World Server 火星 Login Attempt: akaruz 187.57.21.139
+2017/04/21 18:01:26: Status changed to disconnected: 1 akaruz 187.57.21.139 4D2EBF88ED5EF4EE
+2017/04/21 18:01:36: Discovery Response IPEndPoint: 187.57.21.139
+2017/04/21 18:01:36: Status changed to connected: 187.57.21.139
+2017/04/21 18:01:54: User Login: akaruz 187.57.21.139
+2017/04/21 18:01:56: World Server 火星 Login Attempt: akaruz 187.57.21.139
+2017/04/21 18:02:39: Status changed to disconnected: 1 akaruz 187.57.21.139 69A3D413CFC7BCBD

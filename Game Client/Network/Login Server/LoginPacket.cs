@@ -9,7 +9,7 @@ namespace Elysium_Diamond.Network {
         /// <param name="password"></param>
         public static void Login(string username, string password) {
             var buffer = NetworkSocket.CreateMessage();
-            buffer.Write((int)PacketList.CL_LS_Login);
+            buffer.Write((short)PacketList.CL_LS_Login);
             buffer.Write(Configuration.GAME_VERSION);
             buffer.Write(Configuration.ClientSerial);
             buffer.Write(username);
@@ -22,7 +22,7 @@ namespace Elysium_Diamond.Network {
         /// </summary>
         public static void BackToLogin() {
             var buffer = NetworkSocket.CreateMessage();
-            buffer.Write((int)PacketList.CL_LS_BackToLogin);
+            buffer.Write((short)PacketList.CL_LS_BackToLogin);
             NetworkSocket.SendData(SocketEnum.LoginServer, buffer);
         }
 
@@ -32,9 +32,10 @@ namespace Elysium_Diamond.Network {
         /// <param name="index"></param>
         public static void ConnectWorldServer(int index) {
             var buffer = NetworkSocket.CreateMessage();
-            buffer.Write((int)PacketList.CL_LS_WorldServerConnect);
+            buffer.Write((short)PacketList.CL_LS_WorldServerConnect);
             buffer.Write(index);
             NetworkSocket.SendData(SocketEnum.LoginServer, buffer);
         }
+
     }
 }

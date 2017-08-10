@@ -1,0 +1,200 @@
+2017/06/20 16:36:39: ID: 1
+2017/06/20 16:36:39: Discovery: Elysium Diamond #1.0.0
+2017/06/20 16:36:39: Port: 44405
+2017/06/20 16:36:39: Maximum Connection: 5000
+2017/06/20 16:36:39: Sleep: 1
+2017/06/20 16:36:39: Versão: 1.2.10
+2017/06/20 16:36:39: GeoIp: Desativado
+2017/06/20 16:36:39: CheckSum: Desativado
+2017/06/20 16:36:39: PinCheckTime: 15
+2017/06/20 16:36:39: Connect Ip: 127.0.0.1
+2017/06/20 16:36:39: Connect Port: 57550
+2017/06/20 16:36:39: Servidor adicionado: 火星 (JP) 普通
+2017/06/20 16:36:39: Connectado ao banco de dados
+2017/06/20 16:36:42: Conectando World Server
+2017/06/20 16:36:42: Login Server Start
+2017/06/20 16:39:32: Connect Server connected
+2017/06/20 16:39:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 16:39:56: Status changed to connected: 127.0.0.1
+2017/06/20 16:40:00: User Login: akaruz 127.0.0.1 237D90FA31EC3AD1
+2017/06/20 16:40:01: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 16:40:33: Status changed to disconnected: 1 akaruz 127.0.0.1 237D90FA31EC3AD1
+2017/06/20 16:43:54: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 16:43:54: Status changed to connected: 127.0.0.1
+2017/06/20 16:44:11: Connect Server disconnected
+2017/06/20 16:44:52: Connect Server connected
+2017/06/20 16:46:09: Connect Server disconnected
+2017/06/20 16:46:22: Connect Server connected
+2017/06/20 16:46:36: User Login: akaruz 127.0.0.1 2CBCC5D8904A714E
+2017/06/20 16:46:37: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 16:46:52: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 16:46:52: Status changed to connected: 127.0.0.1
+2017/06/20 16:47:05: Status changed to disconnected: 0  127.0.0.1 2CBCC5D8904A714E
+2017/06/20 16:47:29: Status changed to disconnected: 0  127.0.0.1 68625B49CA4047C6
+2017/06/20 16:47:48: Connect Server disconnected
+2017/06/20 16:52:12: Connect Server connected
+2017/06/20 16:52:28: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 16:52:28: Status changed to connected: 127.0.0.1
+2017/06/20 16:53:22: Connect Server disconnected
+2017/06/20 16:53:22: Connect Server connected
+2017/06/20 16:53:38: User Login: akaruz 127.0.0.1 E7C1FCB182F126BE
+2017/06/20 16:53:39: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 16:53:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 16:53:57: Status changed to connected: 127.0.0.1
+2017/06/20 16:54:13: Status changed to disconnected: 0  127.0.0.1 E7C1FCB182F126BE
+2017/06/20 16:54:19: User Login: akaruz 127.0.0.1 BE454C73E40F9F90
+2017/06/20 17:05:43: ID: 1
+2017/06/20 17:05:43: Discovery: Elysium Diamond #1.0.0
+2017/06/20 17:05:43: Port: 44405
+2017/06/20 17:05:43: Maximum Connection: 5000
+2017/06/20 17:05:43: Sleep: 1
+2017/06/20 17:05:43: Versão: 1.2.10
+2017/06/20 17:05:43: GeoIp: Desativado
+2017/06/20 17:05:43: CheckSum: Desativado
+2017/06/20 17:05:43: PinCheckTime: 15
+2017/06/20 17:05:43: Connect Ip: 127.0.0.1
+2017/06/20 17:05:43: Connect Port: 57550
+2017/06/20 17:05:43: Servidor adicionado: 火星 (JP) 普通
+2017/06/20 17:05:43: Connectado ao banco de dados
+2017/06/20 17:05:43: Conectando World Server
+2017/06/20 17:05:44: Login Server Start
+2017/06/20 17:05:44: Connect Server connected
+2017/06/20 17:06:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:06:03: Status changed to connected: 127.0.0.1
+2017/06/20 17:06:08: User Login: akaruz 127.0.0.1 862581F8BB8E92F4
+2017/06/20 17:06:12: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 17:06:28: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:06:28: Status changed to connected: 127.0.0.1
+2017/06/20 17:06:44: Status changed to disconnected: 0  127.0.0.1 862581F8BB8E92F4
+2017/06/20 17:06:45: User Login: akaruz 127.0.0.1 6E210737EBBAEC72
+2017/06/20 17:07:29: Status changed to disconnected: 0  127.0.0.1 6E210737EBBAEC72
+2017/06/20 17:07:33: Connect Server disconnected
+2017/06/20 17:10:04: Connect Server connected
+2017/06/20 17:10:13: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:10:13: Status changed to connected: 127.0.0.1
+2017/06/20 17:10:29: User Login: akaruz 127.0.0.1 A42DEDE731863DDB
+2017/06/20 17:10:30: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 17:10:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:10:45: Status changed to connected: 127.0.0.1
+2017/06/20 17:10:58: Status changed to disconnected: 0  127.0.0.1 A42DEDE731863DDB
+2017/06/20 17:10:59: User Login: akaruz 127.0.0.1 38505E40C89D053F
+2017/06/20 17:11:25: Status changed to disconnected: 0  127.0.0.1 38505E40C89D053F
+2017/06/20 17:12:34: ID: 1
+2017/06/20 17:12:34: Discovery: Elysium Diamond #1.0.0
+2017/06/20 17:12:34: Port: 44405
+2017/06/20 17:12:34: Maximum Connection: 5000
+2017/06/20 17:12:34: Sleep: 1
+2017/06/20 17:12:34: Versão: 1.2.10
+2017/06/20 17:12:34: GeoIp: Desativado
+2017/06/20 17:12:34: CheckSum: Desativado
+2017/06/20 17:12:34: PinCheckTime: 15
+2017/06/20 17:12:34: Connect Ip: 127.0.0.1
+2017/06/20 17:12:34: Connect Port: 57550
+2017/06/20 17:12:34: Servidor adicionado: 火星 (JP) 普通
+2017/06/20 17:12:34: Connectado ao banco de dados
+2017/06/20 17:12:35: Conectando World Server
+2017/06/20 17:12:35: Login Server Start
+2017/06/20 17:12:35: Connect Server connected
+2017/06/20 17:13:01: Connect Server disconnected
+2017/06/20 17:13:36: Connect Server connected
+2017/06/20 17:14:15: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:14:15: Status changed to connected: 127.0.0.1
+2017/06/20 17:14:17: User Login: akaruz 127.0.0.1 9373116ABFCA83E0
+2017/06/20 17:14:18: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 17:14:28: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:14:28: Status changed to connected: 127.0.0.1
+2017/06/20 17:14:44: Status changed to disconnected: 0  127.0.0.1 9373116ABFCA83E0
+2017/06/20 17:14:46: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:14:46: Status changed to connected: 127.0.0.1
+2017/06/20 17:14:49: User Login: akaruz 127.0.0.1 E303E0BE843D3CB0
+2017/06/20 17:14:55: User Login: akaruz 127.0.0.1 E303E0BE843D3CB0
+2017/06/20 17:14:56: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 17:14:57: Status changed to disconnected: 0  127.0.0.1 AA386ED4CC809C87
+2017/06/20 17:15:05: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:15:05: Status changed to connected: 127.0.0.1
+2017/06/20 17:15:23: Status changed to disconnected: 0  127.0.0.1 E303E0BE843D3CB0
+2017/06/20 17:16:07: ID: 1
+2017/06/20 17:16:07: Discovery: Elysium Diamond #1.0.0
+2017/06/20 17:16:07: Port: 44405
+2017/06/20 17:16:07: Maximum Connection: 5000
+2017/06/20 17:16:07: Sleep: 1
+2017/06/20 17:16:07: Versão: 1.2.10
+2017/06/20 17:16:07: GeoIp: Desativado
+2017/06/20 17:16:07: CheckSum: Desativado
+2017/06/20 17:16:07: PinCheckTime: 15
+2017/06/20 17:16:07: Connect Ip: 127.0.0.1
+2017/06/20 17:16:07: Connect Port: 57550
+2017/06/20 17:16:07: Servidor adicionado: 火星 (JP) 普通
+2017/06/20 17:16:07: Connectado ao banco de dados
+2017/06/20 17:16:07: Conectando World Server
+2017/06/20 17:16:08: Login Server Start
+2017/06/20 17:16:08: Connect Server connected
+2017/06/20 17:16:30: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:16:30: Status changed to connected: 127.0.0.1
+2017/06/20 17:16:32: User Login: akaruz 127.0.0.1 9C6C1BF4CAD431DE
+2017/06/20 17:16:33: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 17:16:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:16:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:16:43: Status changed to connected: 127.0.0.1
+2017/06/20 17:17:05: Status changed to disconnected: 0  127.0.0.1 9C6C1BF4CAD431DE
+2017/06/20 17:17:17: Connect Server disconnected
+2017/06/20 17:20:18: Connect Server connected
+2017/06/20 17:20:22: User Login: akaruz 127.0.0.1 D5FF3D73E9C84497
+2017/06/20 17:20:24: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 17:20:32: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:20:32: Status changed to connected: 127.0.0.1
+2017/06/20 17:20:42: Status changed to disconnected: 0  127.0.0.1 D5FF3D73E9C84497
+2017/06/20 17:25:52: ID: 1
+2017/06/20 17:25:52: Discovery: Elysium Diamond #1.0.0
+2017/06/20 17:25:52: Port: 44405
+2017/06/20 17:25:52: Maximum Connection: 5000
+2017/06/20 17:25:52: Sleep: 1
+2017/06/20 17:25:52: Versão: 1.2.10
+2017/06/20 17:25:52: GeoIp: Desativado
+2017/06/20 17:25:52: CheckSum: Desativado
+2017/06/20 17:25:52: PinCheckTime: 15
+2017/06/20 17:25:52: Connect Ip: 127.0.0.1
+2017/06/20 17:25:52: Connect Port: 57550
+2017/06/20 17:25:52: Servidor adicionado: 火星 (JP) 普通
+2017/06/20 17:25:52: Connectado ao banco de dados
+2017/06/20 17:25:55: Conectando World Server
+2017/06/20 17:25:55: Login Server Start
+2017/06/20 17:25:55: Connect Server connected
+2017/06/20 17:26:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:26:10: Status changed to connected: 127.0.0.1
+2017/06/20 17:26:14: User Login: akaruz 127.0.0.1 343BA6B0D4F67CC8
+2017/06/20 17:26:16: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 17:26:24: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:26:24: Status changed to connected: 127.0.0.1
+2017/06/20 17:26:47: Status changed to disconnected: 0  127.0.0.1 343BA6B0D4F67CC8
+2017/06/20 17:27:12: Connect Server disconnected
+2017/06/20 17:28:36: ID: 1
+2017/06/20 17:28:36: Discovery: Elysium Diamond #1.0.0
+2017/06/20 17:28:36: Port: 44405
+2017/06/20 17:28:36: Maximum Connection: 5000
+2017/06/20 17:28:36: Sleep: 1
+2017/06/20 17:28:36: Versão: 1.2.10
+2017/06/20 17:28:36: GeoIp: Desativado
+2017/06/20 17:28:36: CheckSum: Desativado
+2017/06/20 17:28:36: PinCheckTime: 15
+2017/06/20 17:28:36: Connect Ip: 127.0.0.1
+2017/06/20 17:28:36: Connect Port: 57550
+2017/06/20 17:28:36: Servidor adicionado: 火星 (JP) 普通
+2017/06/20 17:28:36: Connectado ao banco de dados
+2017/06/20 17:28:39: Conectando World Server
+2017/06/20 17:28:39: Login Server Start
+2017/06/20 17:28:46: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:28:46: Status changed to connected: 127.0.0.1
+2017/06/20 17:28:49: Connect Server connected
+2017/06/20 17:28:57: User Login: akaruz 127.0.0.1 DDB5EBB6AA4382A8
+2017/06/20 17:28:58: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 17:29:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:29:10: Status changed to connected: 127.0.0.1
+2017/06/20 17:29:16: User Login: akaruz 127.0.0.1 F87D55AFBD04CBC3
+2017/06/20 17:29:25: Status changed to disconnected: 0  127.0.0.1 DDB5EBB6AA4382A8
+2017/06/20 17:29:49: Status changed to disconnected: 0  127.0.0.1 F87D55AFBD04CBC3
+2017/06/20 17:35:35: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/20 17:35:36: Status changed to connected: 127.0.0.1
+2017/06/20 17:35:43: User Login: akaruz 127.0.0.1 64956A2B64F670B0
+2017/06/20 17:35:44: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/20 17:36:25: Status changed to disconnected: 1 akaruz 127.0.0.1 64956A2B64F670B0

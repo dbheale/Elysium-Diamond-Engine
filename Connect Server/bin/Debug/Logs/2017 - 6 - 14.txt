@@ -1,0 +1,24 @@
+2017/06/14 23:56:19: Ocorreu um erro ao abrir o arquivo de logs
+2017/06/14 23:56:19: 
+2017/06/14 23:56:19: Discovery: Elysium Diamond #1.0.0
+2017/06/14 23:56:19: Port: 5750
+2017/06/14 23:56:19: Sleep: 1
+2017/06/14 23:56:19: Max Connections: 5
+2017/06/14 23:56:19: Connect Server Start
+2017/06/14 23:57:16: Ocorreu um erro ao abrir o arquivo de logs
+2017/06/14 23:57:16: 
+2017/06/14 23:57:16: Discovery: Elysium Diamond #1.0.0
+2017/06/14 23:57:16: Port: 5750
+2017/06/14 23:57:16: Sleep: 1
+2017/06/14 23:57:16: Max Connections: 5
+2017/06/14 23:57:16: Connect Server Start
+2017/06/14 23:57:30: Discovery: Elysium Diamond #1.0.0
+2017/06/14 23:57:30: Port: 5750
+2017/06/14 23:57:30: Sleep: 1
+2017/06/14 23:57:30: Max Connections: 5
+2017/06/14 23:57:30: Connect Server Start
+2017/06/14 23:59:00: Discovery: Elysium Diamond #1.0.0
+2017/06/14 23:59:00: Port: 5750
+2017/06/14 23:59:00: Sleep: 1
+2017/06/14 23:59:00: Max Connections: 5
+2017/06/14 23:59:00: Connect Server Start

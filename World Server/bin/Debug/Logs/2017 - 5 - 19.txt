@@ -1,0 +1,53 @@
+2017/05/19 0:56:19: WorldID: -2
+2017/05/19 0:56:19: Server Name: artemis
+2017/05/19 0:56:19: Discovery: Elysium Diamond #1.0.0
+2017/05/19 0:56:19: Port: 55901
+2017/05/19 0:56:19: Maximum Connections: 1000
+2017/05/19 0:56:19: Logs: Ativado
+2017/05/19 0:56:19: Sleep: 1
+2017/05/19 0:56:19: Pin: False
+2017/05/19 0:56:19: PinMaxAttempt: 5
+2017/05/19 0:56:19: PinBannedTime: 15
+2017/05/19 0:56:19: Create Character: False
+2017/05/19 0:56:19: Delete Character: False
+2017/05/19 0:56:19: Carregando config do mysql
+2017/05/19 0:56:19: Connectado ao banco de dados
+2017/05/19 0:56:20: Carregando mensagens do servidor
+2017/05/19 0:56:20: Carregando a loja de items
+2017/05/19 0:56:20: Carregando scripts
+2017/05/19 0:56:20: ClasseID: 1 ItemID: 1 Weapon
+2017/05/19 0:56:20: ClasseID: 1 ItemID: 2 Shield
+2017/05/19 0:56:20: ClasseID: 1 ItemID: 3 Gloves
+2017/05/19 0:56:20: ClasseID: 1 ItemID: 4 Head
+2017/05/19 0:56:20: ClasseID: 1 ItemID: 5 Pants
+2017/05/19 0:56:20: ClasseID: 1 ItemID: 6 Legs
+2017/05/19 0:56:20: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/19 0:56:20: ClasseID: 1 ItemID: 8 Chest
+2017/05/19 0:56:20: ClasseID: 2 ItemID: 1 Weapon
+2017/05/19 0:56:20: ClasseID: 2 ItemID: 2 Shield
+2017/05/19 0:56:20: ClasseID: 2 ItemID: 3 Gloves
+2017/05/19 0:56:20: ClasseID: 2 ItemID: 4 Head
+2017/05/19 0:56:20: ClasseID: 2 ItemID: 5 Pants
+2017/05/19 0:56:20: ClasseID: 2 ItemID: 6 Legs
+2017/05/19 0:56:20: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/19 0:56:20: ClasseID: 2 ItemID: 8 Chest
+2017/05/19 0:56:20: Mapa 1 Canal 1 GameID: -3 127.0.0.1:55970 Capacity: 2000 60%
+2017/05/19 0:56:20: Mapa 1 Canal 2 GameID: -4 127.0.0.1:55971 Capacity: 2000 60%
+2017/05/19 0:56:20: Calderock Village Canal 1 GameID: -5 127.0.0.1:55972 Capacity: 2000 60%
+2017/05/19 0:56:20: Calderock Village Canal 2 GameID: -6 127.0.0.1:55973 Capacity: 2000 60%
+2017/05/19 0:56:20: Conectando Game Server
+2017/05/19 0:56:21: World Server Start
+2017/05/19 0:56:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/19 0:56:25: Status changed to connected: 127.0.0.1
+2017/05/19 0:56:25: Login Server ID: -1
+2017/05/19 0:56:41: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/19 0:58:03: Data From Login Server ID: 1 Account: akaruz CAD9FBB4CBEF31AD
+2017/05/19 0:58:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/19 0:58:03: Status changed to connected: 127.0.0.1
+2017/05/19 0:58:03: Data From Client: CAD9FBB4CBEF31AD
+2017/05/19 0:58:03: Player Found ID: 1 Account: akaruz CAD9FBB4CBEF31AD
+2017/05/19 0:58:03: PreLoad ID: 1 Account: akaruz
+2017/05/19 0:58:04: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/19 0:58:06: Channel-> Caronne: aa
+2017/05/19 1:01:17: Channel-> Caronne: 
+2017/05/19 1:03:43: Status changed to disconnected: 1 akaruz 127.0.0.1 CAD9FBB4CBEF31AD

@@ -11,7 +11,7 @@ using SharpDX.Direct3D9;
 namespace Elysium_Diamond.DirectX {
     public class EngineCharacter {
         [DllImport("user32")]
-        private static extern Int16 GetAsyncKeyState(Int16 vKey);
+        private static extern int GetAsyncKeyState(int vKey);
 
         public enum Direction : byte {
             Up = 1,
@@ -155,11 +155,11 @@ namespace Elysium_Diamond.DirectX {
             ProcessAnimation();
 
             EngineCore.SpriteDevice.Begin(SpriteFlags.AlphaBlend);
-            EngineCore.SpriteDevice.Draw(SpriteManager.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), source_rect, new Vector3(0, 0, 0), new Vector3(X, Y, 0));
+            EngineCore.SpriteDevice.Draw(EngineTexture.FindTextureByID(Sprite, EngineTextureType.Sprites), new Color(Color.R, Color.G, Color.B, Transparency), source_rect, new Vector3(0, 0, 0), new Vector3(X, Y, 0));
             EngineCore.SpriteDevice.End();
 
-            EngineFont.DrawText(null, Name, new Size2(30, 0), new Point(X, Y - 5), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
-            EngineFont.DrawText(null, Guild, new Size2(30, 0), new Point(X, Y - 20), Color.BlueViolet, EngineFontStyle.Bold, FontDrawFlags.Center);
+            EngineFont.DrawText(Name, new Size2(30, 0), new Point(X, Y - 5), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText(Guild, new Size2(30, 0), new Point(X, Y - 20), Color.BlueViolet, EngineFontStyle.Bold, FontDrawFlags.Center);
         }
 
         /// <summary>
@@ -272,7 +272,7 @@ namespace Elysium_Diamond.DirectX {
 
             if (!CanPlayerControl) { return; }
 
-            if (GetAsyncKeyState((short)Keys.W) < 0) {
+            if (GetAsyncKeyState((int)Keys.W) != 0) {
                 if (Move == false) {
                     OffSetY = 16;
                     Dir = Direction.Up;
@@ -281,7 +281,7 @@ namespace Elysium_Diamond.DirectX {
                 }
             }
 
-            if (GetAsyncKeyState((short)Keys.S) < 0) {
+            if (GetAsyncKeyState((int)Keys.S) != 0) {
                 if (Move == false) {
                     OffSetY = -16;
                     Dir = Direction.Down;
@@ -290,7 +290,7 @@ namespace Elysium_Diamond.DirectX {
                 }
             }
 
-            if (GetAsyncKeyState((short)Keys.A) < 0) {
+            if (GetAsyncKeyState((int)Keys.A) != 0) {
                 if (Move == false) {
                     OffSetX = 16;
                     Dir = Direction.Left;
@@ -299,7 +299,7 @@ namespace Elysium_Diamond.DirectX {
                 }
             }
 
-            if (GetAsyncKeyState((short)Keys.D) < 0) {
+            if (GetAsyncKeyState((int)Keys.D) != 0) {
                 if (Move == false) {
                     OffSetX = -16;
                     Dir = Direction.Right;
@@ -320,7 +320,7 @@ namespace Elysium_Diamond.DirectX {
                         MouseMove?.Invoke(this, EventArgs.Empty);
                     }
 
-                    if (EngineCore.MouseDown) {
+                    if (EngineCore.MouseLeft || EngineCore.MouseRight) {
                         if (!click) {
                             MouseDown?.Invoke(this, EventArgs.Empty); click = true;
                         }

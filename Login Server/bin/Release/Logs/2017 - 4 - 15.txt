@@ -1,0 +1,125 @@
+04/15/2017 11:45:50: ID: 2147483647
+04/15/2017 11:45:50: Discovery: Elysium Diamond #1.0.0
+04/15/2017 11:45:50: Port: 44405
+04/15/2017 11:45:50: Maximum Connection: 2000
+04/15/2017 11:45:50: Sleep: 1
+04/15/2017 11:45:50: Version: 1.0.155
+04/15/2017 11:45:50: GeoIp: Desativado
+04/15/2017 11:45:50: CheckSum: Desativado
+04/15/2017 11:45:50: Servidor adicionado: 火星 (JP) 普通
+04/15/2017 11:45:50: Servidor adicionado: 木星 (JP) 普通
+04/15/2017 11:45:50: Servidor adicionado: 화성 (KR) 표준
+04/15/2017 11:45:50: Servidor adicionado: Local Server (BR) Privado
+04/15/2017 11:45:50: Servidor adicionado: Event Server Test (BR) PvP
+04/15/2017 11:45:50: Connectado ao banco de dados
+04/15/2017 11:45:52: Conectando World Server.
+04/15/2017 11:45:53: Login Server Start.
+04/15/2017 11:47:43: Connected World Server #火星
+04/15/2017 14:28:30: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:28:30: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:28:30: Status changed to connected: 187.34.54.177
+04/15/2017 14:28:32: User Login: akaruz 187.34.54.177
+04/15/2017 14:28:33: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:29:11: Status changed to disconnected: 8 akaruz 187.34.54.177 2B3AEE8C41382DD1
+04/15/2017 14:29:19: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:29:19: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:29:19: Status changed to connected: 187.34.54.177
+04/15/2017 14:29:21: User Login: akaruz 187.34.54.177
+04/15/2017 14:29:22: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:30:42: Status changed to disconnected: 8 akaruz 187.34.54.177 BC0981788C4983EF
+04/15/2017 14:33:34: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:33:34: Status changed to connected: 187.34.54.177
+04/15/2017 14:34:22: User Login: akaruz 187.34.54.177
+04/15/2017 14:34:23: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:34:26: Status changed to disconnected: 8 akaruz 187.34.54.177 64E456E406A9C93C
+04/15/2017 14:35:05: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:35:05: Status changed to connected: 187.34.54.177
+04/15/2017 14:35:08: User Login: akaruz 187.34.54.177
+04/15/2017 14:35:10: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:35:50: Status changed to disconnected: 8 akaruz 187.34.54.177 A6445FEF69AC6677
+04/15/2017 14:42:00: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:42:00: Status changed to connected: 187.34.54.177
+04/15/2017 14:42:02: User Login: akaruz 187.34.54.177
+04/15/2017 14:42:04: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:43:45: Status changed to disconnected: 8 akaruz 187.34.54.177 EFB660001CEE6CA6
+04/15/2017 14:44:46: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:44:46: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:44:46: Status changed to connected: 187.34.54.177
+04/15/2017 14:45:00: User Login: akaruz 187.34.54.177
+04/15/2017 14:45:01: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:45:28: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:45:28: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:45:28: Status changed to connected: 187.34.54.177
+04/15/2017 14:45:37: Status changed to disconnected: 8 akaruz 187.34.54.177 CF0932DF29E7B5EC
+04/15/2017 14:45:39: User Login: akaruz 187.34.54.177
+04/15/2017 14:45:40: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:45:42: Status changed to disconnected: 8 akaruz 187.34.54.177 379A142C9303846C
+04/15/2017 14:45:51: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:45:51: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:45:51: Status changed to connected: 187.34.54.177
+04/15/2017 14:45:56: User Login: akaruz 187.34.54.177
+04/15/2017 14:45:58: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:46:00: Status changed to disconnected: 8 akaruz 187.34.54.177 36CADE4992D13900
+04/15/2017 14:46:14: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:46:14: Status changed to connected: 187.34.54.177
+04/15/2017 14:46:16: User Login: akaruz 187.34.54.177
+04/15/2017 14:46:18: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:46:40: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:46:40: Status changed to connected: 187.34.54.177
+04/15/2017 14:46:45: User Login: akaruz 187.34.54.177
+04/15/2017 14:46:46: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:46:47: Status changed to disconnected: 8 akaruz 187.34.54.177 1EFCFFA8C13A8E49
+04/15/2017 14:46:51: Status changed to disconnected: 0   8FAD56E41714ECF5
+04/15/2017 14:47:09: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:47:09: Status changed to connected: 187.34.54.177
+04/15/2017 14:47:17: User Login: akaruz 187.34.54.177
+04/15/2017 14:47:18: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:47:33: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:47:33: Status changed to connected: 187.34.54.177
+04/15/2017 14:47:45: User Login: akaruz 187.34.54.177
+04/15/2017 14:47:46: World Server 木星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:47:48: Status changed to disconnected: 0   7F1E739F8C3DE051
+04/15/2017 14:47:57: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:48:17: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:48:17: Status changed to connected: 187.34.54.177
+04/15/2017 14:48:22: User Login: akaruz 187.34.54.177
+04/15/2017 14:48:24: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:48:26: Status changed to disconnected: 8 akaruz 187.34.54.177 3064121F1F3C419B
+04/15/2017 14:48:30: Status changed to disconnected: 0   7EFC6D6018A9202D
+04/15/2017 14:48:33: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:48:33: Status changed to connected: 187.34.54.177
+04/15/2017 14:48:37: User Login: akaruz 187.34.54.177
+04/15/2017 14:48:38: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:49:24: Status changed to disconnected: 8 akaruz 187.34.54.177 846B95C1AA836CD2
+04/15/2017 14:49:24: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:49:24: Status changed to connected: 187.34.54.177
+04/15/2017 14:49:45: User Login: akaruz 187.34.54.177
+04/15/2017 14:49:46: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:50:35: Status changed to disconnected: 8 akaruz 187.34.54.177 13747D1F8F963125
+04/15/2017 14:50:37: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:50:37: Status changed to connected: 187.34.54.177
+04/15/2017 14:50:41: User Login: akaruz 187.34.54.177
+04/15/2017 14:50:42: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:51:47: Status changed to disconnected: 8 akaruz 187.34.54.177 0676E3470F67C7F2
+04/15/2017 14:56:52: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:56:52: Status changed to connected: 187.34.54.177
+04/15/2017 14:56:54: User Login: akaruz 187.34.54.177
+04/15/2017 14:56:56: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:57:48: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:57:48: Status changed to connected: 187.34.54.177
+04/15/2017 14:57:53: Status changed to disconnected: 8 akaruz 187.34.54.177 776FD367F12E3EF6
+04/15/2017 14:57:54: User Login: akaruz 187.34.54.177
+04/15/2017 14:57:55: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:58:48: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 14:58:48: Status changed to connected: 187.34.54.177
+04/15/2017 14:58:54: Status changed to disconnected: 8 akaruz 187.34.54.177 4E9445D46EBE3CCB
+04/15/2017 14:58:54: User Login: akaruz 187.34.54.177
+04/15/2017 14:59:08: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 14:59:53: Status changed to disconnected: 8 akaruz 187.34.54.177 3211FBEC3882D4E3
+04/15/2017 14:59:56: World Server #火星 disconnected
+04/15/2017 15:00:03: Connected World Server #火星
+04/15/2017 15:00:09: Discovery Response IPEndPoint: 187.34.54.177
+04/15/2017 15:00:09: Status changed to connected: 187.34.54.177
+04/15/2017 15:00:15: User Login: akaruz 187.34.54.177
+04/15/2017 15:00:16: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/15/2017 15:01:04: Status changed to disconnected: 8 akaruz 187.34.54.177 E395D5F75A067022

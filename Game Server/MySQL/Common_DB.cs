@@ -17,11 +17,11 @@ namespace GameServer.MySQL {
         /// <param name="error"></param>
         /// <returns></returns>
         public static bool Open(out string message) {
-            var varQuery = $"Server={Server};Port={Port};Database={Database};User ID={Username};Password={Password};";
+            var query = $"Server={Server};Port={Port};Database={Database};User ID={Username};Password={Password};";
 
             try {
                 Connection = new MySqlConnection();
-                Connection.ConnectionString = varQuery;
+                Connection.ConnectionString = query;
                 Connection.Open();
             }
             catch (MySqlException ex) {

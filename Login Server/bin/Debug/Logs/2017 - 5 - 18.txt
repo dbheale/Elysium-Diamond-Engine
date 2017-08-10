@@ -1,0 +1,430 @@
+2017/05/18 0:51:22: ID: -1
+2017/05/18 0:51:22: Discovery: Elysium Diamond #1.0.0
+2017/05/18 0:51:22: Port: 44405
+2017/05/18 0:51:22: Maximum Connection: 1000
+2017/05/18 0:51:22: Sleep: 1
+2017/05/18 0:51:22: Versão: 1.2.10
+2017/05/18 0:51:22: GeoIp: Desativado
+2017/05/18 0:51:22: CheckSum: Desativado
+2017/05/18 0:51:22: PinCheckTime: 15
+2017/05/18 0:51:22: Servidor adicionado: 火星 (JP) 普通
+2017/05/18 0:51:22: Servidor adicionado: 木星 (JP) 普通
+2017/05/18 0:51:22: Servidor adicionado: 화성 (KR) 표준
+2017/05/18 0:51:22: Servidor adicionado: Local Server (BR) Privado
+2017/05/18 0:51:22: Connectado ao banco de dados
+2017/05/18 0:51:22: Conectando World Server
+2017/05/18 0:51:22: Login Server Start
+2017/05/18 0:54:23: Connected World Server #火星
+2017/05/18 0:57:20: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 0:57:20: Status changed to connected: 127.0.0.1
+2017/05/18 0:57:28: User Login: akaruz 127.0.0.1
+2017/05/18 0:57:29: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 0:58:09: Status changed to disconnected: 1 akaruz 127.0.0.1 74403512DEA78FA6
+2017/05/18 0:59:30: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 0:59:30: Status changed to connected: 127.0.0.1
+2017/05/18 0:59:39: User Login: akaruz 127.0.0.1
+2017/05/18 0:59:40: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 1:00:40: Status changed to disconnected: 1 akaruz 127.0.0.1 3C604CC6DE9B1BE7
+2017/05/18 1:09:39: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:09:39: Status changed to connected: 127.0.0.1
+2017/05/18 1:09:45: User Login: akaruz 127.0.0.1
+2017/05/18 1:09:46: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 1:10:36: Status changed to disconnected: 1 akaruz 127.0.0.1 726F47785493A637
+2017/05/18 1:10:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:10:57: Status changed to connected: 127.0.0.1
+2017/05/18 1:11:02: User Login: akaruz 127.0.0.1
+2017/05/18 1:11:03: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 1:11:54: Status changed to disconnected: 1 akaruz 127.0.0.1 B96B230E8D9E19D9
+2017/05/18 1:32:09: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:32:09: Status changed to connected: 127.0.0.1
+2017/05/18 1:32:36: Status changed to disconnected: 0  127.0.0.1 1E048DE0AFA70902
+2017/05/18 1:34:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:34:57: Status changed to connected: 127.0.0.1
+2017/05/18 1:35:24: Status changed to disconnected: 0  127.0.0.1 8B44DB7D497B5CD4
+2017/05/18 1:35:44: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:35:45: Status changed to connected: 127.0.0.1
+2017/05/18 1:35:53: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:35:53: Status changed to connected: 127.0.0.1
+2017/05/18 1:36:02: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:36:02: Status changed to connected: 127.0.0.1
+2017/05/18 1:36:12: Status changed to disconnected: 0  127.0.0.1 EBCEE9977D31A238
+2017/05/18 1:36:20: Status changed to disconnected: 0  127.0.0.1 D1BCBBEDE2F0AADC
+2017/05/18 1:36:29: Status changed to disconnected: 0  127.0.0.1 BEC7B09B70897FBB
+2017/05/18 1:42:34: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:42:34: Status changed to connected: 127.0.0.1
+2017/05/18 1:42:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:42:56: Status changed to connected: 127.0.0.1
+2017/05/18 1:43:01: Status changed to disconnected: 0  127.0.0.1 B53D4670B8C36646
+2017/05/18 1:43:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:43:16: Status changed to connected: 127.0.0.1
+2017/05/18 1:43:23: Status changed to disconnected: 0  127.0.0.1 B17E03C5253EFC86
+2017/05/18 1:43:30: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:43:30: Status changed to connected: 127.0.0.1
+2017/05/18 1:43:45: Status changed to disconnected: 0  127.0.0.1 CE40D07E006AEE0A
+2017/05/18 1:43:47: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:43:47: Status changed to connected: 127.0.0.1
+2017/05/18 1:44:01: Status changed to disconnected: 0  127.0.0.1 1281B2FFFE279DD9
+2017/05/18 1:44:20: Status changed to disconnected: 0  127.0.0.1 47A9F616C28E68DB
+2017/05/18 1:44:31: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:44:31: Status changed to connected: 127.0.0.1
+2017/05/18 1:44:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:44:48: Status changed to connected: 127.0.0.1
+2017/05/18 1:45:00: Status changed to disconnected: 0  127.0.0.1 361D04A1ACB09F18
+2017/05/18 1:45:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:45:03: Status changed to connected: 127.0.0.1
+2017/05/18 1:45:17: Status changed to disconnected: 0  127.0.0.1 0E0569DAA1695462
+2017/05/18 1:45:31: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:45:31: Status changed to connected: 127.0.0.1
+2017/05/18 1:45:32: Status changed to disconnected: 0  127.0.0.1 E80F5CB5ACA89F11
+2017/05/18 1:46:06: Status changed to disconnected: 0  127.0.0.1 AC07D9229219810D
+2017/05/18 1:48:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:48:56: Status changed to connected: 127.0.0.1
+2017/05/18 1:49:11: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:49:11: Status changed to connected: 127.0.0.1
+2017/05/18 1:49:22: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:49:22: Status changed to connected: 127.0.0.1
+2017/05/18 1:49:23: Status changed to disconnected: 0  127.0.0.1 097213A135329153
+2017/05/18 1:49:38: Status changed to disconnected: 0  127.0.0.1 02D433C85F265648
+2017/05/18 1:49:51: Status changed to disconnected: 0  127.0.0.1 B6AB8482F91B6470
+2017/05/18 1:50:06: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:50:07: Status changed to connected: 127.0.0.1
+2017/05/18 1:50:15: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:50:16: Status changed to connected: 127.0.0.1
+2017/05/18 1:50:30: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:50:30: Status changed to connected: 127.0.0.1
+2017/05/18 1:50:34: Status changed to disconnected: 0  127.0.0.1 CDCAAAB5530ED39C
+2017/05/18 1:50:49: Status changed to disconnected: 0  127.0.0.1 C2B40BE30AF2594B
+2017/05/18 1:51:01: Status changed to disconnected: 0  127.0.0.1 42487329A34D0879
+2017/05/18 1:52:55: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:52:55: Status changed to connected: 127.0.0.1
+2017/05/18 1:53:20: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:53:20: Status changed to connected: 127.0.0.1
+2017/05/18 1:53:28: Status changed to disconnected: 0  127.0.0.1 AA170DA90384325A
+2017/05/18 1:53:47: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:53:47: Status changed to connected: 127.0.0.1
+2017/05/18 1:54:01: Status changed to disconnected: 0  127.0.0.1 C046AF633513A9A4
+2017/05/18 1:54:18: Status changed to disconnected: 0  127.0.0.1 EFB9B1845C336CB7
+2017/05/18 1:54:27: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:54:27: Status changed to connected: 127.0.0.1
+2017/05/18 1:55:10: Status changed to disconnected: 0  127.0.0.1 49BDCE9BFBF8A018
+2017/05/18 1:55:35: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:55:35: Status changed to connected: 127.0.0.1
+2017/05/18 1:56:02: Status changed to disconnected: 0  127.0.0.1 9E2F8EF953D34AC0
+2017/05/18 1:57:35: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:57:35: Status changed to connected: 127.0.0.1
+2017/05/18 1:58:02: Status changed to disconnected: 0  127.0.0.1 16F41C5D0DE61D44
+2017/05/18 1:58:29: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:58:29: Status changed to connected: 127.0.0.1
+2017/05/18 1:58:58: Status changed to disconnected: 0  127.0.0.1 112DF385B90BCFB5
+2017/05/18 2:00:20: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:00:20: Status changed to connected: 127.0.0.1
+2017/05/18 2:00:47: Status changed to disconnected: 0  127.0.0.1 A6FB284138EEA53F
+2017/05/18 2:01:22: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:01:22: Status changed to connected: 127.0.0.1
+2017/05/18 2:01:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:01:45: Status changed to connected: 127.0.0.1
+2017/05/18 2:01:51: Status changed to disconnected: 0  127.0.0.1 1D28177A8DF7411F
+2017/05/18 2:02:16: Status changed to disconnected: 0  127.0.0.1 204483956B9E53B5
+2017/05/18 2:02:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:02:16: Status changed to connected: 127.0.0.1
+2017/05/18 2:02:37: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:02:37: Status changed to connected: 127.0.0.1
+2017/05/18 2:02:43: Status changed to disconnected: 0  127.0.0.1 179535868146EFFA
+2017/05/18 2:02:54: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:02:54: Status changed to connected: 127.0.0.1
+2017/05/18 2:03:06: Status changed to disconnected: 0  127.0.0.1 1ADEF19C7F9FE076
+2017/05/18 2:03:09: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:03:09: Status changed to connected: 127.0.0.1
+2017/05/18 2:03:21: Status changed to disconnected: 0  127.0.0.1 EEA23497590F49F2
+2017/05/18 2:03:44: Status changed to disconnected: 0  127.0.0.1 55CE48FE09C14C4C
+2017/05/18 2:22:14: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:22:14: Status changed to connected: 127.0.0.1
+2017/05/18 2:22:41: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:22:41: Status changed to connected: 127.0.0.1
+2017/05/18 2:22:47: Status changed to disconnected: 0  127.0.0.1 4B5C2DA695A6D5CC
+2017/05/18 2:23:07: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:23:07: Status changed to connected: 127.0.0.1
+2017/05/18 2:23:10: Status changed to disconnected: 0  127.0.0.1 8F6AE46B19D2C9CF
+2017/05/18 2:23:36: Status changed to disconnected: 0  127.0.0.1 FB7BA3C5477E0D98
+2017/05/18 2:23:39: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:23:39: Status changed to connected: 127.0.0.1
+2017/05/18 2:24:12: Status changed to disconnected: 0  127.0.0.1 E80490A8EBDA78F4
+2017/05/18 2:24:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:24:25: Status changed to connected: 127.0.0.1
+2017/05/18 2:24:58: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:24:58: Status changed to connected: 127.0.0.1
+2017/05/18 2:25:10: Status changed to disconnected: 0  127.0.0.1 B105BCBF83A15EEB
+2017/05/18 2:25:27: Status changed to disconnected: 0  127.0.0.1 37D72AA09B929957
+2017/05/18 2:27:41: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:27:41: Status changed to connected: 127.0.0.1
+2017/05/18 2:27:55: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:27:55: Status changed to connected: 127.0.0.1
+2017/05/18 2:28:08: Status changed to disconnected: 0  127.0.0.1 A90CB426D82A4FA7
+2017/05/18 2:28:15: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:28:15: Status changed to connected: 127.0.0.1
+2017/05/18 2:28:22: Status changed to disconnected: 0  127.0.0.1 F059CB708D886739
+2017/05/18 2:28:31: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:28:31: Status changed to connected: 127.0.0.1
+2017/05/18 2:28:44: Status changed to disconnected: 0  127.0.0.1 0FE0ED82E66B9506
+2017/05/18 2:28:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:28:56: Status changed to connected: 127.0.0.1
+2017/05/18 2:29:00: Status changed to disconnected: 0  127.0.0.1 0F633337DD7E379F
+2017/05/18 2:29:49: Status changed to disconnected: 0  127.0.0.1 06D0DA531D2812B6
+2017/05/18 2:33:14: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:33:14: Status changed to connected: 127.0.0.1
+2017/05/18 2:33:27: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:33:27: Status changed to connected: 127.0.0.1
+2017/05/18 2:33:42: Status changed to disconnected: 0  127.0.0.1 DED6538B00D773FD
+2017/05/18 2:33:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:33:48: Status changed to connected: 127.0.0.1
+2017/05/18 2:33:56: Status changed to disconnected: 0  127.0.0.1 E582DE69E250ED98
+2017/05/18 2:34:07: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:34:07: Status changed to connected: 127.0.0.1
+2017/05/18 2:34:25: Status changed to disconnected: 0  127.0.0.1 A9103FB7F3DF72E2
+2017/05/18 2:34:50: Status changed to disconnected: 0  127.0.0.1 BD2E66609AD97021
+2017/05/18 2:35:18: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:35:18: Status changed to connected: 127.0.0.1
+2017/05/18 2:35:32: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:35:32: Status changed to connected: 127.0.0.1
+2017/05/18 2:35:49: Status changed to disconnected: 0  127.0.0.1 845D97C9D5C257D0
+2017/05/18 2:36:05: Status changed to disconnected: 0  127.0.0.1 67AAB730ACEFE3A0
+2017/05/18 2:36:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:36:50: Status changed to connected: 127.0.0.1
+2017/05/18 2:37:15: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:37:15: Status changed to connected: 127.0.0.1
+2017/05/18 2:37:21: Status changed to disconnected: 0  127.0.0.1 57A916AAF7C4B993
+2017/05/18 2:37:36: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:37:36: Status changed to connected: 127.0.0.1
+2017/05/18 2:37:52: Status changed to disconnected: 0  127.0.0.1 7D473468E8DA2EA7
+2017/05/18 2:38:07: Status changed to disconnected: 0  127.0.0.1 2459F15C9F36F039
+2017/05/18 2:39:49: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:39:49: Status changed to connected: 127.0.0.1
+2017/05/18 2:40:16: Status changed to disconnected: 0  127.0.0.1 1E89330E4AC39F28
+2017/05/18 2:40:36: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:40:36: Status changed to connected: 127.0.0.1
+2017/05/18 2:41:34: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:41:34: Status changed to connected: 127.0.0.1
+2017/05/18 2:41:45: Status changed to disconnected: 0  127.0.0.1 C88D6DE11A779B66
+2017/05/18 2:41:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:41:48: Status changed to connected: 127.0.0.1
+2017/05/18 2:42:01: Status changed to disconnected: 0  127.0.0.1 A5E2F42FD8B1ADF0
+2017/05/18 2:42:17: Status changed to disconnected: 0  127.0.0.1 3C5054BFD46619BC
+2017/05/18 2:42:42: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:42:42: Status changed to connected: 127.0.0.1
+2017/05/18 2:43:13: Status changed to disconnected: 0  127.0.0.1 59A8819DA53292D2
+2017/05/18 2:43:44: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:43:45: Status changed to connected: 127.0.0.1
+2017/05/18 2:44:07: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:44:07: Status changed to connected: 127.0.0.1
+2017/05/18 2:44:18: Status changed to disconnected: 0  127.0.0.1 9D85AC08F49B0C06
+2017/05/18 2:44:46: Status changed to disconnected: 0  127.0.0.1 645295F825C0DCA9
+2017/05/18 2:45:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:45:03: Status changed to connected: 127.0.0.1
+2017/05/18 2:45:17: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:45:17: Status changed to connected: 127.0.0.1
+2017/05/18 2:45:28: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:45:28: Status changed to connected: 127.0.0.1
+2017/05/18 2:45:32: Status changed to disconnected: 0  127.0.0.1 35298B76A4DE85DC
+2017/05/18 2:45:44: Status changed to disconnected: 0  127.0.0.1 F97193A1740B9407
+2017/05/18 2:45:55: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:45:55: Status changed to connected: 127.0.0.1
+2017/05/18 2:46:01: Status changed to disconnected: 0  127.0.0.1 1AE1761A5378A41D
+2017/05/18 2:46:12: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:46:12: Status changed to connected: 127.0.0.1
+2017/05/18 2:46:26: Status changed to disconnected: 0  127.0.0.1 0BF8E0D074E28B72
+2017/05/18 2:46:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:46:45: Status changed to connected: 127.0.0.1
+2017/05/18 2:46:47: Status changed to disconnected: 0  127.0.0.1 726F47785493A637
+2017/05/18 2:47:14: Status changed to disconnected: 0  127.0.0.1 B96B230E8D9E19D9
+2017/05/18 2:47:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:47:23: Status changed to connected: 127.0.0.1
+2017/05/18 2:47:59: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:47:59: Status changed to connected: 127.0.0.1
+2017/05/18 2:48:01: Status changed to disconnected: 0  127.0.0.1 61DE18FC9829D49B
+2017/05/18 2:48:28: Status changed to disconnected: 0  127.0.0.1 194360B25692EF09
+2017/05/18 2:50:05: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:50:05: Status changed to connected: 127.0.0.1
+2017/05/18 2:58:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 2:58:16: Status changed to connected: 127.0.0.1
+2017/05/18 2:58:27: Status changed to disconnected: 0  127.0.0.1 BFD51763DB0C92A8
+2017/05/18 2:58:43: Status changed to disconnected: 0  127.0.0.1 D17D1BDC226EF1FD
+2017/05/18 3:03:37: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:03:37: Status changed to connected: 127.0.0.1
+2017/05/18 3:04:06: Status changed to disconnected: 0  127.0.0.1 AE0263CA85D21682
+2017/05/18 3:04:07: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:04:07: Status changed to connected: 127.0.0.1
+2017/05/18 3:04:34: Status changed to disconnected: 0  127.0.0.1 DE5868C35AEF9F0D
+2017/05/18 3:04:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:04:56: Status changed to connected: 127.0.0.1
+2017/05/18 3:05:27: Status changed to disconnected: 0  127.0.0.1 65683FF544A32C06
+2017/05/18 3:05:32: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:05:33: Status changed to connected: 127.0.0.1
+2017/05/18 3:06:26: Status changed to disconnected: 0  127.0.0.1 5D18BE7332E85E1C
+2017/05/18 3:07:34: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:07:34: Status changed to connected: 127.0.0.1
+2017/05/18 3:08:04: Status changed to disconnected: 0  127.0.0.1 0FACFB83FAEDFAA4
+2017/05/18 3:09:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:09:10: Status changed to connected: 127.0.0.1
+2017/05/18 3:09:36: Status changed to disconnected: 0  127.0.0.1 6D4B011D7EE3FAB5
+2017/05/18 3:09:44: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:09:44: Status changed to connected: 127.0.0.1
+2017/05/18 3:10:07: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:10:07: Status changed to connected: 127.0.0.1
+2017/05/18 3:10:15: Status changed to disconnected: 0  127.0.0.1 2A3F93BCEA893AB2
+2017/05/18 3:10:18: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:10:18: Status changed to connected: 127.0.0.1
+2017/05/18 3:10:30: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:10:30: Status changed to connected: 127.0.0.1
+2017/05/18 3:10:34: Status changed to disconnected: 0  127.0.0.1 D235B43F926669BC
+2017/05/18 3:10:46: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:10:46: Status changed to connected: 127.0.0.1
+2017/05/18 3:10:49: Status changed to disconnected: 0  127.0.0.1 7960ECCF47D1FC8B
+2017/05/18 3:11:03: Status changed to disconnected: 0  127.0.0.1 722110D1D267B036
+2017/05/18 3:11:11: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:11:11: Status changed to connected: 127.0.0.1
+2017/05/18 3:11:19: Status changed to disconnected: 0  127.0.0.1 7871FE7AA5300917
+2017/05/18 3:12:04: Status changed to disconnected: 0  127.0.0.1 C48FAC33A990B7CA
+2017/05/18 3:12:33: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:12:34: Status changed to connected: 127.0.0.1
+2017/05/18 3:13:12: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:13:12: Status changed to connected: 127.0.0.1
+2017/05/18 3:13:19: Status changed to disconnected: 0  127.0.0.1 D70C2DF9A8729B8F
+2017/05/18 3:13:49: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:13:49: Status changed to connected: 127.0.0.1
+2017/05/18 3:14:02: Status changed to disconnected: 0  127.0.0.1 C9EEF2BF9AC1838C
+2017/05/18 3:14:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:14:03: Status changed to connected: 127.0.0.1
+2017/05/18 3:14:18: Status changed to disconnected: 0  127.0.0.1 39FC87BB5ABB19F2
+2017/05/18 3:14:39: Status changed to disconnected: 0  127.0.0.1 489C6FF5475CB02D
+2017/05/18 3:14:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:14:43: Status changed to connected: 127.0.0.1
+2017/05/18 3:15:22: Status changed to disconnected: 0  127.0.0.1 41F6486A0D0E28C5
+2017/05/18 3:16:30: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:16:30: Status changed to connected: 127.0.0.1
+2017/05/18 3:17:43: Status changed to disconnected: 0  127.0.0.1 BF23C25C6BBB4FE2
+2017/05/18 3:17:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:17:45: Status changed to connected: 127.0.0.1
+2017/05/18 3:18:06: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:18:06: Status changed to connected: 127.0.0.1
+2017/05/18 3:18:14: Status changed to disconnected: 0  127.0.0.1 C460EADD31044BB2
+2017/05/18 3:18:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:18:23: Status changed to connected: 127.0.0.1
+2017/05/18 3:18:35: Status changed to disconnected: 0  127.0.0.1 F74389DCC54995C9
+2017/05/18 3:18:52: Status changed to disconnected: 0  127.0.0.1 799A8E8601DFC08A
+2017/05/18 3:19:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:19:25: Status changed to connected: 127.0.0.1
+2017/05/18 3:20:04: Status changed to disconnected: 0  127.0.0.1 B1FDCC487367AA1C
+2017/05/18 3:27:31: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:27:31: Status changed to connected: 127.0.0.1
+2017/05/18 3:27:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:27:50: Status changed to connected: 127.0.0.1
+2017/05/18 3:27:54: User Login: akaruz 127.0.0.1
+2017/05/18 3:27:55: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 3:27:56: Status changed to disconnected: 0  127.0.0.1 1D4A96E5CA1B692C
+2017/05/18 3:29:08: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:29:08: Status changed to connected: 127.0.0.1
+2017/05/18 3:29:11: Status changed to disconnected: 1 akaruz 127.0.0.1 5CAE0A7C5E822116
+2017/05/18 3:29:14: User Login: akaruz 127.0.0.1
+2017/05/18 3:29:15: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 3:30:40: Status changed to disconnected: 1 akaruz 127.0.0.1 795D766E26250336
+2017/05/18 3:59:29: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:59:29: Status changed to connected: 127.0.0.1
+2017/05/18 3:59:32: User Login: akaruz 127.0.0.1
+2017/05/18 3:59:33: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:00:08: Status changed to disconnected: 1 akaruz 127.0.0.1 FA049E70593EBBA8
+2017/05/18 4:00:51: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:00:51: Status changed to connected: 127.0.0.1
+2017/05/18 4:00:53: User Login: akaruz 127.0.0.1
+2017/05/18 4:00:54: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:01:40: Status changed to disconnected: 1 akaruz 127.0.0.1 0A913B7A10633436
+2017/05/18 4:06:18: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:06:18: Status changed to connected: 127.0.0.1
+2017/05/18 4:06:21: User Login: akaruz 127.0.0.1
+2017/05/18 4:06:23: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:06:55: Status changed to disconnected: 1 akaruz 127.0.0.1 5C4E6DDCB040D73B
+2017/05/18 4:07:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:07:03: Status changed to connected: 127.0.0.1
+2017/05/18 4:07:05: User Login: akaruz 127.0.0.1
+2017/05/18 4:07:06: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:07:48: Status changed to disconnected: 1 akaruz 127.0.0.1 5D04E91D75EF5E1D
+2017/05/18 4:08:08: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:08:08: Status changed to connected: 127.0.0.1
+2017/05/18 4:08:11: User Login: akaruz 127.0.0.1
+2017/05/18 4:08:12: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:09:17: Status changed to disconnected: 1 akaruz 127.0.0.1 DDD72D1AB40F33B0
+2017/05/18 4:10:13: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:10:13: Status changed to connected: 127.0.0.1
+2017/05/18 4:10:18: User Login: akaruz 127.0.0.1
+2017/05/18 4:10:19: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:11:38: Status changed to disconnected: 1 akaruz 127.0.0.1 B57D716F4806F105
+2017/05/18 4:12:32: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:12:32: Status changed to connected: 127.0.0.1
+2017/05/18 4:12:37: User Login: akaruz 127.0.0.1
+2017/05/18 4:12:38: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:18:08: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:18:08: Status changed to connected: 127.0.0.1
+2017/05/18 4:18:12: Status changed to disconnected: 1 akaruz 127.0.0.1 DC7F75FB067C9E61
+2017/05/18 4:18:15: User Login: akaruz 127.0.0.1
+2017/05/18 4:18:16: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:19:21: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:19:21: Status changed to connected: 127.0.0.1
+2017/05/18 4:19:25: Status changed to disconnected: 1 akaruz 127.0.0.1 5D391C07A682279C
+2017/05/18 4:19:37: User Login: akaruz 127.0.0.1
+2017/05/18 4:19:39: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:20:28: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:20:28: Status changed to connected: 127.0.0.1
+2017/05/18 4:20:28: Status changed to disconnected: 1 akaruz 127.0.0.1 790512A002C0A48C
+2017/05/18 4:20:31: User Login: akaruz 127.0.0.1
+2017/05/18 4:20:32: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:21:38: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:21:38: Status changed to connected: 127.0.0.1
+2017/05/18 4:21:47: Status changed to disconnected: 1 akaruz 127.0.0.1 A8DFC8206A388C67
+2017/05/18 4:22:17: Status changed to disconnected: 0  127.0.0.1 CC3B02E7ECC6927E
+2017/05/18 4:22:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:22:50: Status changed to connected: 127.0.0.1
+2017/05/18 4:22:54: User Login: akaruz 127.0.0.1
+2017/05/18 4:22:55: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:23:37: Status changed to disconnected: 1 akaruz 127.0.0.1 61A23E9D5E522BA4
+2017/05/18 4:24:05: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:24:05: Status changed to connected: 127.0.0.1
+2017/05/18 4:24:11: User Login: akaruz 127.0.0.1
+2017/05/18 4:24:13: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:26:02: Status changed to disconnected: 1 akaruz 127.0.0.1 E3978B2FE5BC80C0
+2017/05/18 4:26:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:26:03: Status changed to connected: 127.0.0.1
+2017/05/18 4:26:08: User Login: akaruz 127.0.0.1
+2017/05/18 4:26:09: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:26:59: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:26:59: Status changed to connected: 127.0.0.1
+2017/05/18 4:27:04: Status changed to disconnected: 1 akaruz 127.0.0.1 9EF15E4BAD70ABC5
+2017/05/18 4:27:19: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:27:19: Status changed to connected: 127.0.0.1
+2017/05/18 4:27:22: User Login: akaruz 127.0.0.1
+2017/05/18 4:27:23: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:27:28: Status changed to disconnected: 0  127.0.0.1 357F32CE22FF1C33
+2017/05/18 4:35:13: Status changed to disconnected: 1 akaruz 127.0.0.1 CFC24EC8EDC8EA83
+2017/05/18 4:52:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:52:56: Status changed to connected: 127.0.0.1
+2017/05/18 4:53:17: User Login: akaruz 127.0.0.1
+2017/05/18 4:53:19: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:53:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:53:48: Status changed to connected: 127.0.0.1
+2017/05/18 4:53:52: Status changed to disconnected: 1 akaruz 127.0.0.1 C386F363CA25E7B6
+2017/05/18 4:53:53: User Login: akaruz 127.0.0.1
+2017/05/18 4:53:54: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:54:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:54:17: Status changed to connected: 127.0.0.1
+2017/05/18 4:54:31: Status changed to disconnected: 1 akaruz 127.0.0.1 F822EA9632F42C0C
+2017/05/18 4:54:40: User Login: akaruz 127.0.0.1
+2017/05/18 4:54:41: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:55:31: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:55:31: Status changed to connected: 127.0.0.1
+2017/05/18 4:55:34: Status changed to disconnected: 1 akaruz 127.0.0.1 85A66A3FE750049B
+2017/05/18 4:55:37: User Login: akaruz 127.0.0.1
+2017/05/18 4:55:38: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 5:00:19: Status changed to disconnected: 1 akaruz 127.0.0.1 116A6014C875F2E7
+2017/05/18 5:00:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 5:00:57: Status changed to connected: 127.0.0.1
+2017/05/18 5:01:00: User Login: akaruz 127.0.0.1
+2017/05/18 5:01:01: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/18 5:03:42: Status changed to disconnected: 1 akaruz 127.0.0.1 F1DE764EA6D53690

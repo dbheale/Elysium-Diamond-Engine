@@ -2,6 +2,7 @@
 using Lidgren.Network;
 using GameServer.Common;
 using GameServer.Server;
+using GameServer.Player;
 using Elysium;
 
 namespace GameServer.Network {
@@ -9,7 +10,7 @@ namespace GameServer.Network {
         /// <summary>
         /// Total de conexões.
         /// </summary>
-        public static int TotalConnections {
+        public static int ConnectionsCount {
             get { return socket.ConnectionsCount; }
         }
 

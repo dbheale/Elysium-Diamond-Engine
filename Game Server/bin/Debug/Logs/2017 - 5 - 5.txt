@@ -1,0 +1,33 @@
+2017/05/05 3:41:55: ID: 252000
+2017/05/05 3:41:55: Game Server Name: Canal 1
+2017/05/05 3:41:55: Discovery: Elysium Diamond #1.0.0
+2017/05/05 3:41:55: Port: 55970
+2017/05/05 3:41:55: MaximumConnections: 2000
+2017/05/05 3:41:55: Sleep: 1
+2017/05/05 3:41:55: Logs: Ativado
+2017/05/05 3:41:55: Carregando config mysql
+2017/05/05 3:41:55: Connectado ao banco de dados
+2017/05/05 3:41:56: WorldServer 1  ID: Artemis
+2017/05/05 3:41:56: WorldServer 2  ID: 
+2017/05/05 3:41:56: WorldServer 3  ID: 
+2017/05/05 3:41:56: WorldServer 4  ID: 
+2017/05/05 3:41:56: WorldServer 5  ID: 
+2017/05/05 3:41:56: Carregando experiência
+2017/05/05 3:41:56: Level Max: 121
+2017/05/05 3:41:56: Exp Max: 22353256174
+2017/05/05 3:41:56: Carregando guilds
+2017/05/05 3:41:56: Carregando membros
+2017/05/05 3:41:56: Carregando classe(s) base
+2017/05/05 3:41:56: Carregando classe(s) incremento
+2017/05/05 3:41:56: Carregando NPC
+2017/05/05 3:41:56: Carregando scripts
+2017/05/05 3:41:56: Game Server Start
+2017/05/05 3:41:58: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/05 3:41:58: Status changed to connected: 127.0.0.1
+2017/05/05 3:42:13: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 DD837AB9636777A4
+2017/05/05 3:42:13: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/05 3:42:13: Status changed to connected: 127.0.0.1
+2017/05/05 3:42:13: Received From Client: DD837AB9636777A4
+2017/05/05 3:42:13: Player Found ID: 2 Name: ドラゴン
+2017/05/05 3:42:13: ドラゴン joined map id 1
+2017/05/05 3:43:17: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1

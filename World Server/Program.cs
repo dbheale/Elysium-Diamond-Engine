@@ -13,6 +13,7 @@ namespace WorldServer {
             Application.EnableVisualStyles();
 
             MainForm = new frmMain();
+            MainForm.Show();
 
             MainForm.InitializeServer();
 

@@ -1,0 +1,22 @@
+2017/05/19 0:56:13: ID: -1
+2017/05/19 0:56:13: Discovery: Elysium Diamond #1.0.0
+2017/05/19 0:56:13: Port: 44405
+2017/05/19 0:56:13: Maximum Connection: 1000
+2017/05/19 0:56:13: Sleep: 1
+2017/05/19 0:56:14: Versão: 1.2.10
+2017/05/19 0:56:14: GeoIp: Desativado
+2017/05/19 0:56:14: CheckSum: Desativado
+2017/05/19 0:56:14: PinCheckTime: 15
+2017/05/19 0:56:14: Servidor adicionado: 火星 (JP) 普通
+2017/05/19 0:56:14: Servidor adicionado: 木星 (JP) 普通
+2017/05/19 0:56:14: Servidor adicionado: 화성 (KR) 표준
+2017/05/19 0:56:14: Servidor adicionado: Local Server (BR) Privado
+2017/05/19 0:56:14: Connectado ao banco de dados
+2017/05/19 0:56:14: Conectando World Server
+2017/05/19 0:56:15: Login Server Start
+2017/05/19 0:56:25: Connected World Server #火星
+2017/05/19 0:56:54: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/19 0:56:54: Status changed to connected: 127.0.0.1
+2017/05/19 0:58:02: User Login: akaruz 127.0.0.1
+2017/05/19 0:58:03: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/19 1:03:42: Status changed to disconnected: 1 akaruz 127.0.0.1 CAD9FBB4CBEF31AD

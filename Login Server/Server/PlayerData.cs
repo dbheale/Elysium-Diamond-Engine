@@ -1,12 +1,13 @@
-﻿using Lidgren.Network;
+﻿using System;
+using Lidgren.Network;
 using LoginServer.Common;
-using LoginServer.MySQL;
-using Elysium;
+using LoginServer.Database;
+using Elysium.Service;
 
 namespace LoginServer.Server {
-    public class PlayerData {
+    public sealed class PlayerData {
         /// <summary>
-        /// 'Socket' de conexão.
+        /// Referência da conexão.
         /// </summary>
         public NetConnection Connection { get; set; }
 
@@ -46,6 +47,11 @@ namespace LoginServer.Server {
         public byte LoginAttempt { get; set; }
 
         /// <summary>
+        /// Quantidade de tentaivas com pin incorreto.
+        /// </summary>
+        public byte PinAttempt { get; set; }
+
+        /// <summary>
         /// ID de idioma.
         /// </summary>
         public byte LanguageID { get; set; }
@@ -53,7 +59,7 @@ namespace LoginServer.Server {
         /// <summary>
         /// Nível de acesso ao sistema.
         /// </summary>
-        public short AccessLevel { get; set; }
+        public byte AccessLevel { get; set; }
 
         /// <summary>
         /// Quantidade de cash.
@@ -64,6 +70,11 @@ namespace LoginServer.Server {
         /// Senha de personagens.
         /// </summary>
         public string Pin { get; set; }
+
+        /// <summary>
+        /// Ultima data de login.
+        /// </summary>
+        public DateTime LastLogin { get; set; }
       
         /// <summary>
         /// Pacote de serviços de usuário.
@@ -71,14 +82,9 @@ namespace LoginServer.Server {
         public PlayerService Service { get; set; }
 
         /// <summary>
-        /// Resultado de busca em cada world server.
+        /// Indica se está conectado em algum world server.
         /// </summary>
-        public bool[] WorldResult { get; set; } = new bool[Constant.MAX_SERVER];
-
-        /// <summary>
-        /// Quantidade de resultados.
-        /// </summary>
-        public byte WorldResultCount { get; set; } 
+        public bool IsWorldConnected { get; set; }
 
         /// <summary>
         /// Construtor
@@ -93,29 +99,19 @@ namespace LoginServer.Server {
             Account = string.Empty;
             Password = string.Empty;
             Username = string.Empty;
-            Service = new PlayerService();
-        }
-
-        /// <summary>
-        /// Destrutor
-        /// </summary>
-        ~PlayerData() {
-            Service.Clear();
-            Service = null;
-            Connection.Disconnect("");
-            Connection = null;
+            Service = new PlayerService();   
         }
 
         /// <summary>
         /// Verifica a lista de serviços e atualiza no DB.
         /// </summary>
         public void VerifyServices() {
-            const int EXPIRED = 1;
+            const byte expired = 1;
             var services = Service.GetServicesID();
 
             foreach (var serviceID in services) {
                 if (Service.IsServiceExpired(serviceID)) {
-                    Accounts_DB.UpdateService(ID, serviceID, EXPIRED);
+                    AccountDB.UpdateService(ID, serviceID, expired);
                     Service.Remove(serviceID);
                 }
             }
@@ -125,13 +121,12 @@ namespace LoginServer.Server {
         /// Limpa os dados para permitir um novo login.
         /// </summary>  
         public void Clear() {
-            //não deve limpar o hexid, pois ainda é necessário na conexão.
+            //não deve limpar o hexid e o ip, pois ainda é necessário na conexão.
             ID = 0;
             LoginAttempt = 0;
             Password = string.Empty;
             Account = string.Empty;
             Username = string.Empty;
-            IP = string.Empty;
             Service.Clear();
         }
     }

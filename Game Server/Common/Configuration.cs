@@ -1,5 +1,4 @@
 ﻿namespace GameServer.Common {
-
     public static class Configuration {
         /// <summary>
         /// ID do game server.
@@ -17,6 +16,16 @@
         public static int GameServerPort { get; set; }
 
         /// <summary>
+        /// Ip do connect server.
+        /// </summary>
+        public static string ConnectIp { get; set; }
+
+        /// <summary>
+        /// Porta do connect server.
+        /// </summary>
+        public static int ConnectPort { get; set; }
+
+        /// <summary>
         /// Descoberta de conexão.
         /// </summary>
         public static string Discovery { get; set; }
@@ -30,10 +39,5 @@
         /// Sleep do loop principal.
         /// </summary>
         public static int Sleep { get; set; }
-
-
-        public static string[] WorldServerID { get; set; }
     }
 }
-
-

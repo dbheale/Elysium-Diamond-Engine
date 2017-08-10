@@ -2,8 +2,9 @@
 using GameServer.Network;
 using GameServer.MySQL;
 using GameServer.GameLogic;
+using GameServer.Player;
 using GameServer.Maps;
-using Elysium;
+using Elysium.Logs;
 
 namespace GameServer.Server {
     public static class PlayerLogin {
@@ -18,9 +19,10 @@ namespace GameServer.Server {
 
             //se está conectado, salva e limpa os dados para uma nova conexão.
             if (playerData != null) {
-                Character_DB.Save(playerData);
 
-                Logs.Write($"Player disconnected: {playerData.CharacterName}", Color.Peru);
+                Character_DB.SaveData(playerData);
+
+                Log.Write($"Player disconnected: {playerData.CharacterName} {pData.HexID}", Color.Peru);
 
                 MapManager.FindMapByID(playerData.WorldID).RemovePlayer(pData.CharacterID);
 
@@ -28,33 +30,40 @@ namespace GameServer.Server {
             }
 
             //carrega dados do personagem
-            Character_DB.Load(pData.HexID, pData.CharacterSlot);
+            Character_DB.LoadData(pData.HexID, pData.CharacterSlot);
+            Character_DB.LoadEquippedItem(pData);
+            Character_DB.LoadInventory(pData);
 
-            Logs.Write($"Player Found ID: {pData.CharacterID} Name: {pData.CharacterName}", Color.Black);
+            //Envia a mensagem, confirmar a conexão do usuário
+            WorldPacket.UpdatePlayerStatus(pData.AccountID);
 
-            //realiza o calculo dos stats
-            CharacterLogic.UpdateCharacterStats(pData.AccountID);
+            Log.Write($"Player Found ID: {pData.CharacterID} Name: {pData.CharacterName}", Color.Black);
 
             //aceita a conexão
-            GamePacket.Message(pData.Connection, (int)PacketList.AcceptedConnection);
+            GamePacket.Message(pData.Connection, (short)PacketList.AcceptedConnection);
 
-            //envia os dados do jogador
             pData.SendPlayerBasicData();
-            pData.SendPlayerElementalStats();
-            pData.SendPlayerLocation();
-            pData.SendPlayerMagicStats();
-            pData.SendPlayerPhysicalStats();
-            pData.SendPlayerResistStats();
-            pData.SendPlayerStats();
-            pData.SendPlayerUniqueStats();
-            pData.SendPlayerVital();
-            pData.SendPlayerVitalRegen();
+            pData.SendPlayerWorldLocation();
+
+            CharacterLogic.UpdateCharacterStats(pData);
+            CharacterLogic.SendCharacterStats(pData);
+
+            pData.SendPlayerTalentData();
+
             pData.SendPlayerExp();
+            pData.SendPlayerCurrency();
+
+            //envia os items
+            for (int n = 0; n < 14; n++) {
+                GamePacket.SendEquippedItem(pData, (GameItem.EquipSlotType)n);
+            }
+
+            InventoryPacket.SendInventoryItems(pData);
 
             //adiciona o jogador ao mapa
             MapManager.FindMapByID(pData.WorldID).CharacterID.Add(pData.CharacterID);
 
-            Logs.Write($"{pData.CharacterName} joined map id {pData.WorldID}", Color.Black);
+            Log.Write($"{pData.CharacterName} joined map id {pData.WorldID}", Color.Black);
 
             //envia outros jogadores do mapa
             MapManager.FindMapByID(pData.WorldID).GetPlayerOnMap(pData);

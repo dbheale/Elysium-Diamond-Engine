@@ -102,22 +102,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrator\ActionType.cs" />
+    <Compile Include="Administrator\Command.cs" />
+    <Compile Include="Administrator\CommandPacket.cs" />
+    <Compile Include="Administrator\CommandType.cs" />
     <Compile Include="Classes\ClasseDescription.cs" />
+    <Compile Include="Classes\ClasseTalent.cs" />
+    <Compile Include="Common\Constant.cs" />
+    <Compile Include="DirectX\EngineEventArgs.cs" />
+    <Compile Include="EngineWindow\Inventory\InventoryData.cs" />
+    <Compile Include="EngineWindow\Inventory\InventoryPacket.cs" />
+    <Compile Include="EngineWindow\Inventory\WindowInventory.cs" />
+    <Compile Include="DirectX\EngineSlot.cs" />
+    <Compile Include="DirectX\EngineTextureType.cs" />
+    <Compile Include="EngineWindow\IEngineWindow.cs" />
+    <Compile Include="EngineWindow\System\WindowPin.cs" />
+    <Compile Include="EngineWindow\Talent\Talent.cs" />
+    <Compile Include="EngineWindow\Talent\TalentData.cs" />
+    <Compile Include="EngineWindow\Talent\TalentPacket.cs" />
+    <Compile Include="EngineWindow\WindowCash.cs" />
+    <Compile Include="EngineWindow\Game\WindowViewItem.cs" />
+    <Compile Include="EngineWindow\Game\WindowMail.cs" />
+    <Compile Include="EngineWindow\Game\WindowSkill.cs" />
+    <Compile Include="EngineWindow\Talent\WindowTalent.cs" />
+    <Compile Include="EngineWindow\WindowSelectedItem.cs" />
+    <Compile Include="EngineWindow\Window.cs" />
+    <Compile Include="EngineWindow\WindowViewTalent.cs" />
+    <Compile Include="Enumeration\CashItemPurchaseStatus.cs" />
+    <Compile Include="Enumeration\CashShopItemCategory.cs" />
+    <Compile Include="DirectX\Controls\EngineMessageBoxState.cs" />
+    <Compile Include="Enumeration\EquipSlotType.cs" />
+    <Compile Include="Enumeration\ItemRarity.cs" />
+    <Compile Include="Enumeration\ItemType.cs" />
     <Compile Include="Enumeration\MessageType.cs" />
-    <Compile Include="DirectX\EngineChat.cs" />
     <Compile Include="DirectX\EngineChatText.cs" />
-    <Compile Include="DirectX\EngineColor.cs" />
     <Compile Include="DirectX\Sound\EngineMusic.cs" />
     <Compile Include="EngineWindow\System\WindowOption.cs" />
     <Compile Include="EngineWindow\System\WindowChat.cs" />
     <Compile Include="Enumeration\GameState.cs" />
+    <Compile Include="Enumeration\PìnState.cs" />
     <Compile Include="GameClient\Client.cs" />
     <Compile Include="GameClient\PlayerData.cs" />
     <Compile Include="GameClient\PlayerSlotData.cs" />
     <Compile Include="Common\Configuration.cs" />
     <Compile Include="Common\IPAddress.cs" />
     <Compile Include="Enumeration\Language.cs" />
-    <Compile Include="Enumeration\PacketList.cs" />
+    <Compile Include="Network\PacketList.cs" />
     <Compile Include="CreateDevice.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,20 +156,19 @@
     </Compile>
     <Compile Include="DirectX\Controls\Common\EngineButtonStyle.cs" />
     <Compile Include="DirectX\Controls\EngineExperienceBar.cs" />
-    <Compile Include="DirectX\Controls\EngineShortCut.cs" />
     <Compile Include="DirectX\Controls\EngineInputBoxAction.cs" />
     <Compile Include="DirectX\EngineNpc.cs" />
     <Compile Include="DirectX\EngineCharacter.cs" />
     <Compile Include="DirectX\Font\EngineFontStyle.cs" />
     <Compile Include="DirectX\Controls\Common\EngineButton.cs" />
     <Compile Include="DirectX\Sound\EngineMultimedia.cs" />
-    <Compile Include="DirectX\Sound\EngineSound.cs" />
+    <Compile Include="DirectX\Sound\SoundEngine.cs" />
     <Compile Include="DirectX\Sound\EngineSoundEnum.cs" />
     <Compile Include="DirectX\Sound\EngineSoundManager.cs" />
     <Compile Include="DirectX\EngineCore.cs" />
     <Compile Include="DirectX\Font\EngineFont.cs" />
-    <Compile Include="EngineWindow\WindowCharacterStatus.cs" />
-    <Compile Include="EngineWindow\WindowShortCut.cs" />
+    <Compile Include="EngineWindow\Inventory\WindowStatus.cs" />
+    <Compile Include="DirectX\EngineShortcut.cs" />
     <Compile Include="Maps\MapManager.cs" />
     <Compile Include="Network\CommonData.cs" />
     <Compile Include="EngineWindow\System\WindowServerRow.cs" />
@@ -177,9 +206,10 @@
     </Compile>
     <Compile Include="Classes\ClasseManager.cs" />
     <Compile Include="Resource\ExperienceManager.cs" />
-    <Compile Include="Resource\SpriteManager.cs" />
-    <Compile Include="Resource\SpriteTexture.cs" />
+    <Compile Include="Resource\Item.cs" />
+    <Compile Include="Resource\DataManager.cs" />
     <Compile Include="GameClient\StatsBase.cs" />
+    <Compile Include="Resource\TalentResource.cs" />
     <EmbeddedResource Include="CreateDevice.resx">
       <DependentUpon>CreateDevice.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -200,9 +230,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\Debug\Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="elysiumico.ico" />
   </ItemGroup>

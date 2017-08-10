@@ -4,6 +4,8 @@ using Elysium_Diamond.Common;
 using Elysium_Diamond.GameClient;
 using Elysium_Diamond.Maps;
 using Elysium_Diamond.Npcs;
+using Elysium_Diamond.EngineWindow;
+using Elysium_Diamond.Resource;
 using Lidgren.Network;
 
 namespace Elysium_Diamond.Network {
@@ -53,6 +55,33 @@ namespace Elysium_Diamond.Network {
             Client.PlayerLocal.Exp = msg.ReadInt64();
         }
 
+        public static void PlayerName(NetIncomingMessage msg) {
+            Client.PlayerLocal.Name = msg.ReadString();
+            Client.PlayerLocal.Character.Name = Client.PlayerLocal.Name;
+        }
+
+        public static void PlayerStatPoints(NetIncomingMessage msg) {
+            Client.PlayerLocal.Points = msg.ReadInt32();
+        }
+
+        public static void PlayerLevel(NetIncomingMessage msg) {
+            Client.PlayerLocal.Level = msg.ReadInt32();
+        }
+
+        public static void PlayerSprite(NetIncomingMessage msg) {
+            Client.PlayerLocal.Sprite = msg.ReadInt16();
+            Client.PlayerLocal.Character.Sprite = Client.PlayerLocal.Sprite;
+        }
+
+        public static void Location(NetIncomingMessage msg) {
+            Client.PlayerLocal.X = msg.ReadInt16();
+            Client.PlayerLocal.Y = msg.ReadInt16();
+
+            Client.PlayerLocal.Character.X = Client.PlayerLocal.X * 16;
+            Client.PlayerLocal.Character.Y = Client.PlayerLocal.Y * 16;
+            Client.PlayerLocal.Character.Coordinate = new SharpDX.Point(Client.PlayerLocal.X, Client.PlayerLocal.Y);
+        }
+       
         /// <summary>
         /// Recebe a posição do jogador no mapa.
         /// </summary>
@@ -79,7 +108,6 @@ namespace Elysium_Diamond.Network {
             Client.PlayerLocal.Wisdom = msg.ReadInt32();
             Client.PlayerLocal.Will = msg.ReadInt32();
             Client.PlayerLocal.Mind = msg.ReadInt32();
-            Client.PlayerLocal.Charisma = msg.ReadInt32();
         }
 
         public static void PlayerVital(NetIncomingMessage msg) {
@@ -131,6 +159,8 @@ namespace Elysium_Diamond.Network {
             Client.PlayerLocal.AttributeFire = msg.ReadInt32();
             Client.PlayerLocal.AttributeWater = msg.ReadInt32();
             Client.PlayerLocal.AttributeWind = msg.ReadInt32();
+            Client.PlayerLocal.AttributeLight = msg.ReadInt32();
+            Client.PlayerLocal.AttributeDark = msg.ReadInt32();
         }
 
         public static void PlayerResistStats(NetIncomingMessage msg) {
@@ -144,12 +174,18 @@ namespace Elysium_Diamond.Network {
             Client.PlayerLocal.ResistMagicCriticalDamage = msg.ReadInt32();
         }
 
+        public static void PlayerCurrency(long currency) {
+            Client.PlayerLocal.Currency = currency;
+        }
+
+
         /// <summary>
         /// Recebe os dados do jogador.
         /// </summary>
         /// <param name="msg"></param>
         public static void PlayerData(NetIncomingMessage msg) {
             Client.PlayerLocal.Name = msg.ReadString();
+            Client.PlayerLocal.ClasseID = msg.ReadInt16();
             Client.PlayerLocal.Sprite = msg.ReadInt16();
             Client.PlayerLocal.Level = msg.ReadInt32();
             Client.PlayerLocal.Exp = msg.ReadInt64();
@@ -206,5 +242,7 @@ namespace Elysium_Diamond.Network {
 
             npc.DirectionQueue.Enqueue((byte)EngineCharacter.GetDir(dir));
         }
+
+      
     }
 }

@@ -1,16 +1,16 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
-using GameServer.ClasseData;
+using GameServer.Classes;
+using GameServer.Common;
 
 namespace GameServer.MySQL {
-    public class Classes_DB {
-
+    public static class Classes_DB {
         /// <summary>
         /// Carrega todas as classes.
         /// </summary>
         public static void GetClasseStatsBase() {
-            var varQuery = "SELECT * FROM classes";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = "SELECT * FROM classes";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             while (reader.Read()) {
@@ -22,14 +22,15 @@ namespace GameServer.MySQL {
 
                 _base.ID = (int)reader["id"];
                 _base.IncrementID = (int)reader["increment_id"];
-                _base.HP = (int)reader["hp"];
-                _base.MP = (int)reader["mp"];
-                _base.SP = (int)reader["sp"];
+                _base.TalentID = (int)reader["talent_id"];
+                _base.MaxHP = (int)reader["hp"];
+                _base.MaxMP = (int)reader["mp"];
+                _base.MaxSP = (int)reader["sp"];
                 _base.RegenHP = (int)reader["regen_hp"];
                 _base.RegenMP = (int)reader["regen_mp"];
                 _base.RegenSP = (int)reader["regen_sp"];
-              //  _base.SpriteFemale = Convert.ToInt16(reader["sprite_female"]);
-             //   _base.SpriteMale = Convert.ToInt16(reader["sprite_male"]);
+                //_base.SpriteFemale = Convert.ToInt16(reader["sprite_female"]);
+                //_base.SpriteMale = Convert.ToInt16(reader["sprite_male"]);
                 _base.Level = (int)reader["level"];
                 _base.Strenght = (int)reader["strenght"];
                 _base.Dexterity = (int)reader["dexterity"];
@@ -39,7 +40,6 @@ namespace GameServer.MySQL {
                 _base.Wisdom = (int)reader["wisdom"];
                 _base.Will = (int)reader["will"];
                 _base.Mind = (int)reader["mind"];
-                _base.Charisma = (int)reader["charisma"];
                 _base.Points = (int)reader["points"];
                 _base.CriticalRate = (int)reader["critical_rate"];
                 _base.CriticalDamage = (int)reader["critical_damage"];
@@ -87,8 +87,9 @@ namespace GameServer.MySQL {
         /// Carrega todos os incrementos de classe.
         /// </summary>
         public static void GetClasseStatsIncrement(int index, int incrementID) {
-            var query = $"SELECT * FROM classes_increment WHERE id='{incrementID}'";
+            var query = $"SELECT * FROM classe_increment WHERE id=?id";
             var cmd = new MySqlCommand(query, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?id", incrementID);
             var reader = cmd.ExecuteReader();
             var _increment = Classe.Classes[index].Increment;
 
@@ -108,7 +109,6 @@ namespace GameServer.MySQL {
                 _increment.Wisdom = (int)reader["wisdom"];
                 _increment.Will = (int)reader["will"];
                 _increment.Mind = (int)reader["mind"];
-                _increment.Charisma = (int)reader["charisma"];
                 _increment.Points = (int)reader["points"];
                 _increment.SetIncrementStat(StatType.CriticalRate, (string)reader["critical_rate"]);
                 _increment.SetIncrementStat(StatType.CriticalDamage, (string)reader["critical_damage"]);
@@ -135,11 +135,8 @@ namespace GameServer.MySQL {
                 _increment.SetIncrementStat(StatType.AttributeWater, (string)reader["attribute_water"]);
                 _increment.SetIncrementStat(StatType.AttributeEarth, (string)reader["attribute_earth"]);
                 _increment.SetIncrementStat(StatType.AttributeWind, (string)reader["attribute_wind"]);
-
                 _increment.SetIncrementStat(StatType.AttributeLight, (string)reader["attribute_light"]);
                 _increment.SetIncrementStat(StatType.AttributeDark, (string)reader["attribute_dark"]);
-
-
                 _increment.SetIncrementStat(StatType.ResistStun, (string)reader["resist_stun"]);
                 _increment.SetIncrementStat(StatType.ResistSilence, (string)reader["resist_silence"]);
                 _increment.SetIncrementStat(StatType.ResistParalysis, (string)reader["resist_paralysis"]);
@@ -150,6 +147,37 @@ namespace GameServer.MySQL {
                 _increment.SetIncrementStat(StatType.ResistMagicCriticalDamage, (string)reader["resist_magic_critical_damage"]);
 
                 index++;
+            }
+
+            reader.Close();
+        }
+
+        /// <summary>
+        /// Carrega todos os talentos de classe.
+        /// </summary>
+        /// <param name="index"></param>
+        /// <param name="talentID"></param>
+        public static void GetClasseTalent(int index, int talentID) {
+            var query = "SELECT * FROM classe_talent WHERE id=?id";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?id", talentID);
+            var reader = cmd.ExecuteReader();
+
+            if (!reader.Read()) {
+                reader.Close();
+                return;
+            }
+
+            string[] balance = ((string)reader["balance"]).Split(',');
+            string[] physic = ((string)reader["physic"]).Split(',');
+            string[] magic = ((string)reader["magic"]).Split(',');
+            string[] restoration = ((string)reader["restoration"]).Split(',');
+
+            for (var n = 0; n < Constant.MAX_TALENT; n++) {
+                Classe.Classes[index].Balance[n] = Convert.ToInt32(balance[n]);
+                Classe.Classes[index].Physic[n] = Convert.ToInt32(physic[n]);
+                Classe.Classes[index].Magic[n] = Convert.ToInt32(magic[n]);
+                Classe.Classes[index].Restoration[n] = Convert.ToInt32(restoration[n]);
             }
 
             reader.Close();

@@ -11,14 +11,14 @@ namespace LoginServer.Network {
         /// Envia a identificação para o world server.
         /// </summary>
         public static void ConnectionID(int worldID) {
-            var buffer = WorldNetwork.WorldServer[worldID].CreateMessage();
-            buffer.Write((int)PacketList.LS_WS_CheckConnection);
+            var buffer = WorldNetwork.WorldServer[worldID].CreateMessage(6);
+            buffer.Write((short)PacketList.LS_WS_CheckConnection);
             buffer.Write(Configuration.ID);
             WorldNetwork.WorldServer[worldID].SendData(buffer);
         }
 
         /// <summary>
-        /// Envia todos os dados para o WorldServer que selecionado pelo cliente.
+        /// Envia todos os dados do usuário para o WorldServer que foi selecionado pelo cliente.
         /// </summary>
         /// <param name="pIndex"></param>
         /// <param name="worldID"></param>
@@ -27,7 +27,7 @@ namespace LoginServer.Network {
 
             var pData = Authentication.FindByHexID(hexID);
             var buffer = WorldNetwork.WorldServer[worldID].CreateMessage();
-            buffer.Write((int)PacketList.LS_WS_SendPlayerHexID);
+            buffer.Write((short)PacketList.LS_WS_SendPlayerHexID);
             buffer.Write(pData.HexID);
             buffer.Write(pData.Account);
             buffer.Write(pData.ID);
@@ -35,6 +35,7 @@ namespace LoginServer.Network {
             buffer.Write(pData.AccessLevel);
             buffer.Write(pData.Cash);
             buffer.Write(pData.Pin);
+            buffer.Write(pData.PinAttempt);
 
             //escreve a quantidade de serviços
             int[] servicesID = pData.Service.GetServicesID();
@@ -54,32 +55,32 @@ namespace LoginServer.Network {
         /// <param name="username"></param>
         public static void IsPlayerConnected(string username) {
             //primeiro servidor world
-            const int WORLD_N1 = 0;
+            const byte worldN1 = 0;
 
             //cria a mensagem somente uma vez.
-            var buffer = WorldNetwork.WorldServer[WORLD_N1]?.CreateMessage();
-            buffer.Write((int)PacketList.LS_WS_IsPlayerConnected);
+            var buffer = WorldNetwork.WorldServer[worldN1]?.CreateMessage();
+            buffer.Write((short)PacketList.LS_WS_IsPlayerConnected);
             buffer.Write(username);
 
-            for (var n = 0; n < Constant.MAX_SERVER; n++) {
+            for (var n = 0; n < Constant.MaxServer; n++) {
                 WorldNetwork.WorldServer[n].SendData(buffer);
             }
         }
 
         /// <summary>
-        /// Desconecta o jogador em outros servidores.
+        /// Desconecta o usuário em outros servidores (world).
         /// </summary>
         /// <param name="username"></param>
         public static void DisconnectPlayer(PlayerData pData) {
             //primeiro servidor world
-            const int WORLD_N1 = 0;
+            const byte worldN1 = 0;
 
             //cria a mensagem somente uma vez.
-            var buffer = WorldNetwork.WorldServer[WORLD_N1]?.CreateMessage();
-            buffer.Write((int)PacketList.LS_WS_DisconnectPlayer);
+            var buffer = WorldNetwork.WorldServer[worldN1]?.CreateMessage();
+            buffer.Write((short)PacketList.LS_WS_DisconnectPlayer);
             buffer.Write(pData.Username);
 
-            for (var n = 0; n < Constant.MAX_SERVER; n++) {
+            for (var n = 0; n < Constant.MaxServer; n++) {
                 if (pData.WorldResult[n]) {
                     WorldNetwork.WorldServer[n].SendData(buffer);
                 }               

@@ -4,7 +4,7 @@ using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
 
 namespace Elysium_Diamond.DirectX {
-    public static class EngineMessageBox  {
+    public static class EngineMessageBox {
         /// <summary>
         /// Obtem ou altera o valor de transparência do controle.
         /// </summary>
@@ -31,13 +31,15 @@ namespace Elysium_Diamond.DirectX {
         public static Point Position { get; set; }
 
         /// <summary>
-        /// Obtem ou altera o valor de interação.
+        /// Ativa ou desativa o botão de OK.
         /// </summary>
         public static bool Enabled { get; set; }
 
-        static int tick;
-        static EngineObject background;
-        static EngineButton button;
+        public static EngineMessageBoxState State { get; set; } = EngineMessageBoxState.None;
+
+        private static int tick;
+        private static EngineObject background;
+        private static EngineButton button;
 
         /// <summary>
         /// Inicializa a caixa de mensagem carregando as texturas.
@@ -87,7 +89,6 @@ namespace Elysium_Diamond.DirectX {
                     Enabled = true;
                     Common.Configuration.HexID = "";
                     Common.Configuration.IPAddress[(int)SocketEnum.GameServer] = new IPAddress(string.Empty, 0);
-
                 }
             }
 
@@ -96,7 +97,7 @@ namespace Elysium_Diamond.DirectX {
 
             background.Draw();
 
-            EngineFont.DrawText(null, Text, new Size2(480, 80), new Point(Position.X, Position.Y - 1), new SharpDX.Color(Color.White.R, Color.White.G, Color.White.B, Transparency), EngineFontStyle.Regular, FontDrawFlags.Left);
+            EngineFont.DrawText(Text, new Size2(480, 80), new Point(Position.X, Position.Y - 1), new Color(Color.White.R, Color.White.G, Color.White.B, Transparency), EngineFontStyle.Regular, FontDrawFlags.Left);
             button.Draw();
         }
 
@@ -105,7 +106,7 @@ namespace Elysium_Diamond.DirectX {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private static void Button_MouseUp(object sender, EventArgs e) {
+        private static void Button_MouseUp(object sender, EngineEventArgs e) {
             if (Enabled == false) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);

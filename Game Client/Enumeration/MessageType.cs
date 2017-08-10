@@ -2,9 +2,7 @@
     None,
     Private,
     Party,
-    Global,
     Guild,
-    Admin,
-    Alert,
+    Global,
     Server
 }

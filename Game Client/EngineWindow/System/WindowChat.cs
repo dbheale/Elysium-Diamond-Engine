@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using SharpDX;
 using Elysium_Diamond.DirectX;
+using Elysium_Diamond.Network;
 
 namespace Elysium_Diamond.EngineWindow {
     public static class WindowChat {
@@ -12,6 +13,10 @@ namespace Elysium_Diamond.EngineWindow {
         private static Point position;
         public static List<text_chat> chat_text;
         private static EngineButton[] button = new EngineButton[2];
+
+        public static byte Transparency {
+            set { background.Transparency = value; }
+        }
 
         public struct text_chat {
             public string text;
@@ -25,7 +30,6 @@ namespace Elysium_Diamond.EngineWindow {
 
         private static int index = 0;
   
-
         public static void Initialize() {
             position = new Point(5, 435);
 
@@ -34,7 +38,7 @@ namespace Elysium_Diamond.EngineWindow {
             background.Size = new Size2(277, 203);
             background.Texture = EngineTexture.TextureFromFile($"./Data/Graphics/window_chat.png");
             background.SourceRect = new Rectangle(0, 0, 277, 203);
-            background.Transparency = 255;
+            background.Transparency = 140;
 
             scroll_background = new EngineObject();
             scroll_background.Position = new Point(position.X + 255, position.Y + 10);
@@ -50,6 +54,7 @@ namespace Elysium_Diamond.EngineWindow {
             textbox.Position = new Point(position.X + 11, position.Y + 155);
             textbox.CursorEnabled = true;
             textbox.Transparency = 220;
+            textbox.MaxLenght = 500;
             textbox.TextTransparency = 255;
             textbox.MouseUp += Textbox_MouseUp;
             textbox.TextFormat = SharpDX.Direct3D9.FontDrawFlags.Left;
@@ -96,7 +101,7 @@ namespace Elysium_Diamond.EngineWindow {
 
             for(var n = index; n < chat_text.Count; n++) {
 
-                EngineFont.DrawText(null, chat_text[n].text, new Rectangle(position.X + 17, (position.Y + 8) + (line * 20), 250, 200), chat_text[n].color, EngineFontStyle.Regular, SharpDX.Direct3D9.FontDrawFlags.Left);
+                EngineFont.DrawText(chat_text[n].text, new Rectangle(position.X + 17, (position.Y + 8) + (line * 20), 250, 200), chat_text[n].color, EngineFontStyle.Regular, SharpDX.Direct3D9.FontDrawFlags.Left);
 
                 line++;
 
@@ -104,7 +109,7 @@ namespace Elysium_Diamond.EngineWindow {
             }
         }
 
-        private static void Textbox_MouseUp(object sender, EventArgs e) {
+        private static void Textbox_MouseUp(object sender, EngineEventArgs e) {
  
 
         }
@@ -115,9 +120,13 @@ namespace Elysium_Diamond.EngineWindow {
 
             var color = Color.White;
 
-            if (type == MessageType.Admin) { color = Color.Yellow; }
-            if (type == MessageType.Alert) { color = Color.Coral; }
-            if (type == MessageType.Server) { color = Color.Yellow; }
+         //   if (type == MessageType.Admin) { color = Color.Yellow; }
+        //    if (type == MessageType.Alert) { color = Color.Coral; }
+            if (type == MessageType.Server) {
+                color = Color.Yellow;
+                text = text.Replace(": ", "");
+            }
+
             if (type == MessageType.Guild) { color = Color.Green; }
             if (type == MessageType.Private) { color = Color.Blue; }
             if (type == MessageType.Party) { color = Color.Pink; }
@@ -178,17 +187,33 @@ namespace Elysium_Diamond.EngineWindow {
             //  if (totalline.Count >= 7) { index = totalline.Count - 5;
         }
 
-        private static void Up_Click(object sender, EventArgs e) {
+        private static void Up_Click(object sender, EngineEventArgs e) {
             EngineMultimedia.Play(EngineSoundEnum.Close);
 
             if (index > 0) index--;
         }
         
-        private static void Down_Click(object sender, EventArgs e) {
+        private static void Down_Click(object sender, EngineEventArgs e) {
             EngineMultimedia.Play(EngineSoundEnum.Close);
 
             if (index < chat_text.Count - 1) index++;
 
+        }
+
+        public static void SendChat() {
+            if (string.IsNullOrEmpty(textbox.Text)) return;
+
+            if (textbox.Text.Length > 1) {
+                var text = textbox.Text.Trim().Substring(0, 1);
+                var result = (text == "/") ? true : false;
+
+                if (result) {
+                    Administrator.Command.ParseCommand(textbox.Text);         
+                    return;
+                }
+            }
+
+            WorldPacket.GlobalChat(textbox.Text);
         }
     }
 }

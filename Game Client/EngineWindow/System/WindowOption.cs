@@ -89,7 +89,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private static void EndButton_MouseUp(object sender, EventArgs e) {
+        private static void EndButton_MouseUp(object sender, EngineEventArgs e) {
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
             //sai do jogo
@@ -101,7 +101,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private static void CancelButton_MouseUp(object sender, EventArgs e) {
+        private static void CancelButton_MouseUp(object sender, EngineEventArgs e) {
             EngineMultimedia.Play(EngineSoundEnum.Click);
             Visible = false;
         }
@@ -111,7 +111,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private static void OptionButton_MouseUp(object sender, EventArgs e) {
+        private static void OptionButton_MouseUp(object sender, EngineEventArgs e) {
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
             Visible = false;
@@ -122,7 +122,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private static void CharacterButton_MouseUp(object sender, EventArgs e) {
+        private static void CharacterButton_MouseUp(object sender, EngineEventArgs e) {
             EngineMultimedia.Play(EngineSoundEnum.Click);  
 
             //pede a lista de personagens
@@ -140,6 +140,7 @@ namespace Elysium_Diamond.EngineWindow {
 
             //limpa a lista de jogadores.
             MapManager.Player.Clear();
+            MapManager.Npc.Clear();
 
             //limpa as informações do jogador local.
             GameClient.Client.PlayerLocal.Character.Clear();

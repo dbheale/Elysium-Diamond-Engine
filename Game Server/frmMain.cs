@@ -8,10 +8,11 @@ using GameServer.Common;
 using GameServer.MySQL;
 using GameServer.Server;
 using GameServer.Network;
-using GameServer.ClasseData;
+using GameServer.Classes;
 using GameServer.GameGuild;
 using GameServer.LuaScript;
-using Elysium;
+using Elysium.IO;
+using Elysium.Logs;
 
 namespace GameServer {
     public partial class frmMain : Form {
@@ -54,11 +55,7 @@ namespace GameServer {
         public frmMain() {
             InitializeComponent();
 
-            Logs.LogsEvent += WriteLog;
-        }
-
-        private void MainForm_Load(object sender, EventArgs e) {
-
+            Log.LogEvent += WriteLog;
         }
 
         private void exitItem_Click(object sender, EventArgs e) {
@@ -66,7 +63,7 @@ namespace GameServer {
         }
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e) {
-            Logs.CloseFile();
+            Log.CloseFile();
         }
 
         private void clearScreenItem_Click(object sender, EventArgs e) {
@@ -76,37 +73,39 @@ namespace GameServer {
         public void InitializeServer() {
             Settings.ParseConfigFile("ServerConfig.txt");
 
-            Logs.Enabled = Settings.GetBoolean("Logs");
+            Log.Enabled = Settings.GetBoolean("Log");
 
             var result = string.Empty;
-            if (Logs.Enabled)
-                if (!Logs.OpenFile(out result)) MessageBox.Show(result);
+            if (Log.Enabled)
+                if (!Log.OpenFile(out result)) MessageBox.Show(result);
 
             Configuration.ID = Settings.GetInt32("ID");
-            Logs.Write($"ID: {Configuration.ID}", Color.Red);
+            Log.Write($"ID: {Configuration.ID}", Color.Red);
 
             Configuration.GameServerName = Settings.GetString("Name");
-            Logs.Write($"Game Server Name: {Configuration.GameServerName}", Color.CornflowerBlue);
+            Log.Write($"Game Server Name: {Configuration.GameServerName}", Color.CornflowerBlue);
             Text = $"Game Server @ {Configuration.GameServerName}";
 
             Configuration.Discovery = Settings.GetString("Discovery");
-            Logs.Write($"Discovery: {Configuration.Discovery}", Color.Black);
+            Log.Write($"Discovery: {Configuration.Discovery}", Color.Black);
 
             Configuration.GameServerPort = Settings.GetInt32("Port");
-            Logs.Write($"Port: {Configuration.GameServerPort}", Color.Black);
+            Log.Write($"Port: {Configuration.GameServerPort}", Color.Black);
 
             Configuration.MaximumConnections = Settings.GetInt32("MaximumConnections");
-            Logs.Write($"MaximumConnections: {Configuration.MaximumConnections}", Color.Black);
+            Log.Write($"MaximumConnections: {Configuration.MaximumConnections}", Color.Black);
 
             Configuration.Sleep = Settings.GetInt32("Sleep");
-            Logs.Write($"Sleep: {Configuration.Sleep}", Color.Black);
+            Log.Write($"Sleep: {Configuration.Sleep}", Color.Black);
 
-            result = (Logs.Enabled == true) ? "Logs: Ativado" : "Logs: Desativado";
-            Logs.Write(result, Color.Black);
+            Configuration.ConnectIp = Settings.GetString("ConnectIp");
+            Log.Write($"Connect Ip: {Configuration.ConnectIp}", Color.Black);
 
-            Configuration.WorldServerID = new string[Constant.MAX_SERVER];
+            Configuration.ConnectPort = Settings.GetInt32("ConnectPort");
+            Log.Write($"Connect Port: {Configuration.ConnectPort}", Color.Black);
 
-            Logs.Write("Carregando config mysql", Color.Black);
+            result = (Log.Enabled == true) ? "Log: Enabled" : "Log: Disabled";
+            Log.Write(result, Color.Black);
 
             Common_DB.Server = Settings.GetString("MySQL_IP");
             Common_DB.Port = Settings.GetInt32("MySQL_Port");
@@ -114,39 +113,39 @@ namespace GameServer {
             Common_DB.Password = Settings.GetString("MySQL_Pass");
             Common_DB.Database = Settings.GetString("MySQL_DB");
 
-            Logs.Write("Connectado ao banco de dados", Color.Green);
+            Log.Write("Trying to connect database", Color.Green);
 
             // Tenta se conectar ao banco de dados
             if (!Common_DB.Open(out result))
-                Logs.Write(result, Color.Red);
+                Log.Write(result, Color.Red);
 
-            for (int n = 0; n < Constant.MAX_SERVER; n++) {
-                Configuration.WorldServerID[n] = Settings.GetString($"{n + 1}_WorldID");
-                Logs.Write($"WorldServer {n + 1}  ID: {Configuration.WorldServerID[n]}", Color.Coral);
-            }
+            Log.Write("Loading items", Color.Black);
+            GameData_DB.LoadItems();
+            Log.Write($"{GameItem.ItemManager.Count()} items loaded", Color.Black);
 
-            Logs.Write("Carregando experiência", Color.Black);
-            ServerData_DB.LoadExperience();
+            Log.Write("Loading talents", Color.Black);
+            GameData_DB.LoadTalent();
+            Log.Write($"{GameTalent.TalentManager.Talent.Count} talents loaded", Color.Black);
 
-            Logs.Write($"Level Max: {Experience.Level.LevelMax}", Color.BlueViolet);
-            Logs.Write($"Exp Max: {Experience.Level.GetMaxExp()}", Color.BlueViolet);
+            Log.Write("Loading experience table", Color.Black);
+            GameData_DB.LoadExperience();
+            Log.Write($"Max Level: {Experience.Level.LevelMax} EXP: {Experience.Level.GetMaxExp()}", Color.BlueViolet);
 
-            Guild.Guilds = null;
             // Prepara as classes para receber dados
             Guild.Guilds = new HashSet<Guild>();
 
             // Carrega todos os dados de guild
-            Logs.Write("Carregando guilds", Color.Black);
+            Log.Write("Loading guilds", Color.Black);
             Guild_DB.GuildInfo();
 
             Guild_DB.MemberInfo();
-            Logs.Write("Carregando membros", Color.Black);
+            Log.Write("Loading members", Color.Black);
 
             // Classes
             InitializeClasse();
 
             ///npc
-            Logs.Write("Carregando NPC", Color.Black);
+            Log.Write("Loading NPC", Color.Black);
             Npc_DB.LoadNpcData();
 
             //Inicia mapas de teste        
@@ -154,32 +153,34 @@ namespace GameServer {
             Maps.MapManager.Add(map);
             Maps.MapManager.LoadMaps();
 
-            Logs.Write("Carregando scripts", Color.BlueViolet);
+            Log.Write("Loading scripts", Color.BlueViolet);
             LuaConfig.InitializeConfig();
 
             GameNetwork.InitializeServer();
-            Logs.Write("Game Server Start", Color.Green);
+            NetworkClient.Initialize();
+            Log.Write("Game Server Start", Color.Green);
         }
 
         public void InitializeClasse() {
             Classe.Classes = new List<Classe>();
 
-            Logs.Write("Carregando classe(s) base", Color.MediumVioletRed);
+            Log.Write("Loading classe base", Color.MediumVioletRed);
             Classes_DB.GetClasseStatsBase();
 
-            Logs.Write("Carregando classe(s) incremento", Color.MediumVioletRed);
+            Log.Write("Loading classe increment", Color.MediumVioletRed);
 
             for (var index = 0; index < Classe.Classes.Count; index++) {
                 Classes_DB.GetClasseStatsIncrement(index, Classe.Classes[index].IncrementID);
+                Classes_DB.GetClasseTalent(index, Classe.Classes[index].TalentID);
             }
         }
 
         public void Exit() {
-            Logs.CloseFile();
+            Log.CloseFile();
             Application.Exit();
         }
 
-        public void WriteLog(object sender, LogsEventArgs e) {
+        public void WriteLog(object sender, LogEventArgs e) {
             general_textbox.SelectionStart = general_textbox.TextLength;
             general_textbox.SelectionLength = 0;
 
@@ -189,7 +190,6 @@ namespace GameServer {
 
             general_textbox.ScrollToCaret();
         }
-
 
         private void button1_Click(object sender, EventArgs e) {
 

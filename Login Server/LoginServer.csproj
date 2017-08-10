@@ -63,6 +63,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Elysium.dll</HintPath>
     </Reference>
+    <Reference Include="KeraLua, Version=1.3.2.0, Culture=neutral, PublicKeyToken=04d04586786c6f34, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\KeraLua.dll</HintPath>
+    </Reference>
     <Reference Include="Lidgren.Network, Version=2012.1.7.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Release\Lidgren.Network.dll</HintPath>
@@ -77,24 +81,21 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Configuration.cs" />
-    <Compile Include="Common\Constant.cs" />
+    <Compile Include="Common\Constants.cs" />
     <Compile Include="Common\Hash.cs" />
-    <Compile Include="Enumeration\GameState.cs" />
+    <Compile Include="Server\GameState.cs" />
     <Compile Include="LuaScript\LuaScript.cs" />
     <Compile Include="Server\CheckSum.cs" />
     <Compile Include="Server\GeoIpCountry\GeoIp.cs" />
     <Compile Include="Server\GeoIpCountry\IpBlock.cs" />
     <Compile Include="Server\GeoIpCountry\IpCountry.cs" />
-    <Compile Include="Enumeration\PacketList.cs" />
+    <Compile Include="Network\PacketList.cs" />
     <Compile Include="Server\ServerData.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -102,15 +103,14 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="MySQL\Accounts_DB.cs" />
-    <Compile Include="MySQL\Common_DB.cs" />
-    <Compile Include="Network\World\NetworkClient.cs" />
+    <Compile Include="Database\AccountDB.cs" />
+    <Compile Include="Database\MySQL.cs" />
+    <Compile Include="Network\Connect\NetworkClient.cs" />
     <Compile Include="Network\Login\LoginNetwork.cs" />
     <Compile Include="Network\Login\LoginData.cs" />
     <Compile Include="Network\Login\LoginPacket.cs" />
-    <Compile Include="Network\World\WorldData.cs" />
-    <Compile Include="Network\World\WorldNetwork.cs" />
-    <Compile Include="Network\World\WorldPacket.cs" />
+    <Compile Include="Network\Connect\ConnectData.cs" />
+    <Compile Include="Network\Connect\ConnectPacket.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\Authentication.cs" />

@@ -7,7 +7,7 @@ namespace Elysium_Diamond.Common {
 
         #region Constant
         public const string FILE_CONFIG = "config.bin";
-        public const string GAME_VERSION = "1.1.155";
+        public const string GAME_VERSION = "1.2.10";
         public const int MAX_CLASSE = 4;
         public const int MAX_CHARACTER = 4;
         public const int MAX_GAME_SERVER = 3;
@@ -68,10 +68,10 @@ namespace Elysium_Diamond.Common {
             using (FileStream file = new FileStream(FILE_CONFIG, FileMode.Open, FileAccess.Read)) {
                 BinaryReader reader = new BinaryReader(file);
 
-                //cache.Add("IP", "127.0.0.1");
-                //cache.Add("Port", 44405);
-                cache.Add("IP", reader.ReadString());
-                cache.Add("Port", reader.ReadInt32());
+                cache.Add("IP", "127.0.0.1");
+                cache.Add("Port", 44405);
+               // cache.Add("IP", reader.ReadString());
+              //  cache.Add("Port", reader.ReadInt32());
 
                 reader.Close();
             }

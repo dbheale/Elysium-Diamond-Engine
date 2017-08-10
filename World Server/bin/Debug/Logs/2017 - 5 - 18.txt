@@ -1,0 +1,282 @@
+2017/05/18 0:54:20: WorldID: -2
+2017/05/18 0:54:20: Server Name: artemis
+2017/05/18 0:54:20: Discovery: Elysium Diamond #1.0.0
+2017/05/18 0:54:20: Port: 55901
+2017/05/18 0:54:20: Maximum Connections: 1000
+2017/05/18 0:54:20: Logs: Ativado
+2017/05/18 0:54:20: Sleep: 1
+2017/05/18 0:54:20: Pin: False
+2017/05/18 0:54:20: PinMaxAttempt: 5
+2017/05/18 0:54:20: PinBannedTime: 15
+2017/05/18 0:54:20: Create Character: False
+2017/05/18 0:54:20: Delete Character: False
+2017/05/18 0:54:20: Carregando config do mysql
+2017/05/18 0:54:20: Connectado ao banco de dados
+2017/05/18 0:54:20: Carregando mensagens do servidor
+2017/05/18 0:54:20: Carregando a loja de items
+2017/05/18 0:54:20: Carregando scripts
+2017/05/18 0:54:21: ClasseID: 1 ItemID: 1 Weapon
+2017/05/18 0:54:21: ClasseID: 1 ItemID: 2 Shield
+2017/05/18 0:54:21: ClasseID: 1 ItemID: 3 Gloves
+2017/05/18 0:54:21: ClasseID: 1 ItemID: 4 Head
+2017/05/18 0:54:21: ClasseID: 1 ItemID: 5 Pants
+2017/05/18 0:54:21: ClasseID: 1 ItemID: 6 Legs
+2017/05/18 0:54:21: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/18 0:54:21: ClasseID: 1 ItemID: 8 Chest
+2017/05/18 0:54:21: ClasseID: 2 ItemID: 1 Weapon
+2017/05/18 0:54:21: ClasseID: 2 ItemID: 2 Shield
+2017/05/18 0:54:21: ClasseID: 2 ItemID: 3 Gloves
+2017/05/18 0:54:21: ClasseID: 2 ItemID: 4 Head
+2017/05/18 0:54:21: ClasseID: 2 ItemID: 5 Pants
+2017/05/18 0:54:21: ClasseID: 2 ItemID: 6 Legs
+2017/05/18 0:54:21: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/18 0:54:21: ClasseID: 2 ItemID: 8 Chest
+2017/05/18 0:54:21: Mapa 1 Canal 1 GameID: -3 127.0.0.1:55970 Capacity: 2000 60%
+2017/05/18 0:54:21: Mapa 1 Canal 2 GameID: -4 127.0.0.1:55971 Capacity: 2000 60%
+2017/05/18 0:54:21: Calderock Village Canal 1 GameID: -5 127.0.0.1:55972 Capacity: 2000 60%
+2017/05/18 0:54:21: Calderock Village Canal 2 GameID: -6 127.0.0.1:55973 Capacity: 2000 60%
+2017/05/18 0:54:21: Conectando Game Server
+2017/05/18 0:54:21: World Server Start
+2017/05/18 0:54:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 0:54:23: Status changed to connected: 127.0.0.1
+2017/05/18 0:54:23: Login Server ID: -1
+2017/05/18 0:56:01: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/18 0:57:29: Data From Login Server ID: 1 Account: akaruz 74403512DEA78FA6
+2017/05/18 0:57:30: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 0:57:30: Status changed to connected: 127.0.0.1
+2017/05/18 0:57:30: Data From Client: 74403512DEA78FA6
+2017/05/18 0:57:30: Player Found ID: 1 Account: akaruz 74403512DEA78FA6
+2017/05/18 0:57:30: PreLoad ID: 1 Account: akaruz
+2017/05/18 0:57:31: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 0:58:09: Status changed to disconnected: 1 akaruz 127.0.0.1 74403512DEA78FA6
+2017/05/18 0:59:40: Data From Login Server ID: 1 Account: akaruz 3C604CC6DE9B1BE7
+2017/05/18 0:59:40: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 0:59:40: Status changed to connected: 127.0.0.1
+2017/05/18 0:59:40: Data From Client: 3C604CC6DE9B1BE7
+2017/05/18 0:59:40: Player Found ID: 1 Account: akaruz 3C604CC6DE9B1BE7
+2017/05/18 0:59:40: PreLoad ID: 1 Account: akaruz
+2017/05/18 0:59:41: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 1:00:39: Status changed to disconnected: 1 akaruz 127.0.0.1 3C604CC6DE9B1BE7
+2017/05/18 1:09:46: Data From Login Server ID: 1 Account: akaruz 726F47785493A637
+2017/05/18 1:09:46: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:09:46: Status changed to connected: 127.0.0.1
+2017/05/18 1:09:46: Data From Client: 726F47785493A637
+2017/05/18 1:09:46: Player Found ID: 1 Account: akaruz 726F47785493A637
+2017/05/18 1:09:46: PreLoad ID: 1 Account: akaruz
+2017/05/18 1:09:47: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 1:09:50: Channel-> Caronne: c
+2017/05/18 1:10:37: Status changed to disconnected: 1 akaruz 127.0.0.1 726F47785493A637
+2017/05/18 1:10:41: Game Server #Mapa 1 Canal 1 desconectado
+2017/05/18 1:10:41: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/18 1:11:03: Data From Login Server ID: 1 Account: akaruz B96B230E8D9E19D9
+2017/05/18 1:11:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 1:11:03: Status changed to connected: 127.0.0.1
+2017/05/18 1:11:03: Data From Client: B96B230E8D9E19D9
+2017/05/18 1:11:03: Player Found ID: 1 Account: akaruz B96B230E8D9E19D9
+2017/05/18 1:11:03: PreLoad ID: 1 Account: akaruz
+2017/05/18 1:11:06: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 1:11:10: Channel-> Caronne: cccc
+2017/05/18 1:11:54: Status changed to disconnected: 1 akaruz 127.0.0.1 B96B230E8D9E19D9
+2017/05/18 3:15:31: Game Server #Mapa 1 Canal 1 desconectado
+2017/05/18 3:16:11: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/18 3:20:26: Game Server #Mapa 1 Canal 1 desconectado
+2017/05/18 3:27:51: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/18 3:27:55: Data From Login Server ID: 1 Account: akaruz 5CAE0A7C5E822116
+2017/05/18 3:27:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:27:56: Status changed to connected: 127.0.0.1
+2017/05/18 3:27:56: Data From Client: 5CAE0A7C5E822116
+2017/05/18 3:27:56: Player Found ID: 1 Account: akaruz 5CAE0A7C5E822116
+2017/05/18 3:27:56: PreLoad ID: 1 Account: akaruz
+2017/05/18 3:27:58:  Login Attempt: akaruz 127.0.0.1
+2017/05/18 3:28:16: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 3:28:20: Channel-> Caronne: c
+2017/05/18 3:28:22: Channel-> Caronne: aaa
+2017/05/18 3:29:13: Disconnected by login server: akaruz
+2017/05/18 3:29:13: Status changed to disconnected: 1 akaruz 127.0.0.1 5CAE0A7C5E822116
+2017/05/18 3:29:15: Data From Login Server ID: 1 Account: akaruz 795D766E26250336
+2017/05/18 3:29:15: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:29:15: Status changed to connected: 127.0.0.1
+2017/05/18 3:29:15: Data From Client: 795D766E26250336
+2017/05/18 3:29:15: Player Found ID: 1 Account: akaruz 795D766E26250336
+2017/05/18 3:29:15: PreLoad ID: 1 Account: akaruz
+2017/05/18 3:29:17: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 3:29:20: Channel-> Caronne: a
+2017/05/18 3:30:41: Status changed to disconnected: 1 akaruz 127.0.0.1 795D766E26250336
+2017/05/18 3:33:53: Game Server #Mapa 1 Canal 1 desconectado
+2017/05/18 3:55:11: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/18 3:59:33: Data From Login Server ID: 1 Account: akaruz FA049E70593EBBA8
+2017/05/18 3:59:34: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 3:59:34: Status changed to connected: 127.0.0.1
+2017/05/18 3:59:34: Data From Client: FA049E70593EBBA8
+2017/05/18 3:59:34: Player Found ID: 1 Account: akaruz FA049E70593EBBA8
+2017/05/18 3:59:34: PreLoad ID: 1 Account: akaruz
+2017/05/18 3:59:37: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 3:59:40: Channel-> Caronne: c
+2017/05/18 4:00:07: Status changed to disconnected: 1 akaruz 127.0.0.1 FA049E70593EBBA8
+2017/05/18 4:00:54: Data From Login Server ID: 1 Account: akaruz 0A913B7A10633436
+2017/05/18 4:00:55: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:00:55: Status changed to connected: 127.0.0.1
+2017/05/18 4:00:55: Data From Client: 0A913B7A10633436
+2017/05/18 4:00:55: Player Found ID: 1 Account: akaruz 0A913B7A10633436
+2017/05/18 4:00:55: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:00:56: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:00:57: Channel-> Caronne: aa
+2017/05/18 4:01:40: Status changed to disconnected: 1 akaruz 127.0.0.1 0A913B7A10633436
+2017/05/18 4:06:23: Data From Login Server ID: 1 Account: akaruz 5C4E6DDCB040D73B
+2017/05/18 4:06:24: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:06:24: Status changed to connected: 127.0.0.1
+2017/05/18 4:06:24: Data From Client: 5C4E6DDCB040D73B
+2017/05/18 4:06:24: Player Found ID: 1 Account: akaruz 5C4E6DDCB040D73B
+2017/05/18 4:06:24: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:06:24: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:06:26: Channel-> Caronne: ue
+2017/05/18 4:06:55: Status changed to disconnected: 1 akaruz 127.0.0.1 5C4E6DDCB040D73B
+2017/05/18 4:07:06: Data From Login Server ID: 1 Account: akaruz 5D04E91D75EF5E1D
+2017/05/18 4:07:07: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:07:07: Status changed to connected: 127.0.0.1
+2017/05/18 4:07:07: Data From Client: 5D04E91D75EF5E1D
+2017/05/18 4:07:07: Player Found ID: 1 Account: akaruz 5D04E91D75EF5E1D
+2017/05/18 4:07:07: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:07:08: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:07:10: Channel-> Caronne: c
+2017/05/18 4:07:11: Channel-> Caronne: ue
+2017/05/18 4:07:48: Status changed to disconnected: 1 akaruz 127.0.0.1 5D04E91D75EF5E1D
+2017/05/18 4:08:12: Data From Login Server ID: 1 Account: akaruz DDD72D1AB40F33B0
+2017/05/18 4:08:13: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:08:13: Status changed to connected: 127.0.0.1
+2017/05/18 4:08:13: Data From Client: DDD72D1AB40F33B0
+2017/05/18 4:08:13: Player Found ID: 1 Account: akaruz DDD72D1AB40F33B0
+2017/05/18 4:08:13: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:08:14: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:08:17: Channel-> Caronne: ikk
+2017/05/18 4:09:18: Status changed to disconnected: 1 akaruz 127.0.0.1 DDD72D1AB40F33B0
+2017/05/18 4:10:19: Data From Login Server ID: 1 Account: akaruz B57D716F4806F105
+2017/05/18 4:10:19: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:10:19: Status changed to connected: 127.0.0.1
+2017/05/18 4:10:19: Data From Client: B57D716F4806F105
+2017/05/18 4:10:19: Player Found ID: 1 Account: akaruz B57D716F4806F105
+2017/05/18 4:10:19: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:10:20: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:10:23: Channel-> Caronne: ue
+2017/05/18 4:11:38: Status changed to disconnected: 1 akaruz 127.0.0.1 B57D716F4806F105
+2017/05/18 4:12:38: Data From Login Server ID: 1 Account: akaruz DC7F75FB067C9E61
+2017/05/18 4:12:39: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:12:39: Status changed to connected: 127.0.0.1
+2017/05/18 4:12:39: Data From Client: DC7F75FB067C9E61
+2017/05/18 4:12:39: Player Found ID: 1 Account: akaruz DC7F75FB067C9E61
+2017/05/18 4:12:39: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:12:39: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:12:42: Channel-> Caronne: jj
+2017/05/18 4:17:02: Channel-> Caronne: aaa
+2017/05/18 4:18:12: Status changed to disconnected: 1 akaruz 127.0.0.1 DC7F75FB067C9E61
+2017/05/18 4:18:16: Data From Login Server ID: 1 Account: akaruz 5D391C07A682279C
+2017/05/18 4:18:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:18:16: Status changed to connected: 127.0.0.1
+2017/05/18 4:18:16: Data From Client: 5D391C07A682279C
+2017/05/18 4:18:16: Player Found ID: 1 Account: akaruz 5D391C07A682279C
+2017/05/18 4:18:16: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:18:17: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:18:19: Channel-> Caronne: hue
+2017/05/18 4:19:25: Status changed to disconnected: 1 akaruz 127.0.0.1 5D391C07A682279C
+2017/05/18 4:19:39: Data From Login Server ID: 1 Account: akaruz 790512A002C0A48C
+2017/05/18 4:19:39: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:19:39: Status changed to connected: 127.0.0.1
+2017/05/18 4:19:39: Data From Client: 790512A002C0A48C
+2017/05/18 4:19:39: Player Found ID: 1 Account: akaruz 790512A002C0A48C
+2017/05/18 4:19:39: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:19:40: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:19:54: Channel-> Caronne: c
+2017/05/18 4:20:28: Status changed to disconnected: 1 akaruz 127.0.0.1 790512A002C0A48C
+2017/05/18 4:20:32: Data From Login Server ID: 1 Account: akaruz A8DFC8206A388C67
+2017/05/18 4:20:33: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:20:33: Status changed to connected: 127.0.0.1
+2017/05/18 4:20:33: Data From Client: A8DFC8206A388C67
+2017/05/18 4:20:33: Player Found ID: 1 Account: akaruz A8DFC8206A388C67
+2017/05/18 4:20:33: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:20:33: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:20:35: Channel-> Caronne: 31
+2017/05/18 4:21:48: Status changed to disconnected: 1 akaruz 127.0.0.1 A8DFC8206A388C67
+2017/05/18 4:22:55: Data From Login Server ID: 1 Account: akaruz 61A23E9D5E522BA4
+2017/05/18 4:22:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:22:56: Status changed to connected: 127.0.0.1
+2017/05/18 4:22:56: Data From Client: 61A23E9D5E522BA4
+2017/05/18 4:22:56: Player Found ID: 1 Account: akaruz 61A23E9D5E522BA4
+2017/05/18 4:22:56: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:22:57: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:22:59: Channel-> Caronne: aa
+2017/05/18 4:23:37: Status changed to disconnected: 1 akaruz 127.0.0.1 61A23E9D5E522BA4
+2017/05/18 4:24:13: Data From Login Server ID: 1 Account: akaruz E3978B2FE5BC80C0
+2017/05/18 4:24:13: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:24:13: Status changed to connected: 127.0.0.1
+2017/05/18 4:24:13: Data From Client: E3978B2FE5BC80C0
+2017/05/18 4:24:13: Player Found ID: 1 Account: akaruz E3978B2FE5BC80C0
+2017/05/18 4:24:13: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:24:14: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:24:16: Channel-> Caronne: cc
+2017/05/18 4:26:04: Status changed to disconnected: 1 akaruz 127.0.0.1 E3978B2FE5BC80C0
+2017/05/18 4:26:09: Data From Login Server ID: 1 Account: akaruz 9EF15E4BAD70ABC5
+2017/05/18 4:26:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:26:10: Status changed to connected: 127.0.0.1
+2017/05/18 4:26:10: Data From Client: 9EF15E4BAD70ABC5
+2017/05/18 4:26:10: Player Found ID: 1 Account: akaruz 9EF15E4BAD70ABC5
+2017/05/18 4:26:10: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:26:11: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:26:15: Channel-> Caronne: saci
+2017/05/18 4:27:05: Status changed to disconnected: 1 akaruz 127.0.0.1 9EF15E4BAD70ABC5
+2017/05/18 4:27:23: Data From Login Server ID: 1 Account: akaruz CFC24EC8EDC8EA83
+2017/05/18 4:27:24: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:27:24: Status changed to connected: 127.0.0.1
+2017/05/18 4:27:24: Data From Client: CFC24EC8EDC8EA83
+2017/05/18 4:27:24: Player Found ID: 1 Account: akaruz CFC24EC8EDC8EA83
+2017/05/18 4:27:24: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:27:25: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:27:37: Channel-> Caronne: c
+2017/05/18 4:30:30: Channel-> Caronne: 
+2017/05/18 4:30:34: Channel-> Caronne: 
+2017/05/18 4:30:35: Channel-> Caronne: 
+2017/05/18 4:35:14: Status changed to disconnected: 1 akaruz 127.0.0.1 CFC24EC8EDC8EA83
+2017/05/18 4:42:59: Game Server #Mapa 1 Canal 1 desconectado
+2017/05/18 4:52:51: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/18 4:53:19: Data From Login Server ID: 1 Account: akaruz C386F363CA25E7B6
+2017/05/18 4:53:19: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:53:19: Status changed to connected: 127.0.0.1
+2017/05/18 4:53:19: Data From Client: C386F363CA25E7B6
+2017/05/18 4:53:19: Player Found ID: 1 Account: akaruz C386F363CA25E7B6
+2017/05/18 4:53:19: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:53:20: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:53:23: Channel-> Caronne: a
+2017/05/18 4:53:52: Status changed to disconnected: 1 akaruz 127.0.0.1 C386F363CA25E7B6
+2017/05/18 4:53:54: Data From Login Server ID: 1 Account: akaruz F822EA9632F42C0C
+2017/05/18 4:53:55: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:53:55: Status changed to connected: 127.0.0.1
+2017/05/18 4:53:55: Data From Client: F822EA9632F42C0C
+2017/05/18 4:53:55: Player Found ID: 1 Account: akaruz F822EA9632F42C0C
+2017/05/18 4:53:55: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:53:55: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:53:57: Channel-> Caronne: c
+2017/05/18 4:54:32: Status changed to disconnected: 1 akaruz 127.0.0.1 F822EA9632F42C0C
+2017/05/18 4:54:41: Data From Login Server ID: 1 Account: akaruz 85A66A3FE750049B
+2017/05/18 4:54:41: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:54:41: Status changed to connected: 127.0.0.1
+2017/05/18 4:54:41: Data From Client: 85A66A3FE750049B
+2017/05/18 4:54:41: Player Found ID: 1 Account: akaruz 85A66A3FE750049B
+2017/05/18 4:54:41: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:54:43: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:55:33: Status changed to disconnected: 1 akaruz 127.0.0.1 85A66A3FE750049B
+2017/05/18 4:55:38: Data From Login Server ID: 1 Account: akaruz 116A6014C875F2E7
+2017/05/18 4:55:39: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 4:55:39: Status changed to connected: 127.0.0.1
+2017/05/18 4:55:39: Data From Client: 116A6014C875F2E7
+2017/05/18 4:55:39: Player Found ID: 1 Account: akaruz 116A6014C875F2E7
+2017/05/18 4:55:39: PreLoad ID: 1 Account: akaruz
+2017/05/18 4:55:40: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 4:55:42: Channel-> Caronne: c
+2017/05/18 5:00:19: Status changed to disconnected: 1 akaruz 127.0.0.1 116A6014C875F2E7
+2017/05/18 5:01:01: Data From Login Server ID: 1 Account: akaruz F1DE764EA6D53690
+2017/05/18 5:01:01: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/18 5:01:01: Status changed to connected: 127.0.0.1
+2017/05/18 5:01:01: Data From Client: F1DE764EA6D53690
+2017/05/18 5:01:01: Player Found ID: 1 Account: akaruz F1DE764EA6D53690
+2017/05/18 5:01:01: PreLoad ID: 1 Account: akaruz
+2017/05/18 5:01:02: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/18 5:01:05: Channel-> Caronne: aa

@@ -157,9 +157,9 @@ namespace Elysium_Diamond.EngineWindow {
             background.Draw();
 
             //Nome da classe
-            EngineFont.DrawText(null, ClasseManager.Classes[selectedClasse].Name, new Size2(450, 0), new Point(position.X, position.Y + 80), Color.DarkViolet, EngineFontStyle.Regular, FontDrawFlags.Center, false);
+            EngineFont.DrawText(ClasseManager.Classes[selectedClasse].Name, new Size2(450, 0), new Point(position.X, position.Y + 80), Color.DarkViolet, EngineFontStyle.Regular, FontDrawFlags.Center, false);
             //Descrição
-            EngineFont.DrawText(null, ClasseManager.Classes[selectedClasse].Description, new Rectangle(position.X + 30, position.Y + 90, 390, 250), Color.White, EngineFontStyle.Regular, FontDrawFlags.WordBreak);
+            EngineFont.DrawText(ClasseManager.Classes[selectedClasse].Description, new Rectangle(position.X + 30, position.Y + 90, 390, 250), Color.White, EngineFontStyle.Regular, FontDrawFlags.WordBreak);
 
             //Desenha os botões
             for (int n = 0; n < button.Length; n++) { button[n].Draw(); }
@@ -168,13 +168,13 @@ namespace Elysium_Diamond.EngineWindow {
             textbox.DrawTextMesured();
 
             //Desenha as 7 sprites na tela para escolha.
-            classe[0].Draw(SpriteManager.FindByID(ClasseManager.Classes[selectedClasse].Sprite[0]));
-            classe[1].Draw(SpriteManager.FindByID(ClasseManager.Classes[selectedClasse].Sprite[1]));
-            classe[2].Draw(SpriteManager.FindByID(ClasseManager.Classes[selectedClasse].Sprite[2]));
-            classe[3].Draw(SpriteManager.FindByID(ClasseManager.Classes[selectedClasse].Sprite[3]));
-            classe[4].Draw(SpriteManager.FindByID(ClasseManager.Classes[selectedClasse].Sprite[4]));
-            classe[5].Draw(SpriteManager.FindByID(ClasseManager.Classes[selectedClasse].Sprite[5]));
-            classe[6].Draw(SpriteManager.FindByID(ClasseManager.Classes[selectedClasse].Sprite[6]));
+            classe[0].Draw(EngineTexture.FindTextureByID(ClasseManager.Classes[selectedClasse].Sprite[0], EngineTextureType.Sprites));
+            classe[1].Draw(EngineTexture.FindTextureByID(ClasseManager.Classes[selectedClasse].Sprite[1], EngineTextureType.Sprites));
+            classe[2].Draw(EngineTexture.FindTextureByID(ClasseManager.Classes[selectedClasse].Sprite[2], EngineTextureType.Sprites));
+            classe[3].Draw(EngineTexture.FindTextureByID(ClasseManager.Classes[selectedClasse].Sprite[3], EngineTextureType.Sprites));
+            classe[4].Draw(EngineTexture.FindTextureByID(ClasseManager.Classes[selectedClasse].Sprite[4], EngineTextureType.Sprites));
+            classe[5].Draw(EngineTexture.FindTextureByID(ClasseManager.Classes[selectedClasse].Sprite[5], EngineTextureType.Sprites));
+            classe[6].Draw(EngineTexture.FindTextureByID(ClasseManager.Classes[selectedClasse].Sprite[6], EngineTextureType.Sprites));
         }
 
         /// <summary>
@@ -182,7 +182,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void Classe_Click(object sender, EventArgs e) {
+        public static void Classe_Click(object sender, EngineEventArgs e) {
             if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
@@ -204,7 +204,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void NextClass_Click(object sender, EventArgs e) {
+        public static void NextClass_Click(object sender, EngineEventArgs e) {
             if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
@@ -220,7 +220,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void PreviousClass_Click(object sender, EventArgs e) {
+        public static void PreviousClass_Click(object sender, EngineEventArgs e) {
             if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
@@ -235,7 +235,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void Confirm_Click(object sender, EventArgs e) {
+        public static void Confirm_Click(object sender, EngineEventArgs e) {
             if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
@@ -253,7 +253,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void Back_Click(object sender, EventArgs e) {
+        public static void Back_Click(object sender, EngineEventArgs e) {
             if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 

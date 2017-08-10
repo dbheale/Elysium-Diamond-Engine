@@ -1,0 +1,536 @@
+2017/05/12 3:01:59: WorldID: 2147483646
+2017/05/12 3:01:59: Server Name: artemis
+2017/05/12 3:01:59: Discovery: Elysium Diamond #1.0.0
+2017/05/12 3:01:59: Port: 55901
+2017/05/12 3:01:59: Maximum Connections: 2000
+2017/05/12 3:01:59: Logs: Ativado
+2017/05/12 3:01:59: Sleep: 1
+2017/05/12 3:01:59: Pin: False
+2017/05/12 3:01:59: PinMaxAttempt: 5
+2017/05/12 3:01:59: PinBannedTime: 15
+2017/05/12 3:01:59: Create Character: False
+2017/05/12 3:01:59: Delete Character: False
+2017/05/12 3:01:59: Carregando config do mysql
+2017/05/12 3:01:59: Connectado ao banco de dados
+2017/05/12 3:02:00: Carregando scripts
+2017/05/12 3:02:01: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 3:02:01: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 3:02:01: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 3:02:01: ClasseID: 1 ItemID: 4 Head
+2017/05/12 3:02:01: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 3:02:01: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 3:02:01: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 3:02:01: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 3:02:01: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 3:02:01: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 3:02:01: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 3:02:01: ClasseID: 2 ItemID: 4 Head
+2017/05/12 3:02:01: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 3:02:01: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 3:02:01: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 3:02:01: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 3:02:01: World Server Start.
+2017/05/12 3:02:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:02:03: Status changed to connected: 127.0.0.1
+2017/05/12 3:02:03: Login Server ID: 2147483647
+2017/05/12 3:02:03: Data From Login Server ID: 1 Account: akaruz F721679929A840F7
+2017/05/12 3:02:04: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:02:04: Status changed to connected: 127.0.0.1
+2017/05/12 3:02:04: Data From Client: F721679929A840F7
+2017/05/12 3:02:04: Player Found ID: 1 Account: akaruz F721679929A840F7
+2017/05/12 3:02:04: PreLoad ID: 1 Account: akaruz
+2017/05/12 3:02:41: WorldID: 2147483646
+2017/05/12 3:02:41: Server Name: artemis
+2017/05/12 3:02:41: Discovery: Elysium Diamond #1.0.0
+2017/05/12 3:02:41: Port: 55901
+2017/05/12 3:02:41: Maximum Connections: 2000
+2017/05/12 3:02:41: Logs: Ativado
+2017/05/12 3:02:41: Sleep: 1
+2017/05/12 3:02:41: Pin: False
+2017/05/12 3:02:41: PinMaxAttempt: 5
+2017/05/12 3:02:41: PinBannedTime: 15
+2017/05/12 3:02:41: Create Character: False
+2017/05/12 3:02:41: Delete Character: False
+2017/05/12 3:02:41: Carregando config do mysql
+2017/05/12 3:02:41: Connectado ao banco de dados
+2017/05/12 3:02:42: Carregando scripts
+2017/05/12 3:02:43: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 3:02:43: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 3:02:43: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 3:02:43: ClasseID: 1 ItemID: 4 Head
+2017/05/12 3:02:43: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 3:02:43: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 3:02:43: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 3:02:43: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 3:02:43: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 3:02:43: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 3:02:43: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 3:02:43: ClasseID: 2 ItemID: 4 Head
+2017/05/12 3:02:43: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 3:02:43: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 3:02:43: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 3:02:43: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 3:02:43: World Server Start.
+2017/05/12 3:02:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:02:43: Status changed to connected: 127.0.0.1
+2017/05/12 3:02:43: Login Server ID: 2147483647
+2017/05/12 3:02:53: Data From Login Server ID: 1 Account: akaruz 56DBE61A0BFBE3B5
+2017/05/12 3:02:54: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:02:54: Status changed to connected: 127.0.0.1
+2017/05/12 3:02:54: Data From Client: 56DBE61A0BFBE3B5
+2017/05/12 3:02:54: Player Found ID: 1 Account: akaruz 56DBE61A0BFBE3B5
+2017/05/12 3:02:54: PreLoad ID: 1 Account: akaruz
+2017/05/12 3:05:28: WorldID: 2147483646
+2017/05/12 3:05:28: Server Name: artemis
+2017/05/12 3:05:28: Discovery: Elysium Diamond #1.0.0
+2017/05/12 3:05:28: Port: 55901
+2017/05/12 3:05:28: Maximum Connections: 2000
+2017/05/12 3:05:28: Logs: Ativado
+2017/05/12 3:05:28: Sleep: 1
+2017/05/12 3:05:28: Pin: False
+2017/05/12 3:05:28: PinMaxAttempt: 5
+2017/05/12 3:05:28: PinBannedTime: 15
+2017/05/12 3:05:28: Create Character: False
+2017/05/12 3:05:28: Delete Character: False
+2017/05/12 3:05:28: Carregando config do mysql
+2017/05/12 3:05:28: Connectado ao banco de dados
+2017/05/12 3:05:29: Carregando scripts
+2017/05/12 3:05:29: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 3:05:29: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 3:05:29: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 3:05:29: ClasseID: 1 ItemID: 4 Head
+2017/05/12 3:05:29: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 3:05:29: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 3:05:29: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 3:05:29: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 3:05:29: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 3:05:29: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 3:05:29: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 3:05:29: ClasseID: 2 ItemID: 4 Head
+2017/05/12 3:05:29: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 3:05:29: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 3:05:29: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 3:05:29: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 3:05:30: World Server Start.
+2017/05/12 3:05:33: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:05:33: Status changed to connected: 127.0.0.1
+2017/05/12 3:05:33: Login Server ID: 2147483647
+2017/05/12 3:05:40: Data From Login Server ID: 1 Account: akaruz 249F96B9AD9865CA
+2017/05/12 3:05:41: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:05:41: Status changed to connected: 127.0.0.1
+2017/05/12 3:05:41: Data From Client: 249F96B9AD9865CA
+2017/05/12 3:05:41: Player Found ID: 1 Account: akaruz 249F96B9AD9865CA
+2017/05/12 3:05:41: PreLoad ID: 1 Account: akaruz
+2017/05/12 3:06:12: WorldID: 2147483646
+2017/05/12 3:06:12: Server Name: artemis
+2017/05/12 3:06:12: Discovery: Elysium Diamond #1.0.0
+2017/05/12 3:06:12: Port: 55901
+2017/05/12 3:06:12: Maximum Connections: 2000
+2017/05/12 3:06:12: Logs: Ativado
+2017/05/12 3:06:12: Sleep: 1
+2017/05/12 3:06:12: Pin: False
+2017/05/12 3:06:12: PinMaxAttempt: 5
+2017/05/12 3:06:12: PinBannedTime: 15
+2017/05/12 3:06:12: Create Character: False
+2017/05/12 3:06:12: Delete Character: False
+2017/05/12 3:06:12: Carregando config do mysql
+2017/05/12 3:06:12: Connectado ao banco de dados
+2017/05/12 3:06:13: Carregando scripts
+2017/05/12 3:06:13: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 3:06:13: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 3:06:13: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 3:06:13: ClasseID: 1 ItemID: 4 Head
+2017/05/12 3:06:13: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 3:06:13: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 3:06:13: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 3:06:13: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 3:06:13: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 3:06:13: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 3:06:13: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 3:06:13: ClasseID: 2 ItemID: 4 Head
+2017/05/12 3:06:13: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 3:06:13: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 3:06:13: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 3:06:13: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 3:06:14: World Server Start.
+2017/05/12 3:06:14: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:06:14: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:06:14: Status changed to connected: 127.0.0.1
+2017/05/12 3:06:14: Login Server ID: 2147483647
+2017/05/12 3:06:39: Data From Login Server ID: 1 Account: akaruz CA0FC7072D88A994
+2017/05/12 3:06:39: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:06:39: Status changed to connected: 127.0.0.1
+2017/05/12 3:06:39: Data From Client: CA0FC7072D88A994
+2017/05/12 3:06:39: Player Found ID: 1 Account: akaruz CA0FC7072D88A994
+2017/05/12 3:06:39: PreLoad ID: 1 Account: akaruz
+2017/05/12 3:52:16: WorldID: 2147483646
+2017/05/12 3:52:16: Server Name: artemis
+2017/05/12 3:52:16: Discovery: Elysium Diamond #1.0.0
+2017/05/12 3:52:16: Port: 55901
+2017/05/12 3:52:16: Maximum Connections: 2000
+2017/05/12 3:52:16: Logs: Ativado
+2017/05/12 3:52:16: Sleep: 1
+2017/05/12 3:52:16: Pin: False
+2017/05/12 3:52:16: PinMaxAttempt: 5
+2017/05/12 3:52:16: PinBannedTime: 15
+2017/05/12 3:52:16: Create Character: False
+2017/05/12 3:52:16: Delete Character: False
+2017/05/12 3:52:16: Carregando config do mysql
+2017/05/12 3:52:16: Connectado ao banco de dados
+2017/05/12 3:52:17: Carregando scripts
+2017/05/12 3:52:17: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 3:52:17: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 3:52:17: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 3:52:17: ClasseID: 1 ItemID: 4 Head
+2017/05/12 3:52:17: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 3:52:17: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 3:52:17: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 3:52:17: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 3:52:17: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 3:52:17: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 3:52:17: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 3:52:17: ClasseID: 2 ItemID: 4 Head
+2017/05/12 3:52:17: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 3:52:17: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 3:52:17: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 3:52:17: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 3:52:18: World Server Start.
+2017/05/12 3:52:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:52:23: Status changed to connected: 127.0.0.1
+2017/05/12 3:52:23: Login Server ID: 2147483647
+2017/05/12 3:52:33: Data From Login Server ID: 1 Account: akaruz 1244BA880E393969
+2017/05/12 3:52:34: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:52:34: Status changed to connected: 127.0.0.1
+2017/05/12 3:52:34: Data From Client: 1244BA880E393969
+2017/05/12 3:52:34: Player Found ID: 1 Account: akaruz 1244BA880E393969
+2017/05/12 3:52:34: PreLoad ID: 1 Account: akaruz
+2017/05/12 3:53:25: Status changed to disconnected: 1 akaruz 127.0.0.1 1244BA880E393969
+2017/05/12 3:55:25: Data From Login Server ID: 1 Account: akaruz DE10086A8A089638
+2017/05/12 3:55:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:55:25: Status changed to connected: 127.0.0.1
+2017/05/12 3:55:25: Data From Client: DE10086A8A089638
+2017/05/12 3:55:25: Player Found ID: 1 Account: akaruz DE10086A8A089638
+2017/05/12 3:55:25: PreLoad ID: 1 Account: akaruz
+2017/05/12 3:56:15: WorldID: 2147483646
+2017/05/12 3:56:15: Server Name: artemis
+2017/05/12 3:56:15: Discovery: Elysium Diamond #1.0.0
+2017/05/12 3:56:15: Port: 55901
+2017/05/12 3:56:15: Maximum Connections: 2000
+2017/05/12 3:56:15: Logs: Ativado
+2017/05/12 3:56:15: Sleep: 1
+2017/05/12 3:56:15: Pin: False
+2017/05/12 3:56:15: PinMaxAttempt: 5
+2017/05/12 3:56:15: PinBannedTime: 15
+2017/05/12 3:56:15: Create Character: False
+2017/05/12 3:56:15: Delete Character: False
+2017/05/12 3:56:15: Carregando config do mysql
+2017/05/12 3:56:15: Connectado ao banco de dados
+2017/05/12 3:56:16: Carregando scripts
+2017/05/12 3:56:17: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 3:56:17: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 3:56:17: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 3:56:17: ClasseID: 1 ItemID: 4 Head
+2017/05/12 3:56:17: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 3:56:17: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 3:56:17: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 3:56:17: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 3:56:17: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 3:56:17: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 3:56:17: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 3:56:17: ClasseID: 2 ItemID: 4 Head
+2017/05/12 3:56:17: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 3:56:17: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 3:56:17: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 3:56:17: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 3:56:17: World Server Start.
+2017/05/12 3:56:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:56:23: Status changed to connected: 127.0.0.1
+2017/05/12 3:56:23: Login Server ID: 2147483647
+2017/05/12 3:56:31: Data From Login Server ID: 1 Account: akaruz 1406B21453ECEEC3
+2017/05/12 3:56:31: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:56:31: Status changed to connected: 127.0.0.1
+2017/05/12 3:56:31: Data From Client: 1406B21453ECEEC3
+2017/05/12 3:56:31: Player Found ID: 1 Account: akaruz 1406B21453ECEEC3
+2017/05/12 3:56:31: PreLoad ID: 1 Account: akaruz
+2017/05/12 3:58:19: WorldID: 2147483646
+2017/05/12 3:58:19: Server Name: artemis
+2017/05/12 3:58:19: Discovery: Elysium Diamond #1.0.0
+2017/05/12 3:58:19: Port: 55901
+2017/05/12 3:58:19: Maximum Connections: 2000
+2017/05/12 3:58:19: Logs: Ativado
+2017/05/12 3:58:19: Sleep: 1
+2017/05/12 3:58:19: Pin: False
+2017/05/12 3:58:19: PinMaxAttempt: 5
+2017/05/12 3:58:19: PinBannedTime: 15
+2017/05/12 3:58:19: Create Character: False
+2017/05/12 3:58:19: Delete Character: False
+2017/05/12 3:58:19: Carregando config do mysql
+2017/05/12 3:58:19: Connectado ao banco de dados
+2017/05/12 3:58:20: Carregando scripts
+2017/05/12 3:58:20: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 3:58:20: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 3:58:20: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 3:58:20: ClasseID: 1 ItemID: 4 Head
+2017/05/12 3:58:20: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 3:58:20: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 3:58:20: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 3:58:20: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 3:58:20: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 3:58:20: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 3:58:20: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 3:58:20: ClasseID: 2 ItemID: 4 Head
+2017/05/12 3:58:21: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 3:58:21: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 3:58:21: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 3:58:21: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 3:58:21: World Server Start.
+2017/05/12 3:58:33: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 3:58:33: Status changed to connected: 127.0.0.1
+2017/05/12 3:58:33: Login Server ID: 2147483647
+2017/05/12 4:00:20: WorldID: 2147483646
+2017/05/12 4:00:20: Server Name: artemis
+2017/05/12 4:00:20: Discovery: Elysium Diamond #1.0.0
+2017/05/12 4:00:20: Port: 55901
+2017/05/12 4:00:20: Maximum Connections: 2000
+2017/05/12 4:00:20: Logs: Ativado
+2017/05/12 4:00:20: Sleep: 1
+2017/05/12 4:00:20: Pin: False
+2017/05/12 4:00:20: PinMaxAttempt: 5
+2017/05/12 4:00:20: PinBannedTime: 15
+2017/05/12 4:00:20: Create Character: False
+2017/05/12 4:00:20: Delete Character: False
+2017/05/12 4:00:20: Carregando config do mysql
+2017/05/12 4:00:20: Connectado ao banco de dados
+2017/05/12 4:00:21: Carregando scripts
+2017/05/12 4:00:21: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 4:00:21: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 4:00:21: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 4:00:21: ClasseID: 1 ItemID: 4 Head
+2017/05/12 4:00:21: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 4:00:21: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 4:00:21: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 4:00:21: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 4:00:21: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 4:00:21: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 4:00:21: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 4:00:21: ClasseID: 2 ItemID: 4 Head
+2017/05/12 4:00:21: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 4:00:21: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 4:00:21: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 4:00:21: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 4:00:22: World Server Start.
+2017/05/12 4:00:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:00:23: Status changed to connected: 127.0.0.1
+2017/05/12 4:00:23: Login Server ID: 2147483647
+2017/05/12 4:02:26: Data From Login Server ID: 1 Account: akaruz BAD5F4BBACE7211D
+2017/05/12 4:02:26: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:02:26: Status changed to connected: 127.0.0.1
+2017/05/12 4:02:26: Data From Client: BAD5F4BBACE7211D
+2017/05/12 4:02:26: Player Found ID: 1 Account: akaruz BAD5F4BBACE7211D
+2017/05/12 4:02:26: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:02:57: Status changed to disconnected: 1 akaruz 127.0.0.1 BAD5F4BBACE7211D
+2017/05/12 4:04:44: Data From Login Server ID: 1 Account: akaruz C67FB971EFC90733
+2017/05/12 4:04:44: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:04:44: Status changed to connected: 127.0.0.1
+2017/05/12 4:04:44: Data From Client: C67FB971EFC90733
+2017/05/12 4:04:44: Player Found ID: 1 Account: akaruz C67FB971EFC90733
+2017/05/12 4:04:44: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:05:59: Status changed to disconnected: 1 akaruz 127.0.0.1 C67FB971EFC90733
+2017/05/12 4:09:37: Data From Login Server ID: 1 Account: akaruz B47E11CCA564DA88
+2017/05/12 4:09:38: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:09:38: Status changed to connected: 127.0.0.1
+2017/05/12 4:09:38: Data From Client: B47E11CCA564DA88
+2017/05/12 4:09:38: Player Found ID: 1 Account: akaruz B47E11CCA564DA88
+2017/05/12 4:09:38: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:18:35: WorldID: 2147483646
+2017/05/12 4:18:35: Server Name: artemis
+2017/05/12 4:18:35: Discovery: Elysium Diamond #1.0.0
+2017/05/12 4:18:35: Port: 55901
+2017/05/12 4:18:35: Maximum Connections: 2000
+2017/05/12 4:18:35: Logs: Ativado
+2017/05/12 4:18:35: Sleep: 1
+2017/05/12 4:18:35: Pin: False
+2017/05/12 4:18:35: PinMaxAttempt: 5
+2017/05/12 4:18:35: PinBannedTime: 15
+2017/05/12 4:18:35: Create Character: False
+2017/05/12 4:18:35: Delete Character: False
+2017/05/12 4:18:35: Carregando config do mysql
+2017/05/12 4:18:35: Connectado ao banco de dados
+2017/05/12 4:18:36: Carregando scripts
+2017/05/12 4:18:36: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 4:18:36: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 4:18:36: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 4:18:36: ClasseID: 1 ItemID: 4 Head
+2017/05/12 4:18:36: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 4:18:36: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 4:18:36: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 4:18:36: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 4:18:36: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 4:18:36: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 4:18:36: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 4:18:36: ClasseID: 2 ItemID: 4 Head
+2017/05/12 4:18:36: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 4:18:36: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 4:18:36: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 4:18:36: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 4:18:37: World Server Start.
+2017/05/12 4:18:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:18:43: Status changed to connected: 127.0.0.1
+2017/05/12 4:18:43: Login Server ID: 2147483647
+2017/05/12 4:18:54: Data From Login Server ID: 1 Account: akaruz B141652B6E6D1EB4
+2017/05/12 4:18:54: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:18:54: Status changed to connected: 127.0.0.1
+2017/05/12 4:18:54: Data From Client: B141652B6E6D1EB4
+2017/05/12 4:18:54: Player Found ID: 1 Account: akaruz B141652B6E6D1EB4
+2017/05/12 4:18:54: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:19:11: WorldID: 2147483646
+2017/05/12 4:19:11: Server Name: artemis
+2017/05/12 4:19:11: Discovery: Elysium Diamond #1.0.0
+2017/05/12 4:19:11: Port: 55901
+2017/05/12 4:19:11: Maximum Connections: 2000
+2017/05/12 4:19:11: Logs: Ativado
+2017/05/12 4:19:11: Sleep: 1
+2017/05/12 4:19:11: Pin: False
+2017/05/12 4:19:11: PinMaxAttempt: 5
+2017/05/12 4:19:11: PinBannedTime: 15
+2017/05/12 4:19:11: Create Character: False
+2017/05/12 4:19:11: Delete Character: False
+2017/05/12 4:19:11: Carregando config do mysql
+2017/05/12 4:19:11: Connectado ao banco de dados
+2017/05/12 4:19:12: Carregando scripts
+2017/05/12 4:19:12: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 4:19:12: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 4:19:12: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 4:19:12: ClasseID: 1 ItemID: 4 Head
+2017/05/12 4:19:12: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 4:19:12: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 4:19:12: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 4:19:12: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 4:19:12: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 4:19:12: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 4:19:12: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 4:19:12: ClasseID: 2 ItemID: 4 Head
+2017/05/12 4:19:12: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 4:19:12: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 4:19:13: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 4:19:13: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 4:19:13: World Server Start.
+2017/05/12 4:19:20: WorldID: 2147483646
+2017/05/12 4:19:20: Server Name: artemis
+2017/05/12 4:19:20: Discovery: Elysium Diamond #1.0.0
+2017/05/12 4:19:20: Port: 55901
+2017/05/12 4:19:20: Maximum Connections: 2000
+2017/05/12 4:19:20: Logs: Ativado
+2017/05/12 4:19:20: Sleep: 1
+2017/05/12 4:19:20: Pin: False
+2017/05/12 4:19:20: PinMaxAttempt: 5
+2017/05/12 4:19:20: PinBannedTime: 15
+2017/05/12 4:19:20: Create Character: False
+2017/05/12 4:19:20: Delete Character: False
+2017/05/12 4:19:20: Carregando config do mysql
+2017/05/12 4:19:20: Connectado ao banco de dados
+2017/05/12 4:19:21: Carregando scripts
+2017/05/12 4:19:21: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 4:19:21: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 4:19:21: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 4:19:21: ClasseID: 1 ItemID: 4 Head
+2017/05/12 4:19:21: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 4:19:21: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 4:19:21: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 4:19:21: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 4:19:21: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 4:19:21: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 4:19:21: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 4:19:21: ClasseID: 2 ItemID: 4 Head
+2017/05/12 4:19:21: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 4:19:21: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 4:19:21: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 4:19:21: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 4:19:23: World Server Start.
+2017/05/12 4:19:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:19:23: Status changed to connected: 127.0.0.1
+2017/05/12 4:19:23: Login Server ID: 2147483647
+2017/05/12 4:19:33: Data From Login Server ID: 1 Account: akaruz D22559DE1DC731BC
+2017/05/12 4:19:34: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:19:34: Status changed to connected: 127.0.0.1
+2017/05/12 4:19:34: Data From Client: D22559DE1DC731BC
+2017/05/12 4:19:34: Player Found ID: 1 Account: akaruz D22559DE1DC731BC
+2017/05/12 4:19:34: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:20:25: Status changed to disconnected: 1 akaruz 127.0.0.1 D22559DE1DC731BC
+2017/05/12 4:20:40: Data From Login Server ID: 1 Account: akaruz B4240A309873DBE0
+2017/05/12 4:20:41: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:20:41: Status changed to connected: 127.0.0.1
+2017/05/12 4:20:41: Data From Client: B4240A309873DBE0
+2017/05/12 4:20:41: Player Found ID: 1 Account: akaruz B4240A309873DBE0
+2017/05/12 4:20:41: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:21:18: WorldID: 2147483646
+2017/05/12 4:21:18: Server Name: artemis
+2017/05/12 4:21:18: Discovery: Elysium Diamond #1.0.0
+2017/05/12 4:21:18: Port: 55901
+2017/05/12 4:21:18: Maximum Connections: 2000
+2017/05/12 4:21:18: Logs: Ativado
+2017/05/12 4:21:18: Sleep: 1
+2017/05/12 4:21:18: Pin: False
+2017/05/12 4:21:18: PinMaxAttempt: 5
+2017/05/12 4:21:18: PinBannedTime: 15
+2017/05/12 4:21:18: Create Character: False
+2017/05/12 4:21:18: Delete Character: False
+2017/05/12 4:21:18: Carregando config do mysql
+2017/05/12 4:21:18: Connectado ao banco de dados
+2017/05/12 4:21:19: Carregando scripts
+2017/05/12 4:21:19: ClasseID: 1 ItemID: 1 Weapon
+2017/05/12 4:21:19: ClasseID: 1 ItemID: 2 Shield
+2017/05/12 4:21:19: ClasseID: 1 ItemID: 3 Gloves
+2017/05/12 4:21:19: ClasseID: 1 ItemID: 4 Head
+2017/05/12 4:21:19: ClasseID: 1 ItemID: 5 Pants
+2017/05/12 4:21:19: ClasseID: 1 ItemID: 6 Legs
+2017/05/12 4:21:19: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/12 4:21:19: ClasseID: 1 ItemID: 8 Chest
+2017/05/12 4:21:19: ClasseID: 2 ItemID: 1 Weapon
+2017/05/12 4:21:19: ClasseID: 2 ItemID: 2 Shield
+2017/05/12 4:21:19: ClasseID: 2 ItemID: 3 Gloves
+2017/05/12 4:21:19: ClasseID: 2 ItemID: 4 Head
+2017/05/12 4:21:19: ClasseID: 2 ItemID: 5 Pants
+2017/05/12 4:21:19: ClasseID: 2 ItemID: 6 Legs
+2017/05/12 4:21:19: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/12 4:21:19: ClasseID: 2 ItemID: 8 Chest
+2017/05/12 4:21:20: World Server Start.
+2017/05/12 4:21:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:21:23: Status changed to connected: 127.0.0.1
+2017/05/12 4:21:23: Login Server ID: 2147483647
+2017/05/12 4:21:27: Data From Login Server ID: 1 Account: akaruz E7BC028B27A14780
+2017/05/12 4:21:28: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:21:28: Status changed to connected: 127.0.0.1
+2017/05/12 4:21:28: Data From Client: E7BC028B27A14780
+2017/05/12 4:21:28: Player Found ID: 1 Account: akaruz E7BC028B27A14780
+2017/05/12 4:21:28: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:22:17: Disconnected by login server: akaruz
+2017/05/12 4:22:17: Status changed to disconnected: 1 akaruz 127.0.0.1 E7BC028B27A14780
+2017/05/12 4:22:19: Data From Login Server ID: 1 Account: akaruz 8520046DBCC5B8A7
+2017/05/12 4:22:19: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:22:19: Status changed to connected: 127.0.0.1
+2017/05/12 4:22:19: Data From Client: 8520046DBCC5B8A7
+2017/05/12 4:22:19: Player Found ID: 1 Account: akaruz 8520046DBCC5B8A7
+2017/05/12 4:22:19: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:23:46: Status changed to disconnected: 1 akaruz 127.0.0.1 8520046DBCC5B8A7
+2017/05/12 4:25:24: Data From Login Server ID: 1 Account: akaruz 271F7960734B842D
+2017/05/12 4:25:24: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:25:24: Status changed to connected: 127.0.0.1
+2017/05/12 4:25:24: Data From Client: 271F7960734B842D
+2017/05/12 4:25:24: Player Found ID: 1 Account: akaruz 271F7960734B842D
+2017/05/12 4:25:24: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:27:47: Status changed to disconnected: 1 akaruz 127.0.0.1 271F7960734B842D
+2017/05/12 4:28:43: Data From Login Server ID: 1 Account: akaruz 6BEF2D7358E55D7A
+2017/05/12 4:28:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:28:43: Status changed to connected: 127.0.0.1
+2017/05/12 4:28:43: Data From Client: 6BEF2D7358E55D7A
+2017/05/12 4:28:43: Player Found ID: 1 Account: akaruz 6BEF2D7358E55D7A
+2017/05/12 4:28:43: PreLoad ID: 1 Account: akaruz
+2017/05/12 4:30:57: Disconnected by login server: akaruz
+2017/05/12 4:30:57: Status changed to disconnected: 1 akaruz 127.0.0.1 6BEF2D7358E55D7A
+2017/05/12 4:30:59: Data From Login Server ID: 1 Account: akaruz 19BAA3A3C8B2A0A6
+2017/05/12 4:30:59: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/12 4:30:59: Status changed to connected: 127.0.0.1
+2017/05/12 4:30:59: Data From Client: 19BAA3A3C8B2A0A6
+2017/05/12 4:30:59: Player Found ID: 1 Account: akaruz 19BAA3A3C8B2A0A6
+2017/05/12 4:30:59: PreLoad ID: 1 Account: akaruz

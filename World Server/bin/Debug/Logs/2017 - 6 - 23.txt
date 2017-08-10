@@ -1,0 +1,40 @@
+2017/06/23 16:38:58: WorldID: 2
+2017/06/23 16:38:58: Server Name: artemis
+2017/06/23 16:38:58: Discovery: Elysium Diamond #1.0.0
+2017/06/23 16:38:58: Port: 55901
+2017/06/23 16:38:58: Maximum Connections: 1000
+2017/06/23 16:38:58: Logs: Ativado
+2017/06/23 16:38:58: Sleep: 1
+2017/06/23 16:38:58: Pin: False
+2017/06/23 16:38:58: PinMaxAttempt: 5
+2017/06/23 16:38:58: PinBannedTime: 15
+2017/06/23 16:38:58: Connect Ip: 127.0.0.1
+2017/06/23 16:38:58: Connect Port: 57550
+2017/06/23 16:38:58: Carregando config do mysql
+2017/06/23 16:38:58: Connectado ao banco de dados
+2017/06/23 16:39:01: Carregando mensagens do servidor
+2017/06/23 16:39:01: Carregando a loja de items
+2017/06/23 16:39:01: Carregando scripts
+2017/06/23 16:39:02: Create Character: Ativo
+2017/06/23 16:39:02: Delete Character: Ativo
+2017/06/23 16:39:02: World Server Start
+2017/06/23 16:39:19: WorldID: 2
+2017/06/23 16:39:19: Server Name: artemis
+2017/06/23 16:39:19: Discovery: Elysium Diamond #1.0.0
+2017/06/23 16:39:19: Port: 55901
+2017/06/23 16:39:19: Maximum Connections: 1000
+2017/06/23 16:39:19: Logs: Ativado
+2017/06/23 16:39:19: Sleep: 0
+2017/06/23 16:39:19: Pin: False
+2017/06/23 16:39:19: PinMaxAttempt: 5
+2017/06/23 16:39:19: PinBannedTime: 15
+2017/06/23 16:39:19: Connect Ip: 127.0.0.1
+2017/06/23 16:39:19: Connect Port: 57550
+2017/06/23 16:39:19: Carregando config do mysql
+2017/06/23 16:39:19: Connectado ao banco de dados
+2017/06/23 16:39:21: Carregando mensagens do servidor
+2017/06/23 16:39:21: Carregando a loja de items
+2017/06/23 16:39:21: Carregando scripts
+2017/06/23 16:39:21: Create Character: Ativo
+2017/06/23 16:39:21: Delete Character: Ativo
+2017/06/23 16:39:22: World Server Start

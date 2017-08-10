@@ -2,30 +2,21 @@
 using Lidgren.Network;
 using WorldServer.Common;
 using WorldServer.Server;
-using Elysium;
+using Elysium.Logs;
 
 namespace WorldServer.Network {
     public static class WorldNetwork {
         /// <summary>
         /// Total de conexões.
         /// </summary>
-        public static int TotalConnections {
+        public static int ConnectionsCount {
             get { return socket.ConnectionsCount; }
         }
 
-        /// <summary>
-        /// Socket de conexão.
-        /// </summary>
         private static NetServer socket;
 
-        /// <summary>
-        /// 
-        /// </summary>
         private static NetIncomingMessage msg;
 
-        /// <summary>
-        /// 
-        /// </summary>
         private static PlayerData pData;
 
         /// <summary>
@@ -36,7 +27,7 @@ namespace WorldServer.Network {
             config.Port = Configuration.WorldServerPort;
             config.AutoFlushSendQueue = true;
             config.AcceptIncomingConnections = true;
-            config.MaximumConnections = Configuration.MaximumConnections;
+            config.MaximumConnections = Configuration.MaxConnections;
             config.ConnectionTimeout = 25f;
             config.PingInterval = 2.0f;
             config.UseMessageRecycling = true;
@@ -91,15 +82,15 @@ namespace WorldServer.Network {
 
                 switch (msg.MessageType) {
                     case NetIncomingMessageType.DiscoveryRequest:
-                         socket.SendDiscoveryResponse(null, msg.SenderEndPoint);
-                         Logs.Write($"Discovery Response IPEndPoint: {msg.SenderEndPoint.Address}", Color.Coral);
+                        socket.SendDiscoveryResponse(null, msg.SenderEndPoint);
+                        Log.Write($"Discovery Response IPEndPoint: {msg.SenderEndPoint.Address}", Color.Coral);
 
                         break;
                     case NetIncomingMessageType.ErrorMessage:
                         #region ErrorMessage
                         var error = msg.ReadString();
 
-                        Logs.Write($"Error: {error}", Color.Coral);
+                        Log.Write($"Error: {error}", Color.Coral);
 
                         #endregion
 
@@ -126,7 +117,7 @@ namespace WorldServer.Network {
                         break;
             
                     default:
-                        Logs.Write($"Unhandled type: {msg.MessageType}", Color.Red); 
+                        Log.Write($"Unhandled type: {msg.MessageType}", Color.Red); 
                         break;
                 }
 
@@ -181,27 +172,6 @@ namespace WorldServer.Network {
         /// <param name="deliveryMethod"></param>
         public static void SendDataToAll(NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod) {
             socket.SendToAll(msg, deliveryMethod);
-        }
-
-        /// <summary>
-        /// Envia dados para todos os clientes, exceto.
-        /// </summary>
-        /// <param name="hexID"></param>
-        /// <param name="data"></param>
-        /// <param name="deliveryMethod"></param>
-        public static void SendDataToAllBut(string hexID, NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod, int sequenceChannel) {
-            var pData = Authentication.FindByHexID(hexID);
-            socket.SendToAll(msg, pData.Connection, deliveryMethod, sequenceChannel);
-        }
-
-        /// <summary>
-        /// Envia dados para todos os clientes, exceto.
-        /// </summary>
-        /// <param name="connection"></param>
-        /// <param name="data"></param>
-        /// <param name="deliveryMethod"></param>
-        public static void SendDataToAllBut(NetConnection connection, NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod, int sequenceChannel) {
-            socket.SendToAll(msg, connection, deliveryMethod, sequenceChannel);
         }
     }
 }

@@ -2,15 +2,15 @@
 using WorldServer.GameGuild;
 
 namespace WorldServer.MySQL {
-    public class Guild_DB {       
+    public static class Guild_DB {       
         /// <summary>
         /// Verifica se o nome de guild está no banco de dados.
         /// </summary>
         /// <param name="gName"></param>
         /// <returns></returns>
         public static bool ExistGuild(string gName) {
-            var varQuery = $"SELECT id FROM guilds WHERE guild_name=?gName";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = $"SELECT id FROM guilds WHERE guild_name=?gName";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             cmd.Parameters.AddWithValue("?gName", gName);
             var reader = cmd.ExecuteReader();
             var value = reader.Read();
@@ -25,8 +25,8 @@ namespace WorldServer.MySQL {
         /// <param name="gName"></param>
         /// <returns></returns>
         public static int GetGuildID(string gName) {
-            var varQuery = $"SELECT id FROM guilds WHERE guild_name=?gName";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = $"SELECT id FROM guilds WHERE guild_name=?gName";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             cmd.Parameters.AddWithValue("?gName", gName);
             var reader = cmd.ExecuteReader();
 
@@ -46,8 +46,8 @@ namespace WorldServer.MySQL {
         /// Carrega parcialmente os dados de guild.
         /// </summary>
         public static void LoadGuild() {           
-            var varQuery = "SELECT id, owner_id, owner_name, guild_name, announcement FROM guilds";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = "SELECT id, owner_id, owner_name, guild_name, announcement FROM guilds";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
             var gData = new Guild();
 
@@ -69,8 +69,8 @@ namespace WorldServer.MySQL {
         /// </summary>
         public static void LoadGuildMember() {
             var mData = new GuildMember();
-            var varQuery = $"SELECT player_id, player_name, selfintro, FROM guilds_member WHERE guild_id=?guildID";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = $"SELECT player_id, player_name, selfintro, FROM guilds_member WHERE guild_id=?guildID";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
 
             foreach (var gData in Guild.Guilds) {
                 cmd.Parameters.AddWithValue("?guildID", gData.ID);

@@ -1,10 +1,10 @@
 ﻿using System;
 using WorldServer.Network;
-using WorldServer.MySQL;
-using Elysium;
+using Elysium.Logs;
+using Elysium.IO;
 
 namespace WorldServer.Server {
-    public class World {
+    public static class World {
         /// <summary>
         /// Loops por segundos.
         /// </summary>
@@ -24,24 +24,22 @@ namespace WorldServer.Server {
         /// Loop do servidor.
         /// </summary>
         public static void Loop() {
-            //Recebe os dados do world server
+            //recebe os dados do world server
             WorldNetwork.ReceivedData();
 
-            // Verifica e tenta uma nova conexão com o game server
-            GameNetwork.GameServerConnect();
+            //verifica e tenta uma nova conexão com o game server
+            NetworkClient.DiscoverServer();
 
-            // Recebe os dados do game server
-            GameNetwork.GameServerReceiveData();
+            NetworkClient.ReceiveData();
 
-            //Se houver alguma conexão com ID 0, realiza a desconexão.
-            Authentication.VerifyPlayers();
+            //se houver alguma conexão com ID 0, realiza a desconexão e remove usuários
+            Authentication.RemoveInvalidUsersAndHexID();
 
-            // Percorre todos os hexid e verifica se o tempo limite já foi ultrapassado ...
-            // Se verdadeiro, é retirado da lista
+            //percorre todos os hexid de jogadores, se ambos hexid estiverem corretos, aceita a conexão
             Authentication.VerifyHexID();
 
-            // Percorre todos os hexid de jogadores, se ambos hexid estiverem corretos, aceita a conexão
-            Authentication.VerifyPlayerHexID();
+            //verifica se há personagens para excluir.
+            DeleteTime.VerifyCharacters();
 
             if (Environment.TickCount >= tick + 1000) {
                 CPS = count;
@@ -56,14 +54,13 @@ namespace WorldServer.Server {
         /// Limpa os dados e encerra.
         /// </summary>
         public static void Close() {
-            Common_DB.Close();
             Classe.Clear();
             Settings.Clear();
             Authentication.Clear();
             ProhibitedNames.Clear();
-            Logs.CloseFile();
+            Log.CloseFile();
             WorldNetwork.Shutdown();
-            GameNetwork.Shutdown();
+            NetworkClient.Disconnect();
         }
     }
 }

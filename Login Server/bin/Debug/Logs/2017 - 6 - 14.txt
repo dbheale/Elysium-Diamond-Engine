@@ -1,0 +1,52 @@
+2017/06/14 0:18:56: ID: -1
+2017/06/14 0:18:56: Discovery: Elysium Diamond #1.0.0
+2017/06/14 0:18:56: Port: 44405
+2017/06/14 0:18:56: Maximum Connection: 1000
+2017/06/14 0:18:56: Sleep: 0
+2017/06/14 0:18:56: Versão: 1.2.10
+2017/06/14 0:18:56: GeoIp: Desativado
+2017/06/14 0:18:56: CheckSum: Desativado
+2017/06/14 0:18:56: PinCheckTime: 15
+2017/06/14 0:18:56: Servidor adicionado: 火星 (JP) 普通
+2017/06/14 0:18:56: Connectado ao banco de dados
+2017/06/14 0:18:59: Conectando World Server
+2017/06/14 0:18:59: Login Server Start
+2017/06/14 0:19:49: ID: -1
+2017/06/14 0:19:49: Discovery: Elysium Diamond #1.0.0
+2017/06/14 0:19:49: Port: 44405
+2017/06/14 0:19:49: Maximum Connection: 1000
+2017/06/14 0:19:49: Sleep: 0
+2017/06/14 0:19:49: Versão: 1.2.10
+2017/06/14 0:19:49: GeoIp: Desativado
+2017/06/14 0:19:49: CheckSum: Desativado
+2017/06/14 0:19:49: PinCheckTime: 15
+2017/06/14 0:19:49: Servidor adicionado: 火星 (JP) 普通
+2017/06/14 0:19:49: Connectado ao banco de dados
+2017/06/14 0:19:53: Conectando World Server
+2017/06/14 0:19:53: Login Server Start
+2017/06/14 0:24:57: ID: -1
+2017/06/14 0:24:57: Discovery: Elysium Diamond #1.0.0
+2017/06/14 0:24:57: Port: 44405
+2017/06/14 0:24:57: Maximum Connection: 1000
+2017/06/14 0:24:57: Sleep: 0
+2017/06/14 0:24:57: Versão: 1.2.10
+2017/06/14 0:24:57: GeoIp: Desativado
+2017/06/14 0:24:57: CheckSum: Desativado
+2017/06/14 0:24:57: PinCheckTime: 15
+2017/06/14 0:24:57: Servidor adicionado: 火星 (JP) 普通
+2017/06/14 0:24:57: Connectado ao banco de dados
+2017/06/14 0:25:00: Conectando World Server
+2017/06/14 0:25:00: Login Server Start
+2017/06/14 0:29:22: ID: -1
+2017/06/14 0:29:22: Discovery: Elysium Diamond #1.0.0
+2017/06/14 0:29:22: Port: 44405
+2017/06/14 0:29:22: Maximum Connection: 1000
+2017/06/14 0:29:22: Sleep: 0
+2017/06/14 0:29:22: Versão: 1.2.10
+2017/06/14 0:29:22: GeoIp: Desativado
+2017/06/14 0:29:22: CheckSum: Desativado
+2017/06/14 0:29:22: PinCheckTime: 15
+2017/06/14 0:29:22: Servidor adicionado: 火星 (JP) 普通
+2017/06/14 0:29:22: Connectado ao banco de dados
+2017/06/14 0:29:24: Conectando World Server
+2017/06/14 0:29:24: Login Server Start

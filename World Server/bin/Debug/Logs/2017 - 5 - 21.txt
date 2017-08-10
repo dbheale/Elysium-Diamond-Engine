@@ -1,0 +1,291 @@
+2017/05/21 1:06:00: WorldID: -2
+2017/05/21 1:06:00: Server Name: artemis
+2017/05/21 1:06:00: Discovery: Elysium Diamond #1.0.0
+2017/05/21 1:06:00: Port: 55901
+2017/05/21 1:06:00: Maximum Connections: 1000
+2017/05/21 1:06:00: Logs: Ativado
+2017/05/21 1:06:00: Sleep: 1
+2017/05/21 1:06:00: Pin: False
+2017/05/21 1:06:00: PinMaxAttempt: 5
+2017/05/21 1:06:00: PinBannedTime: 15
+2017/05/21 1:06:00: Create Character: False
+2017/05/21 1:06:00: Delete Character: False
+2017/05/21 1:06:00: Carregando config do mysql
+2017/05/21 1:06:00: Connectado ao banco de dados
+2017/05/21 1:06:01: Carregando mensagens do servidor
+2017/05/21 1:06:01: Carregando a loja de items
+2017/05/21 1:06:01: Carregando scripts
+2017/05/21 1:06:01: ClasseID: 1 ItemID: 1 Weapon
+2017/05/21 1:06:01: ClasseID: 1 ItemID: 2 Shield
+2017/05/21 1:06:01: ClasseID: 1 ItemID: 3 Gloves
+2017/05/21 1:06:01: ClasseID: 1 ItemID: 4 Head
+2017/05/21 1:06:01: ClasseID: 1 ItemID: 5 Pants
+2017/05/21 1:06:01: ClasseID: 1 ItemID: 6 Legs
+2017/05/21 1:06:01: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/21 1:06:01: ClasseID: 1 ItemID: 8 Chest
+2017/05/21 1:06:01: ClasseID: 2 ItemID: 1 Weapon
+2017/05/21 1:06:01: ClasseID: 2 ItemID: 2 Shield
+2017/05/21 1:06:01: ClasseID: 2 ItemID: 3 Gloves
+2017/05/21 1:06:01: ClasseID: 2 ItemID: 4 Head
+2017/05/21 1:06:01: ClasseID: 2 ItemID: 5 Pants
+2017/05/21 1:06:01: ClasseID: 2 ItemID: 6 Legs
+2017/05/21 1:06:01: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/21 1:06:01: ClasseID: 2 ItemID: 8 Chest
+2017/05/21 1:06:01: Mapa 1 Canal 1 GameID: -3 127.0.0.1:55970 Capacity: 2000 60%
+2017/05/21 1:06:01: Mapa 1 Canal 2 GameID: -4 127.0.0.1:55971 Capacity: 2000 60%
+2017/05/21 1:06:01: Calderock Village Canal 1 GameID: -5 127.0.0.1:55972 Capacity: 2000 60%
+2017/05/21 1:06:01: Calderock Village Canal 2 GameID: -6 127.0.0.1:55973 Capacity: 2000 60%
+2017/05/21 1:06:01: Conectando Game Server
+2017/05/21 1:06:02: World Server Start
+2017/05/21 1:06:06: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 1:06:06: Status changed to connected: 127.0.0.1
+2017/05/21 1:06:06: Login Server ID: -1
+2017/05/21 1:06:12: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/21 1:11:24: Data From Login Server ID: 1 Account: akaruz 42EAA93AB9BF8FBC
+2017/05/21 1:11:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 1:11:25: Status changed to connected: 127.0.0.1
+2017/05/21 1:11:25: Data From Client: 42EAA93AB9BF8FBC
+2017/05/21 1:11:25: Player Found ID: 1 Account: akaruz 42EAA93AB9BF8FBC
+2017/05/21 1:11:25: PreLoad ID: 1 Account: akaruz
+2017/05/21 1:11:26: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/21 1:11:28: Channel-> Caronne: cc
+2017/05/21 1:12:46: Status changed to disconnected: 1 akaruz 127.0.0.1 42EAA93AB9BF8FBC
+2017/05/21 2:20:50: WorldID: -2
+2017/05/21 2:20:50: Server Name: artemis
+2017/05/21 2:20:50: Discovery: Elysium Diamond #1.0.0
+2017/05/21 2:20:50: Port: 55901
+2017/05/21 2:20:50: Maximum Connections: 1000
+2017/05/21 2:20:50: Logs: Ativado
+2017/05/21 2:20:50: Sleep: 1
+2017/05/21 2:20:50: Pin: False
+2017/05/21 2:20:50: PinMaxAttempt: 5
+2017/05/21 2:20:50: PinBannedTime: 15
+2017/05/21 2:20:50: Create Character: False
+2017/05/21 2:20:50: Delete Character: False
+2017/05/21 2:20:50: Carregando config do mysql
+2017/05/21 2:20:50: Connectado ao banco de dados
+2017/05/21 2:20:50: Carregando mensagens do servidor
+2017/05/21 2:20:50: Carregando a loja de items
+2017/05/21 2:20:50: Carregando scripts
+2017/05/21 2:20:50: ClasseID: 1 ItemID: 1 Weapon
+2017/05/21 2:20:50: ClasseID: 1 ItemID: 2 Shield
+2017/05/21 2:20:50: ClasseID: 1 ItemID: 3 Gloves
+2017/05/21 2:20:50: ClasseID: 1 ItemID: 4 Head
+2017/05/21 2:20:50: ClasseID: 1 ItemID: 5 Pants
+2017/05/21 2:20:50: ClasseID: 1 ItemID: 6 Legs
+2017/05/21 2:20:50: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/21 2:20:50: ClasseID: 1 ItemID: 8 Chest
+2017/05/21 2:20:50: ClasseID: 2 ItemID: 1 Weapon
+2017/05/21 2:20:50: ClasseID: 2 ItemID: 2 Shield
+2017/05/21 2:20:50: ClasseID: 2 ItemID: 3 Gloves
+2017/05/21 2:20:50: ClasseID: 2 ItemID: 4 Head
+2017/05/21 2:20:50: ClasseID: 2 ItemID: 5 Pants
+2017/05/21 2:20:50: ClasseID: 2 ItemID: 6 Legs
+2017/05/21 2:20:50: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/21 2:20:50: ClasseID: 2 ItemID: 8 Chest
+2017/05/21 2:20:51: Mapa 1 Canal 1 GameID: -3 127.0.0.1:55970 Capacity: 2000 60%
+2017/05/21 2:20:51: Mapa 1 Canal 2 GameID: -4 127.0.0.1:55971 Capacity: 2000 60%
+2017/05/21 2:20:51: Calderock Village Canal 1 GameID: -5 127.0.0.1:55972 Capacity: 2000 60%
+2017/05/21 2:20:51: Calderock Village Canal 2 GameID: -6 127.0.0.1:55973 Capacity: 2000 60%
+2017/05/21 2:20:51: Conectando Game Server
+2017/05/21 2:20:51: World Server Start
+2017/05/21 2:20:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 2:20:57: Status changed to connected: 127.0.0.1
+2017/05/21 2:20:57: Login Server ID: -1
+2017/05/21 2:21:34: Status changed to disconnected: -1  127.0.0.1 
+2017/05/21 2:23:29: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 2:23:29: Status changed to connected: 127.0.0.1
+2017/05/21 2:23:29: Login Server ID: -1
+2017/05/21 2:23:59: Data From Login Server ID: 1 Account: akaruz 21067EB29D07BD8B
+2017/05/21 2:23:59: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 2:23:59: Status changed to connected: 127.0.0.1
+2017/05/21 2:23:59: Data From Client: 21067EB29D07BD8B
+2017/05/21 2:23:59: Player Found ID: 1 Account: akaruz 21067EB29D07BD8B
+2017/05/21 2:23:59: PreLoad ID: 1 Account: akaruz
+2017/05/21 2:24:56: Status changed to disconnected: 1 akaruz 127.0.0.1 21067EB29D07BD8B
+2017/05/21 5:10:00: WorldID: -2
+2017/05/21 5:10:00: Server Name: artemis
+2017/05/21 5:10:00: Discovery: Elysium Diamond #1.0.0
+2017/05/21 5:10:00: Port: 55901
+2017/05/21 5:10:00: Maximum Connections: 1000
+2017/05/21 5:10:00: Logs: Ativado
+2017/05/21 5:10:00: Sleep: 1
+2017/05/21 5:10:00: Pin: False
+2017/05/21 5:10:00: PinMaxAttempt: 5
+2017/05/21 5:10:00: PinBannedTime: 15
+2017/05/21 5:10:00: Create Character: False
+2017/05/21 5:10:00: Delete Character: False
+2017/05/21 5:10:00: Carregando config do mysql
+2017/05/21 5:10:00: Connectado ao banco de dados
+2017/05/21 5:10:01: Carregando mensagens do servidor
+2017/05/21 5:10:01: Carregando a loja de items
+2017/05/21 5:10:01: Carregando scripts
+2017/05/21 5:10:01: ClasseID: 1 ItemID: 1 Weapon
+2017/05/21 5:10:01: ClasseID: 1 ItemID: 2 Shield
+2017/05/21 5:10:01: ClasseID: 1 ItemID: 3 Gloves
+2017/05/21 5:10:01: ClasseID: 1 ItemID: 4 Head
+2017/05/21 5:10:01: ClasseID: 1 ItemID: 5 Pants
+2017/05/21 5:10:01: ClasseID: 1 ItemID: 6 Legs
+2017/05/21 5:10:01: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/21 5:10:01: ClasseID: 1 ItemID: 8 Chest
+2017/05/21 5:10:01: ClasseID: 2 ItemID: 1 Weapon
+2017/05/21 5:10:01: ClasseID: 2 ItemID: 2 Shield
+2017/05/21 5:10:01: ClasseID: 2 ItemID: 3 Gloves
+2017/05/21 5:10:01: ClasseID: 2 ItemID: 4 Head
+2017/05/21 5:10:01: ClasseID: 2 ItemID: 5 Pants
+2017/05/21 5:10:01: ClasseID: 2 ItemID: 6 Legs
+2017/05/21 5:10:01: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/21 5:10:01: ClasseID: 2 ItemID: 8 Chest
+2017/05/21 5:10:01: Mapa 1 Canal 1 GameID: -3 127.0.0.1:55970 Capacity: 2000 60%
+2017/05/21 5:10:01: Mapa 1 Canal 2 GameID: -4 127.0.0.1:55971 Capacity: 2000 60%
+2017/05/21 5:10:01: Calderock Village Canal 1 GameID: -5 127.0.0.1:55972 Capacity: 2000 60%
+2017/05/21 5:10:01: Calderock Village Canal 2 GameID: -6 127.0.0.1:55973 Capacity: 2000 60%
+2017/05/21 5:10:01: Conectando Game Server
+2017/05/21 5:10:02: World Server Start
+2017/05/21 5:10:06: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 5:10:06: Status changed to connected: 127.0.0.1
+2017/05/21 5:10:06: Login Server ID: -1
+2017/05/21 5:10:12: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/21 5:10:28: Data From Login Server ID: 1 Account: akaruz 1F64D1847DA3020A
+2017/05/21 5:10:29: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 5:10:29: Status changed to connected: 127.0.0.1
+2017/05/21 5:10:29: Data From Client: 1F64D1847DA3020A
+2017/05/21 5:10:29: Player Found ID: 1 Account: akaruz 1F64D1847DA3020A
+2017/05/21 5:10:29: PreLoad ID: 1 Account: akaruz
+2017/05/21 5:10:31: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/21 5:10:35: Channel-> Caronne: aa
+2017/05/21 5:16:20: WorldID: -2
+2017/05/21 5:16:20: Server Name: artemis
+2017/05/21 5:16:20: Discovery: Elysium Diamond #1.0.0
+2017/05/21 5:16:20: Port: 55901
+2017/05/21 5:16:20: Maximum Connections: 1000
+2017/05/21 5:16:20: Logs: Ativado
+2017/05/21 5:16:20: Sleep: 1
+2017/05/21 5:16:20: Pin: False
+2017/05/21 5:16:20: PinMaxAttempt: 5
+2017/05/21 5:16:20: PinBannedTime: 15
+2017/05/21 5:16:20: Create Character: False
+2017/05/21 5:16:20: Delete Character: False
+2017/05/21 5:16:20: Carregando config do mysql
+2017/05/21 5:16:20: Connectado ao banco de dados
+2017/05/21 5:16:20: Carregando mensagens do servidor
+2017/05/21 5:16:20: Carregando a loja de items
+2017/05/21 5:16:20: Carregando scripts
+2017/05/21 5:16:20: ClasseID: 1 ItemID: 1 Weapon
+2017/05/21 5:16:20: ClasseID: 1 ItemID: 2 Shield
+2017/05/21 5:16:20: ClasseID: 1 ItemID: 3 Gloves
+2017/05/21 5:16:20: ClasseID: 1 ItemID: 4 Head
+2017/05/21 5:16:20: ClasseID: 1 ItemID: 5 Pants
+2017/05/21 5:16:20: ClasseID: 1 ItemID: 6 Legs
+2017/05/21 5:16:20: ClasseID: 1 ItemID: 7 Shoulder
+2017/05/21 5:16:20: ClasseID: 1 ItemID: 8 Chest
+2017/05/21 5:16:20: ClasseID: 2 ItemID: 1 Weapon
+2017/05/21 5:16:20: ClasseID: 2 ItemID: 2 Shield
+2017/05/21 5:16:20: ClasseID: 2 ItemID: 3 Gloves
+2017/05/21 5:16:20: ClasseID: 2 ItemID: 4 Head
+2017/05/21 5:16:20: ClasseID: 2 ItemID: 5 Pants
+2017/05/21 5:16:20: ClasseID: 2 ItemID: 6 Legs
+2017/05/21 5:16:20: ClasseID: 2 ItemID: 7 Shoulder
+2017/05/21 5:16:20: ClasseID: 2 ItemID: 8 Chest
+2017/05/21 5:16:20: Mapa 1 Canal 1 GameID: -3 127.0.0.1:55970 Capacity: 2000 60%
+2017/05/21 5:16:20: Mapa 1 Canal 2 GameID: -4 127.0.0.1:55971 Capacity: 2000 60%
+2017/05/21 5:16:20: Calderock Village Canal 1 GameID: -5 127.0.0.1:55972 Capacity: 2000 60%
+2017/05/21 5:16:20: Calderock Village Canal 2 GameID: -6 127.0.0.1:55973 Capacity: 2000 60%
+2017/05/21 5:16:21: Conectando Game Server
+2017/05/21 5:16:21: World Server Start
+2017/05/21 5:16:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 5:16:23: Status changed to connected: 127.0.0.1
+2017/05/21 5:16:23: Login Server ID: -1
+2017/05/21 5:16:31: Conectado ao Game Server #Mapa 1 Canal 1
+2017/05/21 5:17:56: Data From Login Server ID: 1 Account: akaruz BE95C485809BEAE5
+2017/05/21 5:17:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 5:17:56: Status changed to connected: 127.0.0.1
+2017/05/21 5:17:56: Data From Client: BE95C485809BEAE5
+2017/05/21 5:17:56: Player Found ID: 1 Account: akaruz BE95C485809BEAE5
+2017/05/21 5:17:56: PreLoad ID: 1 Account: akaruz
+2017/05/21 5:17:57: Mapa 1 Canal 1 Login Attempt: akaruz 127.0.0.1
+2017/05/21 5:18:01: Channel-> Caronne: 
+2017/05/21 5:18:02: Channel-> Caronne: 
+2017/05/21 5:19:28: WorldID: -2
+2017/05/21 5:19:28: Server Name: artemis
+2017/05/21 5:19:28: Discovery: Elysium Diamond #1.0.0
+2017/05/21 5:19:28: Port: 55901
+2017/05/21 5:19:28: Maximum Connections: 1000
+2017/05/21 5:19:28: Logs: Ativado
+2017/05/21 5:19:28: Sleep: 1
+2017/05/21 5:19:28: Pin: False
+2017/05/21 5:19:28: PinMaxAttempt: 5
+2017/05/21 5:19:28: PinBannedTime: 15
+2017/05/21 5:19:28: Create Character: False
+2017/05/21 5:19:28: Delete Character: False
+2017/05/21 5:19:28: Carregando config do mysql
+2017/05/21 5:19:28: Connectado ao banco de dados
+2017/05/21 5:19:29: Carregando mensagens do servidor
+2017/05/21 5:19:29: Carregando a loja de items
+2017/05/21 5:19:29: Carregando scripts
+2017/05/21 5:19:30: Mapa 1 Canal 1 GameID: -3 127.0.0.1:55970 Capacity: 2000 60%
+2017/05/21 5:19:30: Mapa 1 Canal 2 GameID: -4 127.0.0.1:55971 Capacity: 2000 60%
+2017/05/21 5:19:30: Calderock Village Canal 1 GameID: -5 127.0.0.1:55972 Capacity: 2000 60%
+2017/05/21 5:19:30: Calderock Village Canal 2 GameID: -6 127.0.0.1:55973 Capacity: 2000 60%
+2017/05/21 5:19:30: Conectando Game Server
+2017/05/21 5:19:30: World Server Start
+2017/05/21 5:19:33: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/21 5:19:33: Status changed to connected: 127.0.0.1
+2017/05/21 5:19:33: Login Server ID: -1
+2017/05/21 5:20:44: WorldID: -2
+2017/05/21 5:20:44: Server Name: artemis
+2017/05/21 5:20:44: Discovery: Elysium Diamond #1.0.0
+2017/05/21 5:20:44: Port: 55901
+2017/05/21 5:20:44: Maximum Connections: 1000
+2017/05/21 5:20:44: Logs: Ativado
+2017/05/21 5:20:44: Sleep: 1
+2017/05/21 5:20:44: Pin: False
+2017/05/21 5:20:44: PinMaxAttempt: 5
+2017/05/21 5:20:44: PinBannedTime: 15
+2017/05/21 5:20:44: Create Character: False
+2017/05/21 5:20:44: Delete Character: False
+2017/05/21 5:20:44: Carregando config do mysql
+2017/05/21 5:20:44: Connectado ao banco de dados
+2017/05/21 5:20:45: Carregando mensagens do servidor
+2017/05/21 5:20:45: Carregando a loja de items
+2017/05/21 5:20:45: Carregando scripts
+2017/05/21 5:20:46: Conectando Game Server
+2017/05/21 5:20:46: World Server Start
+2017/05/21 5:21:21: WorldID: -2
+2017/05/21 5:21:21: Server Name: artemis
+2017/05/21 5:21:21: Discovery: Elysium Diamond #1.0.0
+2017/05/21 5:21:21: Port: 55901
+2017/05/21 5:21:21: Maximum Connections: 1000
+2017/05/21 5:21:21: Logs: Ativado
+2017/05/21 5:21:21: Sleep: 1
+2017/05/21 5:21:21: Pin: False
+2017/05/21 5:21:21: PinMaxAttempt: 5
+2017/05/21 5:21:21: PinBannedTime: 15
+2017/05/21 5:21:21: Carregando config do mysql
+2017/05/21 5:21:21: Connectado ao banco de dados
+2017/05/21 5:21:21: Carregando mensagens do servidor
+2017/05/21 5:21:21: Carregando a loja de items
+2017/05/21 5:21:21: Carregando scripts
+2017/05/21 5:21:22: Create Character: True
+2017/05/21 5:21:22: Delete Character: True
+2017/05/21 5:21:22: Conectando Game Server
+2017/05/21 5:21:23: World Server Start
+2017/05/21 5:22:43: WorldID: -2
+2017/05/21 5:22:43: Server Name: artemis
+2017/05/21 5:22:43: Discovery: Elysium Diamond #1.0.0
+2017/05/21 5:22:43: Port: 55901
+2017/05/21 5:22:43: Maximum Connections: 1000
+2017/05/21 5:22:43: Logs: Ativado
+2017/05/21 5:22:43: Sleep: 1
+2017/05/21 5:22:43: Pin: False
+2017/05/21 5:22:43: PinMaxAttempt: 5
+2017/05/21 5:22:43: PinBannedTime: 15
+2017/05/21 5:22:43: Carregando config do mysql
+2017/05/21 5:22:43: Connectado ao banco de dados
+2017/05/21 5:22:43: Carregando mensagens do servidor
+2017/05/21 5:22:43: Carregando a loja de items
+2017/05/21 5:22:43: Carregando scripts
+2017/05/21 5:22:44: Create Character: Ativo
+2017/05/21 5:22:44: Delete Character: Ativo
+2017/05/21 5:22:44: Conectando Game Server
+2017/05/21 5:22:45: World Server Start

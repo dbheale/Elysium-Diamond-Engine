@@ -1,6 +1,4 @@
-﻿using LoginServer.MySQL;
-using LoginServer.Common;
-using LoginServer.Server;
+﻿using LoginServer.Server;
 using Lidgren.Network;
 
 namespace LoginServer.Network {
@@ -10,16 +8,17 @@ namespace LoginServer.Network {
         /// </summary>
         /// <param name="hexID"></param>
         /// <param name="msg"></param>
-        public static void HandleData(string hexID, NetIncomingMessage msg) {
-            //se algum pacote estiver com menos que 4 bytes, retorna
-            if (msg.LengthBytes < 4) { return; }
+        public static void HandleData(NetIncomingMessage msg) {
+            if (msg.LengthBytes < 2) { return; }
 
-            var header = msg.ReadInt32();
+            var header = msg.ReadInt16();
+
+            var pData = Authentication.FindByConnection(msg.SenderConnection);
 
             switch (header) {
-                case (int)PacketList.CL_LS_Login: Authentication.Login(hexID, msg); break;
-                case (int)PacketList.CL_LS_BackToLogin: Authentication.BackToLoginScreen(hexID); break;
-                case (int)PacketList.CL_LS_WorldServerConnect: WorldPacket.PlayerLogin(hexID, msg.ReadInt32()); break;
+                case (short)PacketList.CL_LS_Login: Authentication.Login(pData, msg); break;
+                case (short)PacketList.CL_LS_BackToLogin: Authentication.BackToLoginScreen(pData); break;
+                case (short)PacketList.CL_LS_WorldServerConnect: ConnectPacket.PlayerLogin(pData, msg.ReadInt32()); break;
             }
         }
     }

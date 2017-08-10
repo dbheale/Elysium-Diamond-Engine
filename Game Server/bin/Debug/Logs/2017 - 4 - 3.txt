@@ -1,0 +1,503 @@
+2017/04/03 11:13:30: Game Server Name: Canal 1
+2017/04/03 11:13:30: Discovery: Elysium Diamond #1.0.0
+2017/04/03 11:13:30: Port: 55970
+2017/04/03 11:13:30: MaximumConnections: 2000
+2017/04/03 11:13:30: ConnectionTimeOut: 25
+2017/04/03 11:13:30: Logs: True
+2017/04/03 11:13:30: Sleep: 1
+2017/04/03 11:13:30: Game Server ID: gameserver_1
+2017/04/03 11:13:30: Carregando config mysql
+2017/04/03 11:13:31: Connectado ao banco de dados
+2017/04/03 11:13:31: WorldServer 1  ID: Artemis
+2017/04/03 11:13:31: WorldServer 2  ID: 
+2017/04/03 11:13:31: WorldServer 3  ID: 
+2017/04/03 11:13:31: WorldServer 4  ID: 
+2017/04/03 11:13:31: WorldServer 5  ID: 
+2017/04/03 11:13:31: Carregando experiência
+2017/04/03 11:13:31: Level Max: 121
+2017/04/03 11:13:31: Exp Max: 22353256174
+2017/04/03 11:13:31: Carregando guilds
+2017/04/03 11:13:31: Carregando membros
+2017/04/03 11:13:31: Carregando classe(s) base
+2017/04/03 11:13:31: Carregando classe(s) incremento
+2017/04/03 11:13:31: Carregando NPC
+2017/04/03 11:13:31: Game Server Start
+2017/04/03 11:13:35: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 11:13:36: Status changed to connected: 127.0.0.1
+2017/04/03 11:13:47: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 790CDD01E43152DA
+2017/04/03 11:13:47: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 11:13:48: Status changed to connected: 189.111.22.101
+2017/04/03 11:13:48: Received From Client: 790CDD01E43152DA
+2017/04/03 11:13:48: Player Found ID: 39 Name: Joanlac
+2017/04/03 11:13:48: Joanlac joined map id 1
+2017/04/03 11:13:56: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 11:44:39: Game Server Name: Canal 1
+2017/04/03 11:44:39: Discovery: Elysium Diamond #1.0.0
+2017/04/03 11:44:39: Port: 55970
+2017/04/03 11:44:39: MaximumConnections: 2000
+2017/04/03 11:44:39: ConnectionTimeOut: 25
+2017/04/03 11:44:39: Logs: True
+2017/04/03 11:44:39: Sleep: 1
+2017/04/03 11:44:39: Game Server ID: gameserver_1
+2017/04/03 11:44:39: Carregando config mysql
+2017/04/03 11:44:39: Connectado ao banco de dados
+2017/04/03 11:44:39: WorldServer 1  ID: Artemis
+2017/04/03 11:44:39: WorldServer 2  ID: 
+2017/04/03 11:44:39: WorldServer 3  ID: 
+2017/04/03 11:44:39: WorldServer 4  ID: 
+2017/04/03 11:44:39: WorldServer 5  ID: 
+2017/04/03 11:44:39: Carregando experiência
+2017/04/03 11:44:39: Level Max: 121
+2017/04/03 11:44:39: Exp Max: 22353256174
+2017/04/03 11:44:39: Carregando guilds
+2017/04/03 11:44:39: Carregando membros
+2017/04/03 11:44:39: Carregando classe(s) base
+2017/04/03 11:44:39: Carregando classe(s) incremento
+2017/04/03 11:44:39: Carregando NPC
+2017/04/03 11:44:39: Game Server Start
+2017/04/03 11:44:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 11:44:46: Status changed to connected: 127.0.0.1
+2017/04/03 11:44:49: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 37571483CCE1471E
+2017/04/03 11:44:49: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 11:44:49: Status changed to connected: 189.111.22.101
+2017/04/03 11:44:49: Received From Client: 37571483CCE1471E
+2017/04/03 11:44:49: Player Found ID: 39 Name: Joanlac
+2017/04/03 11:44:49: Joanlac joined map id 1
+2017/04/03 11:44:54: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 11:45:42: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 9C79470401859159
+2017/04/03 11:45:42: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 11:45:42: Status changed to connected: 189.111.22.101
+2017/04/03 11:45:42: Received From Client: 9C79470401859159
+2017/04/03 11:45:42: Player Found ID: 39 Name: Joanlac
+2017/04/03 11:45:42: Joanlac joined map id 1
+2017/04/03 11:45:46: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 11:46:37: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 C00B20D073B3AE2C
+2017/04/03 11:46:38: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 11:46:38: Status changed to connected: 189.111.22.101
+2017/04/03 11:46:38: Received From Client: C00B20D073B3AE2C
+2017/04/03 11:46:38: Player Found ID: 39 Name: Joanlac
+2017/04/03 11:46:38: Joanlac joined map id 1
+2017/04/03 11:46:46: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 11:47:17: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 1DF3B2CD2FA15959
+2017/04/03 11:47:17: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 11:47:17: Status changed to connected: 189.111.22.101
+2017/04/03 11:47:17: Received From Client: 1DF3B2CD2FA15959
+2017/04/03 11:47:17: Player Found ID: 39 Name: Joanlac
+2017/04/03 11:47:17: Joanlac joined map id 1
+2017/04/03 11:47:56: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:02:25: Data From World Server ID: 8 Account: akaruz Char ID: 37 Slot: 0 FBBCC70495392533
+2017/04/03 12:02:26: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:02:26: Status changed to connected: 189.111.22.101
+2017/04/03 12:02:26: Received From Client: FBBCC70495392533
+2017/04/03 12:02:26: Player Found ID: 37 Name: Nadaila
+2017/04/03 12:02:26: Nadaila joined map id 1
+2017/04/03 12:02:34: ID: 37 Nadaila Status changed to disconnected: 189.111.22.101
+2017/04/03 12:03:24: Data From World Server ID: 8 Account: akaruz Char ID: 37 Slot: 0 88D8BD0176F7EC0C
+2017/04/03 12:03:24: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:03:24: Status changed to connected: 189.111.22.101
+2017/04/03 12:03:24: Received From Client: 88D8BD0176F7EC0C
+2017/04/03 12:03:24: Player Found ID: 37 Name: Nadaila
+2017/04/03 12:03:24: Nadaila joined map id 1
+2017/04/03 12:03:39: ID: 37 Nadaila Status changed to disconnected: 189.111.22.101
+2017/04/03 12:04:13: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 A4013AE433F64E10
+2017/04/03 12:04:13: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:04:13: Status changed to connected: 189.111.22.101
+2017/04/03 12:04:14: Received From Client: A4013AE433F64E10
+2017/04/03 12:04:14: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:04:14: Joanlac joined map id 1
+2017/04/03 12:05:08: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:05:10: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 A4013AE433F64E10
+2017/04/03 12:05:12: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:05:12: Status changed to connected: 189.111.22.101
+2017/04/03 12:05:12: Received From Client: A4013AE433F64E10
+2017/04/03 12:05:12: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:05:12: Joanlac joined map id 1
+2017/04/03 12:05:14: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:05:42: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 22D2604FB85ECF3F
+2017/04/03 12:05:42: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:05:42: Status changed to connected: 189.111.22.101
+2017/04/03 12:05:42: Received From Client: 22D2604FB85ECF3F
+2017/04/03 12:05:42: Player Found ID: 40 Name: Caronne
+2017/04/03 12:05:42: Caronne joined map id 1
+2017/04/03 12:05:54: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:06:32: Data From World Server ID: 8 Account: akaruz Char ID: 37 Slot: 0 6EB4F0020FF0D3AD
+2017/04/03 12:06:32: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:06:32: Status changed to connected: 189.111.22.101
+2017/04/03 12:06:33: Received From Client: 6EB4F0020FF0D3AD
+2017/04/03 12:06:33: Player Found ID: 37 Name: Nadaila
+2017/04/03 12:06:33: Nadaila joined map id 1
+2017/04/03 12:06:55: ID: 37 Nadaila Status changed to disconnected: 189.111.22.101
+2017/04/03 12:08:24: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 A0793C24F46700B4
+2017/04/03 12:08:24: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:08:24: Status changed to connected: 189.111.22.101
+2017/04/03 12:08:24: Received From Client: A0793C24F46700B4
+2017/04/03 12:08:24: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:08:24: Joanlac joined map id 1
+2017/04/03 12:08:48: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:10:07: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 206B5767B527A69C
+2017/04/03 12:10:08: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:10:08: Status changed to connected: 189.111.22.101
+2017/04/03 12:10:09: Received From Client: 206B5767B527A69C
+2017/04/03 12:10:09: Player Found ID: 40 Name: Caronne
+2017/04/03 12:10:09: Caronne joined map id 1
+2017/04/03 12:10:16: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:12:49: Data From World Server ID: 8 Account: akaruz Char ID: 37 Slot: 0 1A0250043D29172E
+2017/04/03 12:12:49: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:12:50: Status changed to connected: 189.111.22.101
+2017/04/03 12:12:50: Received From Client: 1A0250043D29172E
+2017/04/03 12:12:50: Player Found ID: 37 Name: Nadaila
+2017/04/03 12:12:50: Nadaila joined map id 1
+2017/04/03 12:13:07: ID: 37 Nadaila Status changed to disconnected: 189.111.22.101
+2017/04/03 12:13:55: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 9B7261729D0812EB
+2017/04/03 12:13:55: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:13:55: Status changed to connected: 189.111.22.101
+2017/04/03 12:13:55: Received From Client: 9B7261729D0812EB
+2017/04/03 12:13:55: Player Found ID: 40 Name: Caronne
+2017/04/03 12:13:55: Caronne joined map id 1
+2017/04/03 12:14:03: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:14:56: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 346F8EB57C6285C4
+2017/04/03 12:14:57: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:14:57: Status changed to connected: 189.111.22.101
+2017/04/03 12:14:57: Received From Client: 346F8EB57C6285C4
+2017/04/03 12:14:57: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:14:57: Joanlac joined map id 1
+2017/04/03 12:15:16: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:17:02: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 8817F60ECF2094D4
+2017/04/03 12:17:03: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:17:03: Status changed to connected: 189.111.22.101
+2017/04/03 12:17:03: Received From Client: 8817F60ECF2094D4
+2017/04/03 12:17:03: Player Found ID: 40 Name: Caronne
+2017/04/03 12:17:03: Caronne joined map id 1
+2017/04/03 12:17:33: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:18:11: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 436DDB722D93F306
+2017/04/03 12:18:11: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:18:12: Status changed to connected: 189.111.22.101
+2017/04/03 12:18:12: Received From Client: 436DDB722D93F306
+2017/04/03 12:18:12: Player Found ID: 40 Name: Caronne
+2017/04/03 12:18:12: Caronne joined map id 1
+2017/04/03 12:18:17: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:22:22: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 DA4B571ECCF4800E
+2017/04/03 12:22:22: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:22:23: Status changed to connected: 189.111.22.101
+2017/04/03 12:22:23: Received From Client: DA4B571ECCF4800E
+2017/04/03 12:22:23: Player Found ID: 40 Name: Caronne
+2017/04/03 12:22:23: Caronne joined map id 1
+2017/04/03 12:22:31: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:23:49: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 89443D239E928CC2
+2017/04/03 12:23:50: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:23:50: Status changed to connected: 189.111.22.101
+2017/04/03 12:23:50: Received From Client: 89443D239E928CC2
+2017/04/03 12:23:50: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:23:50: Joanlac joined map id 1
+2017/04/03 12:24:02: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:24:28: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 47674D5A60D86F7D
+2017/04/03 12:24:29: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:24:29: Status changed to connected: 189.111.22.101
+2017/04/03 12:24:29: Received From Client: 47674D5A60D86F7D
+2017/04/03 12:24:29: Player Found ID: 40 Name: Caronne
+2017/04/03 12:24:29: Caronne joined map id 1
+2017/04/03 12:25:25: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:26:18: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 CFC2A6E37A913434
+2017/04/03 12:26:18: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:26:19: Status changed to connected: 189.111.22.101
+2017/04/03 12:26:19: Received From Client: CFC2A6E37A913434
+2017/04/03 12:26:19: Player Found ID: 40 Name: Caronne
+2017/04/03 12:26:19: Caronne joined map id 1
+2017/04/03 12:26:36: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:26:55: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 AD3B78774746D9C2
+2017/04/03 12:26:56: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:26:56: Status changed to connected: 189.111.22.101
+2017/04/03 12:26:56: Received From Client: AD3B78774746D9C2
+2017/04/03 12:26:56: Player Found ID: 40 Name: Caronne
+2017/04/03 12:26:56: Caronne joined map id 1
+2017/04/03 12:27:26: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:29:54: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 72F6F37A17A53647
+2017/04/03 12:29:55: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:29:56: Status changed to connected: 189.111.22.101
+2017/04/03 12:29:56: Received From Client: 72F6F37A17A53647
+2017/04/03 12:29:56: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:29:56: Joanlac joined map id 1
+2017/04/03 12:30:02: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:30:33: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 9B9FBE4F9164468D
+2017/04/03 12:30:34: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:30:35: Status changed to connected: 189.111.22.101
+2017/04/03 12:30:35: Received From Client: 9B9FBE4F9164468D
+2017/04/03 12:30:35: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:30:35: Joanlac joined map id 1
+2017/04/03 12:31:18: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:32:16: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 AE2081FFD05D38BD
+2017/04/03 12:32:17: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:32:17: Status changed to connected: 189.111.22.101
+2017/04/03 12:32:17: Received From Client: AE2081FFD05D38BD
+2017/04/03 12:32:17: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:32:17: Joanlac joined map id 1
+2017/04/03 12:32:58: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:34:48: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 1D04BDC81B8AD92F
+2017/04/03 12:34:49: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:34:49: Status changed to connected: 189.111.22.101
+2017/04/03 12:34:49: Received From Client: 1D04BDC81B8AD92F
+2017/04/03 12:34:49: Player Found ID: 40 Name: Caronne
+2017/04/03 12:34:49: Caronne joined map id 1
+2017/04/03 12:36:05: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:44:01: Game Server Name: Canal 1
+2017/04/03 12:44:01: Discovery: Elysium Diamond #1.0.0
+2017/04/03 12:44:01: Port: 55970
+2017/04/03 12:44:01: MaximumConnections: 2000
+2017/04/03 12:44:01: ConnectionTimeOut: 25
+2017/04/03 12:44:01: Logs: True
+2017/04/03 12:44:01: Sleep: 1
+2017/04/03 12:44:01: Game Server ID: gameserver_1
+2017/04/03 12:44:01: Carregando config mysql
+2017/04/03 12:44:01: Connectado ao banco de dados
+2017/04/03 12:44:01: WorldServer 1  ID: Artemis
+2017/04/03 12:44:01: WorldServer 2  ID: 
+2017/04/03 12:44:01: WorldServer 3  ID: 
+2017/04/03 12:44:01: WorldServer 4  ID: 
+2017/04/03 12:44:01: WorldServer 5  ID: 
+2017/04/03 12:44:01: Carregando experiência
+2017/04/03 12:44:01: Level Max: 121
+2017/04/03 12:44:01: Exp Max: 22353256174
+2017/04/03 12:44:01: Carregando guilds
+2017/04/03 12:44:01: Carregando membros
+2017/04/03 12:44:01: Carregando classe(s) base
+2017/04/03 12:44:01: Carregando classe(s) incremento
+2017/04/03 12:44:01: Carregando NPC
+2017/04/03 12:44:01: Game Server Start
+2017/04/03 12:44:08: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 12:44:09: Status changed to connected: 127.0.0.1
+2017/04/03 12:44:28: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 04AB5D9892C47D8A
+2017/04/03 12:44:29: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:44:29: Status changed to connected: 189.111.22.101
+2017/04/03 12:44:29: Received From Client: 04AB5D9892C47D8A
+2017/04/03 12:44:29: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:44:29: Joanlac joined map id 1
+2017/04/03 12:44:49: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:50:16: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 155198063A717C59
+2017/04/03 12:50:17: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:50:17: Status changed to connected: 189.111.22.101
+2017/04/03 12:50:17: Received From Client: 155198063A717C59
+2017/04/03 12:50:17: Player Found ID: 40 Name: Caronne
+2017/04/03 12:50:17: Caronne joined map id 1
+2017/04/03 12:50:25: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:56:20: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 C78D3C83048CF28C
+2017/04/03 12:56:21: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:56:21: Status changed to connected: 189.111.22.101
+2017/04/03 12:56:21: Received From Client: C78D3C83048CF28C
+2017/04/03 12:56:21: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:56:21: Joanlac joined map id 1
+2017/04/03 12:56:38: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 12:57:26: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 190EAB53DB142410
+2017/04/03 12:57:27: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:57:27: Status changed to connected: 189.111.22.101
+2017/04/03 12:57:27: Received From Client: 190EAB53DB142410
+2017/04/03 12:57:27: Player Found ID: 40 Name: Caronne
+2017/04/03 12:57:27: Caronne joined map id 1
+2017/04/03 12:58:00: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 12:59:19: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 67E12732B50CBF6C
+2017/04/03 12:59:20: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 12:59:20: Status changed to connected: 189.111.22.101
+2017/04/03 12:59:20: Received From Client: 67E12732B50CBF6C
+2017/04/03 12:59:20: Player Found ID: 39 Name: Joanlac
+2017/04/03 12:59:20: Joanlac joined map id 1
+2017/04/03 13:00:11: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 13:03:00: Data From World Server ID: 8 Account: akaruz Char ID: 37 Slot: 0 BF0F6B41935D864F
+2017/04/03 13:03:01: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:03:01: Status changed to connected: 189.111.22.101
+2017/04/03 13:03:01: Received From Client: BF0F6B41935D864F
+2017/04/03 13:03:01: Player Found ID: 37 Name: Nadaila
+2017/04/03 13:03:01: Nadaila joined map id 1
+2017/04/03 13:03:43: ID: 37 Nadaila Status changed to disconnected: 189.111.22.101
+2017/04/03 13:10:03: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 9A71E142CD4FB7E5
+2017/04/03 13:10:03: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:10:03: Status changed to connected: 189.111.22.101
+2017/04/03 13:10:03: Received From Client: 9A71E142CD4FB7E5
+2017/04/03 13:10:03: Player Found ID: 40 Name: Caronne
+2017/04/03 13:10:03: Caronne joined map id 1
+2017/04/03 13:10:31: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 13:29:53: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 13:29:54: Status changed to connected: 127.0.0.1
+2017/04/03 13:30:14: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 BCDFD3989D6EE4C3
+2017/04/03 13:30:14: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:30:15: Status changed to connected: 189.111.22.101
+2017/04/03 13:30:15: Received From Client: BCDFD3989D6EE4C3
+2017/04/03 13:30:15: Player Found ID: 40 Name: Caronne
+2017/04/03 13:30:15: Caronne joined map id 1
+2017/04/03 13:30:26: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 13:30:58: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 13:30:59: Status changed to connected: 127.0.0.1
+2017/04/03 13:31:17: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 8D85994347F65219
+2017/04/03 13:31:18: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:31:18: Status changed to connected: 189.111.22.101
+2017/04/03 13:31:19: Received From Client: 8D85994347F65219
+2017/04/03 13:31:19: Player Found ID: 40 Name: Caronne
+2017/04/03 13:31:19: Caronne joined map id 1
+2017/04/03 13:31:46: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 13:32:08: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 0B5B78A1F9CE2D57
+2017/04/03 13:32:09: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:32:09: Status changed to connected: 189.111.22.101
+2017/04/03 13:32:09: Received From Client: 0B5B78A1F9CE2D57
+2017/04/03 13:32:09: Player Found ID: 40 Name: Caronne
+2017/04/03 13:32:09: Caronne joined map id 1
+2017/04/03 13:33:49: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 13:34:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 13:34:00: Status changed to connected: 127.0.0.1
+2017/04/03 13:34:28: Data From World Server ID: 8 Account: akaruz Char ID: 39 Slot: 1 D78DC03B380C2232
+2017/04/03 13:34:28: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:34:29: Status changed to connected: 189.111.22.101
+2017/04/03 13:34:29: Received From Client: D78DC03B380C2232
+2017/04/03 13:34:29: Player Found ID: 39 Name: Joanlac
+2017/04/03 13:34:29: Joanlac joined map id 1
+2017/04/03 13:36:20: ID: 39 Joanlac Status changed to disconnected: 189.111.22.101
+2017/04/03 13:36:20: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 13:36:21: Status changed to connected: 127.0.0.1
+2017/04/03 13:36:42: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 BFFC91C95317C5FE
+2017/04/03 13:36:42: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:36:43: Status changed to connected: 189.111.22.101
+2017/04/03 13:36:43: Received From Client: BFFC91C95317C5FE
+2017/04/03 13:36:43: Player Found ID: 40 Name: Caronne
+2017/04/03 13:36:43: Caronne joined map id 1
+2017/04/03 13:37:10: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 13:37:19: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 C7747399E4FC153A
+2017/04/03 13:37:20: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:37:20: Status changed to connected: 189.111.22.101
+2017/04/03 13:37:20: Received From Client: C7747399E4FC153A
+2017/04/03 13:37:20: Player Found ID: 40 Name: Caronne
+2017/04/03 13:37:20: Caronne joined map id 1
+2017/04/03 13:38:16: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 13:43:29: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 13:43:29: Status changed to connected: 127.0.0.1
+2017/04/03 13:43:55: Data From World Server ID: 14 Account: dragonick Char ID: 42 Slot: 1 8CE8846E091C1C5A
+2017/04/03 13:43:55: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:43:55: Status changed to connected: 189.111.22.101
+2017/04/03 13:43:56: Received From Client: 8CE8846E091C1C5A
+2017/04/03 13:43:56: Player Found ID: 42 Name: 錬金術師
+2017/04/03 13:43:56: 錬金術師 joined map id 1
+2017/04/03 13:43:56: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 ABBD37D0C26649B4
+2017/04/03 13:43:57: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:43:57: Status changed to connected: 189.111.22.101
+2017/04/03 13:43:57: Received From Client: ABBD37D0C26649B4
+2017/04/03 13:43:57: Player Found ID: 40 Name: Caronne
+2017/04/03 13:43:57: Caronne joined map id 1
+2017/04/03 13:44:44: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 13:44:46: ID: 42 錬金術師 Status changed to disconnected: 189.111.22.101
+2017/04/03 13:47:39: Game Server Name: Canal 1
+2017/04/03 13:47:39: Discovery: Elysium Diamond #1.0.0
+2017/04/03 13:47:39: Port: 55970
+2017/04/03 13:47:39: MaximumConnections: 2000
+2017/04/03 13:47:39: ConnectionTimeOut: 25
+2017/04/03 13:47:39: Logs: True
+2017/04/03 13:47:39: Sleep: 1
+2017/04/03 13:47:39: Game Server ID: gameserver_1
+2017/04/03 13:47:39: Carregando config mysql
+2017/04/03 13:47:40: Connectado ao banco de dados
+2017/04/03 13:47:40: WorldServer 1  ID: Artemis
+2017/04/03 13:47:40: WorldServer 2  ID: 
+2017/04/03 13:47:40: WorldServer 3  ID: 
+2017/04/03 13:47:40: WorldServer 4  ID: 
+2017/04/03 13:47:40: WorldServer 5  ID: 
+2017/04/03 13:47:40: Carregando experiência
+2017/04/03 13:47:40: Level Max: 121
+2017/04/03 13:47:40: Exp Max: 22353256174
+2017/04/03 13:47:40: Carregando guilds
+2017/04/03 13:47:40: Carregando membros
+2017/04/03 13:47:40: Carregando classe(s) base
+2017/04/03 13:47:40: Carregando classe(s) incremento
+2017/04/03 13:47:40: Carregando NPC
+2017/04/03 13:47:40: Game Server Start
+2017/04/03 13:47:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 13:47:43: Status changed to connected: 127.0.0.1
+2017/04/03 13:48:34: Data From World Server ID: 14 Account: dragonick Char ID: 42 Slot: 1 E3FD2827106ABC86
+2017/04/03 13:48:34: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 13:48:35: Status changed to connected: 189.111.22.101
+2017/04/03 13:48:35: Received From Client: E3FD2827106ABC86
+2017/04/03 13:48:35: Player Found ID: 42 Name: 錬金術師
+2017/04/03 13:48:35: 錬金術師 joined map id 1
+2017/04/03 13:48:53: ID: 42 錬金術師 Status changed to disconnected: 189.111.22.101
+2017/04/03 14:25:41: Game Server Name: Canal 1
+2017/04/03 14:25:41: Discovery: Elysium Diamond #1.0.0
+2017/04/03 14:25:41: Port: 55970
+2017/04/03 14:25:41: MaximumConnections: 2000
+2017/04/03 14:25:41: ConnectionTimeOut: 25
+2017/04/03 14:25:41: Logs: True
+2017/04/03 14:25:41: Sleep: 1
+2017/04/03 14:25:41: Game Server ID: gameserver_1
+2017/04/03 14:25:41: Carregando config mysql
+2017/04/03 14:25:41: Connectado ao banco de dados
+2017/04/03 14:25:41: WorldServer 1  ID: Artemis
+2017/04/03 14:25:41: WorldServer 2  ID: 
+2017/04/03 14:25:41: WorldServer 3  ID: 
+2017/04/03 14:25:41: WorldServer 4  ID: 
+2017/04/03 14:25:41: WorldServer 5  ID: 
+2017/04/03 14:25:41: Carregando experiência
+2017/04/03 14:25:41: Level Max: 121
+2017/04/03 14:25:41: Exp Max: 22353256174
+2017/04/03 14:25:41: Carregando guilds
+2017/04/03 14:25:41: Carregando membros
+2017/04/03 14:25:41: Carregando classe(s) base
+2017/04/03 14:25:41: Carregando classe(s) incremento
+2017/04/03 14:25:41: Carregando NPC
+2017/04/03 14:25:41: Game Server Start
+2017/04/03 14:25:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 14:25:45: Status changed to connected: 127.0.0.1
+2017/04/03 14:26:16: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 4B8F7E232E4A8C07
+2017/04/03 14:26:16: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 14:26:17: Status changed to connected: 189.111.22.101
+2017/04/03 14:26:17: Received From Client: 4B8F7E232E4A8C07
+2017/04/03 14:26:17: Player Found ID: 40 Name: Caronne
+2017/04/03 14:26:17: Caronne joined map id 1
+2017/04/03 14:31:18: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 14:32:12: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 14:32:12: Status changed to connected: 127.0.0.1
+2017/04/03 14:37:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 14:37:57: Status changed to connected: 127.0.0.1
+2017/04/03 14:38:11: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 F102E15A19D63D52
+2017/04/03 14:38:11: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 14:38:12: Status changed to connected: 189.111.22.101
+2017/04/03 14:38:12: Received From Client: F102E15A19D63D52
+2017/04/03 14:38:12: Player Found ID: 40 Name: Caronne
+2017/04/03 14:38:12: Caronne joined map id 1
+2017/04/03 14:38:47: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 14:41:19: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 14:41:20: Status changed to connected: 127.0.0.1
+2017/04/03 14:42:58: Data From World Server ID: 8 Account: akaruz Char ID: 40 Slot: 2 A886D4D2739E33A2
+2017/04/03 14:42:58: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 14:42:59: Status changed to connected: 189.111.22.101
+2017/04/03 14:42:59: Received From Client: A886D4D2739E33A2
+2017/04/03 14:42:59: Player Found ID: 40 Name: Caronne
+2017/04/03 14:42:59: Caronne joined map id 1
+2017/04/03 14:44:06: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 14:44:06: Status changed to connected: 127.0.0.1
+2017/04/03 14:44:15: ID: 40 Caronne Status changed to disconnected: 189.111.22.101
+2017/04/03 20:54:52: Game Server Name: Canal 1
+2017/04/03 20:54:52: Discovery: Elysium Diamond #1.0.0
+2017/04/03 20:54:52: Port: 55970
+2017/04/03 20:54:52: MaximumConnections: 2000
+2017/04/03 20:54:52: ConnectionTimeOut: 25
+2017/04/03 20:54:52: Logs: True
+2017/04/03 20:54:52: Sleep: 1
+2017/04/03 20:54:52: Game Server ID: gameserver_1
+2017/04/03 20:54:52: Carregando config mysql
+2017/04/03 20:54:53: Connectado ao banco de dados
+2017/04/03 20:54:53: WorldServer 1  ID: Artemis
+2017/04/03 20:54:53: WorldServer 2  ID: 
+2017/04/03 20:54:53: WorldServer 3  ID: 
+2017/04/03 20:54:53: WorldServer 4  ID: 
+2017/04/03 20:54:53: WorldServer 5  ID: 
+2017/04/03 20:54:53: Carregando experiência
+2017/04/03 20:54:53: Level Max: 121
+2017/04/03 20:54:53: Exp Max: 22353256174
+2017/04/03 20:54:53: Carregando guilds
+2017/04/03 20:54:53: Carregando membros
+2017/04/03 20:54:53: Carregando classe(s) base
+2017/04/03 20:54:53: Carregando classe(s) incremento
+2017/04/03 20:54:53: Carregando NPC
+2017/04/03 20:54:53: Game Server Start
+2017/04/03 20:54:56: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/03 20:54:56: Status changed to connected: 127.0.0.1
+2017/04/03 20:55:27: Data From World Server ID: 8 Account: akaruz Char ID: 37 Slot: 0 78AF68E8E65B1F4B
+2017/04/03 20:55:28: Discovery Response IPEndPoint: 189.111.22.101
+2017/04/03 20:55:28: Status changed to connected: 189.111.22.101
+2017/04/03 20:55:28: Received From Client: 78AF68E8E65B1F4B
+2017/04/03 20:55:28: Player Found ID: 37 Name: Nadaila
+2017/04/03 20:55:28: Nadaila joined map id 1
+2017/04/03 20:56:28: ID: 37 Nadaila Status changed to disconnected: 189.111.22.101

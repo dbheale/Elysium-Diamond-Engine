@@ -1,5 +1,7 @@
-﻿public enum EngineButtonStyle {
-    Inactive,
-    Hover,
-    Active,    
+﻿namespace Elysium_Diamond.DirectX {
+    public enum EngineButtonStyle {
+        Inactive,
+        Hover,
+        Active,
+    }
 }

@@ -1,0 +1,59 @@
+2017/07/02 22:06:42: ID: 1
+2017/07/02 22:06:42: Discovery: Elysium Diamond #1.0.0
+2017/07/02 22:06:42: Port: 44405
+2017/07/02 22:06:42: Maximum Connection: 5000
+2017/07/02 22:06:42: Sleep: 1
+2017/07/02 22:06:42: Versão: 1.2.10
+2017/07/02 22:06:42: GeoIp: Desativado
+2017/07/02 22:06:42: CheckSum: Desativado
+2017/07/02 22:06:42: PinCheckTime: 15
+2017/07/02 22:06:42: Connect Ip: 127.0.0.1
+2017/07/02 22:06:42: Connect Port: 57550
+2017/07/02 22:06:42: Servidor adicionado: 火星 (JP) 普通
+2017/07/02 22:06:42: Connectado ao banco de dados
+2017/07/02 22:06:43: Conectando World Server
+2017/07/02 22:06:44: Login Server Start
+2017/07/02 22:07:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/02 22:07:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/02 22:07:00: Status changed to connected: 127.0.0.1
+2017/07/02 22:13:13: ID: 1
+2017/07/02 22:13:13: Discovery: Elysium Diamond #1.0.0
+2017/07/02 22:13:13: Port: 44405
+2017/07/02 22:13:13: Maximum Connection: 5000
+2017/07/02 22:13:13: Sleep: 1
+2017/07/02 22:13:13: Versão: 1.2.10
+2017/07/02 22:13:13: GeoIp: Desativado
+2017/07/02 22:13:13: CheckSum: Desativado
+2017/07/02 22:13:13: PinCheckTime: 15
+2017/07/02 22:13:13: Connect Ip: 127.0.0.1
+2017/07/02 22:13:13: Connect Port: 57550
+2017/07/02 22:13:13: Servidor adicionado: 火星 (JP) 普通
+2017/07/02 22:13:13: Connectado ao banco de dados
+2017/07/02 22:13:14: Conectando World Server
+2017/07/02 22:13:14: Login Server Start
+2017/07/02 22:13:26: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/02 22:13:27: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/02 22:13:27: Status changed to connected: 127.0.0.1
+2017/07/02 22:19:25: ID: 1
+2017/07/02 22:19:25: Discovery: Elysium Diamond #1.0.0
+2017/07/02 22:19:25: Port: 44405
+2017/07/02 22:19:25: Maximum Connection: 5000
+2017/07/02 22:19:25: Sleep: 1
+2017/07/02 22:19:25: Versão: 1.2.10
+2017/07/02 22:19:25: GeoIp: Desativado
+2017/07/02 22:19:25: CheckSum: Desativado
+2017/07/02 22:19:25: PinCheckTime: 15
+2017/07/02 22:19:25: Connect Ip: 127.0.0.1
+2017/07/02 22:19:25: Connect Port: 57550
+2017/07/02 22:19:25: Servidor adicionado: 火星 (JP) 普通
+2017/07/02 22:19:25: Connectado ao banco de dados
+2017/07/02 22:19:26: Conectado ao banco de dados.
+2017/07/02 22:19:26: Conectando World Server
+2017/07/02 22:19:26: Login Server Start
+2017/07/02 22:19:35: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/02 22:19:35: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/02 22:19:35: Status changed to connected: 127.0.0.1
+2017/07/02 22:19:56: Connect Server connected
+2017/07/02 22:20:01: User Login: akaruz 127.0.0.1 3CCE5E695FFDE7FE
+2017/07/02 22:20:02: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/07/02 22:20:42: Status changed to disconnected: 0  127.0.0.1 3CCE5E695FFDE7FE

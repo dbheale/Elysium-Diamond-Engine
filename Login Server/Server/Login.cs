@@ -1,14 +1,16 @@
 ﻿using System;
 using LoginServer.Network;
 using LoginServer.Common;
-using LoginServer.MySQL;
+using LoginServer.Database;
+using Elysium.Logs;
+using Elysium.IO;
 
 namespace LoginServer.Server {
     public static class Login {
         /// <summary>
         /// Loops por segundos.
         /// </summary>
-        public static int CPS { get; set; }
+        public static int UPS { get; private set; }
         
         /// <summary>
         /// Contador privado.
@@ -23,16 +25,16 @@ namespace LoginServer.Server {
             LoginNetwork.ReceivedData();
 
             // Verifica e tenta uma nova conexão com o world server
-            WorldNetwork.WorldServerConnect();
+            NetworkClient.DiscoverServer();
 
             // Recebe os dados do world server
-            WorldNetwork.WorldServerReceiveData();
+            NetworkClient.ReceiveData();
 
             // Verifica cada ip bloqueado, se o tempo expirou remove da lista
             GeoIp.CheckIpBlockedTime();
 
             if (Environment.TickCount >= tick + 1000) {
-                CPS = count;
+                UPS = count;
                 tick = Environment.TickCount;
                 count = 0;
             }
@@ -41,24 +43,20 @@ namespace LoginServer.Server {
         }
 
         /// <summary>
-        /// Fecha todas as conexões.
+        /// Fecha todas as conexões e encerra.
         /// </summary>
         public static void Close() {
             //Não permite nenhuma conexão (evitar possíveis erros)
-            Configuration.DisableLogin = true;
+            Configuration.IsLoginDisabled = true;
             Configuration.Server = null;
 
             //Limpa as configurações
-            Elysium.Settings.Clear();
+            Settings.Clear();
             Authentication.Clear();
             CheckSum.Clear();
 
             //Fecha o arquivo de logs
-            Elysium.Logs.CloseFile();
-            Common_DB.Close();
-
-            //LoginNetwork.Shutdown();
-            //WorldNetwork.Shutdown();
+            Log.CloseFile();
 
             Environment.Exit(0);
         }

@@ -1,0 +1,987 @@
+2017/05/06 0:53:04: ID: 2147483646
+2017/05/06 0:53:04: Server Name: artemis
+2017/05/06 0:53:04: Discovery: Elysium Diamond #1.0.0
+2017/05/06 0:53:04: Port: 55901
+2017/05/06 0:53:04: Maximum Connections: 2000
+2017/05/06 0:53:04: Logs: Ativado
+2017/05/06 0:53:04: Sleep: 1
+2017/05/06 0:53:04: Create Character: False
+2017/05/06 0:53:04: Delete Character: False
+2017/05/06 0:53:04: Carregando config do mysql
+2017/05/06 0:53:04: Connectado ao banco de dados
+2017/05/06 0:53:05: Carregando scripts
+2017/05/06 0:53:05: Classe 1 Item 1 Weapon
+2017/05/06 0:53:05: Classe 1 Item 2 Chest
+2017/05/06 0:53:05: Classe 1 Item 3 Legs
+2017/05/06 0:53:05: Classe 2 Item 4 Weapon
+2017/05/06 0:53:05: Classe 2 Item 5 Chest
+2017/05/06 0:53:05: Classe 2 Item 6 Legs
+2017/05/06 0:53:05: World Server Start.
+2017/05/06 0:53:05: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 0:53:05: Status changed to connected: 127.0.0.1
+2017/05/06 0:53:05: Login Server ID: 2147483647
+2017/05/06 0:53:26: Data From Login Server ID: 1 Account: akaruz 38DF33B98E61773B
+2017/05/06 0:53:26: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 0:53:26: Status changed to connected: 127.0.0.1
+2017/05/06 0:53:26: Data From Client: 38DF33B98E61773B
+2017/05/06 0:53:26: Player Found ID: 1 Account: akaruz 38DF33B98E61773B
+2017/05/06 0:53:26: PreLoad ID: 1 Account: akaruz
+2017/05/06 0:53:49: Disconnected by login server: akaruz
+2017/05/06 0:53:49: Status changed to disconnected: 1 akaruz 127.0.0.1 38DF33B98E61773B
+2017/05/06 0:54:33: Status changed to disconnected: 2147483647  127.0.0.1 
+2017/05/06 4:56:06: WorldID: 2147483646
+2017/05/06 4:56:06: Server Name: artemis
+2017/05/06 4:56:06: Discovery: Elysium Diamond #1.0.0
+2017/05/06 4:56:06: Port: 55901
+2017/05/06 4:56:06: Maximum Connections: 2000
+2017/05/06 4:56:06: Logs: Ativado
+2017/05/06 4:56:06: Sleep: 1
+2017/05/06 4:56:06: Pin: True
+2017/05/06 4:56:06: PinMaxAttempt: 5
+2017/05/06 4:56:06: PinBannedTime: 15
+2017/05/06 4:56:06: Create Character: False
+2017/05/06 4:56:06: Delete Character: False
+2017/05/06 4:56:06: Carregando config do mysql
+2017/05/06 4:56:06: Connectado ao banco de dados
+2017/05/06 4:56:07: Carregando scripts
+2017/05/06 4:56:07: Classe 1 Item 1 Weapon
+2017/05/06 4:56:07: Classe 1 Item 2 Chest
+2017/05/06 4:56:07: Classe 1 Item 3 Legs
+2017/05/06 4:56:07: Classe 2 Item 4 Weapon
+2017/05/06 4:56:07: Classe 2 Item 5 Chest
+2017/05/06 4:56:07: Classe 2 Item 6 Legs
+2017/05/06 4:56:07: World Server Start.
+2017/05/06 4:56:07: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 4:56:08: Status changed to connected: 127.0.0.1
+2017/05/06 4:56:08: Login Server ID: 2147483647
+2017/05/06 4:57:27: Data From Login Server ID: 1 Account: akaruz 084E7400DD3644A6
+2017/05/06 4:57:27: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 4:57:27: Status changed to connected: 127.0.0.1
+2017/05/06 4:57:27: Data From Client: 084E7400DD3644A6
+2017/05/06 4:57:27: Player Found ID: 1 Account: akaruz 084E7400DD3644A6
+2017/05/06 4:57:27: PreLoad ID: 1 Account: akaruz
+2017/05/06 4:57:29: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 4:58:16: Status changed to disconnected: 1 akaruz 127.0.0.1 084E7400DD3644A6
+2017/05/06 5:01:17: WorldID: 2147483646
+2017/05/06 5:01:17: Server Name: artemis
+2017/05/06 5:01:17: Discovery: Elysium Diamond #1.0.0
+2017/05/06 5:01:17: Port: 55901
+2017/05/06 5:01:17: Maximum Connections: 2000
+2017/05/06 5:01:17: Logs: Ativado
+2017/05/06 5:01:17: Sleep: 1
+2017/05/06 5:01:17: Pin: True
+2017/05/06 5:01:17: PinMaxAttempt: 5
+2017/05/06 5:01:17: PinBannedTime: 15
+2017/05/06 5:01:17: Create Character: False
+2017/05/06 5:01:17: Delete Character: False
+2017/05/06 5:01:17: Carregando config do mysql
+2017/05/06 5:01:17: Connectado ao banco de dados
+2017/05/06 5:01:18: Carregando scripts
+2017/05/06 5:01:18: Classe 1 Item 1 Weapon
+2017/05/06 5:01:19: Classe 1 Item 2 Chest
+2017/05/06 5:01:19: Classe 1 Item 3 Legs
+2017/05/06 5:01:19: Classe 2 Item 4 Weapon
+2017/05/06 5:01:19: Classe 2 Item 5 Chest
+2017/05/06 5:01:19: Classe 2 Item 6 Legs
+2017/05/06 5:01:19: World Server Start.
+2017/05/06 5:01:27: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:01:27: Status changed to connected: 127.0.0.1
+2017/05/06 5:01:27: Login Server ID: 2147483647
+2017/05/06 5:02:03: Data From Login Server ID: 1 Account: akaruz 9A5A55569FAB2AB6
+2017/05/06 5:02:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:02:03: Status changed to connected: 127.0.0.1
+2017/05/06 5:02:03: Data From Client: 9A5A55569FAB2AB6
+2017/05/06 5:02:03: Player Found ID: 1 Account: akaruz 9A5A55569FAB2AB6
+2017/05/06 5:02:03: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:02:05: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:03:14: Status changed to disconnected: 1 akaruz 127.0.0.1 9A5A55569FAB2AB6
+2017/05/06 5:03:15: Status changed to disconnected: 2147483647  127.0.0.1 
+2017/05/06 5:04:08: WorldID: 2147483646
+2017/05/06 5:04:08: Server Name: artemis
+2017/05/06 5:04:08: Discovery: Elysium Diamond #1.0.0
+2017/05/06 5:04:08: Port: 55901
+2017/05/06 5:04:08: Maximum Connections: 2000
+2017/05/06 5:04:08: Logs: Ativado
+2017/05/06 5:04:08: Sleep: 1
+2017/05/06 5:04:08: Pin: True
+2017/05/06 5:04:08: PinMaxAttempt: 5
+2017/05/06 5:04:08: PinBannedTime: 15
+2017/05/06 5:04:08: Create Character: False
+2017/05/06 5:04:08: Delete Character: False
+2017/05/06 5:04:08: Carregando config do mysql
+2017/05/06 5:04:08: Connectado ao banco de dados
+2017/05/06 5:04:09: Carregando scripts
+2017/05/06 5:04:10: Classe 1 Item 1 Weapon
+2017/05/06 5:04:10: Classe 1 Item 2 Chest
+2017/05/06 5:04:10: Classe 1 Item 3 Legs
+2017/05/06 5:04:10: Classe 2 Item 4 Weapon
+2017/05/06 5:04:10: Classe 2 Item 5 Chest
+2017/05/06 5:04:10: Classe 2 Item 6 Legs
+2017/05/06 5:04:10: World Server Start.
+2017/05/06 5:04:18: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:04:18: Status changed to connected: 127.0.0.1
+2017/05/06 5:04:18: Login Server ID: 2147483647
+2017/05/06 5:04:28: Data From Login Server ID: 1 Account: akaruz F21D20FA0BA972AF
+2017/05/06 5:04:29: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:04:29: Status changed to connected: 127.0.0.1
+2017/05/06 5:04:29: Data From Client: F21D20FA0BA972AF
+2017/05/06 5:04:29: Player Found ID: 1 Account: akaruz F21D20FA0BA972AF
+2017/05/06 5:04:29: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:04:30: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:04:45: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:06:31: WorldID: 2147483646
+2017/05/06 5:06:31: Server Name: artemis
+2017/05/06 5:06:31: Discovery: Elysium Diamond #1.0.0
+2017/05/06 5:06:31: Port: 55901
+2017/05/06 5:06:31: Maximum Connections: 2000
+2017/05/06 5:06:31: Logs: Ativado
+2017/05/06 5:06:31: Sleep: 1
+2017/05/06 5:06:31: Pin: True
+2017/05/06 5:06:31: PinMaxAttempt: 5
+2017/05/06 5:06:31: PinBannedTime: 15
+2017/05/06 5:06:31: Create Character: False
+2017/05/06 5:06:31: Delete Character: False
+2017/05/06 5:06:31: Carregando config do mysql
+2017/05/06 5:06:31: Connectado ao banco de dados
+2017/05/06 5:06:33: Carregando scripts
+2017/05/06 5:06:33: Classe 1 Item 1 Weapon
+2017/05/06 5:06:33: Classe 1 Item 2 Chest
+2017/05/06 5:06:33: Classe 1 Item 3 Legs
+2017/05/06 5:06:33: Classe 2 Item 4 Weapon
+2017/05/06 5:06:33: Classe 2 Item 5 Chest
+2017/05/06 5:06:33: Classe 2 Item 6 Legs
+2017/05/06 5:06:33: World Server Start.
+2017/05/06 5:06:38: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:06:38: Status changed to connected: 127.0.0.1
+2017/05/06 5:06:38: Login Server ID: 2147483647
+2017/05/06 5:06:50: Data From Login Server ID: 1 Account: akaruz C5C28968C79FD7E8
+2017/05/06 5:06:51: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:06:51: Status changed to connected: 127.0.0.1
+2017/05/06 5:06:51: Data From Client: C5C28968C79FD7E8
+2017/05/06 5:06:51: Player Found ID: 1 Account: akaruz C5C28968C79FD7E8
+2017/05/06 5:06:51: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:06:52: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:07:47: Status changed to disconnected: 2147483647  127.0.0.1 
+2017/05/06 5:08:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:08:45: Status changed to connected: 127.0.0.1
+2017/05/06 5:08:45: Login Server ID: 2147483647
+2017/05/06 5:08:49: Data From Login Server ID: 1 Account: akaruz C5C28968C79FD7E8
+2017/05/06 5:08:49: Status changed to disconnected: 1 akaruz 127.0.0.1 C5C28968C79FD7E8
+2017/05/06 5:08:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:08:50: Status changed to connected: 127.0.0.1
+2017/05/06 5:08:50: Data From Client: C5C28968C79FD7E8
+2017/05/06 5:08:50: Player Found ID: 1 Account: akaruz C5C28968C79FD7E8
+2017/05/06 5:08:50: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:09:01: Disconnected by login server: akaruz
+2017/05/06 5:09:01: Status changed to disconnected: 1 akaruz 127.0.0.1 C5C28968C79FD7E8
+2017/05/06 5:09:15: Data From Login Server ID: 1 Account: akaruz 86921D4A981F0322
+2017/05/06 5:09:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:09:16: Status changed to connected: 127.0.0.1
+2017/05/06 5:09:16: Data From Client: 86921D4A981F0322
+2017/05/06 5:09:16: Player Found ID: 1 Account: akaruz 86921D4A981F0322
+2017/05/06 5:09:16: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:09:17: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:09:53: Status changed to disconnected: 1 akaruz 127.0.0.1 86921D4A981F0322
+2017/05/06 5:12:53: WorldID: 2147483646
+2017/05/06 5:12:53: Server Name: artemis
+2017/05/06 5:12:53: Discovery: Elysium Diamond #1.0.0
+2017/05/06 5:12:53: Port: 55901
+2017/05/06 5:12:53: Maximum Connections: 2000
+2017/05/06 5:12:53: Logs: Ativado
+2017/05/06 5:12:53: Sleep: 1
+2017/05/06 5:12:53: Pin: True
+2017/05/06 5:12:53: PinMaxAttempt: 5
+2017/05/06 5:12:53: PinBannedTime: 15
+2017/05/06 5:12:53: Create Character: False
+2017/05/06 5:12:53: Delete Character: False
+2017/05/06 5:12:53: Carregando config do mysql
+2017/05/06 5:12:53: Connectado ao banco de dados
+2017/05/06 5:12:54: Carregando scripts
+2017/05/06 5:12:54: Classe 1 Item 1 Weapon
+2017/05/06 5:12:55: Classe 1 Item 2 Chest
+2017/05/06 5:12:55: Classe 1 Item 3 Legs
+2017/05/06 5:12:55: Classe 2 Item 4 Weapon
+2017/05/06 5:12:55: Classe 2 Item 5 Chest
+2017/05/06 5:12:55: Classe 2 Item 6 Legs
+2017/05/06 5:12:55: World Server Start.
+2017/05/06 5:12:55: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:12:55: Status changed to connected: 127.0.0.1
+2017/05/06 5:12:55: Login Server ID: 2147483647
+2017/05/06 5:13:04: Data From Login Server ID: 1 Account: akaruz 1C1759561B124AB2
+2017/05/06 5:13:04: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:13:04: Status changed to connected: 127.0.0.1
+2017/05/06 5:13:04: Data From Client: 1C1759561B124AB2
+2017/05/06 5:13:04: Player Found ID: 1 Account: akaruz 1C1759561B124AB2
+2017/05/06 5:13:04: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:13:05: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:13:45: Status changed to disconnected: 1 akaruz 127.0.0.1 1C1759561B124AB2
+2017/05/06 5:18:00: WorldID: 2147483646
+2017/05/06 5:18:00: Server Name: artemis
+2017/05/06 5:18:00: Discovery: Elysium Diamond #1.0.0
+2017/05/06 5:18:00: Port: 55901
+2017/05/06 5:18:00: Maximum Connections: 2000
+2017/05/06 5:18:00: Logs: Ativado
+2017/05/06 5:18:00: Sleep: 1
+2017/05/06 5:18:00: Pin: True
+2017/05/06 5:18:00: PinMaxAttempt: 5
+2017/05/06 5:18:00: PinBannedTime: 15
+2017/05/06 5:18:00: Create Character: False
+2017/05/06 5:18:00: Delete Character: False
+2017/05/06 5:18:00: Carregando config do mysql
+2017/05/06 5:18:00: Connectado ao banco de dados
+2017/05/06 5:18:01: Carregando scripts
+2017/05/06 5:18:01: Classe 1 Item 1 Weapon
+2017/05/06 5:18:01: Classe 1 Item 2 Chest
+2017/05/06 5:18:01: Classe 1 Item 3 Legs
+2017/05/06 5:18:01: Classe 2 Item 4 Weapon
+2017/05/06 5:18:01: Classe 2 Item 5 Chest
+2017/05/06 5:18:01: Classe 2 Item 6 Legs
+2017/05/06 5:18:02: World Server Start.
+2017/05/06 5:18:05: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:18:05: Status changed to connected: 127.0.0.1
+2017/05/06 5:18:05: Login Server ID: 2147483647
+2017/05/06 5:18:18: Data From Login Server ID: 1 Account: akaruz 604FD2F702902A57
+2017/05/06 5:18:19: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:18:19: Status changed to connected: 127.0.0.1
+2017/05/06 5:18:19: Data From Client: 604FD2F702902A57
+2017/05/06 5:18:19: Player Found ID: 1 Account: akaruz 604FD2F702902A57
+2017/05/06 5:18:19: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:18:20: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:18:45: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:18:50: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:18:51: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:18:51: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:18:52: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:19:22: Status changed to disconnected: 1 akaruz 127.0.0.1 604FD2F702902A57
+2017/05/06 5:21:10: Data From Login Server ID: 1 Account: akaruz D3E3BF6706AF7407
+2017/05/06 5:21:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:21:10: Status changed to connected: 127.0.0.1
+2017/05/06 5:21:10: Data From Client: D3E3BF6706AF7407
+2017/05/06 5:21:11: Player Found ID: 1 Account: akaruz D3E3BF6706AF7407
+2017/05/06 5:21:11: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:21:12: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:21:41: Status changed to disconnected: 1 akaruz 127.0.0.1 D3E3BF6706AF7407
+2017/05/06 5:22:40: Data From Login Server ID: 1 Account: akaruz BDF096B9485776AB
+2017/05/06 5:22:41: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:22:41: Status changed to connected: 127.0.0.1
+2017/05/06 5:22:41: Data From Client: BDF096B9485776AB
+2017/05/06 5:22:41: Player Found ID: 1 Account: akaruz BDF096B9485776AB
+2017/05/06 5:22:41: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:22:42: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:22:45: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:22:55: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:26:18: WorldID: 2147483646
+2017/05/06 5:26:18: Server Name: artemis
+2017/05/06 5:26:18: Discovery: Elysium Diamond #1.0.0
+2017/05/06 5:26:18: Port: 55901
+2017/05/06 5:26:18: Maximum Connections: 2000
+2017/05/06 5:26:18: Logs: Ativado
+2017/05/06 5:26:18: Sleep: 1
+2017/05/06 5:26:18: Pin: True
+2017/05/06 5:26:18: PinMaxAttempt: 5
+2017/05/06 5:26:18: PinBannedTime: 15
+2017/05/06 5:26:18: Create Character: False
+2017/05/06 5:26:18: Delete Character: False
+2017/05/06 5:26:18: Carregando config do mysql
+2017/05/06 5:26:18: Connectado ao banco de dados
+2017/05/06 5:26:20: Carregando scripts
+2017/05/06 5:26:20: Classe 1 Item 1 Weapon
+2017/05/06 5:26:20: Classe 1 Item 2 Chest
+2017/05/06 5:26:20: Classe 1 Item 3 Legs
+2017/05/06 5:26:20: Classe 2 Item 4 Weapon
+2017/05/06 5:26:20: Classe 2 Item 5 Chest
+2017/05/06 5:26:20: Classe 2 Item 6 Legs
+2017/05/06 5:26:20: World Server Start.
+2017/05/06 5:26:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:26:25: Status changed to connected: 127.0.0.1
+2017/05/06 5:26:25: Login Server ID: 2147483647
+2017/05/06 5:26:31: Data From Login Server ID: 1 Account: akaruz A83B997D4B376974
+2017/05/06 5:26:32: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 5:26:32: Status changed to connected: 127.0.0.1
+2017/05/06 5:26:32: Data From Client: A83B997D4B376974
+2017/05/06 5:26:32: Player Found ID: 1 Account: akaruz A83B997D4B376974
+2017/05/06 5:26:32: PreLoad ID: 1 Account: akaruz
+2017/05/06 5:26:37: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 5:26:52: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 19:53:47: WorldID: 2147483646
+2017/05/06 19:53:47: Server Name: artemis
+2017/05/06 19:53:47: Discovery: Elysium Diamond #1.0.0
+2017/05/06 19:53:47: Port: 55901
+2017/05/06 19:53:47: Maximum Connections: 2000
+2017/05/06 19:53:47: Logs: Ativado
+2017/05/06 19:53:47: Sleep: 1
+2017/05/06 19:53:47: Pin: True
+2017/05/06 19:53:47: PinMaxAttempt: 5
+2017/05/06 19:53:47: PinBannedTime: 15
+2017/05/06 19:53:47: Create Character: False
+2017/05/06 19:53:47: Delete Character: False
+2017/05/06 19:53:47: Carregando config do mysql
+2017/05/06 19:53:47: Connectado ao banco de dados
+2017/05/06 19:53:48: Carregando scripts
+2017/05/06 19:53:48: Classe 1 Item 1 Weapon
+2017/05/06 19:53:48: Classe 1 Item 2 Chest
+2017/05/06 19:53:48: Classe 1 Item 3 Legs
+2017/05/06 19:53:48: Classe 2 Item 4 Weapon
+2017/05/06 19:53:48: Classe 2 Item 5 Chest
+2017/05/06 19:53:48: Classe 2 Item 6 Legs
+2017/05/06 19:53:48: World Server Start.
+2017/05/06 19:53:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 19:53:48: Status changed to connected: 127.0.0.1
+2017/05/06 19:53:48: Login Server ID: 2147483647
+2017/05/06 19:54:02: Data From Login Server ID: 1 Account: akaruz 2B415A5D9B249CF7
+2017/05/06 19:54:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 19:54:03: Status changed to connected: 127.0.0.1
+2017/05/06 19:54:03: Data From Client: 2B415A5D9B249CF7
+2017/05/06 19:54:03: Player Found ID: 1 Account: akaruz 2B415A5D9B249CF7
+2017/05/06 19:54:03: PreLoad ID: 1 Account: akaruz
+2017/05/06 19:54:46: Status changed to disconnected: 1 akaruz 127.0.0.1 2B415A5D9B249CF7
+2017/05/06 20:04:22: WorldID: 2147483646
+2017/05/06 20:04:22: Server Name: artemis
+2017/05/06 20:04:22: Discovery: Elysium Diamond #1.0.0
+2017/05/06 20:04:22: Port: 55901
+2017/05/06 20:04:22: Maximum Connections: 2000
+2017/05/06 20:04:22: Logs: Ativado
+2017/05/06 20:04:22: Sleep: 1
+2017/05/06 20:04:22: Pin: True
+2017/05/06 20:04:22: PinMaxAttempt: 5
+2017/05/06 20:04:22: PinBannedTime: 15
+2017/05/06 20:04:22: Create Character: False
+2017/05/06 20:04:22: Delete Character: False
+2017/05/06 20:04:22: Carregando config do mysql
+2017/05/06 20:04:22: Connectado ao banco de dados
+2017/05/06 20:04:23: Carregando scripts
+2017/05/06 20:04:23: Classe 1 Item 1 Weapon
+2017/05/06 20:04:23: Classe 1 Item 2 Chest
+2017/05/06 20:04:23: Classe 1 Item 3 Legs
+2017/05/06 20:04:23: Classe 2 Item 4 Weapon
+2017/05/06 20:04:23: Classe 2 Item 5 Chest
+2017/05/06 20:04:23: Classe 2 Item 6 Legs
+2017/05/06 20:04:23: World Server Start.
+2017/05/06 20:04:27: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 20:04:27: Status changed to connected: 127.0.0.1
+2017/05/06 20:04:27: Login Server ID: 2147483647
+2017/05/06 20:04:33: Conectado ao Game Server #Canal 1
+2017/05/06 20:04:53: Data From Login Server ID: 1 Account: akaruz D1F36E279FD4F5FE
+2017/05/06 20:04:53: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 20:04:53: Status changed to connected: 127.0.0.1
+2017/05/06 20:04:53: Data From Client: D1F36E279FD4F5FE
+2017/05/06 20:04:53: Player Found ID: 1 Account: akaruz D1F36E279FD4F5FE
+2017/05/06 20:04:53: PreLoad ID: 1 Account: akaruz
+2017/05/06 20:04:59: GameServer Login Attempt: akaruz 127.0.0.1
+2017/05/06 20:05:03: Channel-> ドラゴン: dwwwwwwwd
+2017/05/06 20:05:40: Status changed to disconnected: 1 akaruz 127.0.0.1 D1F36E279FD4F5FE
+2017/05/06 20:15:00: WorldID: 2147483646
+2017/05/06 20:15:00: Server Name: artemis
+2017/05/06 20:15:00: Discovery: Elysium Diamond #1.0.0
+2017/05/06 20:15:00: Port: 55901
+2017/05/06 20:15:00: Maximum Connections: 2000
+2017/05/06 20:15:00: Logs: Ativado
+2017/05/06 20:15:00: Sleep: 1
+2017/05/06 20:15:00: Pin: True
+2017/05/06 20:15:00: PinMaxAttempt: 5
+2017/05/06 20:15:00: PinBannedTime: 15
+2017/05/06 20:15:00: Create Character: False
+2017/05/06 20:15:00: Delete Character: False
+2017/05/06 20:15:00: Carregando config do mysql
+2017/05/06 20:15:00: Connectado ao banco de dados
+2017/05/06 20:15:01: Carregando scripts
+2017/05/06 20:15:01: Classe 1 Item 1 Weapon
+2017/05/06 20:15:01: Classe 1 Item 2 Chest
+2017/05/06 20:15:01: Classe 1 Item 3 Legs
+2017/05/06 20:15:01: Classe 2 Item 4 Weapon
+2017/05/06 20:15:01: Classe 2 Item 5 Chest
+2017/05/06 20:15:01: Classe 2 Item 6 Legs
+2017/05/06 20:15:01: World Server Start.
+2017/05/06 20:15:06: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 20:15:06: Status changed to connected: 127.0.0.1
+2017/05/06 20:15:06: Login Server ID: 2147483647
+2017/05/06 20:15:14: Data From Login Server ID: 1 Account: akaruz 8704FDCD4E7D8A7F
+2017/05/06 20:15:15: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/06 20:15:15: Status changed to connected: 127.0.0.1
+2017/05/06 20:15:15: Data From Client: 8704FDCD4E7D8A7F
+2017/05/06 20:15:15: Player Found ID: 1 Account: akaruz 8704FDCD4E7D8A7F
+2017/05/06 20:15:15: PreLoad ID: 1 Account: akaruz
+2017/05/06 20:15:54: Status changed to disconnected: 1 akaruz 127.0.0.1 8704FDCD4E7D8A7F
+2017/05/06 23:38:05: WorldID: 2147483646
+2017/05/06 23:38:05: Server Name: artemis
+2017/05/06 23:38:05: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:38:05: Port: 55901
+2017/05/06 23:38:05: Maximum Connections: 2000
+2017/05/06 23:38:05: Logs: Ativado
+2017/05/06 23:38:05: Sleep: 1
+2017/05/06 23:38:05: Pin: True
+2017/05/06 23:38:05: PinMaxAttempt: 5
+2017/05/06 23:38:05: PinBannedTime: 15
+2017/05/06 23:38:05: Create Character: False
+2017/05/06 23:38:05: Delete Character: False
+2017/05/06 23:38:05: Carregando config do mysql
+2017/05/06 23:38:05: Connectado ao banco de dados
+2017/05/06 23:38:07: Carregando scripts
+2017/05/06 23:38:07: Classe 1 Item 1 Weapon
+2017/05/06 23:38:07: Classe 1 Item 2 Chest
+2017/05/06 23:38:07: Classe 1 Item 3 Legs
+2017/05/06 23:38:07: Classe 2 Item 4 Weapon
+2017/05/06 23:38:07: Classe 2 Item 5 Chest
+2017/05/06 23:38:07: Classe 2 Item 6 Legs
+2017/05/06 23:38:07: World Server Start.
+2017/05/06 23:39:50: WorldID: 2147483646
+2017/05/06 23:39:50: Server Name: artemis
+2017/05/06 23:39:50: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:39:50: Port: 55901
+2017/05/06 23:39:50: Maximum Connections: 2000
+2017/05/06 23:39:50: Logs: Ativado
+2017/05/06 23:39:50: Sleep: 1
+2017/05/06 23:39:50: Pin: True
+2017/05/06 23:39:50: PinMaxAttempt: 5
+2017/05/06 23:39:50: PinBannedTime: 15
+2017/05/06 23:39:50: Create Character: False
+2017/05/06 23:39:50: Delete Character: False
+2017/05/06 23:39:50: Carregando config do mysql
+2017/05/06 23:39:50: Connectado ao banco de dados
+2017/05/06 23:39:51: Carregando scripts
+2017/05/06 23:39:52: Classe 1 Item 1 Weapon
+2017/05/06 23:39:52: Classe 1 Item 2 Chest
+2017/05/06 23:39:52: Classe 1 Item 3 Legs
+2017/05/06 23:39:52: Classe 2 Item 4 Weapon
+2017/05/06 23:39:52: Classe 2 Item 5 Chest
+2017/05/06 23:39:52: Classe 2 Item 6 Legs
+2017/05/06 23:40:07: WorldID: 2147483646
+2017/05/06 23:40:07: Server Name: artemis
+2017/05/06 23:40:07: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:40:07: Port: 55901
+2017/05/06 23:40:07: Maximum Connections: 2000
+2017/05/06 23:40:07: Logs: Ativado
+2017/05/06 23:40:07: Sleep: 1
+2017/05/06 23:40:07: Pin: True
+2017/05/06 23:40:07: PinMaxAttempt: 5
+2017/05/06 23:40:07: PinBannedTime: 15
+2017/05/06 23:40:07: Create Character: False
+2017/05/06 23:40:07: Delete Character: False
+2017/05/06 23:40:07: Carregando config do mysql
+2017/05/06 23:40:07: Connectado ao banco de dados
+2017/05/06 23:40:08: Carregando scripts
+2017/05/06 23:40:08: Classe 1 Item 1 Weapon
+2017/05/06 23:40:08: Classe 1 Item 2 Chest
+2017/05/06 23:40:08: Classe 1 Item 3 Legs
+2017/05/06 23:40:08: Classe 2 Item 4 Weapon
+2017/05/06 23:40:08: Classe 2 Item 5 Chest
+2017/05/06 23:40:08: Classe 2 Item 6 Legs
+2017/05/06 23:40:42: WorldID: 2147483646
+2017/05/06 23:40:42: Server Name: artemis
+2017/05/06 23:40:42: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:40:42: Port: 55901
+2017/05/06 23:40:42: Maximum Connections: 2000
+2017/05/06 23:40:42: Logs: Ativado
+2017/05/06 23:40:42: Sleep: 1
+2017/05/06 23:40:42: Pin: True
+2017/05/06 23:40:42: PinMaxAttempt: 5
+2017/05/06 23:40:42: PinBannedTime: 15
+2017/05/06 23:40:42: Create Character: False
+2017/05/06 23:40:42: Delete Character: False
+2017/05/06 23:40:42: Carregando config do mysql
+2017/05/06 23:40:42: Connectado ao banco de dados
+2017/05/06 23:40:43: Carregando scripts
+2017/05/06 23:40:44: Classe 1 Item 1 Weapon
+2017/05/06 23:40:44: Classe 1 Item 2 Chest
+2017/05/06 23:40:44: Classe 1 Item 3 Legs
+2017/05/06 23:40:44: Classe 2 Item 4 Weapon
+2017/05/06 23:40:44: Classe 2 Item 5 Chest
+2017/05/06 23:40:44: Classe 2 Item 6 Legs
+2017/05/06 23:40:55: WorldID: 2147483646
+2017/05/06 23:40:55: Server Name: artemis
+2017/05/06 23:40:55: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:40:55: Port: 55901
+2017/05/06 23:40:55: Maximum Connections: 2000
+2017/05/06 23:40:55: Logs: Ativado
+2017/05/06 23:40:55: Sleep: 1
+2017/05/06 23:40:55: Pin: True
+2017/05/06 23:40:55: PinMaxAttempt: 5
+2017/05/06 23:40:55: PinBannedTime: 15
+2017/05/06 23:40:55: Create Character: False
+2017/05/06 23:40:55: Delete Character: False
+2017/05/06 23:40:55: Carregando config do mysql
+2017/05/06 23:40:55: Connectado ao banco de dados
+2017/05/06 23:40:56: Carregando scripts
+2017/05/06 23:40:57: Classe 1 Item 1 Weapon
+2017/05/06 23:40:57: Classe 1 Item 2 Chest
+2017/05/06 23:40:57: Classe 1 Item 3 Legs
+2017/05/06 23:40:57: Classe 2 Item 4 Weapon
+2017/05/06 23:40:57: Classe 2 Item 5 Chest
+2017/05/06 23:40:57: Classe 2 Item 6 Legs
+2017/05/06 23:40:58: World Server Start.
+2017/05/06 23:41:18: WorldID: 2147483646
+2017/05/06 23:41:18: Server Name: artemis
+2017/05/06 23:41:18: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:41:18: Port: 55901
+2017/05/06 23:41:18: Maximum Connections: 2000
+2017/05/06 23:41:18: Logs: Ativado
+2017/05/06 23:41:18: Sleep: 1
+2017/05/06 23:41:18: Pin: True
+2017/05/06 23:41:18: PinMaxAttempt: 5
+2017/05/06 23:41:18: PinBannedTime: 15
+2017/05/06 23:41:18: Create Character: False
+2017/05/06 23:41:18: Delete Character: False
+2017/05/06 23:41:18: Carregando config do mysql
+2017/05/06 23:41:18: Connectado ao banco de dados
+2017/05/06 23:41:19: Carregando scripts
+2017/05/06 23:41:19: Classe 1 Item 1 Weapon
+2017/05/06 23:41:19: Classe 1 Item 2 Chest
+2017/05/06 23:41:19: Classe 1 Item 3 Legs
+2017/05/06 23:41:19: Classe 2 Item 4 Weapon
+2017/05/06 23:41:19: Classe 2 Item 5 Chest
+2017/05/06 23:41:19: Classe 2 Item 6 Legs
+2017/05/06 23:41:21: World Server Start.
+2017/05/06 23:42:48: WorldID: 2147483646
+2017/05/06 23:42:48: Server Name: artemis
+2017/05/06 23:42:48: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:42:48: Port: 55901
+2017/05/06 23:42:48: Maximum Connections: 2000
+2017/05/06 23:42:48: Logs: Ativado
+2017/05/06 23:42:48: Sleep: 1
+2017/05/06 23:42:48: Pin: True
+2017/05/06 23:42:48: PinMaxAttempt: 5
+2017/05/06 23:42:48: PinBannedTime: 15
+2017/05/06 23:42:48: Create Character: False
+2017/05/06 23:42:48: Delete Character: False
+2017/05/06 23:42:48: Carregando config do mysql
+2017/05/06 23:42:48: Connectado ao banco de dados
+2017/05/06 23:42:49: Carregando scripts
+2017/05/06 23:42:49: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:42:49: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:42:49: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:42:49: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:42:49: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:42:49: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:42:51: World Server Start.
+2017/05/06 23:43:24: WorldID: 2147483646
+2017/05/06 23:43:24: Server Name: artemis
+2017/05/06 23:43:24: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:43:24: Port: 55901
+2017/05/06 23:43:24: Maximum Connections: 2000
+2017/05/06 23:43:24: Logs: Ativado
+2017/05/06 23:43:24: Sleep: 1
+2017/05/06 23:43:24: Pin: True
+2017/05/06 23:43:24: PinMaxAttempt: 5
+2017/05/06 23:43:24: PinBannedTime: 15
+2017/05/06 23:43:24: Create Character: False
+2017/05/06 23:43:24: Delete Character: False
+2017/05/06 23:43:24: Carregando config do mysql
+2017/05/06 23:43:24: Connectado ao banco de dados
+2017/05/06 23:43:25: Carregando scripts
+2017/05/06 23:43:26: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:43:26: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:43:26: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:43:26: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:43:26: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:43:26: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:43:27: World Server Start.
+2017/05/06 23:48:05: WorldID: 2147483646
+2017/05/06 23:48:05: Server Name: artemis
+2017/05/06 23:48:05: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:48:05: Port: 55901
+2017/05/06 23:48:05: Maximum Connections: 2000
+2017/05/06 23:48:05: Logs: Ativado
+2017/05/06 23:48:05: Sleep: 1
+2017/05/06 23:48:05: Pin: True
+2017/05/06 23:48:05: PinMaxAttempt: 5
+2017/05/06 23:48:05: PinBannedTime: 15
+2017/05/06 23:48:05: Create Character: False
+2017/05/06 23:48:05: Delete Character: False
+2017/05/06 23:48:05: Carregando config do mysql
+2017/05/06 23:48:05: Connectado ao banco de dados
+2017/05/06 23:48:06: Carregando scripts
+2017/05/06 23:48:06: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:48:06: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:48:06: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:48:06: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:48:06: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:48:06: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:48:06: Item CashID: 1 Gift: True Category: Promo BuyLimit 0
+2017/05/06 23:48:06: World Server Start.
+2017/05/06 23:48:32: WorldID: 2147483646
+2017/05/06 23:48:32: Server Name: artemis
+2017/05/06 23:48:32: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:48:32: Port: 55901
+2017/05/06 23:48:32: Maximum Connections: 2000
+2017/05/06 23:48:32: Logs: Ativado
+2017/05/06 23:48:32: Sleep: 1
+2017/05/06 23:48:32: Pin: True
+2017/05/06 23:48:32: PinMaxAttempt: 5
+2017/05/06 23:48:32: PinBannedTime: 15
+2017/05/06 23:48:32: Create Character: False
+2017/05/06 23:48:32: Delete Character: False
+2017/05/06 23:48:32: Carregando config do mysql
+2017/05/06 23:48:32: Connectado ao banco de dados
+2017/05/06 23:48:33: Carregando scripts
+2017/05/06 23:48:33: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:48:33: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:48:33: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:48:33: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:48:33: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:48:33: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:48:34: Item CashID: 1 Gift: True Category: Promo BuyLimit 0
+2017/05/06 23:48:34: World Server Start.
+2017/05/06 23:49:06: WorldID: 2147483646
+2017/05/06 23:49:06: Server Name: artemis
+2017/05/06 23:49:06: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:49:06: Port: 55901
+2017/05/06 23:49:06: Maximum Connections: 2000
+2017/05/06 23:49:06: Logs: Ativado
+2017/05/06 23:49:06: Sleep: 1
+2017/05/06 23:49:06: Pin: True
+2017/05/06 23:49:06: PinMaxAttempt: 5
+2017/05/06 23:49:06: PinBannedTime: 15
+2017/05/06 23:49:06: Create Character: False
+2017/05/06 23:49:06: Delete Character: False
+2017/05/06 23:49:06: Carregando config do mysql
+2017/05/06 23:49:06: Connectado ao banco de dados
+2017/05/06 23:49:07: Carregando scripts
+2017/05/06 23:49:08: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:49:08: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:49:08: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:49:08: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:49:08: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:49:08: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:49:08: ItemCashID: 1 ItemID: 1 Gift: True Category: Promo BuyLimit 0
+2017/05/06 23:49:08: World Server Start.
+2017/05/06 23:49:41: WorldID: 2147483646
+2017/05/06 23:49:41: Server Name: artemis
+2017/05/06 23:49:41: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:49:41: Port: 55901
+2017/05/06 23:49:41: Maximum Connections: 2000
+2017/05/06 23:49:41: Logs: Ativado
+2017/05/06 23:49:41: Sleep: 1
+2017/05/06 23:49:41: Pin: True
+2017/05/06 23:49:41: PinMaxAttempt: 5
+2017/05/06 23:49:41: PinBannedTime: 15
+2017/05/06 23:49:41: Create Character: False
+2017/05/06 23:49:41: Delete Character: False
+2017/05/06 23:49:41: Carregando config do mysql
+2017/05/06 23:49:41: Connectado ao banco de dados
+2017/05/06 23:49:42: Carregando scripts
+2017/05/06 23:49:42: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:49:42: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:49:42: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:49:42: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:49:42: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:49:42: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:49:42: ItemCashID: 1 ItemID: 1 Price: 250 Category: Promo
+2017/05/06 23:49:42: World Server Start.
+2017/05/06 23:50:52: WorldID: 2147483646
+2017/05/06 23:50:52: Server Name: artemis
+2017/05/06 23:50:52: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:50:52: Port: 55901
+2017/05/06 23:50:52: Maximum Connections: 2000
+2017/05/06 23:50:52: Logs: Ativado
+2017/05/06 23:50:52: Sleep: 1
+2017/05/06 23:50:52: Pin: True
+2017/05/06 23:50:52: PinMaxAttempt: 5
+2017/05/06 23:50:52: PinBannedTime: 15
+2017/05/06 23:50:52: Create Character: False
+2017/05/06 23:50:52: Delete Character: False
+2017/05/06 23:50:52: Carregando config do mysql
+2017/05/06 23:50:52: Connectado ao banco de dados
+2017/05/06 23:50:53: Carregando scripts
+2017/05/06 23:50:53: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:50:53: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:50:53: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:50:53: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:50:53: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:50:53: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:51:03: WorldID: 2147483646
+2017/05/06 23:51:03: Server Name: artemis
+2017/05/06 23:51:03: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:51:03: Port: 55901
+2017/05/06 23:51:03: Maximum Connections: 2000
+2017/05/06 23:51:03: Logs: Ativado
+2017/05/06 23:51:03: Sleep: 1
+2017/05/06 23:51:03: Pin: True
+2017/05/06 23:51:03: PinMaxAttempt: 5
+2017/05/06 23:51:03: PinBannedTime: 15
+2017/05/06 23:51:03: Create Character: False
+2017/05/06 23:51:03: Delete Character: False
+2017/05/06 23:51:03: Carregando config do mysql
+2017/05/06 23:51:03: Connectado ao banco de dados
+2017/05/06 23:51:04: Carregando scripts
+2017/05/06 23:51:04: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:51:04: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:51:04: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:51:04: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:51:04: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:51:04: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:51:15: WorldID: 2147483646
+2017/05/06 23:51:15: Server Name: artemis
+2017/05/06 23:51:15: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:51:15: Port: 55901
+2017/05/06 23:51:15: Maximum Connections: 2000
+2017/05/06 23:51:15: Logs: Ativado
+2017/05/06 23:51:15: Sleep: 1
+2017/05/06 23:51:15: Pin: True
+2017/05/06 23:51:15: PinMaxAttempt: 5
+2017/05/06 23:51:15: PinBannedTime: 15
+2017/05/06 23:51:15: Create Character: False
+2017/05/06 23:51:15: Delete Character: False
+2017/05/06 23:51:15: Carregando config do mysql
+2017/05/06 23:51:15: Connectado ao banco de dados
+2017/05/06 23:51:16: Carregando scripts
+2017/05/06 23:51:17: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:51:17: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:51:17: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:51:17: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:51:17: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:51:17: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:52:31: WorldID: 2147483646
+2017/05/06 23:52:31: Server Name: artemis
+2017/05/06 23:52:31: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:52:31: Port: 55901
+2017/05/06 23:52:31: Maximum Connections: 2000
+2017/05/06 23:52:31: Logs: Ativado
+2017/05/06 23:52:31: Sleep: 1
+2017/05/06 23:52:31: Pin: True
+2017/05/06 23:52:31: PinMaxAttempt: 5
+2017/05/06 23:52:31: PinBannedTime: 15
+2017/05/06 23:52:31: Create Character: False
+2017/05/06 23:52:31: Delete Character: False
+2017/05/06 23:52:31: Carregando config do mysql
+2017/05/06 23:52:31: Connectado ao banco de dados
+2017/05/06 23:52:32: Carregando scripts
+2017/05/06 23:52:32: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:52:32: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:52:32: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:52:32: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:52:32: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:52:32: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:52:47: WorldID: 2147483646
+2017/05/06 23:52:47: Server Name: artemis
+2017/05/06 23:52:47: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:52:47: Port: 55901
+2017/05/06 23:52:47: Maximum Connections: 2000
+2017/05/06 23:52:47: Logs: Ativado
+2017/05/06 23:52:47: Sleep: 1
+2017/05/06 23:52:47: Pin: True
+2017/05/06 23:52:47: PinMaxAttempt: 5
+2017/05/06 23:52:47: PinBannedTime: 15
+2017/05/06 23:52:47: Create Character: False
+2017/05/06 23:52:47: Delete Character: False
+2017/05/06 23:52:47: Carregando config do mysql
+2017/05/06 23:52:47: Connectado ao banco de dados
+2017/05/06 23:52:48: Carregando scripts
+2017/05/06 23:52:49: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:52:49: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:52:49: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:52:49: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:52:49: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:52:49: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:53:01: WorldID: 2147483646
+2017/05/06 23:53:01: Server Name: artemis
+2017/05/06 23:53:01: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:53:01: Port: 55901
+2017/05/06 23:53:01: Maximum Connections: 2000
+2017/05/06 23:53:01: Logs: Ativado
+2017/05/06 23:53:01: Sleep: 1
+2017/05/06 23:53:01: Pin: True
+2017/05/06 23:53:01: PinMaxAttempt: 5
+2017/05/06 23:53:01: PinBannedTime: 15
+2017/05/06 23:53:01: Create Character: False
+2017/05/06 23:53:01: Delete Character: False
+2017/05/06 23:53:01: Carregando config do mysql
+2017/05/06 23:53:01: Connectado ao banco de dados
+2017/05/06 23:53:02: Carregando scripts
+2017/05/06 23:53:02: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:53:02: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:53:02: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:53:02: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:53:02: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:53:02: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:53:14: WorldID: 2147483646
+2017/05/06 23:53:14: Server Name: artemis
+2017/05/06 23:53:14: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:53:14: Port: 55901
+2017/05/06 23:53:14: Maximum Connections: 2000
+2017/05/06 23:53:14: Logs: Ativado
+2017/05/06 23:53:14: Sleep: 1
+2017/05/06 23:53:14: Pin: True
+2017/05/06 23:53:14: PinMaxAttempt: 5
+2017/05/06 23:53:14: PinBannedTime: 15
+2017/05/06 23:53:14: Create Character: False
+2017/05/06 23:53:14: Delete Character: False
+2017/05/06 23:53:14: Carregando config do mysql
+2017/05/06 23:53:14: Connectado ao banco de dados
+2017/05/06 23:53:15: Carregando scripts
+2017/05/06 23:53:15: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:53:15: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:53:15: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:53:15: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:53:15: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:53:15: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:53:15: World Server Start.
+2017/05/06 23:55:19: WorldID: 2147483646
+2017/05/06 23:55:19: Server Name: artemis
+2017/05/06 23:55:19: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:55:19: Port: 55901
+2017/05/06 23:55:19: Maximum Connections: 2000
+2017/05/06 23:55:19: Logs: Ativado
+2017/05/06 23:55:19: Sleep: 1
+2017/05/06 23:55:19: Pin: True
+2017/05/06 23:55:19: PinMaxAttempt: 5
+2017/05/06 23:55:19: PinBannedTime: 15
+2017/05/06 23:55:19: Create Character: False
+2017/05/06 23:55:19: Delete Character: False
+2017/05/06 23:55:19: Carregando config do mysql
+2017/05/06 23:55:19: Connectado ao banco de dados
+2017/05/06 23:55:20: Carregando scripts
+2017/05/06 23:55:20: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:55:20: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:55:20: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:55:20: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:55:20: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:55:20: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:55:37: WorldID: 2147483646
+2017/05/06 23:55:37: Server Name: artemis
+2017/05/06 23:55:37: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:55:37: Port: 55901
+2017/05/06 23:55:37: Maximum Connections: 2000
+2017/05/06 23:55:37: Logs: Ativado
+2017/05/06 23:55:37: Sleep: 1
+2017/05/06 23:55:37: Pin: True
+2017/05/06 23:55:37: PinMaxAttempt: 5
+2017/05/06 23:55:37: PinBannedTime: 15
+2017/05/06 23:55:37: Create Character: False
+2017/05/06 23:55:37: Delete Character: False
+2017/05/06 23:55:37: Carregando config do mysql
+2017/05/06 23:55:37: Connectado ao banco de dados
+2017/05/06 23:55:38: Carregando scripts
+2017/05/06 23:55:38: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:55:38: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:55:38: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:55:38: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:55:38: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:55:38: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:55:47: WorldID: 2147483646
+2017/05/06 23:55:47: Server Name: artemis
+2017/05/06 23:55:47: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:55:47: Port: 55901
+2017/05/06 23:55:47: Maximum Connections: 2000
+2017/05/06 23:55:47: Logs: Ativado
+2017/05/06 23:55:47: Sleep: 1
+2017/05/06 23:55:47: Pin: True
+2017/05/06 23:55:47: PinMaxAttempt: 5
+2017/05/06 23:55:47: PinBannedTime: 15
+2017/05/06 23:55:47: Create Character: False
+2017/05/06 23:55:47: Delete Character: False
+2017/05/06 23:55:47: Carregando config do mysql
+2017/05/06 23:55:47: Connectado ao banco de dados
+2017/05/06 23:55:48: Carregando scripts
+2017/05/06 23:55:48: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:55:48: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:55:48: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:55:48: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:55:48: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:55:48: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:56:50: WorldID: 2147483646
+2017/05/06 23:56:50: Server Name: artemis
+2017/05/06 23:56:50: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:56:50: Port: 55901
+2017/05/06 23:56:50: Maximum Connections: 2000
+2017/05/06 23:56:50: Logs: Ativado
+2017/05/06 23:56:50: Sleep: 1
+2017/05/06 23:56:50: Pin: True
+2017/05/06 23:56:50: PinMaxAttempt: 5
+2017/05/06 23:56:50: PinBannedTime: 15
+2017/05/06 23:56:50: Create Character: False
+2017/05/06 23:56:50: Delete Character: False
+2017/05/06 23:56:50: Carregando config do mysql
+2017/05/06 23:56:50: Connectado ao banco de dados
+2017/05/06 23:56:51: Carregando scripts
+2017/05/06 23:56:51: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:56:51: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:56:51: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:56:51: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:56:51: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:56:51: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:57:37: WorldID: 2147483646
+2017/05/06 23:57:37: Server Name: artemis
+2017/05/06 23:57:37: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:57:37: Port: 55901
+2017/05/06 23:57:37: Maximum Connections: 2000
+2017/05/06 23:57:37: Logs: Ativado
+2017/05/06 23:57:37: Sleep: 1
+2017/05/06 23:57:37: Pin: True
+2017/05/06 23:57:37: PinMaxAttempt: 5
+2017/05/06 23:57:37: PinBannedTime: 15
+2017/05/06 23:57:37: Create Character: False
+2017/05/06 23:57:37: Delete Character: False
+2017/05/06 23:57:37: Carregando config do mysql
+2017/05/06 23:57:37: Connectado ao banco de dados
+2017/05/06 23:57:38: Carregando scripts
+2017/05/06 23:57:38: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:57:38: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:57:38: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:57:38: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:57:38: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:57:38: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:58:14: WorldID: 2147483646
+2017/05/06 23:58:14: Server Name: artemis
+2017/05/06 23:58:14: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:58:14: Port: 55901
+2017/05/06 23:58:14: Maximum Connections: 2000
+2017/05/06 23:58:14: Logs: Ativado
+2017/05/06 23:58:14: Sleep: 1
+2017/05/06 23:58:14: Pin: True
+2017/05/06 23:58:14: PinMaxAttempt: 5
+2017/05/06 23:58:14: PinBannedTime: 15
+2017/05/06 23:58:14: Create Character: False
+2017/05/06 23:58:14: Delete Character: False
+2017/05/06 23:58:14: Carregando config do mysql
+2017/05/06 23:58:14: Connectado ao banco de dados
+2017/05/06 23:58:15: Carregando scripts
+2017/05/06 23:58:15: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:58:15: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:58:15: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:58:15: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:58:15: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:58:15: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:58:30: WorldID: 2147483646
+2017/05/06 23:58:30: Server Name: artemis
+2017/05/06 23:58:30: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:58:30: Port: 55901
+2017/05/06 23:58:30: Maximum Connections: 2000
+2017/05/06 23:58:30: Logs: Ativado
+2017/05/06 23:58:30: Sleep: 1
+2017/05/06 23:58:30: Pin: True
+2017/05/06 23:58:30: PinMaxAttempt: 5
+2017/05/06 23:58:30: PinBannedTime: 15
+2017/05/06 23:58:30: Create Character: False
+2017/05/06 23:58:30: Delete Character: False
+2017/05/06 23:58:30: Carregando config do mysql
+2017/05/06 23:58:30: Connectado ao banco de dados
+2017/05/06 23:58:31: Carregando scripts
+2017/05/06 23:58:31: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:58:31: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:58:31: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:58:31: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:58:31: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:58:31: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:59:10: WorldID: 2147483646
+2017/05/06 23:59:10: Server Name: artemis
+2017/05/06 23:59:10: Discovery: Elysium Diamond #1.0.0
+2017/05/06 23:59:10: Port: 55901
+2017/05/06 23:59:10: Maximum Connections: 2000
+2017/05/06 23:59:10: Logs: Ativado
+2017/05/06 23:59:10: Sleep: 1
+2017/05/06 23:59:10: Pin: True
+2017/05/06 23:59:10: PinMaxAttempt: 5
+2017/05/06 23:59:10: PinBannedTime: 15
+2017/05/06 23:59:10: Create Character: False
+2017/05/06 23:59:10: Delete Character: False
+2017/05/06 23:59:10: Carregando config do mysql
+2017/05/06 23:59:10: Connectado ao banco de dados
+2017/05/06 23:59:11: Carregando scripts
+2017/05/06 23:59:11: ClasseID: 1 ItemID: 1 Weapon
+2017/05/06 23:59:11: ClasseID: 1 ItemID: 2 Chest
+2017/05/06 23:59:11: ClasseID: 1 ItemID: 3 Legs
+2017/05/06 23:59:11: ClasseID: 2 ItemID: 4 Weapon
+2017/05/06 23:59:11: ClasseID: 2 ItemID: 5 Chest
+2017/05/06 23:59:11: ClasseID: 2 ItemID: 6 Legs
+2017/05/06 23:59:11: ItemCashID: 1 ItemID: 1 Price: 250 Category: Promo
+2017/05/06 23:59:11: World Server Start.

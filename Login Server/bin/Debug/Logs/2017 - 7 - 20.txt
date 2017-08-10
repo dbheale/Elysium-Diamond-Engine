@@ -1,0 +1,15 @@
+2017/07/20 1:53:59: ID: 1
+2017/07/20 1:53:59: Discovery: Elysium Diamond #1.0.0
+2017/07/20 1:53:59: Port: 44405
+2017/07/20 1:53:59: Maximum Connection: 5000
+2017/07/20 1:53:59: Sleep: 1
+2017/07/20 1:53:59: Version: 1.2.10
+2017/07/20 1:53:59: GeoIp: Disabled
+2017/07/20 1:53:59: CheckSum: Disabled
+2017/07/20 1:53:59: PinCheckTime: 15
+2017/07/20 1:53:59: Connect Ip: 127.0.0.1
+2017/07/20 1:53:59: Connect Port: 57550
+2017/07/20 1:53:59: Added server: 火星 (JP) 普通
+2017/07/20 1:54:00: Trying to connect database
+2017/07/20 1:54:04: Database is connected successfully
+2017/07/20 1:54:04: Login Server Start

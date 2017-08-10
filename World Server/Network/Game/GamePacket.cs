@@ -1,17 +1,15 @@
-﻿using WorldServer.Common;
-using WorldServer.Server;
+﻿using WorldServer.Server;
 
 namespace WorldServer.Network {
-    public class GamePacket {
+    public static class GamePacket {
         /// <summary>
-        /// Envia todos os dados para o GameServer selecionado pelo cliente / servidor.
+        /// Envia todos os dados para o gameserver.
         /// </summary>
         /// <param name="pIndex"></param>
         /// <param name="worldID"></param>
-        public static void Login(string hexID, int serverID) {
-            var pData = Authentication.FindByHexID(hexID);
-            var buffer = GameNetwork.GameServer[serverID].Socket.CreateMessage();
-            buffer.Write((int)PacketList.WS_GS_GameServerLogin);
+        public static void Login(PlayerData pData, int regionID) {
+            var buffer = NetworkClient.CreateMessage();
+            buffer.Write((short)PacketList.WS_GS_UserLogin);
             buffer.Write(pData.HexID);
             buffer.Write(pData.Account);
             buffer.Write(pData.AccountID);
@@ -19,6 +17,7 @@ namespace WorldServer.Network {
             buffer.Write(pData.AccessLevel);
             buffer.Write(pData.CharacterID);
             buffer.Write(pData.CharSlot);
+            buffer.Write(regionID);
 
             //pega a quantidade de serviços
             var servicesID = pData.Service.GetServicesID();
@@ -27,19 +26,7 @@ namespace WorldServer.Network {
             //escreve cada um no buffer
             foreach(var id in servicesID) buffer.Write(pData.Service.GetService(id));
 
-            GameNetwork.GameServer[serverID].SendData(buffer);  
-        }
-
-        /// <summary>
-        /// Envia o HexID para o game server.
-        /// </summary>
-        /// <param name="index"></param>
-        public static void HexID(int index) {
-            var buffer = GameNetwork.GameServer[index].Socket.CreateMessage();
-            buffer.Write((int)PacketList.CL_WS_SendPlayerHexID);
-            buffer.Write(Configuration.ID);
-
-            GameNetwork.GameServer[index].SendData(buffer);
+            NetworkClient.SendData(buffer);
         }
     }
 }

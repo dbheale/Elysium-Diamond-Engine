@@ -102,11 +102,11 @@ namespace Elysium_Diamond.DirectX {
             ProcessAnimation();
 
             EngineCore.SpriteDevice.Begin(SpriteFlags);
-            EngineCore.SpriteDevice.Draw(SpriteManager.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(PositionX, PositionY, 0));
+            EngineCore.SpriteDevice.Draw(EngineTexture.FindTextureByID(Sprite, EngineTextureType.Sprites), new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(PositionX, PositionY, 0));
             EngineCore.SpriteDevice.End();
 
-            EngineFont.DrawText(null, Name, new Size2(30, 0), new Point(PositionX, PositionY - 5), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
-            EngineFont.DrawText(null, Legion, new Size2(30, 0), new Point(PositionX, PositionY - 20), Color.BlueViolet, EngineFontStyle.Bold, FontDrawFlags.Center);
+            EngineFont.DrawText(Name, new Size2(30, 0), new Point(PositionX, PositionY - 5), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText(Legion, new Size2(30, 0), new Point(PositionX, PositionY - 20), Color.BlueViolet, EngineFontStyle.Bold, FontDrawFlags.Center);
         }
 
         public void ProcessAnimation() {
@@ -214,7 +214,7 @@ namespace Elysium_Diamond.DirectX {
                         MouseMove?.Invoke(this, EventArgs.Empty);
                     }
 
-                    if (EngineCore.MouseDown) {
+                    if (EngineCore.MouseLeft) {
                         if (!click) {
                             MouseDown?.Invoke(this, EventArgs.Empty);
                             click = true;

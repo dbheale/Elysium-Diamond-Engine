@@ -1,0 +1,25 @@
+2017/05/08 1:11:09: WorldID: 2147483646
+2017/05/08 1:11:09: Server Name: artemis
+2017/05/08 1:11:09: Discovery: Elysium Diamond #1.0.0
+2017/05/08 1:11:09: Port: 55901
+2017/05/08 1:11:09: Maximum Connections: 2000
+2017/05/08 1:11:09: Logs: Ativado
+2017/05/08 1:11:09: Sleep: 1
+2017/05/08 1:11:09: Pin: False
+2017/05/08 1:11:09: PinMaxAttempt: 5
+2017/05/08 1:11:09: PinBannedTime: 15
+2017/05/08 1:11:09: Create Character: False
+2017/05/08 1:11:09: Delete Character: False
+2017/05/08 1:11:09: Carregando config do mysql
+2017/05/08 1:11:09: Connectado ao banco de dados
+2017/05/08 1:11:10: Carregando scripts
+2017/05/08 1:11:10: ClasseID: 1 ItemID: 1 Weapon
+2017/05/08 1:11:10: ClasseID: 1 ItemID: 2 Chest
+2017/05/08 1:11:10: ClasseID: 1 ItemID: 3 Legs
+2017/05/08 1:11:10: ClasseID: 2 ItemID: 4 Weapon
+2017/05/08 1:11:10: ClasseID: 2 ItemID: 5 Chest
+2017/05/08 1:11:10: ClasseID: 2 ItemID: 6 Legs
+2017/05/08 1:11:10: World Server Start.
+2017/05/08 1:11:11: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/08 1:11:11: Status changed to connected: 127.0.0.1
+2017/05/08 1:11:11: Login Server ID: 2147483647

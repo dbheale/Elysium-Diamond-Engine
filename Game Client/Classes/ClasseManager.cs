@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
@@ -16,7 +15,7 @@ namespace Elysium_Diamond.Classes {
         public static void Initialize() {
             Classes = new List<ClasseDescription>();
 
-            var value = Directory.GetFiles($"{Environment.CurrentDirectory}\\Data\\Classes\\");
+            var value = Directory.GetFiles("./Data/Classes/");
             foreach (var file in value) { Classes.Add(GetClasse(file)); }
         }
 

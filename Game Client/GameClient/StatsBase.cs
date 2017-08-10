@@ -45,6 +45,8 @@
         public int AttributeWater { get; set; }
         public int AttributeEarth { get; set; }
         public int AttributeWind { get; set; }
+        public int AttributeLight { get; set; }
+        public int AttributeDark { get; set; }
         public int ResistStun { get; set; }
         public int ResistParalysis { get; set; }
         public int ResistSilence { get; set; }

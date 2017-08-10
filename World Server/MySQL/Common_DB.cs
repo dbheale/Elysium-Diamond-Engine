@@ -1,7 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 
 namespace WorldServer.MySQL {
-    public class Common_DB {
+    public static class Common_DB {
         public static MySqlConnection Connection { get; set; }
         public static string Server { get; set; }
         public static int Port { get; set; }
@@ -15,11 +15,11 @@ namespace WorldServer.MySQL {
         /// <param name="error"></param>
         /// <returns></returns>
         public static bool Open(out string message) {
-            var varQuery = $"Server={Server};Port={Port};Database={Database};User ID={Username};Password={Password};";
+            var query = $"Server={Server};Port={Port};Database={Database};User ID={Username};Password={Password};";
 
             try {
                 Connection = new MySqlConnection();
-                Connection.ConnectionString = varQuery;
+                Connection.ConnectionString = query;
                 Connection.Open();
             }
             catch (MySqlException ex) {

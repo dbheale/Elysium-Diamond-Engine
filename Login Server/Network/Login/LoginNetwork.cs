@@ -2,35 +2,25 @@
 using Lidgren.Network;
 using LoginServer.Common;
 using LoginServer.Server;
-using LoginServer.MySQL;
-using Elysium;
+using LoginServer.Database;
+using Elysium.Logs;
 
 namespace LoginServer.Network {
     public static class LoginNetwork {
-        /// <summary>
-        /// Socket de conexão.
-        /// </summary>
+        // socket de conexão
         private static NetServer socket;
-
-        /// <summary>
-        /// Recebe as mensagens.
-        /// </summary>
+        // dados recebidos
         private static NetIncomingMessage msg;
-
-        /// <summary>
-        /// 
-        /// </summary>
-        private static PlayerData pData;
 
         /// <summary>
         /// Inicia e prepara a conexão.
         /// </summary>
-        public static void InitializeServer() {
+        public static void Initialize() {
             var config = new NetPeerConfiguration(Configuration.Discovery);
-            config.Port = Configuration.LoginServerPort;
+            config.Port = Configuration.Port;
             config.AutoFlushSendQueue = true;
             config.AcceptIncomingConnections = true;
-            config.MaximumConnections = Configuration.MaximumConnections;
+            config.MaximumConnections = Configuration.MaxConnections;
             config.ConnectionTimeout = 25f;
             config.PingInterval = 2.0f;
             config.UseMessageRecycling = true;
@@ -75,12 +65,10 @@ namespace LoginServer.Network {
         }
 
         /// <summary>
-        /// Recebe os dados dos clientes.
+        /// Processa os dados recebidos.
         /// </summary>
         public static void ReceivedData() {
             while ((msg = socket.ReadMessage()) != null) {
-
-                pData = Authentication.FindByConnection(msg.SenderConnection);
 
                 switch (msg.MessageType) {
                     case NetIncomingMessageType.DiscoveryRequest:
@@ -99,7 +87,7 @@ namespace LoginServer.Network {
 
                                     //adiciona na lista de bloqueados temporariamente
                                     GeoIp.AddIpAddress(ip);
-                                    Logs.Write($"Banned country trying to connect: {ip} {country.Country}-{country.Code}", Color.Coral);
+                                    Log.Write($"Banned country trying to connect: {ip} {country.Country}-{country.Code}", Color.Coral);
                                     return;
                                }    
                             }
@@ -111,65 +99,58 @@ namespace LoginServer.Network {
                         #endregion
 
                         #region Find Banned IP
-                        if (Accounts_DB.IsBannedIp(msg.SenderEndPoint.Address.ToString()) == true) {
-                            Logs.Write("Warning: Attempted IP Banned " + msg.SenderEndPoint.Address, Color.Coral);
+                        if (AccountDB.IsBannedIp(msg.SenderEndPoint.Address.ToString()) == true) {
+                            Log.Write("Warning: Attempted IP Banned " + msg.SenderEndPoint.Address, Color.Coral);
                             return;
                         }
                         #endregion
 
                         LoginNetwork.socket.SendDiscoveryResponse(null, msg.SenderEndPoint);
-                        Logs.Write($"Discovery Response IPEndPoint: {msg.SenderEndPoint.Address}", Color.Coral); 
+                        Log.Write($"Discovery Response IPEndPoint: {msg.SenderEndPoint.Address}", Color.Coral); 
+
                         break;
 
                     case NetIncomingMessageType.ErrorMessage:
-                        Logs.Write($"Error: {msg.ReadString()}", Color.Coral);
+                        Log.Write($"Error: {msg.ReadString()}", Color.Coral);
                         break;
   
                     case NetIncomingMessageType.StatusChanged:
-                        #region Status Changed Connected
                         var status = (NetConnectionStatus)msg.ReadByte();
+
+                        #region Connect
                         if (status == NetConnectionStatus.Connected) {
-                            Authentication.Connect(msg);                     
+                            Authentication.ConnectPlayer(msg);                     
                         }
                         #endregion
 
-                        #region Status Changed Disconnected
+                        #region Disconnect
                         if (status == NetConnectionStatus.Disconnected) {
-                            if (pData != null) Authentication.Disconnect(pData);
+                            Authentication.DisconnectPlayer(msg);
                         }
                         #endregion
                         break;
 
                     case NetIncomingMessageType.Data:
-                        LoginData.HandleData(pData.HexID, msg);
+                        LoginData.HandleData(msg);
                         break;
 
                     default:
                         //Registra qualquer mensagem invalida
-                        Logs.Write($"Unhandled type: {msg.MessageType}", Color.DarkRed);
+                        Log.Write($"Unhandled type: {msg.MessageType}", Color.DarkRed);
                         break;
                 }
 
-                LoginNetwork.socket.Recycle(msg);
+                socket.Recycle(msg);
             }
         }
         
-        /// <summary>
-        /// Verifica o estado da conexão pela conexão de usuário.
-        /// </summary>
-        /// <param name="pData"></param>
-        /// <returns></returns>
-        public static bool Connected(ref PlayerData pData) {
-            return (pData.Connection.Status == NetConnectionStatus.Connected) ? true : false;
-        }
-
         /// <summary>
         /// Verifica se o estado da conexão pelo HexaID.
         /// </summary>
         /// <param name="hexID"></param>
         /// <returns></returns>
-        public static bool Connected(string hexID) {
-            return (Authentication.FindByHexID(hexID).Connection.Status == NetConnectionStatus.Connected) ? true : false;
+        public static bool Connected(NetConnection connection) {
+            return (connection.Status == NetConnectionStatus.Connected) ? true : false;
         }
 
         /// <summary>
@@ -178,8 +159,8 @@ namespace LoginServer.Network {
         /// <param name="hexID"></param>
         /// <param name="msg"></param>
         /// <param name="deliveryMethod"></param>
-        public static void SendDataTo(string hexID, NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod) {
-            socket.SendMessage(msg, Authentication.FindByHexID(hexID).Connection, deliveryMethod);
+        public static void SendDataTo(NetConnection connection, NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod) {
+            socket.SendMessage(msg, connection, deliveryMethod);
         }
     }
 }

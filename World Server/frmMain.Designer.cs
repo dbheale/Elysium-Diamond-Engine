@@ -34,14 +34,14 @@
             this.file_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.min_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quit_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.shop_menuitem = new System.Windows.Forms.ToolStripMenuItem();
+            this.shop_reload = new System.Windows.Forms.ToolStripMenuItem();
             this.config_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clear_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ClearScreenSeconds = new System.Windows.Forms.ToolStripMenuItem();
             this.logs_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reloadGuild_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reloadChar_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reloadClasse_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reloadServerData_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.config_TabPage = new System.Windows.Forms.TabControl();
             this.general_TabPage = new System.Windows.Forms.TabPage();
             this.general_textbox = new System.Windows.Forms.RichTextBox();
@@ -57,6 +57,7 @@
             this.menuStrip.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.file_MenuItem,
+            this.shop_menuitem,
             this.config_MenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
@@ -72,22 +73,38 @@
             this.quit_MenuItem});
             this.file_MenuItem.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.file_MenuItem.Name = "file_MenuItem";
-            this.file_MenuItem.Size = new System.Drawing.Size(66, 20);
-            this.file_MenuItem.Text = "Arquivo";
+            this.file_MenuItem.Size = new System.Drawing.Size(40, 20);
+            this.file_MenuItem.Text = "File";
             // 
             // min_MenuItem
             // 
             this.min_MenuItem.Name = "min_MenuItem";
-            this.min_MenuItem.Size = new System.Drawing.Size(132, 22);
-            this.min_MenuItem.Text = "Minimizar";
+            this.min_MenuItem.Size = new System.Drawing.Size(152, 22);
+            this.min_MenuItem.Text = "Minimize";
             this.min_MenuItem.Click += new System.EventHandler(this.min_MenuItem_Click);
             // 
             // quit_MenuItem
             // 
             this.quit_MenuItem.Name = "quit_MenuItem";
-            this.quit_MenuItem.Size = new System.Drawing.Size(132, 22);
-            this.quit_MenuItem.Text = "Sair";
+            this.quit_MenuItem.Size = new System.Drawing.Size(152, 22);
+            this.quit_MenuItem.Text = "Exit";
             this.quit_MenuItem.Click += new System.EventHandler(this.quit_MenuItem_Click);
+            // 
+            // shop_menuitem
+            // 
+            this.shop_menuitem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.shop_reload});
+            this.shop_menuitem.Font = new System.Drawing.Font("Verdana", 9.75F);
+            this.shop_menuitem.Name = "shop_menuitem";
+            this.shop_menuitem.Size = new System.Drawing.Size(104, 20);
+            this.shop_menuitem.Text = "Black Market";
+            // 
+            // shop_reload
+            // 
+            this.shop_reload.Name = "shop_reload";
+            this.shop_reload.Size = new System.Drawing.Size(208, 22);
+            this.shop_reload.Text = "Reload black market";
+            this.shop_reload.Click += new System.EventHandler(this.shop_reload_Click);
             // 
             // config_MenuItem
             // 
@@ -95,65 +112,48 @@
             this.clear_MenuItem,
             this.logs_MenuItem,
             this.reloadGuild_MenuItem,
-            this.reloadChar_MenuItem,
-            this.reloadClasse_MenuItem,
-            this.reloadServerData_MenuItem});
+            this.reloadClasse_MenuItem});
             this.config_MenuItem.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.config_MenuItem.Name = "config_MenuItem";
-            this.config_MenuItem.Size = new System.Drawing.Size(102, 20);
-            this.config_MenuItem.Text = "Configuração";
+            this.config_MenuItem.Size = new System.Drawing.Size(104, 20);
+            this.config_MenuItem.Text = "Configuration";
             // 
             // clear_MenuItem
             // 
             this.clear_MenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ClearScreenSeconds});
             this.clear_MenuItem.Name = "clear_MenuItem";
-            this.clear_MenuItem.Size = new System.Drawing.Size(256, 22);
-            this.clear_MenuItem.Text = "Limpar Tela";
+            this.clear_MenuItem.Size = new System.Drawing.Size(227, 22);
+            this.clear_MenuItem.Text = "Clear screen";
             this.clear_MenuItem.Click += new System.EventHandler(this.clear_MenuItem_Click);
             // 
             // ClearScreenSeconds
             // 
             this.ClearScreenSeconds.Name = "ClearScreenSeconds";
-            this.ClearScreenSeconds.Size = new System.Drawing.Size(156, 22);
-            this.ClearScreenSeconds.Text = "30 segundos";
+            this.ClearScreenSeconds.Size = new System.Drawing.Size(185, 22);
+            this.ClearScreenSeconds.Text = "Every 30 seconds";
             this.ClearScreenSeconds.Click += new System.EventHandler(this.ClearScreenSeconds_Click);
             // 
             // logs_MenuItem
             // 
             this.logs_MenuItem.CheckOnClick = true;
             this.logs_MenuItem.Name = "logs_MenuItem";
-            this.logs_MenuItem.Size = new System.Drawing.Size(256, 22);
-            this.logs_MenuItem.Text = "Desabilitar logs no programa";
+            this.logs_MenuItem.Size = new System.Drawing.Size(227, 22);
+            this.logs_MenuItem.Text = "Disable logs on program";
             // 
             // reloadGuild_MenuItem
             // 
             this.reloadGuild_MenuItem.Name = "reloadGuild_MenuItem";
-            this.reloadGuild_MenuItem.Size = new System.Drawing.Size(256, 22);
-            this.reloadGuild_MenuItem.Text = "Recarregar Guilds";
+            this.reloadGuild_MenuItem.Size = new System.Drawing.Size(227, 22);
+            this.reloadGuild_MenuItem.Text = "Reload guilds";
             this.reloadGuild_MenuItem.Click += new System.EventHandler(this.reloadGuild_MenuItem_Click);
-            // 
-            // reloadChar_MenuItem
-            // 
-            this.reloadChar_MenuItem.Enabled = false;
-            this.reloadChar_MenuItem.Name = "reloadChar_MenuItem";
-            this.reloadChar_MenuItem.Size = new System.Drawing.Size(256, 22);
-            this.reloadChar_MenuItem.Text = "Recarregar Character";
-            this.reloadChar_MenuItem.Click += new System.EventHandler(this.reloadChar_MenuItem_Click);
             // 
             // reloadClasse_MenuItem
             // 
             this.reloadClasse_MenuItem.Name = "reloadClasse_MenuItem";
-            this.reloadClasse_MenuItem.Size = new System.Drawing.Size(256, 22);
-            this.reloadClasse_MenuItem.Text = "Recarregar Classe";
+            this.reloadClasse_MenuItem.Size = new System.Drawing.Size(227, 22);
+            this.reloadClasse_MenuItem.Text = "Reload classes";
             this.reloadClasse_MenuItem.Click += new System.EventHandler(this.reloadClasse_MenuItem_Click);
-            // 
-            // reloadServerData_MenuItem
-            // 
-            this.reloadServerData_MenuItem.Name = "reloadServerData_MenuItem";
-            this.reloadServerData_MenuItem.Size = new System.Drawing.Size(256, 22);
-            this.reloadServerData_MenuItem.Text = "Recarregar Game Server IP";
-            this.reloadServerData_MenuItem.Click += new System.EventHandler(this.reloadServerData_MenuItem_Click);
             // 
             // config_TabPage
             // 
@@ -173,7 +173,7 @@
             this.general_TabPage.Padding = new System.Windows.Forms.Padding(3);
             this.general_TabPage.Size = new System.Drawing.Size(529, 316);
             this.general_TabPage.TabIndex = 0;
-            this.general_TabPage.Text = "Geral";
+            this.general_TabPage.Text = "General";
             this.general_TabPage.UseVisualStyleBackColor = true;
             // 
             // general_textbox
@@ -237,12 +237,12 @@
         public System.Windows.Forms.MenuStrip menuStrip;
         public System.Windows.Forms.ToolStripMenuItem logs_MenuItem;
         private System.Windows.Forms.ToolStripMenuItem reloadGuild_MenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reloadChar_MenuItem;
         private System.Windows.Forms.ToolStripMenuItem reloadClasse_MenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reloadServerData_MenuItem;
         private System.Windows.Forms.Timer timerClear;
         private System.Windows.Forms.ToolStripMenuItem ClearScreenSeconds;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolStripMenuItem shop_menuitem;
+        private System.Windows.Forms.ToolStripMenuItem shop_reload;
     }
 }
 

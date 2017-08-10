@@ -1,0 +1,491 @@
+04/16/2017 16:44:03: ID: 2147483647
+04/16/2017 16:44:03: Discovery: Elysium Diamond #1.0.0
+04/16/2017 16:44:03: Port: 44405
+04/16/2017 16:44:03: Maximum Connection: 2000
+04/16/2017 16:44:03: Sleep: 1
+04/16/2017 16:44:03: Version: 1.0.155
+04/16/2017 16:44:03: GeoIp: Desativado
+04/16/2017 16:44:03: CheckSum: Desativado
+04/16/2017 16:44:03: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 16:44:03: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 16:44:03: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 16:44:03: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 16:44:03: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 16:44:03: Connectado ao banco de dados
+04/16/2017 16:44:04: Conectando World Server.
+04/16/2017 16:44:05: Login Server Start.
+04/16/2017 16:44:16: Connected World Server #火星
+04/16/2017 16:44:45: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 16:44:45: Status changed to connected: 187.34.54.177
+04/16/2017 16:44:48: User Login: akaruz 187.34.54.177
+04/16/2017 16:44:49: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 16:45:20: Status changed to disconnected: 8 akaruz 187.34.54.177 0F49DF8A7BAE10EE
+04/16/2017 16:45:26: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 16:45:26: Status changed to connected: 187.34.54.177
+04/16/2017 16:45:29: User Login: akaruz 187.34.54.177
+04/16/2017 16:45:30: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:22:37: ID: 2147483647
+04/16/2017 17:22:37: Discovery: Elysium Diamond #1.0.0
+04/16/2017 17:22:37: Port: 44405
+04/16/2017 17:22:37: Maximum Connection: 2000
+04/16/2017 17:22:37: Sleep: 1
+04/16/2017 17:22:37: Version: 1.0.155
+04/16/2017 17:22:37: GeoIp: Desativado
+04/16/2017 17:22:37: CheckSum: Desativado
+04/16/2017 17:22:37: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 17:22:37: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 17:22:37: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 17:22:37: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 17:22:37: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 17:22:37: Connectado ao banco de dados
+04/16/2017 17:22:40: Conectando World Server.
+04/16/2017 17:22:41: Login Server Start.
+04/16/2017 17:23:11: Connected World Server #火星
+04/16/2017 17:23:36: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:23:36: Status changed to connected: 187.34.54.177
+04/16/2017 17:23:39: User Login: akaruz 187.34.54.177
+04/16/2017 17:23:40: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:24:35: Status changed to disconnected: 8 akaruz 187.34.54.177 EEB51C8221EF7759
+04/16/2017 17:29:17: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:29:17: Status changed to connected: 187.34.54.177
+04/16/2017 17:29:22: User Login: akaruz 187.34.54.177
+04/16/2017 17:29:23: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:32:07: Status changed to disconnected: 8 akaruz 187.34.54.177 402C08CF4D1B286A
+04/16/2017 17:32:19: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:32:19: Status changed to connected: 187.34.54.177
+04/16/2017 17:32:22: User Login: akaruz 187.34.54.177
+04/16/2017 17:32:23: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:33:08: Status changed to disconnected: 8 akaruz 187.34.54.177 47855C90E1B87195
+04/16/2017 17:33:55: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:33:55: Status changed to connected: 187.34.54.177
+04/16/2017 17:33:58: User Login: akaruz 187.34.54.177
+04/16/2017 17:33:59: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:34:52: Status changed to disconnected: 8 akaruz 187.34.54.177 525DB4E868B90B68
+04/16/2017 17:36:42: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:36:42: Status changed to connected: 187.34.54.177
+04/16/2017 17:36:45: User Login: akaruz 187.34.54.177
+04/16/2017 17:36:46: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:37:33: Status changed to disconnected: 8 akaruz 187.34.54.177 B06BD7F22D5EC6BB
+04/16/2017 17:38:49: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:38:49: Status changed to connected: 187.34.54.177
+04/16/2017 17:38:51: User Login: akaruz 187.34.54.177
+04/16/2017 17:38:52: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:39:30: Status changed to disconnected: 8 akaruz 187.34.54.177 45EB19891E0A1742
+04/16/2017 17:40:11: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:40:12: Status changed to connected: 187.34.54.177
+04/16/2017 17:40:14: User Login: akaruz 187.34.54.177
+04/16/2017 17:40:15: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:40:53: Status changed to disconnected: 8 akaruz 187.34.54.177 F3B7DBCB28F07AC2
+04/16/2017 17:43:23: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:43:23: Status changed to connected: 187.34.54.177
+04/16/2017 17:44:01: User Login: akaruz 187.34.54.177
+04/16/2017 17:44:02: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:44:24: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:44:24: Status changed to connected: 187.34.54.177
+04/16/2017 17:44:29: User Login: akaruz 187.34.54.177
+04/16/2017 17:44:30: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:44:32: Status changed to disconnected: 0   E87D91F4557C6100
+04/16/2017 17:44:32: Status changed to disconnected: 8 akaruz 187.34.54.177 894B92205FFCC733
+04/16/2017 17:44:38: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:44:38: Status changed to connected: 187.34.54.177
+04/16/2017 17:44:41: User Login: akaruz 187.34.54.177
+04/16/2017 17:44:42: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:45:02: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:45:02: Status changed to connected: 187.34.54.177
+04/16/2017 17:45:09: Status changed to disconnected: 8 akaruz 187.34.54.177 DAEC55A369A87EB6
+04/16/2017 17:45:09: User Login: akaruz 187.34.54.177
+04/16/2017 17:45:12: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:45:54: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:45:54: Status changed to connected: 187.34.54.177
+04/16/2017 17:45:55: Status changed to disconnected: 8 akaruz 187.34.54.177 5A165804DEAB0491
+04/16/2017 17:45:57: User Login: akaruz 187.34.54.177
+04/16/2017 17:45:58: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:46:39: Status changed to disconnected: 8 akaruz 187.34.54.177 EE4B4982A7309DD1
+04/16/2017 17:53:47: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:53:47: Status changed to connected: 187.34.54.177
+04/16/2017 17:53:49: User Login: akaruz 187.34.54.177
+04/16/2017 17:53:50: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:54:28: Status changed to disconnected: 8 akaruz 187.34.54.177 9106D531FC9FCE22
+04/16/2017 17:55:39: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:55:39: Status changed to connected: 187.34.54.177
+04/16/2017 17:55:41: User Login: akaruz 187.34.54.177
+04/16/2017 17:55:42: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:56:38: Status changed to disconnected: 8 akaruz 187.34.54.177 B465E3770ADC4CBD
+04/16/2017 17:56:46: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 17:56:46: Status changed to connected: 187.34.54.177
+04/16/2017 17:56:49: User Login: akaruz 187.34.54.177
+04/16/2017 17:56:50: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 17:57:53: Status changed to disconnected: 8 akaruz 187.34.54.177 7F73AEB80932CFDC
+04/16/2017 18:02:36: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:02:36: Status changed to connected: 187.34.54.177
+04/16/2017 18:02:39: User Login: akaruz 187.34.54.177
+04/16/2017 18:02:40: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:03:45: Status changed to disconnected: 8 akaruz 187.34.54.177 E94E1E2A64742BC5
+04/16/2017 18:06:09: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:06:09: Status changed to connected: 187.34.54.177
+04/16/2017 18:06:12: User Login: akaruz 187.34.54.177
+04/16/2017 18:06:12: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:07:12: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:07:12: Status changed to connected: 187.34.54.177
+04/16/2017 18:07:20: Status changed to disconnected: 0   3C96FAF0BB100283
+04/16/2017 18:07:20: User Login: akaruz 187.34.54.177
+04/16/2017 18:07:21: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:09:04: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:09:04: Status changed to connected: 187.34.54.177
+04/16/2017 18:09:08: Status changed to disconnected: 8 akaruz 187.34.54.177 7FD50F0E50FDAC6C
+04/16/2017 18:09:35: User Login: akaruz 187.34.54.177
+04/16/2017 18:09:37: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:10:21: Status changed to disconnected: 8 akaruz 187.34.54.177 EEA98D6505A87C47
+04/16/2017 18:11:19: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:11:19: Status changed to connected: 187.34.54.177
+04/16/2017 18:11:33: User Login: akaruz 187.34.54.177
+04/16/2017 18:11:34: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:12:44: Status changed to disconnected: 8 akaruz 187.34.54.177 595A9536B4E7CF47
+04/16/2017 18:13:07: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:13:07: Status changed to connected: 187.34.54.177
+04/16/2017 18:13:37: User Login: akaruz 187.34.54.177
+04/16/2017 18:13:38: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:15:46: Status changed to disconnected: 8 akaruz 187.34.54.177 F736600028505CDA
+04/16/2017 18:21:36: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:21:36: Status changed to connected: 187.34.54.177
+04/16/2017 18:21:44: User Login: akaruz 187.34.54.177
+04/16/2017 18:21:52: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:24:17: Status changed to disconnected: 8 akaruz 187.34.54.177 B15DB57F417EFBDB
+04/16/2017 18:26:30: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:26:30: Status changed to connected: 187.34.54.177
+04/16/2017 18:26:33: User Login: akaruz 187.34.54.177
+04/16/2017 18:26:34: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:27:53: Status changed to disconnected: 8 akaruz 187.34.54.177 DEF8007384BB54EC
+04/16/2017 18:28:05: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:28:05: Status changed to connected: 187.34.54.177
+04/16/2017 18:28:08: User Login: akaruz 187.34.54.177
+04/16/2017 18:28:09: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:28:29: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:28:29: Status changed to connected: 187.34.54.177
+04/16/2017 18:28:40: Status changed to disconnected: 8 akaruz 187.34.54.177 7D10C7437F232B63
+04/16/2017 18:28:51: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:28:51: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:28:51: Status changed to connected: 187.34.54.177
+04/16/2017 18:28:54: User Login: akaruz 187.34.54.177
+04/16/2017 18:28:55: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:29:02: Status changed to disconnected: 0  187.34.54.177 CB6F57712CA2086B
+04/16/2017 18:29:13: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:29:13: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:29:13: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:29:13: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:29:13: Status changed to connected: 187.34.54.177
+04/16/2017 18:29:14: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:29:17: User Login: dragonick 187.34.54.177
+04/16/2017 18:29:18: World Server 火星 Login Attempt: dragonick 187.34.54.177
+04/16/2017 18:30:12: Status changed to disconnected: 14 dragonick 187.34.54.177 79060E0CC9583E5A
+04/16/2017 18:30:14: Status changed to disconnected: 8 akaruz 187.34.54.177 D587FEDFA4933A70
+04/16/2017 18:30:52: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:30:52: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:30:53: Status changed to connected: 187.34.54.177
+04/16/2017 18:30:56: User Login: akaruz 187.34.54.177
+04/16/2017 18:30:58: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:31:07: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:31:07: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:31:07: Status changed to connected: 187.34.54.177
+04/16/2017 18:31:11: User Login: dragonick 187.34.54.177
+04/16/2017 18:31:12: World Server 火星 Login Attempt: dragonick 187.34.54.177
+04/16/2017 18:31:50: Status changed to disconnected: 14 dragonick 187.34.54.177 3B641AB438039A7B
+04/16/2017 18:31:54: Status changed to disconnected: 8 akaruz 187.34.54.177 44550D2E7E778448
+04/16/2017 18:42:53: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:42:53: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:42:53: Status changed to connected: 187.34.54.177
+04/16/2017 18:43:02: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:43:02: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:43:02: Status changed to connected: 187.34.54.177
+04/16/2017 18:43:02: User Login: akaruz 187.34.54.177
+04/16/2017 18:43:03: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:43:13: User Login: dragonick 187.34.54.177
+04/16/2017 18:43:14: World Server 火星 Login Attempt: dragonick 187.34.54.177
+04/16/2017 18:43:51: Status changed to disconnected: 14 dragonick 187.34.54.177 0619AC1E5B39A72F
+04/16/2017 18:43:52: Status changed to disconnected: 8 akaruz 187.34.54.177 3FC9EA011B346FAA
+04/16/2017 18:45:08: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:45:08: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:45:08: Status changed to connected: 187.34.54.177
+04/16/2017 18:45:10: User Login: akaruz 187.34.54.177
+04/16/2017 18:45:11: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:45:20: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:45:20: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:45:20: Status changed to connected: 187.34.54.177
+04/16/2017 18:45:24: User Login: dragonick 187.34.54.177
+04/16/2017 18:45:25: World Server 火星 Login Attempt: dragonick 187.34.54.177
+04/16/2017 18:47:05: Status changed to disconnected: 14 dragonick 187.34.54.177 35B8F9EC67AA6937
+04/16/2017 18:47:06: Status changed to disconnected: 8 akaruz 187.34.54.177 4B8F7E232E4A8C07
+04/16/2017 18:47:33: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:47:33: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:47:33: Status changed to connected: 187.34.54.177
+04/16/2017 18:47:37: User Login: akaruz 187.34.54.177
+04/16/2017 18:47:38: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:48:17: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:48:17: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:48:17: Status changed to connected: 187.34.54.177
+04/16/2017 18:48:23: User Login: dragonick 187.34.54.177
+04/16/2017 18:48:24: World Server 火星 Login Attempt: dragonick 187.34.54.177
+04/16/2017 18:49:50: Status changed to disconnected: 8 akaruz 187.34.54.177 02C921A7FA6B427F
+04/16/2017 18:50:45: Status changed to disconnected: 14 dragonick 187.34.54.177 8581FAC2B6E2CBAF
+04/16/2017 18:52:45: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:52:45: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 18:52:45: Status changed to connected: 187.34.54.177
+04/16/2017 18:52:46: User Login: akaruz 187.34.54.177
+04/16/2017 18:52:47: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 18:53:26: Status changed to disconnected: 8 akaruz 187.34.54.177 BB111FCB3A3990A2
+04/16/2017 19:05:04: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 19:05:04: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 19:05:04: Status changed to connected: 187.34.54.177
+04/16/2017 19:05:08: User Login: akaruz 187.34.54.177
+04/16/2017 19:05:09: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 19:10:06: Status changed to disconnected: 8 akaruz 187.34.54.177 2765716CF3B1C347
+04/16/2017 19:10:23: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 19:10:23: Status changed to connected: 187.34.54.177
+04/16/2017 19:10:34: User Login: akaruz 187.34.54.177
+04/16/2017 19:10:36: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 19:13:07: Status changed to disconnected: 8 akaruz 187.34.54.177 B2C6D4AF8BF546B7
+04/16/2017 19:23:41: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 19:23:41: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 19:23:41: Status changed to connected: 187.34.54.177
+04/16/2017 19:23:45: User Login: akaruz 187.34.54.177
+04/16/2017 19:23:47: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 19:44:38: ID: 2147483647
+04/16/2017 19:44:38: Discovery: Elysium Diamond #1.0.0
+04/16/2017 19:44:38: Port: 44405
+04/16/2017 19:44:38: Maximum Connection: 2000
+04/16/2017 19:44:38: Sleep: 1
+04/16/2017 19:44:38: Version: 1.0.155
+04/16/2017 19:44:38: GeoIp: Desativado
+04/16/2017 19:44:38: CheckSum: Desativado
+04/16/2017 19:44:38: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 19:44:38: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 19:44:38: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 19:44:38: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 19:44:38: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 19:44:38: Connectado ao banco de dados
+04/16/2017 19:44:41: Conectando World Server.
+04/16/2017 19:44:42: Login Server Start.
+04/16/2017 19:45:02: Connected World Server #火星
+04/16/2017 20:09:55: Discovery Response IPEndPoint: 201.92.53.161
+04/16/2017 20:09:56: Status changed to connected: 201.92.53.161
+04/16/2017 20:10:00: User Login: akaruz 201.92.53.161
+04/16/2017 20:10:01: World Server 火星 Login Attempt: akaruz 201.92.53.161
+04/16/2017 20:10:29: Discovery Response IPEndPoint: 201.92.53.161
+04/16/2017 20:10:29: Status changed to connected: 201.92.53.161
+04/16/2017 20:10:36: User Login: dragonick 201.92.53.161
+04/16/2017 20:10:37: World Server 火星 Login Attempt: dragonick 201.92.53.161
+04/16/2017 20:11:32: Status changed to disconnected: 14 dragonick 201.92.53.161 703FDD88D0F2234A
+04/16/2017 20:12:24: Discovery Response IPEndPoint: 201.92.53.161
+04/16/2017 20:12:25: Status changed to connected: 201.92.53.161
+04/16/2017 20:12:42: User Login: akaruz 201.92.53.161
+04/16/2017 20:12:43: World Server 火星 Login Attempt: akaruz 201.92.53.161
+04/16/2017 20:12:43: Status changed to disconnected: 0   3D9523315B343CCD
+04/16/2017 20:13:09: Discovery Response IPEndPoint: 201.92.53.161
+04/16/2017 20:13:10: Status changed to connected: 201.92.53.161
+04/16/2017 20:13:20: User Login: dragonick 201.92.53.161
+04/16/2017 20:13:23: World Server 火星 Login Attempt: dragonick 201.92.53.161
+04/16/2017 20:14:28: Status changed to disconnected: 8 akaruz 201.92.53.161 193A63DC780A09E5
+04/16/2017 20:15:22: Discovery Response IPEndPoint: 201.92.53.161
+04/16/2017 20:15:23: Status changed to connected: 201.92.53.161
+04/16/2017 20:15:35: Status changed to disconnected: 14 dragonick 201.92.53.161 2A29D8EA1FFF46A6
+04/16/2017 20:15:39: Discovery Response IPEndPoint: 201.92.53.161
+04/16/2017 20:15:39: Status changed to connected: 201.92.53.161
+04/16/2017 20:15:59: Status changed to disconnected: 0  201.92.53.161 334C8AE687D13135
+04/16/2017 20:16:15: Status changed to disconnected: 0  201.92.53.161 9D1B7761A9D396E7
+04/16/2017 21:12:09: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:12:09: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:12:09: Status changed to connected: 187.34.54.177
+04/16/2017 21:12:13: User Login: akaruz 187.34.54.177
+04/16/2017 21:12:14: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 21:13:35: Status changed to disconnected: 8 akaruz 187.34.54.177 D8BDE402235411EF
+04/16/2017 21:46:40: ID: 2147483647
+04/16/2017 21:46:40: Discovery: Elysium Diamond #1.0.0
+04/16/2017 21:46:40: Port: 44405
+04/16/2017 21:46:40: Maximum Connection: 2000
+04/16/2017 21:46:40: Sleep: 1
+04/16/2017 21:46:40: Version: 1.0.155
+04/16/2017 21:46:40: GeoIp: Desativado
+04/16/2017 21:46:40: CheckSum: Desativado
+04/16/2017 21:46:40: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 21:46:40: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 21:46:40: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 21:46:40: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 21:46:40: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 21:46:40: Connectado ao banco de dados
+04/16/2017 21:46:42: Conectando World Server.
+04/16/2017 21:46:42: Login Server Start.
+04/16/2017 21:47:10: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:47:10: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:47:10: Status changed to connected: 187.34.54.177
+04/16/2017 21:47:23: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:47:23: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:47:23: Status changed to connected: 187.34.54.177
+04/16/2017 21:47:28: User Login: akaruz 187.34.54.177
+04/16/2017 21:47:37: Status changed to disconnected: 0  187.34.54.177 7A89B83616944566
+04/16/2017 21:47:53: User Login: akaruz 
+04/16/2017 21:47:54: World Server 火星 Login Attempt: akaruz 
+04/16/2017 21:48:16: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:48:16: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:48:16: Status changed to connected: 187.34.54.177
+04/16/2017 21:48:18: User Login: akaruz 187.34.54.177
+04/16/2017 21:49:23: ID: 2147483647
+04/16/2017 21:49:23: Discovery: Elysium Diamond #1.0.0
+04/16/2017 21:49:23: Port: 44405
+04/16/2017 21:49:23: Maximum Connection: 2000
+04/16/2017 21:49:23: Sleep: 1
+04/16/2017 21:49:23: Version: 1.0.155
+04/16/2017 21:49:23: GeoIp: Desativado
+04/16/2017 21:49:23: CheckSum: Desativado
+04/16/2017 21:49:23: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 21:49:23: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 21:49:23: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 21:49:23: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 21:49:23: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 21:49:23: Connectado ao banco de dados
+04/16/2017 21:49:23: Conectando World Server.
+04/16/2017 21:49:24: Login Server Start.
+04/16/2017 21:49:35: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:49:35: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:49:35: Status changed to connected: 187.34.54.177
+04/16/2017 21:49:37: User Login: akaruz 187.34.54.177
+04/16/2017 21:52:38: ID: 2147483647
+04/16/2017 21:52:38: Discovery: Elysium Diamond #1.0.0
+04/16/2017 21:52:38: Port: 44405
+04/16/2017 21:52:38: Maximum Connection: 2000
+04/16/2017 21:52:38: Sleep: 1
+04/16/2017 21:52:38: Version: 1.0.155
+04/16/2017 21:52:38: GeoIp: Desativado
+04/16/2017 21:52:38: CheckSum: Desativado
+04/16/2017 21:52:38: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 21:52:38: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 21:52:38: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 21:52:38: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 21:52:38: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 21:52:38: Connectado ao banco de dados
+04/16/2017 21:52:40: Conectando World Server.
+04/16/2017 21:52:41: Login Server Start.
+04/16/2017 21:52:50: Warning: Attempted IP Banned 187.34.54.177
+04/16/2017 21:52:50: Warning: Attempted IP Banned 187.34.54.177
+04/16/2017 21:52:51: Warning: Attempted IP Banned 187.34.54.177
+04/16/2017 21:52:52: Warning: Attempted IP Banned 187.34.54.177
+04/16/2017 21:52:53: Warning: Attempted IP Banned 187.34.54.177
+04/16/2017 21:52:54: Warning: Attempted IP Banned 187.34.54.177
+04/16/2017 21:52:55: Warning: Attempted IP Banned 187.34.54.177
+04/16/2017 21:52:56: Warning: Attempted IP Banned 187.34.54.177
+04/16/2017 21:54:24: ID: 2147483647
+04/16/2017 21:54:24: Discovery: Elysium Diamond #1.0.0
+04/16/2017 21:54:24: Port: 44405
+04/16/2017 21:54:24: Maximum Connection: 2000
+04/16/2017 21:54:24: Sleep: 1
+04/16/2017 21:54:24: Version: 1.0.155
+04/16/2017 21:54:24: GeoIp: Desativado
+04/16/2017 21:54:24: CheckSum: Desativado
+04/16/2017 21:54:24: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 21:54:24: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 21:54:24: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 21:54:24: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 21:54:24: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 21:54:24: Connectado ao banco de dados
+04/16/2017 21:54:26: Conectando World Server.
+04/16/2017 21:54:27: Login Server Start.
+04/16/2017 21:54:35: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:54:35: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:54:35: Status changed to connected: 187.34.54.177
+04/16/2017 21:54:37: User Login: akaruz 187.34.54.177
+04/16/2017 21:54:38: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 21:55:24: Status changed to disconnected: 0   19C1B0524911D313
+04/16/2017 21:58:51: ID: 2147483647
+04/16/2017 21:58:51: Discovery: Elysium Diamond #1.0.0
+04/16/2017 21:58:51: Port: 44405
+04/16/2017 21:58:51: Maximum Connection: 2000
+04/16/2017 21:58:51: Sleep: 1
+04/16/2017 21:58:51: Version: 1.0.155
+04/16/2017 21:58:51: GeoIp: Desativado
+04/16/2017 21:58:51: CheckSum: Desativado
+04/16/2017 21:58:51: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 21:58:51: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 21:58:51: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 21:58:51: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 21:58:51: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 21:58:51: Connectado ao banco de dados
+04/16/2017 21:58:51: Conectando World Server.
+04/16/2017 21:58:52: Login Server Start.
+04/16/2017 21:59:00: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:59:00: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:59:00: Status changed to connected: 187.34.54.177
+04/16/2017 21:59:03: User Login: akaruz 187.34.54.177
+04/16/2017 21:59:26: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:59:26: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 21:59:27: Status changed to connected: 187.34.54.177
+04/16/2017 21:59:28: User Login: akaruz 187.34.54.177
+04/16/2017 21:59:40: Status changed to disconnected: 0   1FDF9DB1CE369669
+04/16/2017 22:07:53: ID: 2147483647
+04/16/2017 22:07:53: Discovery: Elysium Diamond #1.0.0
+04/16/2017 22:07:53: Port: 44405
+04/16/2017 22:07:53: Maximum Connection: 2000
+04/16/2017 22:07:53: Sleep: 1
+04/16/2017 22:07:53: Version: 1.0.155
+04/16/2017 22:07:53: GeoIp: Desativado
+04/16/2017 22:07:53: CheckSum: Desativado
+04/16/2017 22:07:53: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 22:07:53: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 22:07:53: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 22:07:53: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 22:07:53: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 22:07:53: Connectado ao banco de dados
+04/16/2017 22:07:56: Conectando World Server.
+04/16/2017 22:07:57: Login Server Start.
+04/16/2017 22:08:08: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:08:08: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:08:08: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:08:08: Status changed to connected: 187.34.54.177
+04/16/2017 22:08:27: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:08:27: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:08:27: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:08:27: Status changed to connected: 187.34.54.177
+04/16/2017 22:08:35: Status changed to disconnected: 0  187.34.54.177 DBDAF84A1F81209F
+04/16/2017 22:08:35: User Login: akaruz 187.34.54.177
+04/16/2017 22:11:11: ID: 2147483647
+04/16/2017 22:11:11: Discovery: Elysium Diamond #1.0.0
+04/16/2017 22:11:11: Port: 44405
+04/16/2017 22:11:11: Maximum Connection: 2000
+04/16/2017 22:11:11: Sleep: 1
+04/16/2017 22:11:11: Version: 1.0.155
+04/16/2017 22:11:11: GeoIp: Desativado
+04/16/2017 22:11:11: CheckSum: Desativado
+04/16/2017 22:11:11: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 22:11:11: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 22:11:11: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 22:11:11: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 22:11:11: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 22:11:11: Connectado ao banco de dados
+04/16/2017 22:11:13: Conectando World Server.
+04/16/2017 22:11:14: Login Server Start.
+04/16/2017 22:11:25: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:11:25: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:11:25: Status changed to connected: 187.34.54.177
+04/16/2017 22:11:36: User Login: akaruz 187.34.54.177
+04/16/2017 22:11:37: World Server 火星 Login Attempt: akaruz 187.34.54.177
+04/16/2017 22:12:12: Status changed to disconnected: 0   F359007087155EF9
+04/16/2017 22:24:44: ID: 2147483647
+04/16/2017 22:24:44: Discovery: Elysium Diamond #1.0.0
+04/16/2017 22:24:44: Port: 44405
+04/16/2017 22:24:44: Maximum Connection: 2000
+04/16/2017 22:24:44: Sleep: 1
+04/16/2017 22:24:44: Version: 1.0.155
+04/16/2017 22:24:44: GeoIp: Desativado
+04/16/2017 22:24:44: CheckSum: Desativado
+04/16/2017 22:24:44: Servidor adicionado: 火星 (JP) 普通
+04/16/2017 22:24:44: Servidor adicionado: 木星 (JP) 普通
+04/16/2017 22:24:44: Servidor adicionado: 화성 (KR) 표준
+04/16/2017 22:24:44: Servidor adicionado: Local Server (BR) Privado
+04/16/2017 22:24:44: Servidor adicionado: Event Server Test (BR) PvP
+04/16/2017 22:24:44: Connectado ao banco de dados
+04/16/2017 22:24:46: Conectando World Server.
+04/16/2017 22:24:47: Login Server Start.
+04/16/2017 22:24:57: Connected World Server #火星
+04/16/2017 22:25:06: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:25:06: Discovery Response IPEndPoint: 187.34.54.177
+04/16/2017 22:25:06: Status changed to connected: 187.34.54.177
+04/16/2017 22:25:09: User Login: akaruz 187.34.54.177
+04/16/2017 22:25:10: World Server 火星 Login Attempt: akaruz 187.34.54.177

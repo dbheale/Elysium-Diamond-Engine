@@ -9,14 +9,6 @@ namespace WorldServer.Server {
         private static HashSet<string> names = new HashSet<string>();
 
         /// <summary>
-        /// Adiciona um nome a lista.
-        /// </summary>
-        /// <param name="name"></param>
-        public static void Add(string name) {
-            names.Add(name);
-        }
-
-        /// <summary>
         /// Adiciona um array de nomes.
         /// </summary>
         /// <param name="name"></param>
@@ -32,22 +24,14 @@ namespace WorldServer.Server {
         /// <param name="name"></param>
         /// <returns></returns>
         public static bool Compare(string name) {
-            return (FindName(name)) ? true : false; 
-        }
-
-        /// <summary>
-        /// Procura o item no hashset.
-        /// </summary>
-        /// <param name="name"></param>
-        /// <returns></returns>
-        private static bool FindName(string name) {
             if (string.IsNullOrEmpty(name))  return false; 
 
             var find_name = from nData in names
-                             where nData.CompareTo(name) == 0
+                             where string.Compare(nData, name, true) == 0
                              select nData;
 
-            return (string.IsNullOrEmpty(find_name.FirstOrDefault())) ? true : false;
+            //retorna falso, quando a string é nula ou vazia
+            return (string.IsNullOrEmpty(find_name.FirstOrDefault())) ? false : true;
         }
 
         /// <summary>

@@ -10,22 +10,22 @@ namespace Elysium_Diamond.DirectX {
     public static class EngineMultimedia {
         public static EngineSoundManager SoundManager { get; set; }
         private static List<EngineMusic> Player { get; set; }
-        private static List<EngineSound> Sound { get; set; }
+        private static List<SoundEngine> Sound { get; set; }
 
         /// <summary>
         /// Instancia e inicializa os arquivos de audio.
         /// </summary>
         public static void Initialize() {
             SoundManager = new EngineSoundManager();
-            Sound = new List<EngineSound>();
+            Sound = new List<SoundEngine>();
 
             Player = new List<EngineMusic>();
             Player.Add(new EngineMusic("Lineage 2 Ertheia - The Epic Tales of Aden.mp3", "Ertheia"));
             Player.Add(new EngineMusic("scene_1.wav", "Scene"));
 
             //Carrega os arquivos.
-            Sound.Add(new EngineSound(Configuration.GamePath + @"\Data\Sound\0.wav"));
-            Sound.Add(new EngineSound(Configuration.GamePath + @"\Data\Sound\1.wav"));        
+            Sound.Add(new SoundEngine(Configuration.GamePath + @"\Data\Sound\0.wav"));
+            Sound.Add(new SoundEngine(Configuration.GamePath + @"\Data\Sound\1.wav"));        
         }
 
         /// <summary>

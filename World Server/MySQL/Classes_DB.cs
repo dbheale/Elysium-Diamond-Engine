@@ -1,16 +1,14 @@
-﻿using System;
-using MySql.Data.MySqlClient;
-using WorldServer.Items;
+﻿using MySql.Data.MySqlClient;
 using WorldServer.Server;
 
 namespace WorldServer.MySQL {
-    public class Classes_DB {
+    public static class Classes_DB {
         /// <summary>
         /// Carrega todas as classes.
         /// </summary>
         public static void GetClasseStatsBase() {
-            var varQuery = "SELECT * FROM classes";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = "SELECT * FROM classes";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             var reader = cmd.ExecuteReader();     
 
             while (reader.Read()) { 
@@ -30,7 +28,6 @@ namespace WorldServer.MySQL {
                 _base.Wisdom = (int)reader["wisdom"];
                 _base.Will = (int)reader["will"];
                 _base.Mind = (int)reader["mind"];
-                _base.Charisma = (int)reader["charisma"];
                 _base.Points = (int)reader["points"];
                 index++;
             }

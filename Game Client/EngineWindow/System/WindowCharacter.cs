@@ -27,7 +27,7 @@ namespace Elysium_Diamond.EngineWindow {
         /// <summary>
         /// Imagem de fundo de personagem
         /// </summary>
-        private static EngineObject[] charbackground = new EngineObject[MAX_OBJECT];   
+        private static EngineObject[] charbackground = new EngineObject[MAX_OBJECT];
 
         /// <summary>
         /// Fundo selecionavel
@@ -57,6 +57,8 @@ namespace Elysium_Diamond.EngineWindow {
         private static bool letContinue = false;
         //##########
 
+        private static int tick_time;
+
         /// <summary>
         ///  Inicializa e define a configuração dos controles.
         /// </summary>
@@ -81,7 +83,6 @@ namespace Elysium_Diamond.EngineWindow {
                 charbackground[n].MouseUp += Select_MouseUp;
                 charbackground[n].BorderRect = new Rectangle(0, 0, 127, 134);
                 charbackground[n].Position = new Point((Position.X + 49) + (n * 127), Position.Y + 70);
-
 
                 selected_background[n] = new EngineObject();
                 selected_background[n].Texture = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\selectchar_selected.png", 127, 134);
@@ -145,7 +146,7 @@ namespace Elysium_Diamond.EngineWindow {
 
             //Desenha a janela de fundo do personagem.
             for (int n = 0; n < MAX_OBJECT; n++) { charbackground[n].Execute(); } //chama o método do mouse e draw. 
-              
+
             //Desenha o objeto selecionado
             selected_background[SelectedIndex].Draw();
 
@@ -156,7 +157,9 @@ namespace Elysium_Diamond.EngineWindow {
             for (int n = 0; n < MAX_OBJECT; n++) { DrawPlayer(n, n * 127); }
 
             //Botões
-            for (int n = 0; n < MAX_OBJECT; n++) { button[n].Draw(); }               
+            for (int n = 0; n < MAX_OBJECT; n++) { button[n].Draw(); }
+
+            TickTime();
         }
 
         /// <summary>
@@ -169,12 +172,18 @@ namespace Elysium_Diamond.EngineWindow {
             if (Player[index].Sprite <= 0) { return; }
 
             EngineCore.SpriteDevice.Begin(SpriteFlags.AlphaBlend);
-            EngineCore.SpriteDevice.Draw(SpriteManager.FindByID(Player[index].Sprite), new ColorBGRA(255, 255, 255, Player[index].Transparency), new Rectangle(128, 0, 32, 32), new Vector3(0, 0, 0), new Vector3(Position.X + 94 + x, Position.Y + 110, 0));
+            EngineCore.SpriteDevice.Draw(EngineTexture.FindTextureByID(Player[index].Sprite, EngineTextureType.Sprites), new ColorBGRA(255, 255, 255, Player[index].Transparency), new Rectangle(128, 0, 32, 32), new Vector3(0, 0, 0), new Vector3(Position.X + 94 + x, Position.Y + 110, 0));
             EngineCore.SpriteDevice.End();
+            //   
+            if (Player[index].Pending) {
+                EngineFont.DrawText(Player[index].TimeString, new Size2(127, 134), new Point(Position.X + 49 + x, Position.Y + 85), Color.White, EngineFontStyle.Italic, FontDrawFlags.Center);
+                //   if (Player[index].Time > 0) EngineFont.DrawText("Exclusão " + Player[index].Time + " Min.", new Size2(127, 134), new Point(Position.X + 49 + x, Position.Y + 85), Color.White, EngineFontStyle.Italic, FontDrawFlags.Center);
+                //    if (Player[index].Time == 0) EngineFont.DrawText("Exclusão " + Player[index].TickTime + " Sec.", new Size2(127, 134), new Point(Position.X + 49 + x, Position.Y + 85), Color.White, EngineFontStyle.Italic, FontDrawFlags.Center);
+            }
 
-            EngineFont.DrawText(null, Player[index].Name, new Size2(127, 134), new Point(Position.X + 49 + x, Position.Y + 30), Color.DarkViolet, EngineFontStyle.Regular, FontDrawFlags.Center);
-            EngineFont.DrawText(null, Player[index].Class, new Size2(127, 134), new Point(Position.X + 49 + x, Position.Y + 100), Color.Coral, EngineFontStyle.Regular, FontDrawFlags.Center);
-            EngineFont.DrawText(null, "Lv. " + Player[index].Level, new Size2(127, 134), new Point(Position.X + 49 + x, Position.Y + 120), Color.RoyalBlue, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText(Player[index].Name, new Size2(127, 134), new Point(Position.X + 49 + x, Position.Y + 30), Color.DarkViolet, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText(Player[index].Class, new Size2(127, 134), new Point(Position.X + 49 + x, Position.Y + 100), Color.Coral, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText("Lv. " + Player[index].Level, new Size2(127, 134), new Point(Position.X + 49 + x, Position.Y + 120), Color.RoyalBlue, EngineFontStyle.Regular, FontDrawFlags.Center);
         }
 
         /// <summary>
@@ -182,9 +191,10 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private static void Select_MouseUp(object sender, EventArgs e) {
+        private static void Select_MouseUp(object sender, EngineEventArgs e) {
             if (EngineMessageBox.Visible) { return; }
             if (EngineInputBox.Visible) { return; }
+            if (WindowPin.Visible) return;
 
             SelectedIndex = ((EngineObject)sender).Index;
             castFrameIndex = 0;
@@ -195,28 +205,27 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void Start_MouseUp(object sender, EventArgs e) {
+        public static void Start_MouseUp(object sender, EngineEventArgs e) {
             if (EngineMessageBox.Visible) { return; }
             if (EngineInputBox.Visible) { return; }
+            if (WindowPin.Visible) return;
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
             if (Player[SelectedIndex].Name.Length <= 0) { return; }
 
-            EngineMessageBox.Enabled = false;
-            EngineMessageBox.Show("Aguardando conexão");
-
             WorldPacket.StartGame((byte)SelectedIndex);
         }
-        
+
         /// <summary>
         /// Cria um novo personagem.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void Create_MouseUp(object sender, EventArgs e) {
+        public static void Create_MouseUp(object sender, EngineEventArgs e) {
             if (EngineMessageBox.Visible) { return; }
             if (EngineInputBox.Visible) { return; }
+            if (WindowPin.Visible) return;
 
             if (!string.IsNullOrEmpty(Player[SelectedIndex].Name)) { return; }
             if (Player[SelectedIndex].Sprite > 0) { return; }
@@ -230,9 +239,10 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void Delete_MouseUp(object sender, EventArgs e) {
+        public static void Delete_MouseUp(object sender, EngineEventArgs e) {
             if (EngineMessageBox.Visible) { return; }
             if (EngineInputBox.Visible) { return; }
+            if (WindowPin.Visible) return;
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
@@ -246,9 +256,10 @@ namespace Elysium_Diamond.EngineWindow {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public static void Server_MouseUp(object sender, EventArgs e) {
+        public static void Server_MouseUp(object sender, EngineEventArgs e) {
             if (EngineMessageBox.Visible) { return; }
             if (EngineInputBox.Visible) { return; }
+            if (WindowPin.Visible) return;
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
@@ -285,6 +296,32 @@ namespace Elysium_Diamond.EngineWindow {
             EngineCore.SpriteDevice.Begin(SpriteFlags.AlphaBlend);
             EngineCore.SpriteDevice.Draw(cast[castFrameIndex], Color.White, new Rectangle(0, 0, 192, 192), new Vector3(0, 0, 0), new Vector3(Position.X + 14 + x, Position.Y + 30, 0));
             EngineCore.SpriteDevice.End();
+        }
+
+        private static void TickTime() {
+            if (Environment.TickCount >= tick_time + 1000) {
+                tick_time = Environment.TickCount;
+
+                for (var n = 0; n < 4; n++) {
+                    if (Player[n].Pending) {
+
+                        Player[n].Time = Player[n].Time.Subtract(new TimeSpan(0, 0, 1));
+
+                        if (Player[n].Time.Hours > 0) {
+                            Player[n].TimeString = "Exclusão " + Player[n].Time.Hours + " Hora.";
+                        }
+                        else if (Player[n].Time.Minutes > 0) {
+                            Player[n].TimeString = "Exclusão " + Player[n].Time.Minutes + " Min.";
+                        }
+                        else if (Player[n].Time.Seconds > 0) {
+                            Player[n].TimeString = "Exclusão " + Player[n].Time.Seconds + " Sec.";
+                        }
+                        else if (Player[n].Time.TotalSeconds <= 0) {
+                            Player[n].TimeString = "Processando";
+                        }
+                    }
+                }
+            }
         }
 
         /// <summary>

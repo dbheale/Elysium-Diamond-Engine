@@ -5,6 +5,9 @@ using Color = SharpDX.Color;
 
 namespace Elysium_Diamond.DirectX {
     public class EngineTextBox : EngineObject {
+        private Color _textColor;
+        private byte _textTransparency;
+
         /// <summary>
         /// Obtem ou altera o cursor.
         /// </summary>
@@ -16,9 +19,21 @@ namespace Elysium_Diamond.DirectX {
         public string Text { get; set; }
 
         /// <summary>
+        /// Quantidade máxima de caracteres.
+        /// </summary>
+        public short MaxLenght { get; set; } = 12;
+
+        /// <summary>
         /// Obtem ou altera a cor do texto.
         /// </summary>
-        public Color TextColor { get; set; }
+        public Color TextColor {
+            get {
+                return _textColor;
+            }
+            set {
+                _textColor = new Color(value.R, value.G, value.B, _textTransparency);
+            }
+        }
 
         /// <summary>
         /// Obtem ou altera a visibilidade do texto.
@@ -28,7 +43,15 @@ namespace Elysium_Diamond.DirectX {
         /// <summary>
         /// Obtem ou altera a transparencia do texto.
         /// </summary>
-        public byte TextTransparency { get; set; }
+        public byte TextTransparency {
+            get {
+                return _textTransparency;
+            }
+            set {
+                _textTransparency = value;
+                _textColor = new Color(_textColor.R, _textColor.G, _textColor.B, value);
+            }
+        }
 
         /// <summary>
         /// Obtem ou altera a senha.
@@ -55,8 +78,10 @@ namespace Elysium_Diamond.DirectX {
         /// </summary>
         public FontDrawFlags TextFormat { get; set; }
 
-        public int TextPositionX { get; set; }
-        public int TextPositionY { get; set; }
+        /// <summary>
+        /// Posição do texto dentro do controle.
+        /// </summary>
+        public Point TextPosition { get; set; }
 
         /// <summary>
         /// Tempo para piscar o cursor na tela.
@@ -76,7 +101,7 @@ namespace Elysium_Diamond.DirectX {
             Password = false;
             PasswordText = string.Empty;
 
-            Texture = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\{name}.png", width, height);
+            Texture = EngineTexture.TextureFromFile($"./Data/Graphics/{name}.png", width, height);
             varTime = Environment.TickCount;
         }
 
@@ -94,18 +119,17 @@ namespace Elysium_Diamond.DirectX {
             DrawCursor();
 
             if (Password) {
-                rec_cursor = EngineFont.MeasureString(null, EngineFontStyle.Regular, PasswordText, TextFormat);
-                EngineFont.DrawText(null, PasswordText, Size, new Point(Position.X, Position.Y + 4), new Color(TextColor.R, TextColor.G, TextColor.B, TextTransparency), EngineFontStyle.Regular, TextFormat);
+                rec_cursor = EngineFont.MeasureString(EngineFontStyle.Regular, PasswordText, TextFormat);
+                EngineFont.DrawText(PasswordText, Size, new Point(Position.X, Position.Y + 4), _textColor, EngineFontStyle.Regular, TextFormat);
             }
             else {
-                rec_cursor = EngineFont.MeasureString(null, EngineFontStyle.Regular, Text, TextFormat);
-                EngineFont.DrawText(null, Text, Size, new Point(Position.X, Position.Y + 4), new Color(TextColor.R, TextColor.G, TextColor.B, TextTransparency), EngineFontStyle.Regular, TextFormat, false);
+                rec_cursor = EngineFont.MeasureString(EngineFontStyle.Regular, Text, TextFormat);
+                EngineFont.DrawText(Text, Size, new Point(Position.X, Position.Y + 4), _textColor, EngineFontStyle.Regular, TextFormat, false);
             }
 
-            TextPositionX = Position.X + ((Size.Width - rec_cursor.Width) / 2) + rec_cursor.Width;
-            TextPositionY = Position.Y + 4;
-
-            EngineFont.DrawText(null, Cursor, Position.X + ((Size.Width - rec_cursor.Width) / 2) + rec_cursor.Width, Position.Y + 4, new Color(TextColor.R, TextColor.G, TextColor.B, TextTransparency), EngineFontStyle.Regular);
+            TextPosition = new Point(Position.X + ((Size.Width - rec_cursor.Width) / 2) + rec_cursor.Width, Position.Y + 4);
+  
+            EngineFont.DrawText(Cursor, Position.X + ((Size.Width - rec_cursor.Width) / 2) + rec_cursor.Width, Position.Y + 4, _textColor, EngineFontStyle.Regular);
         }
 
         /// <summary>
@@ -115,10 +139,10 @@ namespace Elysium_Diamond.DirectX {
             DrawCursor();
 
             if (Password) {
-                EngineFont.DrawText(null, PasswordText + Cursor, Position.X + 10, Position.Y + 4, new Color(TextColor.R, TextColor.G, TextColor.B, TextTransparency), EngineFontStyle.Regular);
+                EngineFont.DrawText(PasswordText + Cursor, Position.X + 10, Position.Y + 4, _textColor, EngineFontStyle.Regular);
             }
             else {
-                EngineFont.DrawText(null, Text + Cursor, Position.X + 10, Position.Y + 4, new Color(TextColor.R, TextColor.G, TextColor.B, TextTransparency), EngineFontStyle.Regular);
+                EngineFont.DrawText(Text + Cursor, Position.X + 10, Position.Y + 4, _textColor, EngineFontStyle.Regular);
             }
         }
 
@@ -150,8 +174,10 @@ namespace Elysium_Diamond.DirectX {
         /// </summary>
         /// <param name="character">KeyChar</param>
         public void AddText(char character) {
-            Text += character;
-            if (Password) PasswordText += "*";
+            if (Text.Length < MaxLenght) {
+                Text += character;
+                if (Password) PasswordText += "*";
+            }
         }
 
         /// <summary>

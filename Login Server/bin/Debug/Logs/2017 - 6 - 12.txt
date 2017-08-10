@@ -1,0 +1,18 @@
+2017/06/12 23:58:11: ID: -1
+2017/06/12 23:58:11: Discovery: Elysium Diamond #1.0.0
+2017/06/12 23:58:11: Port: 44405
+2017/06/12 23:58:11: Maximum Connection: 1000
+2017/06/12 23:58:11: Sleep: 0
+2017/06/12 23:58:11: Versão: 1.2.10
+2017/06/12 23:58:11: GeoIp: Desativado
+2017/06/12 23:58:11: CheckSum: Desativado
+2017/06/12 23:58:11: PinCheckTime: 15
+2017/06/12 23:58:11: Servidor adicionado: 火星 (JP) 普通
+2017/06/12 23:58:11: Servidor adicionado: 木星 (JP) 普通
+2017/06/12 23:58:11: Servidor adicionado: 화성 (KR) 표준
+2017/06/12 23:58:11: Servidor adicionado: Local Server (BR) Privado
+2017/06/12 23:58:11: Connectado ao banco de dados
+2017/06/12 23:58:12: Conectando World Server
+2017/06/12 23:58:13: Login Server Start
+2017/06/12 23:58:40: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/12 23:58:40: Status changed to connected: 127.0.0.1

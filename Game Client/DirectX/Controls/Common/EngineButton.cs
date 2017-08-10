@@ -1,11 +1,13 @@
 ﻿using System;
 using SharpDX;
 using SharpDX.Direct3D9;
-using Color = SharpDX.Color;
 
 namespace Elysium_Diamond.DirectX {
     public class EngineButton : EngineObject, IDisposable {
-        const int TOTAL_FILE = 3;   //Quantidade de texturas.
+        /// <summary>
+        /// Quantidade de texturas.
+        /// </summary>
+        const int TOTAL_FILE = 3; 
 
         /// <summary>
         /// Obtem ou altera o estado atual do botão.
@@ -28,9 +30,9 @@ namespace Elysium_Diamond.DirectX {
 
             string language = Enum.GetName(typeof(Language), Common.Configuration.Language);
 
-            texture[(int)EngineButtonStyle.Inactive] = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\{language}\\{name}_inactive.png", width, height);
-            texture[(int)EngineButtonStyle.Hover] = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\{language}\\{name}_hover.png", width, height);
-            texture[(int)EngineButtonStyle.Active] = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\{language}\\{name}_active.png", width, height);
+            texture[(int)EngineButtonStyle.Inactive] = EngineTexture.TextureFromFile($"./Data/Graphics/{language}/{name}_inactive.png", width, height);
+            texture[(int)EngineButtonStyle.Hover] = EngineTexture.TextureFromFile($"./Data/Graphics/{language}/{name}_hover.png", width, height);
+            texture[(int)EngineButtonStyle.Active] = EngineTexture.TextureFromFile($"./Data/Graphics/{language}/{name}_active.png", width, height);
         }
 
         /// <summary>
@@ -41,7 +43,7 @@ namespace Elysium_Diamond.DirectX {
         }
 
         /// <summary>
-        /// Desenha o controle de acordo com as coordenadas.
+        /// Desenha o controle.
         /// </summary>
         public override void Draw() {
             if (!Visible) { return; }
@@ -53,24 +55,29 @@ namespace Elysium_Diamond.DirectX {
                 if (InsideButton()) {
                     if (!move) {
                         move = true;
-                        OnMouseMove(EventArgs.Empty);
+                        OnMouseMove(EngineEventArgs.Empty);
                     }
 
                     State = EngineButtonStyle.Hover;
 
-                    if (EngineCore.MouseDown) {
+                     //if (EngineCore.MouseLeft || EngineCore.MouseRight) {
+                     if (EngineCore.MouseLeft) {
                         State = EngineButtonStyle.Active;
+                        left = EngineCore.MouseLeft;
+                        //right = EngineCore.MouseRight;
 
                         if (!click) {
-                            OnMouseDown(EventArgs.Empty);
+                            OnMouseDown(new EngineEventArgs(left, right));
                             click = true;
                         }
                     }
                     else {
                         if (click) {
-                            OnMouseUp(EventArgs.Empty);
+                            OnMouseUp(new EngineEventArgs(left, right));
                         }
 
+                        left = false;
+                        //right = false;
                         click = false;
                         State = EngineButtonStyle.Hover;
                     }
@@ -78,13 +85,13 @@ namespace Elysium_Diamond.DirectX {
                 else {
                     if (move) {
                         move = false;
-                        OnMouseLeave(EventArgs.Empty);
+                        OnMouseLeave(EngineEventArgs.Empty);
                     }
                 }
             }
 
             EngineCore.SpriteDevice.Begin(SpriteFlags);
-            EngineCore.SpriteDevice.Draw(texture[(int)State], new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(Position.X, Position.Y, 0));
+            EngineCore.SpriteDevice.Draw(texture[(int)State], _color, SourceRect, null, _position);
             EngineCore.SpriteDevice.End();
         }
     }

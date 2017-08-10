@@ -1,0 +1,162 @@
+2017/06/17 19:15:54: WorldID: 2
+2017/06/17 19:15:54: Server Name: artemis
+2017/06/17 19:15:54: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:15:54: Port: 55901
+2017/06/17 19:15:54: Maximum Connections: 1000
+2017/06/17 19:15:54: Logs: Ativado
+2017/06/17 19:15:54: Sleep: 1
+2017/06/17 19:15:54: Pin: False
+2017/06/17 19:15:54: PinMaxAttempt: 5
+2017/06/17 19:15:54: PinBannedTime: 15
+2017/06/17 19:15:54: Connect Ip: 127.0.0.1
+2017/06/17 19:15:54: Connect Port: 57550
+2017/06/17 19:15:54: Carregando config do mysql
+2017/06/17 19:15:54: Connectado ao banco de dados
+2017/06/17 19:15:57: Carregando mensagens do servidor
+2017/06/17 19:15:57: Carregando a loja de items
+2017/06/17 19:15:57: Carregando scripts
+2017/06/17 19:15:58: Create Character: Ativo
+2017/06/17 19:15:58: Delete Character: Ativo
+2017/06/17 19:15:58: World Server Start
+2017/06/17 19:15:58: Connect Server connected
+2017/06/17 19:15:59: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:15:59: Status changed to connected: 127.0.0.1
+2017/06/17 19:15:59: Data From Client: 
+2017/06/17 19:16:04: Data From Login Server ID: 1 Account: akaruz A6A26718CC321343
+2017/06/17 19:16:04: Status changed to disconnected: 0  127.0.0.1 
+2017/06/17 19:16:05: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:16:05: Status changed to connected: 127.0.0.1
+2017/06/17 19:16:05: Data From Client: A6A26718CC321343
+2017/06/17 19:16:05: Player Found ID: 1 Account: akaruz A6A26718CC321343
+2017/06/17 19:16:05: PreLoad ID: 1 Account: akaruz
+2017/06/17 19:16:54: Status changed to disconnected: 1 akaruz 127.0.0.1 A6A26718CC321343
+2017/06/17 19:25:43: WorldID: 2
+2017/06/17 19:25:43: Server Name: artemis
+2017/06/17 19:25:43: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:25:43: Port: 55901
+2017/06/17 19:25:43: Maximum Connections: 1000
+2017/06/17 19:25:43: Logs: Ativado
+2017/06/17 19:25:43: Sleep: 1
+2017/06/17 19:25:43: Pin: False
+2017/06/17 19:25:43: PinMaxAttempt: 5
+2017/06/17 19:25:43: PinBannedTime: 15
+2017/06/17 19:25:43: Connect Ip: 127.0.0.1
+2017/06/17 19:25:43: Connect Port: 57550
+2017/06/17 19:25:43: Carregando config do mysql
+2017/06/17 19:25:43: Connectado ao banco de dados
+2017/06/17 19:25:46: Carregando mensagens do servidor
+2017/06/17 19:25:46: Carregando a loja de items
+2017/06/17 19:25:46: Carregando scripts
+2017/06/17 19:25:46: Create Character: Ativo
+2017/06/17 19:25:46: Delete Character: Ativo
+2017/06/17 19:25:46: World Server Start
+2017/06/17 19:25:46: Connect Server connected
+2017/06/17 19:27:28: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:27:28: Status changed to connected: 127.0.0.1
+2017/06/17 19:27:28: Data From Client: DF63D9622BAADB42
+2017/06/17 19:27:39: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:27:39: Status changed to connected: 127.0.0.1
+2017/06/17 19:27:39: Data From Client: 
+2017/06/17 19:27:42: Status changed to disconnected: 0  127.0.0.1 
+2017/06/17 19:27:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:27:43: Status changed to connected: 127.0.0.1
+2017/06/17 19:27:43: Data From Client: DF63D9622BAADB42
+2017/06/17 19:27:54: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:27:54: Status changed to connected: 127.0.0.1
+2017/06/17 19:27:54: Data From Client: 
+2017/06/17 19:30:53: WorldID: 2
+2017/06/17 19:30:53: Server Name: artemis
+2017/06/17 19:30:53: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:30:53: Port: 55901
+2017/06/17 19:30:53: Maximum Connections: 1000
+2017/06/17 19:30:53: Logs: Ativado
+2017/06/17 19:30:53: Sleep: 1
+2017/06/17 19:30:53: Pin: False
+2017/06/17 19:30:53: PinMaxAttempt: 5
+2017/06/17 19:30:53: PinBannedTime: 15
+2017/06/17 19:30:53: Connect Ip: 127.0.0.1
+2017/06/17 19:30:53: Connect Port: 57550
+2017/06/17 19:30:53: Carregando config do mysql
+2017/06/17 19:30:53: Connectado ao banco de dados
+2017/06/17 19:30:56: Carregando mensagens do servidor
+2017/06/17 19:30:56: Carregando a loja de items
+2017/06/17 19:30:56: Carregando scripts
+2017/06/17 19:30:56: Create Character: Ativo
+2017/06/17 19:30:56: Delete Character: Ativo
+2017/06/17 19:30:56: World Server Start
+2017/06/17 19:30:57: Connect Server connected
+2017/06/17 19:31:48: Data From Login Server ID: 1 Account: akaruz 4DED6CF45B5035D1
+2017/06/17 19:31:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:31:48: Status changed to connected: 127.0.0.1
+2017/06/17 19:31:48: Data From Client: 4DED6CF45B5035D1
+2017/06/17 19:31:48: Player Found ID: 1 Account: akaruz 4DED6CF45B5035D1
+2017/06/17 19:31:48: PreLoad ID: 1 Account: akaruz
+2017/06/17 19:32:13: Status changed to disconnected: 1 akaruz 127.0.0.1 4DED6CF45B5035D1
+2017/06/17 19:32:41: Data From Login Server ID: 1 Account: akaruz 9E7AB80E0D76C24A
+2017/06/17 19:32:41: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:32:41: Status changed to connected: 127.0.0.1
+2017/06/17 19:32:41: Data From Client: 9E7AB80E0D76C24A
+2017/06/17 19:32:41: Player Found ID: 1 Account: akaruz 9E7AB80E0D76C24A
+2017/06/17 19:32:41: PreLoad ID: 1 Account: akaruz
+2017/06/17 19:38:04: WorldID: 2
+2017/06/17 19:38:04: Server Name: artemis
+2017/06/17 19:38:04: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:38:04: Port: 55901
+2017/06/17 19:38:04: Maximum Connections: 1000
+2017/06/17 19:38:04: Logs: Ativado
+2017/06/17 19:38:04: Sleep: 1
+2017/06/17 19:38:04: Pin: False
+2017/06/17 19:38:04: PinMaxAttempt: 5
+2017/06/17 19:38:04: PinBannedTime: 15
+2017/06/17 19:38:04: Connect Ip: 127.0.0.1
+2017/06/17 19:38:04: Connect Port: 57550
+2017/06/17 19:38:04: Carregando config do mysql
+2017/06/17 19:38:04: Connectado ao banco de dados
+2017/06/17 19:38:06: Carregando mensagens do servidor
+2017/06/17 19:38:06: Carregando a loja de items
+2017/06/17 19:38:06: Carregando scripts
+2017/06/17 19:38:06: Create Character: Ativo
+2017/06/17 19:38:06: Delete Character: Ativo
+2017/06/17 19:38:07: World Server Start
+2017/06/17 19:38:07: Connect Server connected
+2017/06/17 19:38:29: Data From Login Server ID: 1 Account: akaruz CB06B66C626CC972
+2017/06/17 19:38:29: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:38:29: Status changed to connected: 127.0.0.1
+2017/06/17 19:38:29: Data From Client: CB06B66C626CC972
+2017/06/17 19:38:29: Player Found ID: 1 Account: akaruz CB06B66C626CC972
+2017/06/17 19:38:29: PreLoad ID: 1 Account: akaruz
+2017/06/17 19:40:48: WorldID: 2
+2017/06/17 19:40:48: Server Name: artemis
+2017/06/17 19:40:48: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:40:48: Port: 55901
+2017/06/17 19:40:48: Maximum Connections: 1000
+2017/06/17 19:40:48: Logs: Ativado
+2017/06/17 19:40:48: Sleep: 1
+2017/06/17 19:40:48: Pin: False
+2017/06/17 19:40:48: PinMaxAttempt: 5
+2017/06/17 19:40:48: PinBannedTime: 15
+2017/06/17 19:40:48: Connect Ip: 127.0.0.1
+2017/06/17 19:40:48: Connect Port: 57550
+2017/06/17 19:40:48: Carregando config do mysql
+2017/06/17 19:40:48: Connectado ao banco de dados
+2017/06/17 19:40:50: Carregando mensagens do servidor
+2017/06/17 19:40:50: Carregando a loja de items
+2017/06/17 19:40:50: Carregando scripts
+2017/06/17 19:40:50: Create Character: Ativo
+2017/06/17 19:40:50: Delete Character: Ativo
+2017/06/17 19:40:51: World Server Start
+2017/06/17 19:40:51: Connect Server connected
+2017/06/17 19:41:56: Data From Login Server ID: 1 Account: akaruz EEB2F6C8C0E04C41
+2017/06/17 19:41:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:41:57: Status changed to connected: 127.0.0.1
+2017/06/17 19:41:57: Data From Client: EEB2F6C8C0E04C41
+2017/06/17 19:41:57: Player Found ID: 1 Account: akaruz EEB2F6C8C0E04C41
+2017/06/17 19:41:57: PreLoad ID: 1 Account: akaruz
+2017/06/17 19:42:16: Status changed to disconnected: 1 akaruz 127.0.0.1 EEB2F6C8C0E04C41
+2017/06/17 19:42:26: Data From Login Server ID: 1 Account: akaruz 3388E7D315B15847
+2017/06/17 19:42:26: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:42:26: Status changed to connected: 127.0.0.1
+2017/06/17 19:42:26: Data From Client: 3388E7D315B15847
+2017/06/17 19:42:26: Player Found ID: 1 Account: akaruz 3388E7D315B15847
+2017/06/17 19:42:26: PreLoad ID: 1 Account: akaruz
+2017/06/17 19:43:37: Status changed to disconnected: 1 akaruz 127.0.0.1 3388E7D315B15847

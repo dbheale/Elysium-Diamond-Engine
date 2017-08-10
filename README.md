@@ -12,12 +12,16 @@ NETFramework 4.5 para os servidores.
 NETFramework 4.0 e DirectX atualizado para o cliente
 
 #Servidores
-O jogo usa 3 servidores para dividir o processamento e aumentar a quantidade de jogares.<br>
+O jogo usa 4 servidores para dividir o processamento e aumentar a quantidade de jogares.<br>
 Banco de dados usado, MySQL.
 
-![Screeshot](http://i.imgur.com/9gMp2cI.png)
+Login: akaruz
+Senha: datamore
+
+![Screenshot](http://i.imgur.com/9gMp2cI.png)
 ![Screenshot](http://i.imgur.com/vZwvHu9.png)
-![Screeshot](http://i.imgur.com/R2WtCGl.png)
+![Screenshot](http://i.imgur.com/R2WtCGl.png)
+![Screenshot](http://i.imgur.com/dQNaEgV.png)
 
 #Cliente
 Personagens<br>

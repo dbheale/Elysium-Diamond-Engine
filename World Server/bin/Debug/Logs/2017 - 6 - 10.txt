@@ -1,0 +1,30 @@
+2017/06/10 17:42:52: WorldID: -2
+2017/06/10 17:42:52: Server Name: artemis
+2017/06/10 17:42:52: Discovery: Elysium Diamond #1.0.0
+2017/06/10 17:42:52: Port: 55901
+2017/06/10 17:42:52: Maximum Connections: 1000
+2017/06/10 17:42:52: Logs: Ativado
+2017/06/10 17:42:52: Sleep: 1
+2017/06/10 17:42:52: Pin: False
+2017/06/10 17:42:52: PinMaxAttempt: 5
+2017/06/10 17:42:52: PinBannedTime: 15
+2017/06/10 17:42:52: Carregando config do mysql
+2017/06/10 17:42:52: Connectado ao banco de dados
+2017/06/10 17:42:53: Carregando mensagens do servidor
+2017/06/10 17:42:53: Carregando a loja de items
+2017/06/10 17:42:53: Carregando scripts
+2017/06/10 17:42:53: Create Character: Ativo
+2017/06/10 17:42:53: Delete Character: Ativo
+2017/06/10 17:42:53: Conectando Game Server
+2017/06/10 17:42:54: World Server Start
+2017/06/10 17:43:01: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/10 17:43:02: Status changed to connected: 127.0.0.1
+2017/06/10 17:43:02: Login Server ID: -1
+2017/06/10 17:43:22: Data From Login Server ID: 1 Account: akaruz 79060E0CC9583E5A
+2017/06/10 17:43:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/10 17:43:23: Status changed to connected: 127.0.0.1
+2017/06/10 17:43:23: Data From Client: 79060E0CC9583E5A
+2017/06/10 17:43:23: Player Found ID: 1 Account: akaruz 79060E0CC9583E5A
+2017/06/10 17:43:23: PreLoad ID: 1 Account: akaruz
+2017/06/10 17:46:04: Status changed to disconnected: 1 akaruz 127.0.0.1 79060E0CC9583E5A
+2017/06/10 17:46:31: Character Deleted: From: 1 Char: 22 AAAA

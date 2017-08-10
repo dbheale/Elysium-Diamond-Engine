@@ -3,7 +3,7 @@ using LoginServer.Common;
 using Elysium;
 
 namespace LoginServer.Network {
-    public class NetworkClient {
+    public sealed class NetworkClient {
         /// <summary>
         /// IP público de conexão.
         /// </summary>
@@ -27,7 +27,7 @@ namespace LoginServer.Network {
         /// <summary>
         /// Dados de entrada.
         /// </summary>
-        private NetIncomingMessage incMsg;
+        private NetIncomingMessage msg;
 
         /// <summary>
         /// Inicia o servidor.
@@ -91,13 +91,13 @@ namespace LoginServer.Network {
 
             if (string.IsNullOrEmpty(localIP)) {
                 if (socket.DiscoverKnownPeer(ip, port))
-                    return true; 
+                    return true;
             }
             else {
                 if (socket.DiscoverKnownPeer(localIP, port))
-                    return true; 
+                    return true;
             }
-                   
+
             return false;
         }
 
@@ -122,7 +122,7 @@ namespace LoginServer.Network {
         /// <returns>bool</returns>
         public bool Connected() {
             if (Equals(null, socket))
-                return false; 
+                return false;
 
             return socket.ConnectionStatus == NetConnectionStatus.Connected ? true : false;
         }
@@ -132,10 +132,7 @@ namespace LoginServer.Network {
         /// </summary>
         /// <param name="Data"></param>
         public void SendData(NetOutgoingMessage Data) {
-            if (Equals(null, socket))
-                return; 
-
-            socket.SendMessage(Data, NetDeliveryMethod.ReliableOrdered);
+            socket?.SendMessage(Data, NetDeliveryMethod.ReliableOrdered);
         }
 
         /// <summary>
@@ -143,22 +140,19 @@ namespace LoginServer.Network {
         /// </summary>
         /// <param name="index"></param>
         public void ReceiveData(int index) {
-            if (Equals(null, socket))
-                return; 
-
             //recebe as mensagens
-            while ((incMsg = socket.ReadMessage()) != null) {
-                switch (incMsg.MessageType) {
+            while ((msg = socket?.ReadMessage()) != null) {
+                switch (msg.MessageType) {
                     case NetIncomingMessageType.DiscoveryResponse:
-                        socket.Connect(incMsg.SenderEndPoint);   
+                        socket.Connect(msg.SenderEndPoint);
                         Logs.Write($"Connected World Server #{Configuration.Server[index].Name}", System.Drawing.Color.Green);
                         break;
 
                     case NetIncomingMessageType.StatusChanged:
-                        NetConnectionStatus status = (NetConnectionStatus)incMsg.ReadByte();
+                        NetConnectionStatus status = (NetConnectionStatus)msg.ReadByte();
 
+                        //envia confirmação
                         if (status == NetConnectionStatus.Connected) {
-                            //envia confirmação
                             WorldPacket.ConnectionID(index);
                         }
 
@@ -169,13 +163,12 @@ namespace LoginServer.Network {
                         break;
 
                     case NetIncomingMessageType.Data:
-                        WorldData.HandleData(index, incMsg);
+                        WorldData.HandleData(index, msg);
                         break;
                 }
 
-                socket.Recycle(incMsg);
+                socket.Recycle(msg);
             }
         }
     }
 }
-

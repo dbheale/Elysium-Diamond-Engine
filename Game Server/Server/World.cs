@@ -22,15 +22,19 @@ namespace GameServer.Server {
         /// Loop do servidor.
         /// </summary>
         public static void Loop() {
-            // Percorre todos os hexid e verifica se o tempo limite já foi ultrapassado ...
-            // Se verdadeiro, é retirado da lista
-            Authentication.VerifyHexID();
-
-            // Percorre todos os hexid de jogadores, se ambos hexid estiverem corretos, aceita a conexão
-            Authentication.VerifyPlayerHexID();
-
-            // Recebe os dados do game server
+            // recebe os dados do game server
             GameNetwork.ReceiveData();
+
+            NetworkClient.DiscoverServer();
+
+            // recebe os dados do connect server
+            NetworkClient.ReceiveData();
+
+            // se houver alguma conexão com ID 0, realiza a desconexão e remove usuários
+            Authentication.RemoveInvalidUsersAndHexID();
+
+            // percorre todos os hexid de jogadores, se ambos hexid estiverem corretos, aceita a conexão
+            Authentication.VerifyPlayerHexID();
 
             Maps.MapManager.Compute();
 

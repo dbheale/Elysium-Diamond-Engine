@@ -105,7 +105,7 @@ namespace Elysium_Diamond.DirectX {
             TextBox.Draw();
             TextBox.DrawTextMesured();
 
-            EngineFont.DrawText(null, Text, new Size2(400, 100), new Point(Position.X, Position.Y - 15), new Color(Color.White.R, Color.White.G, Color.White.B, TextTransparency), EngineFontStyle.Regular, FontDrawFlags.Center, false);
+            EngineFont.DrawText(Text, new Size2(400, 100), new Point(Position.X, Position.Y - 15), new Color(Color.White.R, Color.White.G, Color.White.B, TextTransparency), EngineFontStyle.Regular, FontDrawFlags.Center, false);
         }
 
  
@@ -114,7 +114,7 @@ namespace Elysium_Diamond.DirectX {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private static void Button_1_MouseUp(object sender, EventArgs e) {
+        private static void Button_1_MouseUp(object sender, EngineEventArgs e) {
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
             //delete
@@ -134,7 +134,7 @@ namespace Elysium_Diamond.DirectX {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private static void Button_2_MouseUp(object sender, EventArgs e) {
+        private static void Button_2_MouseUp(object sender, EngineEventArgs e) {
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
             TextBox.CursorEnabled = false;
@@ -146,7 +146,7 @@ namespace Elysium_Diamond.DirectX {
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private static void Textbox_MouseUp(object sender, EventArgs e) {
+        private static void Textbox_MouseUp(object sender, EngineEventArgs e) {
             TextBox.CursorEnabled = true;
         }
 

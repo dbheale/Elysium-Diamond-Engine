@@ -1,34 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.IO;
 
 namespace LoginServer.Server {
     public static class GeoIp {
         /// <summary>
-        /// Tempo de vida, 5 minutos.
+        /// Tempo de vida de um ip temporariamente bloqueado (2 minutos para verificar novamente).
         /// </summary>
-        private const int TIME = 300000;
+        private const int time = 120000;
 
         /// <summary>
         /// Ativa ou desativa a verificação do geoip.
         /// </summary>
-        public static bool Enabled { get; set; } = false;
+        public static bool Enabled { get; set; }
 
-        /// <summary>
-        /// Lista de endereços.
-        /// </summary>
+        // Lista de endereços e dados de países.
         private static HashSet<IpCountry> geoip = new HashSet<IpCountry>();
 
-        /// <summary>
-        /// LIsta de ip temporariamente bloqueados.
-        /// </summary>
+        // Lista de ip temporariamente bloqueados.
         private static HashSet<IpBlock> ip_block = new HashSet<IpBlock>();
 
-        /// <summary>
-        /// Lista de países bloqueados.
-        /// </summary>
+        // Lista de países bloqueados.
         private static List<string> country_block = new List<string>();
 
         /// <summary>
@@ -46,6 +39,8 @@ namespace LoginServer.Server {
         /// <returns></returns>
         public static bool IsCountryIpBlocked(string ipAddress) {
             var country = FindCountryByIp(ipAddress);
+
+            if (country == null) return false;
 
             return (IsCountryBlocked(country.Code)) ? true : false;
         }
@@ -68,9 +63,9 @@ namespace LoginServer.Server {
         }
 
         /// <summary>
-        /// Realiza uma pesquisa pelo ip 
+        /// Realiza uma pesquisa pelo ip.
         /// </summary>
-        /// <param name="ipNumber"></param>
+        /// <param name="ipAddress"></param>
         /// <returns></returns>
         public static IpCountry FindCountryByIp(string ipAddress) {
             var ipNumber = GetIPNumber(ipAddress);
@@ -123,7 +118,7 @@ namespace LoginServer.Server {
             }
         }
 
-        #region Ip Block
+        #region Temporary Ip Block
 
         /// <summary>
         /// Adiciona um ip à lista de bloqueio.
@@ -151,7 +146,7 @@ namespace LoginServer.Server {
         /// </summary>
         public static void CheckIpBlockedTime() {
             foreach(var item in ip_block) {
-                if (Environment.TickCount >= item.Time + TIME) { ip_block.Remove(item); }
+                if (Environment.TickCount >= item.Time + time) { ip_block.Remove(item); }
             }
         }
 

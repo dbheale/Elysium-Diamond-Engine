@@ -11,7 +11,7 @@ namespace LoginServer.Server {
         /// </summary>
         public static bool Enabled { get; set; } = false;
 
-        static Hashtable checksum = new Hashtable();
+        private static Hashtable checksum = new Hashtable();
     
         /// <summary>
         /// Adiciona um novo checksum.

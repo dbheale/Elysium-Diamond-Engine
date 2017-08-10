@@ -1,0 +1,96 @@
+2017/06/02 10:30:47: ID: -1
+2017/06/02 10:30:47: Discovery: Elysium Diamond #1.0.0
+2017/06/02 10:30:47: Port: 44405
+2017/06/02 10:30:47: Maximum Connection: 1000
+2017/06/02 10:30:47: Sleep: 1
+2017/06/02 10:30:47: Versão: 1.2.10
+2017/06/02 10:30:47: GeoIp: Desativado
+2017/06/02 10:30:47: CheckSum: Desativado
+2017/06/02 10:30:47: PinCheckTime: 15
+2017/06/02 10:30:47: Servidor adicionado: 火星 (JP) 普通
+2017/06/02 10:30:47: Servidor adicionado: 木星 (JP) 普通
+2017/06/02 10:30:47: Servidor adicionado: 화성 (KR) 표준
+2017/06/02 10:30:47: Servidor adicionado: Local Server (BR) Privado
+2017/06/02 10:30:47: Connectado ao banco de dados
+2017/06/02 10:30:48: Conectando World Server
+2017/06/02 10:30:48: Login Server Start
+2017/06/02 10:31:32: ID: -1
+2017/06/02 10:31:32: Discovery: Elysium Diamond #1.0.0
+2017/06/02 10:31:32: Port: 44405
+2017/06/02 10:31:32: Maximum Connection: 1000
+2017/06/02 10:31:32: Sleep: 1
+2017/06/02 10:31:32: Versão: 1.2.10
+2017/06/02 10:31:32: GeoIp: Desativado
+2017/06/02 10:31:32: CheckSum: Desativado
+2017/06/02 10:31:32: PinCheckTime: 15
+2017/06/02 10:31:32: Servidor adicionado: 火星 (JP) 普通
+2017/06/02 10:31:32: Servidor adicionado: 木星 (JP) 普通
+2017/06/02 10:31:32: Servidor adicionado: 화성 (KR) 표준
+2017/06/02 10:31:32: Servidor adicionado: Local Server (BR) Privado
+2017/06/02 10:31:32: Connectado ao banco de dados
+2017/06/02 10:31:33: Conectando World Server
+2017/06/02 10:31:34: Login Server Start
+2017/06/02 10:35:34: ID: -1
+2017/06/02 10:35:34: Discovery: Elysium Diamond #1.0.0
+2017/06/02 10:35:34: Port: 44405
+2017/06/02 10:35:34: Maximum Connection: 1000
+2017/06/02 10:35:34: Sleep: 1
+2017/06/02 10:35:34: Versão: 1.2.10
+2017/06/02 10:35:34: GeoIp: Desativado
+2017/06/02 10:35:34: CheckSum: Desativado
+2017/06/02 10:35:34: PinCheckTime: 15
+2017/06/02 10:35:34: Servidor adicionado: 火星 (JP) 普通
+2017/06/02 10:35:34: Servidor adicionado: 木星 (JP) 普通
+2017/06/02 10:35:34: Servidor adicionado: 화성 (KR) 표준
+2017/06/02 10:35:34: Servidor adicionado: Local Server (BR) Privado
+2017/06/02 10:35:34: Connectado ao banco de dados
+2017/06/02 10:35:34: Conectando World Server
+2017/06/02 10:35:35: Login Server Start
+2017/06/02 10:47:47: ID: -1
+2017/06/02 10:47:47: Discovery: Elysium Diamond #1.0.0
+2017/06/02 10:47:47: Port: 44405
+2017/06/02 10:47:47: Maximum Connection: 1000
+2017/06/02 10:47:47: Sleep: 1
+2017/06/02 10:47:47: Versão: 1.2.10
+2017/06/02 10:47:47: GeoIp: Desativado
+2017/06/02 10:47:47: CheckSum: Desativado
+2017/06/02 10:47:47: PinCheckTime: 15
+2017/06/02 10:47:47: Servidor adicionado: 火星 (JP) 普通
+2017/06/02 10:47:47: Servidor adicionado: 木星 (JP) 普通
+2017/06/02 10:47:47: Servidor adicionado: 화성 (KR) 표준
+2017/06/02 10:47:47: Servidor adicionado: Local Server (BR) Privado
+2017/06/02 10:47:47: Connectado ao banco de dados
+2017/06/02 10:47:48: Conectando World Server
+2017/06/02 10:47:49: Login Server Start
+2017/06/02 10:48:55: ID: -1
+2017/06/02 10:48:55: Discovery: Elysium Diamond #1.0.0
+2017/06/02 10:48:55: Port: 44405
+2017/06/02 10:48:55: Maximum Connection: 1000
+2017/06/02 10:48:55: Sleep: 1
+2017/06/02 10:48:55: Versão: 1.2.10
+2017/06/02 10:48:55: GeoIp: Desativado
+2017/06/02 10:48:55: CheckSum: Desativado
+2017/06/02 10:48:55: PinCheckTime: 15
+2017/06/02 10:48:55: Servidor adicionado: 火星 (JP) 普通
+2017/06/02 10:48:55: Servidor adicionado: 木星 (JP) 普通
+2017/06/02 10:48:55: Servidor adicionado: 화성 (KR) 표준
+2017/06/02 10:48:55: Servidor adicionado: Local Server (BR) Privado
+2017/06/02 10:48:55: Connectado ao banco de dados
+2017/06/02 10:48:56: Conectando World Server
+2017/06/02 10:48:56: Login Server Start
+2017/06/02 10:54:44: ID: -1
+2017/06/02 10:54:44: Discovery: Elysium Diamond #1.0.0
+2017/06/02 10:54:44: Port: 44405
+2017/06/02 10:54:44: Maximum Connection: 1000
+2017/06/02 10:54:44: Sleep: 1
+2017/06/02 10:54:44: Versão: 1.2.10
+2017/06/02 10:54:44: GeoIp: Desativado
+2017/06/02 10:54:44: CheckSum: Desativado
+2017/06/02 10:54:44: PinCheckTime: 15
+2017/06/02 10:54:44: Servidor adicionado: 火星 (JP) 普通
+2017/06/02 10:54:44: Servidor adicionado: 木星 (JP) 普通
+2017/06/02 10:54:44: Servidor adicionado: 화성 (KR) 표준
+2017/06/02 10:54:44: Servidor adicionado: Local Server (BR) Privado
+2017/06/02 10:54:44: Connectado ao banco de dados
+2017/06/02 10:54:45: Conectando World Server
+2017/06/02 10:54:46: Login Server Start

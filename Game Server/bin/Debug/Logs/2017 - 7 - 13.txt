@@ -1,0 +1,47 @@
+2017/07/13 2:51:14: ID: 3
+2017/07/13 2:51:14: Game Server Name: Canal 1
+2017/07/13 2:51:14: Discovery: Elysium Diamond #1.0.0
+2017/07/13 2:51:14: Port: 55970
+2017/07/13 2:51:14: MaximumConnections: 1000
+2017/07/13 2:51:14: Sleep: 1
+2017/07/13 2:51:14: Logs: Ativado
+2017/07/13 2:51:14: Carregando config mysql
+2017/07/13 2:51:14: Connectado ao banco de dados
+2017/07/13 2:51:16: Carregando items
+2017/07/13 2:51:16: 12 items carregados
+2017/07/13 2:51:16: Carregando talentos
+2017/07/13 2:51:16: 2 talentos carregados
+2017/07/13 2:51:16: Carregando experiência
+2017/07/13 2:51:16: Max Level: 121 EXP: 22353256174
+2017/07/13 2:51:16: Carregando guilds
+2017/07/13 2:51:16: Carregando membros
+2017/07/13 2:51:16: Carregando classe(s) base
+2017/07/13 2:51:16: Carregando classe(s) incremento
+2017/07/13 2:51:16: Carregando NPC
+2017/07/13 2:51:16: Carregando scripts
+2017/07/13 2:51:16: Game Server Start
+2017/07/13 5:27:43: ID: 3
+2017/07/13 5:27:43: Game Server Name: Canal 1
+2017/07/13 5:27:43: Discovery: Elysium Diamond #1.0.0
+2017/07/13 5:27:43: Port: 55970
+2017/07/13 5:27:43: MaximumConnections: 1000
+2017/07/13 5:27:43: Sleep: 1
+2017/07/13 5:27:43: Connect Ip: 127.0.0.1
+2017/07/13 5:27:43: Connect Port: 57550
+2017/07/13 5:27:43: Logs: Ativado
+2017/07/13 5:27:43: Carregando config mysql
+2017/07/13 5:27:43: Connectado ao banco de dados
+2017/07/13 5:27:44: Carregando items
+2017/07/13 5:27:44: 12 items carregados
+2017/07/13 5:27:44: Carregando talentos
+2017/07/13 5:27:44: 2 talentos carregados
+2017/07/13 5:27:44: Carregando experiência
+2017/07/13 5:27:44: Max Level: 121 EXP: 22353256174
+2017/07/13 5:27:44: Carregando guilds
+2017/07/13 5:27:44: Carregando membros
+2017/07/13 5:27:44: Carregando classe(s) base
+2017/07/13 5:27:44: Carregando classe(s) incremento
+2017/07/13 5:27:44: Carregando NPC
+2017/07/13 5:27:44: Carregando scripts
+2017/07/13 5:27:45: Game Server Start
+2017/07/13 5:27:45: Connect Server connected

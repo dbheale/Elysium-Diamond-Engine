@@ -1,0 +1,106 @@
+2017/06/17 19:15:14: ID: 1
+2017/06/17 19:15:14: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:15:14: Port: 44405
+2017/06/17 19:15:14: Maximum Connection: 1000
+2017/06/17 19:15:14: Sleep: 1
+2017/06/17 19:15:14: Versão: 1.2.10
+2017/06/17 19:15:14: GeoIp: Desativado
+2017/06/17 19:15:14: CheckSum: Desativado
+2017/06/17 19:15:14: PinCheckTime: 15
+2017/06/17 19:15:14: Connect Ip: 127.0.0.1
+2017/06/17 19:15:14: Connect Port: 57550
+2017/06/17 19:15:14: Servidor adicionado: 火星 (JP) 普通
+2017/06/17 19:15:14: Connectado ao banco de dados
+2017/06/17 19:15:16: Conectando World Server
+2017/06/17 19:15:16: Login Server Start
+2017/06/17 19:15:17: Connect Server connected
+2017/06/17 19:15:30: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:15:30: Status changed to connected: 127.0.0.1
+2017/06/17 19:15:34: User Login: akaruz 127.0.0.1 A6A26718CC321343
+2017/06/17 19:15:36: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:16:03: User Login: akaruz 127.0.0.1 A6A26718CC321343
+2017/06/17 19:16:04: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:16:54: Status changed to disconnected: 1 akaruz 127.0.0.1 A6A26718CC321343
+2017/06/17 19:23:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:23:00: Status changed to connected: 127.0.0.1
+2017/06/17 19:23:03: User Login: akaruz 127.0.0.1 2BE26B4C3A6BA159
+2017/06/17 19:23:04: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:24:29: Status changed to disconnected: 0  127.0.0.1 2BE26B4C3A6BA159
+2017/06/17 19:26:20: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:26:20: Status changed to connected: 127.0.0.1
+2017/06/17 19:27:25: User Login: akaruz 127.0.0.1 DF63D9622BAADB42
+2017/06/17 19:27:27: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:27:42: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:30:29: ID: 1
+2017/06/17 19:30:29: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:30:29: Port: 44405
+2017/06/17 19:30:29: Maximum Connection: 1000
+2017/06/17 19:30:29: Sleep: 1
+2017/06/17 19:30:29: Versão: 1.2.10
+2017/06/17 19:30:29: GeoIp: Desativado
+2017/06/17 19:30:29: CheckSum: Desativado
+2017/06/17 19:30:29: PinCheckTime: 15
+2017/06/17 19:30:29: Connect Ip: 127.0.0.1
+2017/06/17 19:30:29: Connect Port: 57550
+2017/06/17 19:30:29: Servidor adicionado: 火星 (JP) 普通
+2017/06/17 19:30:29: Connectado ao banco de dados
+2017/06/17 19:30:32: Conectando World Server
+2017/06/17 19:30:32: Login Server Start
+2017/06/17 19:30:32: Connect Server connected
+2017/06/17 19:31:14: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:31:14: Status changed to connected: 127.0.0.1
+2017/06/17 19:31:47: User Login: akaruz 127.0.0.1 4DED6CF45B5035D1
+2017/06/17 19:31:48: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:31:58: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:31:58: Status changed to connected: 127.0.0.1
+2017/06/17 19:32:15: Status changed to disconnected: 1 akaruz 127.0.0.1 4DED6CF45B5035D1
+2017/06/17 19:32:40: User Login: akaruz 127.0.0.1 9E7AB80E0D76C24A
+2017/06/17 19:32:41: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:37:53: ID: 1
+2017/06/17 19:37:53: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:37:53: Port: 44405
+2017/06/17 19:37:53: Maximum Connection: 1000
+2017/06/17 19:37:53: Sleep: 1
+2017/06/17 19:37:53: Versão: 1.2.10
+2017/06/17 19:37:53: GeoIp: Desativado
+2017/06/17 19:37:53: CheckSum: Desativado
+2017/06/17 19:37:53: PinCheckTime: 15
+2017/06/17 19:37:53: Connect Ip: 127.0.0.1
+2017/06/17 19:37:53: Connect Port: 57550
+2017/06/17 19:37:53: Servidor adicionado: 火星 (JP) 普通
+2017/06/17 19:37:53: Connectado ao banco de dados
+2017/06/17 19:38:03: Conectando World Server
+2017/06/17 19:38:03: Login Server Start
+2017/06/17 19:38:04: Connect Server connected
+2017/06/17 19:38:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:38:23: Status changed to connected: 127.0.0.1
+2017/06/17 19:38:27: User Login: akaruz 127.0.0.1 CB06B66C626CC972
+2017/06/17 19:38:28: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:40:22: ID: 1
+2017/06/17 19:40:22: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:40:22: Port: 44405
+2017/06/17 19:40:22: Maximum Connection: 1000
+2017/06/17 19:40:22: Sleep: 1
+2017/06/17 19:40:22: Versão: 1.2.10
+2017/06/17 19:40:22: GeoIp: Desativado
+2017/06/17 19:40:22: CheckSum: Desativado
+2017/06/17 19:40:22: PinCheckTime: 15
+2017/06/17 19:40:22: Connect Ip: 127.0.0.1
+2017/06/17 19:40:22: Connect Port: 57550
+2017/06/17 19:40:22: Servidor adicionado: 火星 (JP) 普通
+2017/06/17 19:40:22: Connectado ao banco de dados
+2017/06/17 19:40:25: Conectando World Server
+2017/06/17 19:40:25: Login Server Start
+2017/06/17 19:40:25: Connect Server connected
+2017/06/17 19:41:40: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:41:40: Status changed to connected: 127.0.0.1
+2017/06/17 19:41:48: User Login: akaruz 127.0.0.1 EEB2F6C8C0E04C41
+2017/06/17 19:41:56: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:42:09: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:42:09: Status changed to connected: 127.0.0.1
+2017/06/17 19:42:16: Status changed to disconnected: 0  127.0.0.1 EEB2F6C8C0E04C41
+2017/06/17 19:42:17: User Login: akaruz 127.0.0.1 3388E7D315B15847
+2017/06/17 19:42:26: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/06/17 19:43:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/17 19:43:23: Status changed to connected: 127.0.0.1
+2017/06/17 19:43:38: Status changed to disconnected: 1 akaruz 127.0.0.1 3388E7D315B15847

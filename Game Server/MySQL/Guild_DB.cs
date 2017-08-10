@@ -16,8 +16,8 @@ namespace GameServer.MySQL {
         /// <param name="pName"></param>
         /// <returns></returns>
         public static int PlayerGuildID(int pID, string pName) {
-            var varQuery = "SELECT guild_id FROM characters WHERE id='" + pID + "' and name='" + pName + "'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = "SELECT guild_id FROM characters WHERE id='" + pID + "' and name='" + pName + "'";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -38,8 +38,8 @@ namespace GameServer.MySQL {
         /// <param name="pID"></param>
         /// <param name="gID"></param>
         public static void UpdatePlayerGuildID(int pID, int gID) {
-            var varQuery = "UPDATE characters SET guild_id='" + gID + "' WHERE id='" + pID + "'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = "UPDATE characters SET guild_id='" + gID + "' WHERE id='" + pID + "'";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
@@ -49,8 +49,8 @@ namespace GameServer.MySQL {
         /// <param name="gName"></param>
         /// <returns></returns>
         public static bool ExistGuild(string gName) {
-            var varQuery = "SELECT id FROM guilds WHERE guild_name='" + gName + "'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = "SELECT id FROM guilds WHERE guild_name='" + gName + "'";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -68,8 +68,8 @@ namespace GameServer.MySQL {
         /// <param name="gName"></param>
         /// <returns></returns>
         public static int GuildID(string gName) {
-            var varQuery = "SELECT id FROM guilds WHERE guild_name='" + gName + "'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = "SELECT id FROM guilds WHERE guild_name='" + gName + "'";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -88,8 +88,8 @@ namespace GameServer.MySQL {
         /// Obtém os dados de level.
         /// </summary>
         public static void GuildData() {
-            var varQuery = "SELECT req_exp, req_contribution, req_money, max_members FROM guilds_exp";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = "SELECT req_exp, req_contribution, req_money, max_members FROM guilds_exp";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             var index = 0;
@@ -111,8 +111,8 @@ namespace GameServer.MySQL {
         /// Obtém todos os dados de guild.
         /// </summary>
         public static void GuildInfo() {
-            var varQuery = "SELECT * FROM guilds";
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var query = "SELECT * FROM guilds";
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             Guild gData;
@@ -144,8 +144,8 @@ namespace GameServer.MySQL {
             var hData = new GuildHistory();
 
             foreach (Guild gData in Guild.Guilds) {
-                var varQuery = "SELECT date, player_name, description FROM guilds_history WHERE guild_id='" + gData.ID + "'";
-                var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+                var query = "SELECT date, player_name, description FROM guilds_history WHERE guild_id='" + gData.ID + "'";
+                var cmd = new MySqlCommand(query, Common_DB.Connection);
                 var reader = cmd.ExecuteReader();
 
                 while (reader.Read()) {
@@ -171,9 +171,9 @@ namespace GameServer.MySQL {
             GuildMember mData;
 
             foreach (Guild gData in Guild.Guilds) {
-                var varQuery = "SELECT player_id, player_name, permission, selfintro, contribution_points, access FROM guilds_member WHERE guild_id='" + gData.ID + "'";
+                var query = "SELECT player_id, player_name, permission, selfintro, contribution_points, access FROM guilds_member WHERE guild_id='" + gData.ID + "'";
 
-                MySqlCommand cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+                MySqlCommand cmd = new MySqlCommand(query, Common_DB.Connection);
                 MySqlDataReader reader = cmd.ExecuteReader();
 
                 while (reader.Read()) {
@@ -200,33 +200,33 @@ namespace GameServer.MySQL {
         /// <param name="hexID"></param>
         /// <param name="gName"></param>
         public static void InsertGuild(int pID, string pName, string gName) {
-            var varQuery = "INSERT INTO guilds (owner_id, owner_name, guild_name) VALUES (";
-            varQuery += "'" + pID + "', ";
-            varQuery += "'" + pName + "', ";
-            varQuery += "'" + gName + "')";
+            var query = "INSERT INTO guilds (owner_id, owner_name, guild_name) VALUES (";
+            query += "'" + pID + "', ";
+            query += "'" + pName + "', ";
+            query += "'" + gName + "')";
 
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
         public static void InsertHistory(int gID, string pName, string description) {
-            var varQuery = "INSERT INTO guilds_history (guild_id, date, player_name, description) VALUES (";
-            varQuery += "'" + gID + "', ";
-            varQuery += "'" + DateTime.Now + "', ";
-            varQuery += "'" + pName + "', ";
-            varQuery += "'" + description + "')";
+            var query = "INSERT INTO guilds_history (guild_id, date, player_name, description) VALUES (";
+            query += "'" + gID + "', ";
+            query += "'" + DateTime.Now + "', ";
+            query += "'" + pName + "', ";
+            query += "'" + description + "')";
 
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
         public static void InsertMember(int gID, int pID, string pName, string permission) {
-            var varQuery = "INSERT INTO guilds_member (guild_id, player_id, player_name, permission) VALUES (";
-            varQuery += "'" + gID + "', ";
-            varQuery += "'" + pID + "', ";
-            varQuery += "'" + pName + "', ";
-            varQuery += "'" + permission + "')";
+            var query = "INSERT INTO guilds_member (guild_id, player_id, player_name, permission) VALUES (";
+            query += "'" + gID + "', ";
+            query += "'" + pID + "', ";
+            query += "'" + pName + "', ";
+            query += "'" + permission + "')";
 
-            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var cmd = new MySqlCommand(query, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
     }

@@ -1,5 +1,6 @@
 ﻿using Elysium_Diamond.Common;
 using Elysium_Diamond.EngineWindow;
+using Elysium_Diamond.DirectX;
 using Lidgren.Network;
 
 namespace Elysium_Diamond.Network {

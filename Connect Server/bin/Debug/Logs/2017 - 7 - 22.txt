@@ -1,0 +1,300 @@
+2017/07/22 4:05:15: Added game server 3 region 1
+2017/07/22 4:05:15: Added game server 4 region 2
+2017/07/22 4:05:15: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:05:15: Port: 57550
+2017/07/22 4:05:15: Sleep: 1
+2017/07/22 4:05:15: Max Connections: 5
+2017/07/22 4:05:15: Connect Server Start
+2017/07/22 4:05:15: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:05:15: Connected 127.0.0.1
+2017/07/22 4:05:15: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:05:28: Added game server 3 region 1
+2017/07/22 4:05:28: Added game server 4 region 2
+2017/07/22 4:05:28: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:05:28: Port: 57550
+2017/07/22 4:05:28: Sleep: 1
+2017/07/22 4:05:28: Max Connections: 5
+2017/07/22 4:05:28: Connect Server Start
+2017/07/22 4:06:21: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:06:21: Port: 57550
+2017/07/22 4:06:21: Sleep: 1
+2017/07/22 4:06:21: Max Connections: 5
+2017/07/22 4:06:21: Loading scripts
+2017/07/22 4:06:21: Added game server 3 region 1
+2017/07/22 4:06:21: Added game server 4 region 2
+2017/07/22 4:06:21: Connect Server Start
+2017/07/22 4:06:25: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:06:25: Connected 127.0.0.1
+2017/07/22 4:06:25: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:14:16: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:14:16: Port: 57550
+2017/07/22 4:14:16: Sleep: 1
+2017/07/22 4:14:16: Max Connections: 5
+2017/07/22 4:14:16: Loading scripts
+2017/07/22 4:14:16: Added game server 3 region 1
+2017/07/22 4:14:16: Added game server 4 region 2
+2017/07/22 4:14:16: Connect Server Start
+2017/07/22 4:14:25: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:14:25: Connected 127.0.0.1
+2017/07/22 4:14:25: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:14:58: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:14:58: Port: 57550
+2017/07/22 4:14:58: Sleep: 1
+2017/07/22 4:14:58: Max Connections: 5
+2017/07/22 4:14:58: Loading scripts
+2017/07/22 4:14:58: Added game server 3 region 1
+2017/07/22 4:14:58: Added game server 4 region 2
+2017/07/22 4:14:58: Connect Server Start
+2017/07/22 4:15:05: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:15:05: Connected 127.0.0.1
+2017/07/22 4:15:05: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:17:47: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:17:47: Port: 57550
+2017/07/22 4:17:47: Sleep: 1
+2017/07/22 4:17:47: Max Connections: 5
+2017/07/22 4:17:47: Loading scripts
+2017/07/22 4:17:47: Added game server 3 region 1
+2017/07/22 4:17:47: Added game server 4 region 2
+2017/07/22 4:17:47: Connect Server Start
+2017/07/22 4:17:50: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:17:51: Connected 127.0.0.1
+2017/07/22 4:17:51: World Server ID: 2 5977C1F4C3E4CAEB
+2017/07/22 4:17:55: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:17:55: Connected 127.0.0.1
+2017/07/22 4:17:55: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:19:58: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:19:58: Port: 57550
+2017/07/22 4:19:58: Sleep: 1
+2017/07/22 4:19:58: Max Connections: 5
+2017/07/22 4:19:58: Loading scripts
+2017/07/22 4:19:58: Added game server 3 region 1
+2017/07/22 4:19:58: Added game server 4 region 2
+2017/07/22 4:19:58: Connect Server Start
+2017/07/22 4:20:00: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:20:01: Connected 127.0.0.1
+2017/07/22 4:20:01: World Server ID: 2 5977C1F4C3E4CAEB
+2017/07/22 4:20:05: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:20:05: Connected 127.0.0.1
+2017/07/22 4:20:05: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:20:16: Data From Login Server, Account: akaruz 8C0C7C082A3CE569
+2017/07/22 4:20:16: World Server World Server 2 Login Attempt: akaruz
+2017/07/22 4:22:03: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:22:03: Port: 57550
+2017/07/22 4:22:03: Sleep: 1
+2017/07/22 4:22:03: Max Connections: 5
+2017/07/22 4:22:03: Loading scripts
+2017/07/22 4:22:03: Added game server 3 region 1
+2017/07/22 4:22:03: Added game server 4 region 2
+2017/07/22 4:22:03: Connect Server Start
+2017/07/22 4:22:05: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:22:05: Connected 127.0.0.1
+2017/07/22 4:22:05: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:22:10: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:22:10: Connected 127.0.0.1
+2017/07/22 4:22:10: World Server ID: 2 5977C1F4C3E4CAEB
+2017/07/22 4:22:58: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:22:58: Port: 57550
+2017/07/22 4:22:58: Sleep: 1
+2017/07/22 4:22:58: Max Connections: 5
+2017/07/22 4:22:58: Loading scripts
+2017/07/22 4:22:58: Added game server 3 region 1
+2017/07/22 4:22:58: Added game server 4 region 2
+2017/07/22 4:22:58: Connect Server Start
+2017/07/22 4:23:00: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:23:01: Connected 127.0.0.1
+2017/07/22 4:23:01: World Server ID: 2 5977C1F4C3E4CAEB
+2017/07/22 4:23:05: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:23:05: Connected 127.0.0.1
+2017/07/22 4:23:05: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:23:09: Data From Login Server, Account: akaruz 63471A5364F8F2C6
+2017/07/22 4:23:09: World Server World Server 2 Login Attempt: akaruz
+2017/07/22 4:23:10: added id: akaruz
+2017/07/22 4:24:21: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:24:21: Port: 57550
+2017/07/22 4:24:21: Sleep: 1
+2017/07/22 4:24:21: Max Connections: 5
+2017/07/22 4:24:21: Loading scripts
+2017/07/22 4:24:21: Added game server 3 region 1
+2017/07/22 4:24:21: Added game server 4 region 2
+2017/07/22 4:24:21: Connect Server Start
+2017/07/22 4:24:25: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:24:25: Connected 127.0.0.1
+2017/07/22 4:24:25: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:24:29: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:24:29: Connected 127.0.0.1
+2017/07/22 4:24:29: World Server ID: 2 24517C048600C207
+2017/07/22 4:24:35: Data From Login Server, Account: akaruz 6440C84D29C431B1
+2017/07/22 4:24:35: World Server World Server 2 Login Attempt: akaruz
+2017/07/22 4:24:35: added id: akaruz
+2017/07/22 4:25:37: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:25:37: Port: 57550
+2017/07/22 4:25:37: Sleep: 1
+2017/07/22 4:25:37: Max Connections: 5
+2017/07/22 4:25:37: Loading scripts
+2017/07/22 4:25:37: Added game server 3 region 1
+2017/07/22 4:25:37: Added game server 4 region 2
+2017/07/22 4:25:37: Connect Server Start
+2017/07/22 4:25:42: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:25:42: Connected 127.0.0.1
+2017/07/22 4:25:42: World Server ID: 2 74C8D7CE9D693837
+2017/07/22 4:25:45: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:25:45: Connected 127.0.0.1
+2017/07/22 4:25:45: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:25:59: Data From Login Server, Account: akaruz 15CA1693D83CBC02
+2017/07/22 4:25:59: World Server World Server 2 Login Attempt: akaruz
+2017/07/22 4:26:00: added id: akaruz
+2017/07/22 4:30:49: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:30:49: Port: 57550
+2017/07/22 4:30:49: Sleep: 1
+2017/07/22 4:30:49: Max Connections: 5
+2017/07/22 4:30:49: Loading scripts
+2017/07/22 4:30:49: Added game server 3 region 1
+2017/07/22 4:30:49: Added game server 4 region 2
+2017/07/22 4:30:49: Connect Server Start
+2017/07/22 4:30:51: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:30:51: Connected 127.0.0.1
+2017/07/22 4:30:51: World Server ID: 2 720B8A60CD2E4C42
+2017/07/22 4:30:55: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:30:55: Connected 127.0.0.1
+2017/07/22 4:30:55: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 4:30:58: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 4:30:58: Connected 127.0.0.1
+2017/07/22 4:30:58: Game Server ID: 3 19EB5E01BFFD8AA3
+2017/07/22 4:31:10: Data From Login Server, Account: akaruz 9ED59FCC299999F7
+2017/07/22 4:31:10: World Server World Server 2 Login Attempt: akaruz
+2017/07/22 4:31:10: added id: akaruz
+2017/07/22 4:31:12: removed akaruz
+2017/07/22 5:27:13: Discovery: Elysium Diamond #1.0.0
+2017/07/22 5:27:13: Port: 57550
+2017/07/22 5:27:13: Sleep: 1
+2017/07/22 5:27:13: Max Connections: 5
+2017/07/22 5:27:13: Loading scripts
+2017/07/22 5:27:37: Discovery: Elysium Diamond #1.0.0
+2017/07/22 5:27:37: Port: 57550
+2017/07/22 5:27:37: Sleep: 1
+2017/07/22 5:27:37: Max Connections: 5
+2017/07/22 5:27:37: Loading scripts
+2017/07/22 5:27:37: Added game server 3 region 1
+2017/07/22 5:27:37: Added game server 4 region 2
+2017/07/22 5:27:37: Connect Server Start
+2017/07/22 5:27:39: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 5:27:39: Connected 127.0.0.1
+2017/07/22 5:27:39: World Server ID: 2 6F6A87230E44414B
+2017/07/22 5:27:45: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 5:27:45: Connected 127.0.0.1
+2017/07/22 5:27:45: Login Server ID: 1 AA6843583A5A0CB1
+2017/07/22 5:27:47: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 5:27:47: Connected 127.0.0.1
+2017/07/22 5:27:47: Game Server ID: 3 EC4BB7C623394875
+2017/07/22 5:28:43: Data from login server account: akaruz 56D713617E66F5F8
+2017/07/22 5:28:43: World Server World Server 2 Login Attempt: akaruz
+2017/07/22 5:28:44: added id: akaruz
+2017/07/22 5:28:48: Data from world server account: akaruz 56D713617E66F5F8
+2017/07/22 5:28:48: Game Server Game Server 3 Login Attempt: akaruz
+2017/07/22 5:28:50: removed akaruz
+2017/07/22 16:09:36: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:09:36: Port: 57550
+2017/07/22 16:09:36: Sleep: 1
+2017/07/22 16:09:36: Max Connections: 5
+2017/07/22 16:09:36: Loading scripts
+2017/07/22 16:09:36: Added game server 3 region 1
+2017/07/22 16:09:36: Added game server 4 region 2
+2017/07/22 16:09:36: Connect Server Start
+2017/07/22 16:09:43: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:09:43: Connected 127.0.0.1
+2017/07/22 16:09:43: Login Server ID: 1 E88404F6D3C2A270
+2017/07/22 16:09:55: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:09:55: Connected 127.0.0.1
+2017/07/22 16:09:55: World Server ID: 2 AD2A202FA5F556D4
+2017/07/22 16:20:20: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:20:20: Connected 127.0.0.1
+2017/07/22 16:20:20: Game Server ID: 3 F7C791A83A42C6B0
+2017/07/22 16:20:36: Data from login server account: akaruz 7E7ECB5C0CD067A4
+2017/07/22 16:20:36: World Server 2 login lttempt: akaruz
+2017/07/22 16:20:36: added id: akaruz
+2017/07/22 16:20:37: Data from world server account: akaruz 7E7ECB5C0CD067A4
+2017/07/22 16:20:37: Game Server 3 login attempt: akaruz
+2017/07/22 16:21:31: removed akaruz
+2017/07/22 16:21:35: Disconnected 3 Game Server F7C791A83A42C6B0
+2017/07/22 16:37:26: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:37:26: Port: 57550
+2017/07/22 16:37:26: Sleep: 1
+2017/07/22 16:37:26: Max Connections: 5
+2017/07/22 16:37:26: Loading scripts
+2017/07/22 16:37:26: Added game server 3 region 1
+2017/07/22 16:37:26: Added game server 4 region 2
+2017/07/22 16:37:26: Connect Server Start
+2017/07/22 16:37:33: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:37:33: Connected 127.0.0.1
+2017/07/22 16:37:33: Login Server ID: 1 E88404F6D3C2A270
+2017/07/22 16:37:48: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:37:48: Connected 127.0.0.1
+2017/07/22 16:37:48: World Server ID: 2 C2125DB818D10D97
+2017/07/22 16:37:55: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:37:55: Connected 127.0.0.1
+2017/07/22 16:37:55: Game Server ID: 3 D46CB35209BD3372
+2017/07/22 16:38:11: Data from login server account: akaruz 9EDE70A6E1712E3C
+2017/07/22 16:38:11: World Server 2 login lttempt: akaruz
+2017/07/22 16:38:11: added akaruz
+2017/07/22 16:38:13: Data from world server account: akaruz 9EDE70A6E1712E3C
+2017/07/22 16:38:13: Game Server 3 login attempt: akaruz
+2017/07/22 16:41:26: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:41:26: Port: 57550
+2017/07/22 16:41:26: Sleep: 1
+2017/07/22 16:41:26: Max Connections: 5
+2017/07/22 16:41:26: Loading scripts
+2017/07/22 16:41:26: Added game server 3 region 1
+2017/07/22 16:41:26: Added game server 4 region 2
+2017/07/22 16:41:26: Connect Server Start
+2017/07/22 16:41:31: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:41:31: Connected 127.0.0.1
+2017/07/22 16:41:31: World Server ID: 2 BB370A2C95689BE4
+2017/07/22 16:41:33: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:41:33: Connected 127.0.0.1
+2017/07/22 16:41:33: Login Server ID: 1 E88404F6D3C2A270
+2017/07/22 16:41:35: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:41:35: Connected 127.0.0.1
+2017/07/22 16:41:35: Game Server ID: 3 D46CB35209BD3372
+2017/07/22 16:41:47: Data from login server account: akaruz F2199CB8C82080A5
+2017/07/22 16:41:47: World Server 2 login lttempt: akaruz
+2017/07/22 16:41:48: added akaruz
+2017/07/22 16:41:49: Data from world server account: akaruz F2199CB8C82080A5
+2017/07/22 16:41:49: Game Server 3 login attempt: akaruz
+2017/07/22 16:42:34: Disconnected 2 World Server BB370A2C95689BE4
+2017/07/22 16:43:04: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:43:04: Port: 57550
+2017/07/22 16:43:04: Sleep: 1
+2017/07/22 16:43:04: Max Connections: 5
+2017/07/22 16:43:04: Loading scripts
+2017/07/22 16:43:04: Added game server 3 region 1
+2017/07/22 16:43:04: Added game server 4 region 2
+2017/07/22 16:43:04: Connect Server Start
+2017/07/22 16:43:19: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:43:20: Connected 127.0.0.1
+2017/07/22 16:43:20: World Server ID: 2 B172B863A0047EB6
+2017/07/22 16:43:23: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:43:23: Connected 127.0.0.1
+2017/07/22 16:43:23: Login Server ID: 1 E88404F6D3C2A270
+2017/07/22 16:43:25: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:43:25: Connected 127.0.0.1
+2017/07/22 16:43:25: Game Server ID: 3 D46CB35209BD3372
+2017/07/22 16:44:00: Data from login server account: akaruz 6F81A4806A8BA721
+2017/07/22 16:44:00: World Server 2 login lttempt: akaruz
+2017/07/22 16:44:01: added akaruz
+2017/07/22 16:44:19: Data from world server account: akaruz 6F81A4806A8BA721
+2017/07/22 16:44:19: Game Server 3 login attempt: akaruz
+2017/07/22 16:44:52: removed akaruz
+2017/07/22 16:52:53: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:52:53: Port: 57550
+2017/07/22 16:52:53: Sleep: 1
+2017/07/22 16:52:53: Max Connections: 5
+2017/07/22 16:52:53: Loading scripts
+2017/07/22 16:52:53: Added game server 3 region 1
+2017/07/22 16:52:53: Added game server 4 region 2
+2017/07/22 16:52:53: Connect Server Start
+2017/07/22 16:52:54: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:52:54: Connected 127.0.0.1
+2017/07/22 16:52:54: Login Server ID: 1 2C329E6775518891
+2017/07/22 16:53:03: Discovery response IPEndPoint: 127.0.0.1
+2017/07/22 16:53:03: Connected 127.0.0.1
+2017/07/22 16:53:03: World Server ID: 2 04D2AD7B63C044DB

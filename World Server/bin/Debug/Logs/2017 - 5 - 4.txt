@@ -1,0 +1,162 @@
+2017/05/04 0:51:20: ID: 2147483646
+2017/05/04 0:51:20: Server Name: artemis
+2017/05/04 0:51:20: Discovery: Elysium Diamond #1.0.0
+2017/05/04 0:51:20: Port: 55901
+2017/05/04 0:51:20: Maximum Connections: 2000
+2017/05/04 0:51:20: Logs: Ativado
+2017/05/04 0:51:20: Sleep: 1
+2017/05/04 0:51:20: Create Character: False
+2017/05/04 0:51:20: Delete Character: False
+2017/05/04 0:51:20: Carregando config do mysql
+2017/05/04 0:51:20: Connectado ao banco de dados
+2017/05/04 0:51:21: Carregando scripts
+05/04/2017 00:51:21: Classe 1 Item 1 Weapon
+05/04/2017 00:51:21: Classe 1 Item 2 Chest
+05/04/2017 00:51:21: Classe 1 Item 3 Legs
+05/04/2017 00:51:21: Classe 2 Item 4 Weapon
+05/04/2017 00:51:21: Classe 2 Item 5 Chest
+05/04/2017 00:51:21: Classe 2 Item 6 Legs
+05/04/2017 00:51:21: World Server Start.
+05/04/2017 00:51:21: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 00:51:21: Status changed to connected: 127.0.0.1
+05/04/2017 00:51:21: Login Server ID: 2147483647
+05/04/2017 00:52:31: Conectado ao Game Server #Canal 1
+2017/05/04 0:56:23: ID: 2147483646
+2017/05/04 0:56:23: Server Name: artemis
+2017/05/04 0:56:23: Discovery: Elysium Diamond #1.0.0
+2017/05/04 0:56:23: Port: 55901
+2017/05/04 0:56:23: Maximum Connections: 2000
+2017/05/04 0:56:23: Logs: Ativado
+2017/05/04 0:56:23: Sleep: 1
+2017/05/04 0:56:23: Create Character: False
+2017/05/04 0:56:23: Delete Character: False
+2017/05/04 0:56:23: Carregando config do mysql
+2017/05/04 0:56:23: Connectado ao banco de dados
+2017/05/04 0:56:23: Carregando scripts
+05/04/2017 00:56:24: Classe 1 Item 1 Weapon
+05/04/2017 00:56:24: Classe 1 Item 2 Chest
+05/04/2017 00:56:24: Classe 1 Item 3 Legs
+05/04/2017 00:56:24: Classe 2 Item 4 Weapon
+05/04/2017 00:56:24: Classe 2 Item 5 Chest
+05/04/2017 00:56:24: Classe 2 Item 6 Legs
+05/04/2017 00:56:24: World Server Start.
+05/04/2017 00:56:24: Conectado ao Game Server #Canal 1
+05/04/2017 00:56:24: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 00:56:24: Status changed to connected: 127.0.0.1
+05/04/2017 00:56:24: Data From Client: 
+05/04/2017 00:56:31: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 00:56:31: Status changed to connected: 127.0.0.1
+05/04/2017 00:56:31: Login Server ID: 2147483647
+05/04/2017 00:56:34: Status changed to disconnected: 0  127.0.0.1 
+05/04/2017 00:56:35: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 00:56:35: Status changed to connected: 127.0.0.1
+05/04/2017 00:56:35: Data From Client: 
+2017/05/04 0:56:47: ID: 2147483646
+2017/05/04 0:56:47: Server Name: artemis
+2017/05/04 0:56:47: Discovery: Elysium Diamond #1.0.0
+2017/05/04 0:56:47: Port: 55901
+2017/05/04 0:56:47: Maximum Connections: 2000
+2017/05/04 0:56:47: Logs: Ativado
+2017/05/04 0:56:47: Sleep: 1
+2017/05/04 0:56:47: Create Character: False
+2017/05/04 0:56:47: Delete Character: False
+2017/05/04 0:56:47: Carregando config do mysql
+2017/05/04 0:56:47: Connectado ao banco de dados
+2017/05/04 0:56:47: Carregando scripts
+05/04/2017 00:56:48: Classe 1 Item 1 Weapon
+05/04/2017 00:56:48: Classe 1 Item 2 Chest
+05/04/2017 00:56:48: Classe 1 Item 3 Legs
+05/04/2017 00:56:48: Classe 2 Item 4 Weapon
+05/04/2017 00:56:48: Classe 2 Item 5 Chest
+05/04/2017 00:56:48: Classe 2 Item 6 Legs
+05/04/2017 00:56:48: World Server Start.
+05/04/2017 00:56:48: Conectado ao Game Server #Canal 1
+05/04/2017 00:57:01: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 00:57:01: Status changed to connected: 127.0.0.1
+05/04/2017 00:57:01: Login Server ID: 2147483647
+2017/05/04 0:57:42: ID: 2147483646
+2017/05/04 0:57:42: Server Name: artemis
+2017/05/04 0:57:42: Discovery: Elysium Diamond #1.0.0
+2017/05/04 0:57:42: Port: 55901
+2017/05/04 0:57:42: Maximum Connections: 2000
+2017/05/04 0:57:42: Logs: Ativado
+2017/05/04 0:57:42: Sleep: 1
+2017/05/04 0:57:42: Create Character: False
+2017/05/04 0:57:42: Delete Character: False
+2017/05/04 0:57:42: Carregando config do mysql
+2017/05/04 0:57:42: Connectado ao banco de dados
+2017/05/04 0:57:43: Carregando scripts
+05/04/2017 00:57:43: Classe 1 Item 1 Weapon
+05/04/2017 00:57:43: Classe 1 Item 2 Chest
+05/04/2017 00:57:43: Classe 1 Item 3 Legs
+05/04/2017 00:57:43: Classe 2 Item 4 Weapon
+05/04/2017 00:57:43: Classe 2 Item 5 Chest
+05/04/2017 00:57:43: Classe 2 Item 6 Legs
+05/04/2017 00:57:43: World Server Start.
+05/04/2017 00:57:44: Conectado ao Game Server #Canal 1
+05/04/2017 00:57:51: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 00:57:51: Status changed to connected: 127.0.0.1
+05/04/2017 00:57:51: Login Server ID: 2147483647
+2017/05/04 0:59:19: ID: 2147483646
+2017/05/04 0:59:19: Server Name: artemis
+2017/05/04 0:59:19: Discovery: Elysium Diamond #1.0.0
+2017/05/04 0:59:19: Port: 55901
+2017/05/04 0:59:19: Maximum Connections: 2000
+2017/05/04 0:59:19: Logs: Ativado
+2017/05/04 0:59:19: Sleep: 1
+2017/05/04 0:59:19: Create Character: False
+2017/05/04 0:59:19: Delete Character: False
+2017/05/04 0:59:19: Carregando config do mysql
+2017/05/04 0:59:19: Connectado ao banco de dados
+2017/05/04 0:59:20: Carregando scripts
+05/04/2017 00:59:21: Classe 1 Item 1 Weapon
+05/04/2017 00:59:21: Classe 1 Item 2 Chest
+05/04/2017 00:59:21: Classe 1 Item 3 Legs
+05/04/2017 00:59:21: Classe 2 Item 4 Weapon
+05/04/2017 00:59:21: Classe 2 Item 5 Chest
+05/04/2017 00:59:21: Classe 2 Item 6 Legs
+05/04/2017 00:59:21: World Server Start.
+05/04/2017 00:59:21: Conectado ao Game Server #Canal 1
+05/04/2017 00:59:23: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 00:59:23: Status changed to connected: 127.0.0.1
+05/04/2017 00:59:23: Login Server ID: 2147483647
+2017/05/04 1:01:22: ID: 2147483646
+2017/05/04 1:01:22: Server Name: artemis
+2017/05/04 1:01:22: Discovery: Elysium Diamond #1.0.0
+2017/05/04 1:01:22: Port: 55901
+2017/05/04 1:01:22: Maximum Connections: 2000
+2017/05/04 1:01:22: Logs: Ativado
+2017/05/04 1:01:22: Sleep: 1
+2017/05/04 1:01:22: Create Character: False
+2017/05/04 1:01:22: Delete Character: False
+2017/05/04 1:01:22: Carregando config do mysql
+2017/05/04 1:01:22: Connectado ao banco de dados
+2017/05/04 1:01:23: Carregando scripts
+05/04/2017 01:01:23: Classe 1 Item 1 Weapon
+05/04/2017 01:01:23: Classe 1 Item 2 Chest
+05/04/2017 01:01:23: Classe 1 Item 3 Legs
+05/04/2017 01:01:23: Classe 2 Item 4 Weapon
+05/04/2017 01:01:23: Classe 2 Item 5 Chest
+05/04/2017 01:01:23: Classe 2 Item 6 Legs
+05/04/2017 01:01:23: World Server Start.
+05/04/2017 01:01:23: Conectado ao Game Server #Canal 1
+05/04/2017 01:01:28: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 01:01:28: Status changed to connected: 127.0.0.1
+05/04/2017 01:01:28: Login Server ID: 2147483647
+05/04/2017 01:01:32: Data From Login Server ID: 1 Account: akaruz B1C63312EA7FBEF5
+05/04/2017 01:01:33: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 01:01:33: Status changed to connected: 127.0.0.1
+05/04/2017 01:01:33: Data From Client: B1C63312EA7FBEF5
+05/04/2017 01:01:33: Player Found ID: 1 Account: akaruz B1C63312EA7FBEF5
+05/04/2017 01:01:33: PreLoad ID: 1 Account: akaruz
+05/04/2017 01:01:35: GameServer Login Attempt: akaruz 127.0.0.1
+05/04/2017 01:01:39: Channel-> Caronne: dsassdad
+05/04/2017 01:02:14: Status changed to disconnected: 1 akaruz 127.0.0.1 B1C63312EA7FBEF5
+05/04/2017 01:02:21: Data From Login Server ID: 1 Account: akaruz 92539C1F3CF52691
+05/04/2017 01:02:22: Discovery Response IPEndPoint: 127.0.0.1
+05/04/2017 01:02:22: Status changed to connected: 127.0.0.1
+05/04/2017 01:02:22: Data From Client: 92539C1F3CF52691
+05/04/2017 01:02:22: Player Found ID: 1 Account: akaruz 92539C1F3CF52691
+05/04/2017 01:02:22: PreLoad ID: 1 Account: akaruz
+05/04/2017 01:02:24: GameServer Login Attempt: akaruz 127.0.0.1
+05/04/2017 01:02:31: Channel-> Caronne: ccwdccddddddddsaccvvv

@@ -1,0 +1,20 @@
+2017/07/18 4:38:06: WorldID: 2
+2017/07/18 4:38:06: Server Name: artemis
+2017/07/18 4:38:06: Discovery: Elysium Diamond #1.0.0
+2017/07/18 4:38:06: Port: 55901
+2017/07/18 4:38:06: Maximum Connections: 1000
+2017/07/18 4:38:06: Logs: Enabled
+2017/07/18 4:38:06: Sleep: 1
+2017/07/18 4:38:06: Pin: False
+2017/07/18 4:38:06: PinMaxAttempt: 5
+2017/07/18 4:38:06: PinBannedTime: 15
+2017/07/18 4:38:06: Connect Ip: 127.0.0.1
+2017/07/18 4:38:06: Connect Port: 57550
+2017/07/18 4:38:06: Trying to connect database
+2017/07/18 4:38:06: Database is connected successfully
+2017/07/18 4:38:06: Loading server messages
+2017/07/18 4:38:06: Loading black market items
+2017/07/18 4:38:06: Loading scripts
+2017/07/18 4:38:08: Create Character: Enabled
+2017/07/18 4:38:08: Delete Character: Enabled
+2017/07/18 4:38:08: World Server Start

@@ -1,0 +1,90 @@
+2017/06/17 19:03:31: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:03:31: Port: 57550
+2017/06/17 19:03:31: Sleep: 1
+2017/06/17 19:03:31: Max Connections: 5
+2017/06/17 19:03:31: Connect Server Start
+2017/06/17 19:08:11: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:08:11: Port: 57550
+2017/06/17 19:08:11: Sleep: 1
+2017/06/17 19:08:11: Max Connections: 5
+2017/06/17 19:08:11: Connect Server Start
+2017/06/17 19:12:24: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:12:24: Port: 57550
+2017/06/17 19:12:24: Sleep: 1
+2017/06/17 19:12:24: Max Connections: 5
+2017/06/17 19:12:24: Connect Server Start
+2017/06/17 19:14:50: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:14:50: Port: 57550
+2017/06/17 19:14:50: Sleep: 1
+2017/06/17 19:14:50: Max Connections: 5
+2017/06/17 19:14:50: Connect Server Start
+2017/06/17 19:15:16: Discovery response IPEndPoint: 127.0.0.1
+2017/06/17 19:15:17: Connected 127.0.0.1
+2017/06/17 19:15:17: Login Server ID: 1
+2017/06/17 19:15:36: Data From Login Server, Account: akaruz A6A26718CC321343
+2017/06/17 19:15:58: Discovery response IPEndPoint: 127.0.0.1
+2017/06/17 19:15:58: Connected 127.0.0.1
+2017/06/17 19:15:58: World Server ID: 2
+2017/06/17 19:16:04: Data From Login Server, Account: akaruz A6A26718CC321343
+2017/06/17 19:16:04: World Server World Server 2 Login Attempt: akaruz
+2017/06/17 19:16:04: removed 
+2017/06/17 19:16:05: added akaruz
+2017/06/17 19:16:54: removed akaruz
+2017/06/17 19:23:04: Data From Login Server, Account: akaruz 2BE26B4C3A6BA159
+2017/06/17 19:23:04: World Server World Server 2 Login Attempt: akaruz
+2017/06/17 19:23:17: Disconnected 2 World Server
+2017/06/17 19:25:46: Discovery response IPEndPoint: 127.0.0.1
+2017/06/17 19:25:46: Connected 127.0.0.1
+2017/06/17 19:25:46: World Server ID: 2
+2017/06/17 19:27:27: Data From Login Server, Account: akaruz DF63D9622BAADB42
+2017/06/17 19:27:27: World Server World Server 2 Login Attempt: akaruz
+2017/06/17 19:27:42: Data From Login Server, Account: akaruz DF63D9622BAADB42
+2017/06/17 19:27:42: World Server World Server 2 Login Attempt: akaruz
+2017/06/17 19:27:42: removed 
+2017/06/17 19:30:08: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:30:08: Port: 57550
+2017/06/17 19:30:08: Sleep: 1
+2017/06/17 19:30:08: Max Connections: 5
+2017/06/17 19:30:08: Connect Server Start
+2017/06/17 19:30:32: Discovery response IPEndPoint: 127.0.0.1
+2017/06/17 19:30:32: Connected 127.0.0.1
+2017/06/17 19:30:32: Login Server ID: 1
+2017/06/17 19:30:56: Discovery response IPEndPoint: 127.0.0.1
+2017/06/17 19:30:57: Connected 127.0.0.1
+2017/06/17 19:30:57: World Server ID: 2
+2017/06/17 19:31:48: Data From Login Server, Account: akaruz 4DED6CF45B5035D1
+2017/06/17 19:31:48: World Server World Server 2 Login Attempt: akaruz
+2017/06/17 19:32:41: Data From Login Server, Account: akaruz 9E7AB80E0D76C24A
+2017/06/17 19:32:41: World Server World Server 2 Login Attempt: akaruz
+2017/06/17 19:36:11: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:36:11: Port: 57550
+2017/06/17 19:36:11: Sleep: 1
+2017/06/17 19:36:11: Max Connections: 5
+2017/06/17 19:36:11: Connect Server Start
+2017/06/17 19:38:04: Discovery response IPEndPoint: 127.0.0.1
+2017/06/17 19:38:04: Connected 127.0.0.1
+2017/06/17 19:38:04: Login Server ID: 1
+2017/06/17 19:38:07: Discovery response IPEndPoint: 127.0.0.1
+2017/06/17 19:38:07: Connected 127.0.0.1
+2017/06/17 19:38:07: World Server ID: 2
+2017/06/17 19:38:28: Data From Login Server, Account: akaruz CB06B66C626CC972
+2017/06/17 19:38:28: World Server World Server 2 Login Attempt: akaruz
+2017/06/17 19:40:16: Discovery: Elysium Diamond #1.0.0
+2017/06/17 19:40:16: Port: 57550
+2017/06/17 19:40:16: Sleep: 1
+2017/06/17 19:40:16: Max Connections: 5
+2017/06/17 19:40:16: Connect Server Start
+2017/06/17 19:40:25: Discovery response IPEndPoint: 127.0.0.1
+2017/06/17 19:40:25: Connected 127.0.0.1
+2017/06/17 19:40:25: Login Server ID: 1
+2017/06/17 19:40:51: Discovery response IPEndPoint: 127.0.0.1
+2017/06/17 19:40:51: Connected 127.0.0.1
+2017/06/17 19:40:51: World Server ID: 2
+2017/06/17 19:41:56: Data From Login Server, Account: akaruz EEB2F6C8C0E04C41
+2017/06/17 19:41:56: World Server World Server 2 Login Attempt: akaruz
+2017/06/17 19:41:57: added akaruz
+2017/06/17 19:42:16: removed akaruz
+2017/06/17 19:42:26: Data From Login Server, Account: akaruz 3388E7D315B15847
+2017/06/17 19:42:26: World Server World Server 2 Login Attempt: akaruz
+2017/06/17 19:42:26: added akaruz
+2017/06/17 19:43:37: removed akaruz

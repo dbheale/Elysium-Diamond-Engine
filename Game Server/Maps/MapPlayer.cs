@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using GameServer.Server;
+using GameServer.Player;
 
 namespace GameServer.Maps {
     public partial class Map {

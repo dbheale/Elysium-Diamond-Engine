@@ -13,9 +13,9 @@ D:\Programing Files\Elysium Diamond\Login Server\obj\Release\LoginServer.Propert
 D:\Programing Files\Elysium Diamond\Login Server\obj\Release\LoginServer.csproj.GenerateResource.Cache
 D:\Programing Files\Elysium Diamond\Login Server\bin\Release\LoginServer.exe
 D:\Programing Files\Elysium Diamond\Login Server\bin\Release\LoginServer.pdb
-D:\Programing Files\Elysium Diamond\Login Server\obj\Release\LoginServer.csprojResolveAssemblyReference.cache
 D:\Programing Files\Elysium Diamond\Login Server\bin\Release\LoginServer.exe.config
 D:\Programing Files\Elysium Diamond\Login Server\bin\Release\Elysium.dll
 D:\Programing Files\Elysium Diamond\Login Server\bin\Release\MySql.Data.dll
 D:\Programing Files\Elysium Diamond\Login Server\bin\Release\NLua.dll
 D:\Programing Files\Elysium Diamond\Login Server\bin\Release\KeraLua.dll
+D:\Programing Files\Elysium Diamond\Login Server\obj\Release\LoginServer.csprojResolveAssemblyReference.cache

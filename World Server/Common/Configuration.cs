@@ -6,11 +6,6 @@
         public static int ID { get; set; }
 
         /// <summary>
-        /// Descoberta de conexão.
-        /// </summary>
-        public static string Discovery { get; set; }
-
-        /// <summary>
         /// Nome do servidor.
         /// </summary>
         public static string WorldServerName { get; set; }
@@ -21,24 +16,29 @@
         public static int WorldServerPort { get; set; }
 
         /// <summary>
+        /// Descoberta de conexão.
+        /// </summary>
+        public static string Discovery { get; set; }
+
+        /// <summary>
+        /// Ip do connect server.
+        /// </summary>
+        public static string ConnectIp { get; set; }
+
+        /// <summary>
+        /// Porta do connect server.
+        /// </summary>
+        public static int ConnectPort { get; set; }
+
+        /// <summary>
         /// Quantidade máxima de conexões.
         /// </summary>
-        public static int MaximumConnections { get; set; }
+        public static int MaxConnections { get; set; }
 
         /// <summary>
         /// Sleep do loop principal.
         /// </summary>
         public static int Sleep { get; set; }
-
-        /// <summary>
-        /// Distribui os jogadores de acordo com a capacidade do servidor.
-        /// </summary>
-        public static bool AutoBalance { get; set; }
-
-        /// <summary>
-        /// Lista de Canal / Servidor.
-        /// </summary>
-        public static ServerData[] GameServer { get; set; } = new ServerData[Constant.MAX_SERVER];
 
         /// <summary>
         /// Permite a criação de personagens.
@@ -60,5 +60,19 @@
         /// </summary>
         public static int CharacterDeleteMaxLevel { get; set; }
 
+        /// <summary>
+        /// Ativa ou desativa o pin.
+        /// </summary>
+        public static bool Pin { get; set; }
+
+        /// <summary>
+        /// Quantidade máxima de tentavias de pin.
+        /// </summary>
+        public static byte PinMaxAttempt { get; set; }
+
+        /// <summary>
+        /// Tempo de bloqueio por erro de pin.
+        /// </summary>
+        public static short PinBannedTime { get; set; }
     }
 }

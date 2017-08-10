@@ -58,7 +58,7 @@ namespace Elysium_Diamond.DirectX {
         /// Executa o stream de som.
         /// </summary>
         /// <param name="sound"></param>
-        public void Play(EngineSound sound) {
+        public void Play(SoundEngine sound) {
             SourceVoice voice;
 
             lock (FreeVoices) {

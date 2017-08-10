@@ -1,0 +1,302 @@
+2017/07/22 4:17:38: WorldID: 2
+2017/07/22 4:17:38: Server Name: artemis
+2017/07/22 4:17:38: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:17:38: Port: 55901
+2017/07/22 4:17:38: Maximum Connections: 1000
+2017/07/22 4:17:38: Logs: Enabled
+2017/07/22 4:17:38: Sleep: 1
+2017/07/22 4:17:38: Pin: False
+2017/07/22 4:17:38: PinMaxAttempt: 5
+2017/07/22 4:17:38: PinBannedTime: 15
+2017/07/22 4:17:38: Connect Ip: 127.0.0.1
+2017/07/22 4:17:38: Connect Port: 57550
+2017/07/22 4:17:38: Trying to connect database
+2017/07/22 4:17:39: Database is connected successfully
+2017/07/22 4:17:39: Loading server messages
+2017/07/22 4:17:39: Loading black market items
+2017/07/22 4:17:39: Loading scripts
+2017/07/22 4:17:40: Create Character: Enabled
+2017/07/22 4:17:40: Delete Character: Enabled
+2017/07/22 4:17:40: World Server Start
+2017/07/22 4:17:51: Connect Server connected
+2017/07/22 4:18:40: Connect Server disconnected
+2017/07/22 4:20:01: Connect Server connected
+2017/07/22 4:20:16: Received from login server ID: 1 Account: akaruz 8C0C7C082A3CE569
+2017/07/22 4:20:17: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 4:20:17: Status changed to connected: 127.0.0.1
+2017/07/22 4:20:17: Received from client: 8C0C7C082A3CE569
+2017/07/22 4:20:17: Player found ID: 1 Account: akaruz 8C0C7C082A3CE569
+2017/07/22 4:20:17: PreLoad ID: 1 Account: akaruz
+2017/07/22 4:20:42: Connect Server disconnected
+2017/07/22 4:22:10: Connect Server connected
+2017/07/22 4:22:28: Status changed to disconnected: 1 akaruz 127.0.0.1 8C0C7C082A3CE569
+2017/07/22 4:22:43: Connect Server disconnected
+2017/07/22 4:23:01: Connect Server connected
+2017/07/22 4:23:09: Received from login server ID: 1 Account: akaruz 63471A5364F8F2C6
+2017/07/22 4:23:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 4:23:10: Status changed to connected: 127.0.0.1
+2017/07/22 4:23:10: Received from client: 63471A5364F8F2C6
+2017/07/22 4:23:10: Player found ID: 1 Account: akaruz 63471A5364F8F2C6
+2017/07/22 4:23:10: PreLoad ID: 1 Account: akaruz
+2017/07/22 4:23:12: akaruz 127.0.0.1 login attempt region 1 
+2017/07/22 4:24:17: WorldID: 2
+2017/07/22 4:24:17: Server Name: artemis
+2017/07/22 4:24:17: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:24:17: Port: 55901
+2017/07/22 4:24:17: Maximum Connections: 1000
+2017/07/22 4:24:17: Logs: Enabled
+2017/07/22 4:24:17: Sleep: 1
+2017/07/22 4:24:17: Pin: False
+2017/07/22 4:24:17: PinMaxAttempt: 5
+2017/07/22 4:24:17: PinBannedTime: 15
+2017/07/22 4:24:17: Connect Ip: 127.0.0.1
+2017/07/22 4:24:17: Connect Port: 57550
+2017/07/22 4:24:17: Trying to connect database
+2017/07/22 4:24:17: Database is connected successfully
+2017/07/22 4:24:17: Loading server messages
+2017/07/22 4:24:17: Loading black market items
+2017/07/22 4:24:17: Loading scripts
+2017/07/22 4:24:18: Create Character: Enabled
+2017/07/22 4:24:18: Delete Character: Enabled
+2017/07/22 4:24:19: World Server Start
+2017/07/22 4:24:29: Connect Server connected
+2017/07/22 4:24:35: Received from login server ID: 1 Account: akaruz 6440C84D29C431B1
+2017/07/22 4:24:35: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 4:24:35: Status changed to connected: 127.0.0.1
+2017/07/22 4:24:35: Received from client: 6440C84D29C431B1
+2017/07/22 4:24:35: Player found ID: 1 Account: akaruz 6440C84D29C431B1
+2017/07/22 4:24:35: PreLoad ID: 1 Account: akaruz
+2017/07/22 4:24:38: akaruz 127.0.0.1 login attempt region 1 
+2017/07/22 4:25:30: WorldID: 2
+2017/07/22 4:25:30: Server Name: artemis
+2017/07/22 4:25:30: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:25:30: Port: 55901
+2017/07/22 4:25:30: Maximum Connections: 1000
+2017/07/22 4:25:30: Logs: Enabled
+2017/07/22 4:25:30: Sleep: 1
+2017/07/22 4:25:30: Pin: False
+2017/07/22 4:25:30: PinMaxAttempt: 5
+2017/07/22 4:25:30: PinBannedTime: 15
+2017/07/22 4:25:30: Connect Ip: 127.0.0.1
+2017/07/22 4:25:30: Connect Port: 57550
+2017/07/22 4:25:30: Trying to connect database
+2017/07/22 4:25:30: Database is connected successfully
+2017/07/22 4:25:30: Loading server messages
+2017/07/22 4:25:30: Loading black market items
+2017/07/22 4:25:30: Loading scripts
+2017/07/22 4:25:31: Create Character: Enabled
+2017/07/22 4:25:31: Delete Character: Enabled
+2017/07/22 4:25:32: World Server Start
+2017/07/22 4:25:42: Connect Server connected
+2017/07/22 4:25:59: Received from login server ID: 1 Account: akaruz 15CA1693D83CBC02
+2017/07/22 4:26:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 4:26:00: Status changed to connected: 127.0.0.1
+2017/07/22 4:26:00: Received from client: 15CA1693D83CBC02
+2017/07/22 4:26:00: Player found ID: 1 Account: akaruz 15CA1693D83CBC02
+2017/07/22 4:26:00: PreLoad ID: 1 Account: akaruz
+2017/07/22 4:26:02: akaruz 127.0.0.1 login attempt region 1 
+2017/07/22 4:30:39: WorldID: 2
+2017/07/22 4:30:39: Server Name: artemis
+2017/07/22 4:30:39: Discovery: Elysium Diamond #1.0.0
+2017/07/22 4:30:39: Port: 55901
+2017/07/22 4:30:39: Maximum Connections: 1000
+2017/07/22 4:30:39: Logs: Enabled
+2017/07/22 4:30:39: Sleep: 1
+2017/07/22 4:30:39: Pin: False
+2017/07/22 4:30:39: PinMaxAttempt: 5
+2017/07/22 4:30:39: PinBannedTime: 15
+2017/07/22 4:30:39: Connect Ip: 127.0.0.1
+2017/07/22 4:30:39: Connect Port: 57550
+2017/07/22 4:30:39: Trying to connect database
+2017/07/22 4:30:39: Database is connected successfully
+2017/07/22 4:30:39: Loading server messages
+2017/07/22 4:30:39: Loading black market items
+2017/07/22 4:30:39: Loading scripts
+2017/07/22 4:30:40: Create Character: Enabled
+2017/07/22 4:30:40: Delete Character: Enabled
+2017/07/22 4:30:41: World Server Start
+2017/07/22 4:30:51: Connect Server connected
+2017/07/22 4:31:10: Received from login server ID: 1 Account: akaruz 9ED59FCC299999F7
+2017/07/22 4:31:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 4:31:10: Status changed to connected: 127.0.0.1
+2017/07/22 4:31:10: Received from client: 9ED59FCC299999F7
+2017/07/22 4:31:10: Player found ID: 1 Account: akaruz 9ED59FCC299999F7
+2017/07/22 4:31:10: PreLoad ID: 1 Account: akaruz
+2017/07/22 4:31:11: akaruz 127.0.0.1 login attempt region 1 
+2017/07/22 4:31:12: Status changed to disconnected: 1 akaruz 127.0.0.1 9ED59FCC299999F7
+2017/07/22 5:27:08: WorldID: 2
+2017/07/22 5:27:08: Server Name: artemis
+2017/07/22 5:27:08: Discovery: Elysium Diamond #1.0.0
+2017/07/22 5:27:08: Port: 55901
+2017/07/22 5:27:08: Maximum Connections: 1000
+2017/07/22 5:27:08: Logs: Enabled
+2017/07/22 5:27:08: Sleep: 1
+2017/07/22 5:27:08: Pin: False
+2017/07/22 5:27:08: PinMaxAttempt: 5
+2017/07/22 5:27:08: PinBannedTime: 15
+2017/07/22 5:27:08: Connect Ip: 127.0.0.1
+2017/07/22 5:27:08: Connect Port: 57550
+2017/07/22 5:27:08: Trying to connect database
+2017/07/22 5:27:08: Database is connected successfully
+2017/07/22 5:27:08: Loading server messages
+2017/07/22 5:27:08: Loading black market items
+2017/07/22 5:27:08: Loading scripts
+2017/07/22 5:27:09: Create Character: Enabled
+2017/07/22 5:27:09: Delete Character: Enabled
+2017/07/22 5:27:09: World Server Start
+2017/07/22 5:27:39: Connect Server connected
+2017/07/22 5:28:43: Received from login server ID: 1 Account: akaruz 56D713617E66F5F8
+2017/07/22 5:28:44: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 5:28:44: Status changed to connected: 127.0.0.1
+2017/07/22 5:28:44: Received from client: 56D713617E66F5F8
+2017/07/22 5:28:44: Player found ID: 1 Account: akaruz 56D713617E66F5F8
+2017/07/22 5:28:44: PreLoad ID: 1 Account: akaruz
+2017/07/22 5:28:48: akaruz 127.0.0.1 login attempt region 1 
+2017/07/22 5:28:50: Status changed to disconnected: 1 akaruz 127.0.0.1 56D713617E66F5F8
+2017/07/22 16:09:52: WorldID: 2
+2017/07/22 16:09:52: Server Name: artemis
+2017/07/22 16:09:52: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:09:52: Port: 55901
+2017/07/22 16:09:52: Maximum Connections: 1000
+2017/07/22 16:09:52: Logs: Enabled
+2017/07/22 16:09:52: Sleep: 1
+2017/07/22 16:09:52: Pin: False
+2017/07/22 16:09:52: PinMaxAttempt: 5
+2017/07/22 16:09:52: PinBannedTime: 15
+2017/07/22 16:09:52: Connect Ip: 127.0.0.1
+2017/07/22 16:09:52: Connect Port: 57550
+2017/07/22 16:09:52: Trying to connect database
+2017/07/22 16:09:54: Database is connected successfully
+2017/07/22 16:09:54: Loading server messages
+2017/07/22 16:09:54: Loading black market items
+2017/07/22 16:09:54: Loading scripts
+2017/07/22 16:09:54: Create Character: Enabled
+2017/07/22 16:09:54: Delete Character: Enabled
+2017/07/22 16:09:55: World Server Start
+2017/07/22 16:09:55: Connect Server connected
+2017/07/22 16:20:36: Received from login server ID: 1 Account: akaruz 7E7ECB5C0CD067A4
+2017/07/22 16:20:36: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 16:20:36: Status changed to connected: 127.0.0.1
+2017/07/22 16:20:36: Received from client: 7E7ECB5C0CD067A4
+2017/07/22 16:20:36: Player found ID: 1 Account: akaruz 7E7ECB5C0CD067A4
+2017/07/22 16:20:36: PreLoad ID: 1 Account: akaruz
+2017/07/22 16:20:37: akaruz 127.0.0.1 login attempt region 1 
+2017/07/22 16:20:40: Channel-> : ca
+2017/07/22 16:20:45: Channel-> : aaa
+2017/07/22 16:21:31: Status changed to disconnected: 1 akaruz 127.0.0.1 7E7ECB5C0CD067A4
+2017/07/22 16:24:13: Connect Server disconnected
+2017/07/22 16:37:45: WorldID: 2
+2017/07/22 16:37:45: Server Name: artemis
+2017/07/22 16:37:45: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:37:45: Port: 55901
+2017/07/22 16:37:45: Maximum Connections: 1000
+2017/07/22 16:37:45: Logs: Enabled
+2017/07/22 16:37:45: Sleep: 1
+2017/07/22 16:37:45: Pin: False
+2017/07/22 16:37:45: PinMaxAttempt: 5
+2017/07/22 16:37:45: PinBannedTime: 15
+2017/07/22 16:37:45: Connect Ip: 127.0.0.1
+2017/07/22 16:37:45: Connect Port: 57550
+2017/07/22 16:37:45: Trying to connect database
+2017/07/22 16:37:48: Database is connected successfully
+2017/07/22 16:37:48: Loading server messages
+2017/07/22 16:37:48: Loading black market items
+2017/07/22 16:37:48: Loading scripts
+2017/07/22 16:37:48: Create Character: Enabled
+2017/07/22 16:37:48: Delete Character: Enabled
+2017/07/22 16:37:48: World Server Start
+2017/07/22 16:37:48: Connect Server connected
+2017/07/22 16:38:11: Received from login server ID: 1 Account: akaruz 9EDE70A6E1712E3C
+2017/07/22 16:38:11: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 16:38:11: Status changed to connected: 127.0.0.1
+2017/07/22 16:38:11: Received from client: 9EDE70A6E1712E3C
+2017/07/22 16:38:11: Player found ID: 1 Account: akaruz 9EDE70A6E1712E3C
+2017/07/22 16:38:11: PreLoad ID: 1 Account: akaruz
+2017/07/22 16:38:13: akaruz 127.0.0.1 login attempt region 1 
+2017/07/22 16:38:17: Channel-> : aaa
+2017/07/22 16:38:20: Channel-> : aaa
+2017/07/22 16:38:32: Channel-> : aaa
+2017/07/22 16:38:35: Channel-> : terubur ni
+2017/07/22 16:41:19: WorldID: 2
+2017/07/22 16:41:19: Server Name: artemis
+2017/07/22 16:41:19: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:41:19: Port: 55901
+2017/07/22 16:41:19: Maximum Connections: 1000
+2017/07/22 16:41:19: Logs: Enabled
+2017/07/22 16:41:19: Sleep: 1
+2017/07/22 16:41:19: Pin: False
+2017/07/22 16:41:19: PinMaxAttempt: 5
+2017/07/22 16:41:19: PinBannedTime: 15
+2017/07/22 16:41:19: Connect Ip: 127.0.0.1
+2017/07/22 16:41:19: Connect Port: 57550
+2017/07/22 16:41:19: Trying to connect database
+2017/07/22 16:41:19: Database is connected successfully
+2017/07/22 16:41:19: Loading server messages
+2017/07/22 16:41:19: Loading black market items
+2017/07/22 16:41:19: Loading scripts
+2017/07/22 16:41:20: Create Character: Enabled
+2017/07/22 16:41:20: Delete Character: Enabled
+2017/07/22 16:41:21: World Server Start
+2017/07/22 16:41:31: Connect Server connected
+2017/07/22 16:41:47: Received from login server ID: 1 Account: akaruz F2199CB8C82080A5
+2017/07/22 16:41:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 16:41:48: Status changed to connected: 127.0.0.1
+2017/07/22 16:41:48: Received from client: F2199CB8C82080A5
+2017/07/22 16:41:48: Player found ID: 1 Account: akaruz F2199CB8C82080A5
+2017/07/22 16:41:48: PreLoad ID: 1 Account: akaruz
+2017/07/22 16:41:49: akaruz 127.0.0.1 login attempt region 1 
+2017/07/22 16:41:52: Channel-> : aaa
+2017/07/22 16:41:53: Channel-> : aaa
+2017/07/22 16:43:17: WorldID: 2
+2017/07/22 16:43:17: Server Name: artemis
+2017/07/22 16:43:17: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:43:17: Port: 55901
+2017/07/22 16:43:17: Maximum Connections: 1000
+2017/07/22 16:43:17: Logs: Enabled
+2017/07/22 16:43:17: Sleep: 1
+2017/07/22 16:43:17: Pin: False
+2017/07/22 16:43:17: PinMaxAttempt: 5
+2017/07/22 16:43:17: PinBannedTime: 15
+2017/07/22 16:43:17: Connect Ip: 127.0.0.1
+2017/07/22 16:43:17: Connect Port: 57550
+2017/07/22 16:43:17: Trying to connect database
+2017/07/22 16:43:18: Database is connected successfully
+2017/07/22 16:43:18: Loading server messages
+2017/07/22 16:43:18: Loading black market items
+2017/07/22 16:43:18: Loading scripts
+2017/07/22 16:43:19: Create Character: Enabled
+2017/07/22 16:43:19: Delete Character: Enabled
+2017/07/22 16:43:19: World Server Start
+2017/07/22 16:43:20: Connect Server connected
+2017/07/22 16:44:01: Received from login server ID: 1 Account: akaruz 6F81A4806A8BA721
+2017/07/22 16:44:01: Discovery Response IPEndPoint: 127.0.0.1
+2017/07/22 16:44:01: Status changed to connected: 127.0.0.1
+2017/07/22 16:44:01: Received from client: 6F81A4806A8BA721
+2017/07/22 16:44:01: Player found ID: 1 Account: akaruz 6F81A4806A8BA721
+2017/07/22 16:44:01: PreLoad ID: 1 Account: akaruz
+2017/07/22 16:44:19: akaruz 127.0.0.1 login attempt region 1 
+2017/07/22 16:44:20: Channel-> Caronne: aaa
+2017/07/22 16:44:22: Channel-> Caronne: aaa
+2017/07/22 16:44:26: Channel-> Caronne: agora carregou essa desgraça
+2017/07/22 16:44:52: Status changed to disconnected: 1 akaruz 127.0.0.1 6F81A4806A8BA721
+2017/07/22 16:53:00: WorldID: 2
+2017/07/22 16:53:00: Server Name: artemis
+2017/07/22 16:53:00: Discovery: Elysium Diamond #1.0.0
+2017/07/22 16:53:00: Port: 55901
+2017/07/22 16:53:00: Maximum Connections: 1000
+2017/07/22 16:53:00: Logs: Enabled
+2017/07/22 16:53:00: Sleep: 1
+2017/07/22 16:53:00: Pin: False
+2017/07/22 16:53:00: PinMaxAttempt: 5
+2017/07/22 16:53:00: PinBannedTime: 15
+2017/07/22 16:53:00: Connect Ip: 127.0.0.1
+2017/07/22 16:53:00: Connect Port: 57550
+2017/07/22 16:53:00: Trying to connect database
+2017/07/22 16:53:02: Database is connected successfully
+2017/07/22 16:53:02: Loading server messages
+2017/07/22 16:53:02: Loading black market items
+2017/07/22 16:53:02: Loading scripts
+2017/07/22 16:53:03: Create Character: Enabled
+2017/07/22 16:53:03: Delete Character: Enabled
+2017/07/22 16:53:03: World Server Start
+2017/07/22 16:53:03: Connect Server connected

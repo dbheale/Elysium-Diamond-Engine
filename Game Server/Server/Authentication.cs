@@ -2,24 +2,27 @@
 using System.Drawing;
 using System.Collections.Generic;
 using System.Linq;
-using GameServer.Common;
 using GameServer.Network;
 using GameServer.Maps;
 using GameServer.MySQL;
+using GameServer.Player;
 using Lidgren.Network;
-using Elysium;
+using Elysium.Logs;
 
 namespace GameServer.Server {
     public static class Authentication {
+        private static List<PlayerData> playersremove = new List<PlayerData>();
+        private static List<HexaID> hexsremove = new List<HexaID>();
+
         /// <summary>
         /// HexID recebido pelo login server.
         /// </summary>
-        private static HashSet<HexaID> HexID { get; set; } = new HashSet<HexaID>();
+        private static HashSet<HexaID> hexid = new HashSet<HexaID>();
 
         /// <summary>
         /// Conexões e jogadores.
         /// </summary>
-        private static HashSet<PlayerData> player { get; set; } = new HashSet<PlayerData>();
+        private static HashSet<PlayerData> player = new HashSet<PlayerData>();
 
         /// <summary>
         /// Adiciona os dados recebido do login server.
@@ -32,7 +35,7 @@ namespace GameServer.Server {
             hexID.Account = data.ReadString();
             hexID.AccountID = data.ReadInt32();
             hexID.LanguageID = data.ReadByte();
-            hexID.AccessLevel = data.ReadInt16();
+            hexID.AccessLevel = data.ReadByte();
             hexID.CharacterID = data.ReadInt32();
             hexID.CharSlot = data.ReadInt32();
             var service = data.ReadInt32();
@@ -41,9 +44,9 @@ namespace GameServer.Server {
 
             hexID.Time = Environment.TickCount;
 
-            HexID.Add(hexID);
+            hexid.Add(hexID);
 
-            Logs.Write($"Data From World Server ID: {hexID.AccountID} Account: {hexID.Account} Char ID: {hexID.CharacterID} Slot: {hexID.CharSlot} {hexID.HexID}", Color.Black);
+            Log.Write($"Data From World Server ID: {hexID.AccountID} Account: {hexID.Account} Char ID: {hexID.CharacterID} Slot: {hexID.CharSlot} {hexID.HexID}", Color.Black);
         }
 
         /// <summary>
@@ -55,7 +58,7 @@ namespace GameServer.Server {
             PlayerData pData = FindByConnection(connection);
             pData.HexID = hexID;
 
-            Logs.Write($"Received From Client: {hexID}", Color.Black);
+            Log.Write($"Received From Client: {hexID}", Color.Black);
         }
 
         /// <summary>
@@ -75,7 +78,7 @@ namespace GameServer.Server {
             pData.CharacterSlot = hexID.CharSlot;
             pData.Service = hexID.Service;
 
-            HexID.Remove(hexID);
+            hexid.Remove(hexID);
         }
 
         /// <summary>
@@ -85,25 +88,14 @@ namespace GameServer.Server {
             HexaID hexID;
 
             foreach (PlayerData pData in player) {
-                if (pData.AccountID > 0) { continue; }
+                if (pData.AccountID != 0) { continue; }
                 if (pData.HexID.Length == 0) { continue; }
 
-                //Aceita o hexID e permite a conexão do world server
-                for (int i = 0; i < Constant.MAX_SERVER; i++) {
-                    if (pData.HexID.CompareTo(Configuration.WorldServerID[i]) == 0) {
-                        hexID = new HexaID();
-                        hexID.Account = pData.HexID;
-                        hexID.HexID = pData.HexID;
-
-                        AcceptHexID(pData.Connection, hexID);
-                    }
-                }
-
                 hexID = FindHexID(pData.HexID);
-
+                
                 //Se não encontrar o hexid, desconecta o usuário pelo cliente
                 if (hexID == null) {
-                    GamePacket.Message(pData.Connection, (int)PacketList.Disconnect);
+                    GamePacket.Message(pData.Connection, (short)PacketList.Disconnect);
                     continue;
                 }
               
@@ -119,17 +111,43 @@ namespace GameServer.Server {
         }
 
         /// <summary>
-        /// Percorre todos os hexid e verifica o estado atual.
+        /// Remove os jogadores.
         /// </summary>
-        public static void VerifyHexID() {
-            foreach (HexaID hexID in HexID) {
-                if (Equals(null, hexID)) { continue; }
-
-                if (Environment.TickCount >= hexID.Time + 10000) {
-                    Logs.Write($"Removed HexID: {hexID.HexID} {hexID.Account}", Color.Coral);
-                    HexID.Remove(hexID); 
+        public static void RemoveInvalidUsersAndHexID() {
+            //se algum dado estiver mais que 10 segundos no sistema, é removido da lista.
+            foreach (var pData in player) {
+                if (pData?.AccountID == 0) {
+                    if (Environment.TickCount >= (pData.Time + 10000)) {
+                        pData.Connection?.Disconnect("");
+                        playersremove.Add(pData);
+                    }
                 }
             }
+
+            //se algum dado estiver mais que 10 segundos no sistema, é removido da lista.
+            //então, o jogador deve fazer um login
+            foreach (var hexID in hexid) {
+                if (Equals(null, hexID)) { continue; }
+
+                if (Environment.TickCount > hexID.Time + 10000) {
+                    Log.Write($"Removed HexID: {hexID.HexID} {hexID.Account}", Color.Coral);
+                    hexsremove.Add(hexID);
+                }
+            }
+
+            var count = playersremove.Count;
+            for (var i = 0; i < count; i++) {
+                player.Remove(playersremove[i]);
+            }
+
+            if (count > 0) playersremove.Clear();
+
+            count = hexsremove.Count;
+            for (var i = 0; i < count; i++) {
+                hexid.Remove(hexsremove[i]);
+            }
+
+            if (count > 0) hexsremove.Clear();
         }
 
         /// <summary>
@@ -140,7 +158,7 @@ namespace GameServer.Server {
         private static HexaID FindHexID(string hexID) {
             if (string.IsNullOrEmpty(hexID)) { return null; }
 
-            var find_hexid = from hData in HexID
+            var find_hexid = from hData in hexid
                              where hData.HexID.CompareTo(hexID) == 0
                              select hData;
 
@@ -182,7 +200,7 @@ namespace GameServer.Server {
             if (string.IsNullOrEmpty(charName)) { return null; }
 
             var find_id = from pData in player
-                          where pData.CharacterName.CompareTo(charName) == 0
+                          where string.Compare(pData.CharacterName, charName, true) == 0 
                           select pData;
 
             return find_id.FirstOrDefault();
@@ -234,9 +252,10 @@ namespace GameServer.Server {
         /// </summary>
         /// <param name="msg"></param>
         public static void Connect(NetIncomingMessage msg) {
-            Logs.Write($"Status changed to connected: {msg.SenderEndPoint.Address}", Color.Coral);
+            Log.Write($"Status changed to connected: {msg.SenderEndPoint.Address}", Color.Coral);
             player.Add(new PlayerData(msg.SenderConnection, string.Empty, msg.SenderEndPoint.Address.ToString()));
             GamePacket.NeedHexID(msg.SenderConnection);
+            WorldPacket.UpdateUserCount();
         }
 
         /// <summary>
@@ -244,17 +263,20 @@ namespace GameServer.Server {
         /// </summary>
         /// <param name="pData"></param>
         public static void Disconnect(PlayerData pData) {           
-            if (pData.HexID.Length > 0) {
-                Logs.Write($"ID: {pData?.CharacterID} {pData?.CharacterName} Status changed to disconnected: " + pData.IP, Color.Coral);
-                Character_DB.Save(pData);
+            if (pData.CharacterID > 0) {
+                MapManager.FindMapByID(pData.WorldID).RemovePlayer(pData.CharacterID);
+
+                Log.Write($"ID: {pData?.CharacterID} {pData?.CharacterName} status changed to disconnected: " + pData.IP, Color.Coral);
+
+                Character_DB.SaveData(pData);
+                Character_DB.SaveEquippedItems(pData);
+                Character_DB.SaveInventory(pData);
+            }
+            else if (pData.AccountID < 0) {
+                Log.Write($"World ID: {pData.AccountID} {pData.HexID} status changed to disconnected: {pData.IP}", Color.Coral);
             }
 
-            if (pData.CharacterID <= 0)  return; 
-
-            MapManager.FindMapByID(pData.WorldID).RemovePlayer(pData.CharacterID);
-
-            pData?.Clear();
-            player.Remove(pData);
+            playersremove.Add(pData);
         }
 
         /// <summary>
@@ -264,10 +286,10 @@ namespace GameServer.Server {
         /// <returns></returns>
         public static bool IsConnected(string account) {
             var find_account = from pData in player
-                               where pData.Account.CompareTo(account) == 0
+                               where string.Compare(pData.Account, account, true) == 0
                                select pData;
 
-            return find_account.FirstOrDefault() == null ? true : false;
+            return find_account.FirstOrDefault() == null ? false : true;
         }
     }
 }

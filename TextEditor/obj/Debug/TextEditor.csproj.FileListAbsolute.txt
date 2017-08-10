@@ -9,3 +9,19 @@ C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.exe
 C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.pdb
 C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.Form1.resources
 C:\Users\DragonicK\Desktop\TextEditor\obj\Debug\TextEditor.ExpForm.resources
+D:\Programing Files\Elysium Diamond\TextEditor\bin\Debug\TextEditor.exe.config
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.exe
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.pdb
+D:\Programing Files\Elysium Diamond\TextEditor\bin\Debug\TextEditor.exe
+D:\Programing Files\Elysium Diamond\TextEditor\bin\Debug\TextEditor.pdb
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.ExpForm.resources
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.Form1.resources
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.ItemForm.resources
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.NpcForm.resources
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.Talent.TalentEdit.resources
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.Talent.TalentForm.resources
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.Talent.ManageClasse.resources
+D:\Programing Files\Elysium Diamond\TextEditor\obj\Debug\TextEditor.Talent.TalentView.resources

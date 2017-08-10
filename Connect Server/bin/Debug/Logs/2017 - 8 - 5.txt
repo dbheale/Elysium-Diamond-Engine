@@ -1,0 +1,23 @@
+2017/08/05 4:37:17: Discovery: Elysium Diamond #1.0.0
+2017/08/05 4:37:17: Port: 57550
+2017/08/05 4:37:17: Sleep: 1
+2017/08/05 4:37:17: Max Connections: 5
+2017/08/05 4:37:17: Loading scripts
+2017/08/05 4:37:17: Added game server 3 region 1
+2017/08/05 4:37:17: Added game server 4 region 2
+2017/08/05 4:37:17: Connect Server Start
+2017/08/05 4:37:27: Discovery response IPEndPoint: 127.0.0.1
+2017/08/05 4:37:27: Connected 127.0.0.1
+2017/08/05 4:37:27: Login Server ID: 1 B5B5D0C5DBA6CFCD
+2017/08/05 4:37:42: Discovery response IPEndPoint: 127.0.0.1
+2017/08/05 4:37:42: Connected 127.0.0.1
+2017/08/05 4:37:42: World Server ID: 2 C61B4F6F83AAF8E4
+2017/08/05 4:37:53: Discovery response IPEndPoint: 127.0.0.1
+2017/08/05 4:37:53: Connected 127.0.0.1
+2017/08/05 4:37:53: Game Server ID: 3 2EF63A28D8155B9B
+2017/08/05 4:38:33: Data from login server account: akaruz 0F2304C24E0FA01D
+2017/08/05 4:38:33: World Server 2 login lttempt: akaruz
+2017/08/05 4:38:34: added akaruz
+2017/08/05 4:38:42: Data from world server account: akaruz 0F2304C24E0FA01D
+2017/08/05 4:38:42: Game Server 3 login attempt: akaruz
+2017/08/05 4:39:49: removed akaruz

@@ -1,0 +1,64 @@
+2017/06/05 14:31:49: ID: -1
+2017/06/05 14:31:49: Discovery: Elysium Diamond #1.0.0
+2017/06/05 14:31:49: Port: 44405
+2017/06/05 14:31:49: Maximum Connection: 1000
+2017/06/05 14:31:49: Sleep: 1
+2017/06/05 14:31:49: Versão: 1.2.10
+2017/06/05 14:31:49: GeoIp: Desativado
+2017/06/05 14:31:49: CheckSum: Desativado
+2017/06/05 14:31:49: PinCheckTime: 15
+2017/06/05 14:31:49: Servidor adicionado: 火星 (JP) 普通
+2017/06/05 14:31:49: Servidor adicionado: 木星 (JP) 普通
+2017/06/05 14:31:49: Servidor adicionado: 화성 (KR) 표준
+2017/06/05 14:31:49: Servidor adicionado: Local Server (BR) Privado
+2017/06/05 14:31:49: Connectado ao banco de dados
+2017/06/05 14:31:50: Conectando World Server
+2017/06/05 14:31:51: Login Server Start
+2017/06/05 14:32:12: ID: -1
+2017/06/05 14:32:12: Discovery: Elysium Diamond #1.0.0
+2017/06/05 14:32:12: Port: 44405
+2017/06/05 14:32:12: Maximum Connection: 1000
+2017/06/05 14:32:12: Sleep: 1
+2017/06/05 14:32:12: Versão: 1.2.10
+2017/06/05 14:32:12: GeoIp: Desativado
+2017/06/05 14:32:12: CheckSum: Desativado
+2017/06/05 14:32:12: PinCheckTime: 15
+2017/06/05 14:32:12: Servidor adicionado: 火星 (JP) 普通
+2017/06/05 14:32:12: Servidor adicionado: 木星 (JP) 普通
+2017/06/05 14:32:12: Servidor adicionado: 화성 (KR) 표준
+2017/06/05 14:32:12: Servidor adicionado: Local Server (BR) Privado
+2017/06/05 14:32:12: Connectado ao banco de dados
+2017/06/05 14:32:13: Conectando World Server
+2017/06/05 14:32:14: Login Server Start
+2017/06/05 14:32:31: ID: -1
+2017/06/05 14:32:31: Discovery: Elysium Diamond #1.0.0
+2017/06/05 14:32:31: Port: 44405
+2017/06/05 14:32:31: Maximum Connection: 1000
+2017/06/05 14:32:31: Sleep: 1
+2017/06/05 14:32:31: Versão: 1.2.10
+2017/06/05 14:32:31: GeoIp: Desativado
+2017/06/05 14:32:31: CheckSum: Desativado
+2017/06/05 14:32:31: PinCheckTime: 15
+2017/06/05 14:32:31: Servidor adicionado: 火星 (JP) 普通
+2017/06/05 14:32:31: Servidor adicionado: 木星 (JP) 普通
+2017/06/05 14:32:31: Servidor adicionado: 화성 (KR) 표준
+2017/06/05 14:32:31: Servidor adicionado: Local Server (BR) Privado
+2017/06/05 14:32:31: Connectado ao banco de dados
+2017/06/05 14:32:33: Conectando World Server
+2017/06/05 14:32:34: Login Server Start
+2017/06/05 14:33:46: ID: -1
+2017/06/05 14:33:46: Discovery: Elysium Diamond #1.0.0
+2017/06/05 14:33:46: Port: 44405
+2017/06/05 14:33:46: Maximum Connection: 1000
+2017/06/05 14:33:46: Sleep: 1
+2017/06/05 14:33:46: Versão: 1.2.10
+2017/06/05 14:33:46: GeoIp: Desativado
+2017/06/05 14:33:46: CheckSum: Desativado
+2017/06/05 14:33:46: PinCheckTime: 15
+2017/06/05 14:33:46: Servidor adicionado: 火星 (JP) 普通
+2017/06/05 14:33:46: Servidor adicionado: 木星 (JP) 普通
+2017/06/05 14:33:46: Servidor adicionado: 화성 (KR) 표준
+2017/06/05 14:33:46: Servidor adicionado: Local Server (BR) Privado
+2017/06/05 14:33:46: Connectado ao banco de dados
+2017/06/05 14:33:47: Conectando World Server
+2017/06/05 14:33:47: Login Server Start

@@ -1,0 +1,14 @@
+2017/08/08 0:59:14: Discovery: Elysium Diamond #1.0.0
+2017/08/08 0:59:14: Port: 57550
+2017/08/08 0:59:14: Sleep: 1
+2017/08/08 0:59:14: Max Connections: 5
+2017/08/08 0:59:14: Loading scripts
+2017/08/08 0:59:14: Added game server 3 region 1
+2017/08/08 0:59:14: Added game server 4 region 2
+2017/08/08 0:59:14: Connect Server Start
+2017/08/08 0:59:21: Discovery response IPEndPoint: 127.0.0.1
+2017/08/08 0:59:22: Connected 127.0.0.1
+2017/08/08 0:59:22: Login Server ID: 1 E524C921AC9DB1B9
+2017/08/08 0:59:29: Discovery response IPEndPoint: 127.0.0.1
+2017/08/08 0:59:29: Connected 127.0.0.1
+2017/08/08 0:59:29: World Server ID: 2 E165AF9B1A83D83D

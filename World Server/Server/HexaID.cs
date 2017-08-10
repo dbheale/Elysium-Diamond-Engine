@@ -1,23 +1,28 @@
-﻿using Elysium;
+﻿using Elysium.Service;
 
 namespace WorldServer.Server {
     public class HexaID {
         /// <summary>
-        /// Tempo dos dados no servidor. (30 segundos)
+        /// Tempo dos dados no servidor. 
         /// </summary>
         public int Time { get; set; }
+
+        /// <summary>
+        /// PIN de usuário.
+        /// </summary>
+        public string Pin { get; set; }
+
+        /// <summary>
+        /// Número de tentativas de PIN.
+        /// </summary>
+        public byte PinAttempt { get; set; }
 
         public string HexID { get; set; }
         public int AccountID { get; set; }
         public string Account { get; set; }
         public byte LanguageID { get; set; }
-        public short AccessLevel { get; set; }
+        public byte AccessLevel { get; set; }
         public int Cash { get; set; }
-
-        /// <summary>
-        /// Senha de segurança dos personagens.
-        /// </summary>
-        public string Pin { get; set; }
 
         /// <summary>
         /// Serviços de conta de usuário.
@@ -28,7 +33,6 @@ namespace WorldServer.Server {
         /// Construtor
         /// </summary>
         public HexaID() {
-            //instancia o serviço
             Service = new PlayerService();
         }
     } 

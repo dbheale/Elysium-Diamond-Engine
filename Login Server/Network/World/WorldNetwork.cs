@@ -13,13 +13,13 @@ namespace LoginServer.Network {
         /// <summary>
         /// Dados do servidor (World).
         /// </summary>
-        public static NetworkClient[] WorldServer = new NetworkClient[Constant.MAX_SERVER];
+        public static NetworkClient[] WorldServer = new NetworkClient[Constant.MaxServer];
 
         /// <summary>
         /// Inicializa e configura as 5 conexões com WorldServer.
         /// </summary>
         public static void InitializeWorldServer() {
-            for (var index = 0; index < Constant.MAX_SERVER; index++) {
+            for (var index = 0; index < Constant.MaxServer; index++) {
                 WorldServer[index] = new NetworkClient();
 
                 if (!string.IsNullOrEmpty(Configuration.Server[index].Name)) {
@@ -38,7 +38,7 @@ namespace LoginServer.Network {
                 tick = Environment.TickCount;
                 short counter = 0;
 
-                for (var index = 0; index < Constant.MAX_SERVER; index++) {
+                for (var index = 0; index < Constant.MaxServer; index++) {
                     WorldServer[index].DiscoverServer();
 
                     // verifica se há algum servidor online
@@ -59,7 +59,7 @@ namespace LoginServer.Network {
         /// Recebe os dados de WorldServer.
         /// </summary>
         public static void WorldServerReceiveData() {
-            for (var index = 0; index < Constant.MAX_SERVER; index++) { WorldServer[index].ReceiveData(index); }
+            for (var index = 0; index < Constant.MaxServer; index++) { WorldServer[index].ReceiveData(index); }
         }
 
         /// <summary>
@@ -67,7 +67,7 @@ namespace LoginServer.Network {
         /// </summary>
         /// <returns></returns>
         public static bool IsWorldServerConnected() {
-            for (var index = 0; index < Constant.MAX_SERVER; index++) {
+            for (var index = 0; index < Constant.MaxServer; index++) {
                 if (Configuration.Server[index].Online) { return true; }
             }
 
@@ -78,7 +78,7 @@ namespace LoginServer.Network {
         /// Fecha as conexões.
         /// </summary>
         public static void Shutdown() {
-            for (var index = 0; index < Constant.MAX_SERVER; index++) { WorldServer[index].Shutdown(); }
+            for (var index = 0; index < Constant.MaxServer; index++) { WorldServer[index].Shutdown(); }
         }
     }
 }

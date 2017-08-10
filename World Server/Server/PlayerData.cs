@@ -1,25 +1,30 @@
 ﻿using System;
-using Lidgren.Network;
 using WorldServer.Common;
-using Elysium;
+using Lidgren.Network;
+using Elysium.Service;
 
 namespace WorldServer.Server {
-    public class PlayerData : HexaID {
+    public sealed class PlayerData : HexaID {
         /// <summary>
         /// IP de usuário.
         /// </summary>
         public string IP { get; set; }
 
         /// <summary>
+        /// Indica se o PIN já foi verificado.
+        /// </summary>
+        public bool PinVerified { get; set; }
+
+        /// <summary>
         /// Dados temporários de personagem.
         /// </summary>
-        public Character[] Character = new Character[Constant.MAX_CHARACTER];
+        public Character[] Character = new Character[Constants.MaxCharacter];
 
         /// <summary>
         /// Player Socket.
         /// </summary>
         public NetConnection Connection { get; set; }
-
+        
         /// <summary>
         /// ID de guild.
         /// </summary>
@@ -51,6 +56,11 @@ namespace WorldServer.Server {
         public int RegionID { get; set; }
 
         /// <summary>
+        /// Indica se está conectado ao game server.
+        /// </summary>
+        public bool IsGameConnected { get; set; }
+
+        /// <summary>
         /// Construtor
         /// </summary>
         /// <param name="connection"></param>
@@ -65,7 +75,7 @@ namespace WorldServer.Server {
             Time = Environment.TickCount;
 
             //Inicializa os personagens
-            for (var n = 0; n < Constant.MAX_CHARACTER; n++) {
+            for (var n = 0; n < Constants.MaxCharacter; n++) {
                 Character[n] = new Character() { Name = string.Empty };
             }
         }
@@ -93,7 +103,7 @@ namespace WorldServer.Server {
         }
 
         public void ClearCharacter() {
-            for (var n = 0; n < Constant.MAX_CHARACTER; n++) {
+            for (var n = 0; n < Constants.MaxCharacter; n++) {
                 Character[n].Clear();
             }
         }

@@ -1,0 +1,9 @@
+2017/07/02 22:19:47: Discovery: Elysium Diamond #1.0.0
+2017/07/02 22:19:47: Port: 57550
+2017/07/02 22:19:47: Sleep: 1
+2017/07/02 22:19:47: Max Connections: 5
+2017/07/02 22:19:47: Connect Server Start
+2017/07/02 22:19:56: Discovery response IPEndPoint: 127.0.0.1
+2017/07/02 22:19:56: Connected 127.0.0.1
+2017/07/02 22:19:56: Login Server ID: 1
+2017/07/02 22:20:02: Data From Login Server, Account: akaruz 3CCE5E695FFDE7FE

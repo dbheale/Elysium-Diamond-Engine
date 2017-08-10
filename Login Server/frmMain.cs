@@ -5,11 +5,13 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Threading;
+using MySql.Data.MySqlClient;
 using LoginServer.Network;
 using LoginServer.Common;
 using LoginServer.Server;
-using LoginServer.MySQL;
-using Elysium;
+using LoginServer.Database;
+using Elysium.Logs;
+using Elysium.IO;
 
 namespace LoginServer {        
     public partial class frmMain : Form {
@@ -54,7 +56,7 @@ namespace LoginServer {
         public frmMain() {
             InitializeComponent();
 
-            Logs.LogsEvent += WriteLog;
+            Log.LogEvent += WriteLog;
         }
 
         private void ShowForm(object sender, EventArgs e) {
@@ -78,7 +80,7 @@ namespace LoginServer {
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void trm_showfps_Tick(object sender, EventArgs e) {
-            Text = $"Login Server @ {Login.CPS}";
+            Text = $"Login Server @ {Login.UPS}";
         }
 
         /// <summary>
@@ -86,7 +88,7 @@ namespace LoginServer {
         /// </summary>
         /// <param name="text"></param>
         /// <param name="color"></param>
-        public void WriteLog(object sender, LogsEventArgs e) {
+        public void WriteLog(object sender, LogEventArgs e) {
             general_textbox.SelectionStart = general_textbox.TextLength;
             general_textbox.SelectionLength = 0;
 
@@ -140,16 +142,16 @@ namespace LoginServer {
         }
 
         private void reloadVersion_MenuItem_Click(object sender, EventArgs e) {
-            Settings.ParseConfigFile("LogConfig.txt");
+            Settings.ParseConfigFile("LoginConfig.txt");
             Configuration.Version = Settings.GetString("CheckVersion");
-            WriteLog(null, new LogsEventArgs($"Version: {Configuration.Version}", Color.Black));
+            WriteLog(null, new LogEventArgs($"Version: {Configuration.Version}", Color.Black));
         }
 
         private void disableLogin_MenuItem_Click(object sender, EventArgs e) {
             if (disableLogin_MenuItem.Checked)
-                Configuration.DisableLogin = true;
+                Configuration.IsLoginDisabled = true;
             else
-                Configuration.DisableLogin = false;                    
+                Configuration.IsLoginDisabled = false;                    
         }
 
         private void frmMain_FormClosing(object sender, FormClosingEventArgs e) {
@@ -171,70 +173,73 @@ namespace LoginServer {
             trayIcon = new NotifyIcon();
             trayMenu = new ContextMenu();
 
-            LuaScript.LuaScript.InitializeConfig();
+            LuaScript.LuaScript.InitializeScript();
 
             Settings.ParseConfigFile("LoginConfig.txt");
 
-            Logs.Enabled = Settings.GetBoolean("Logs");
+            Log.Enabled = Settings.GetBoolean("Log");
 
             var result = string.Empty;
-            if (Logs.Enabled) {
-                if (!Logs.OpenFile(out result)) MessageBox.Show(result);
+
+            if (Log.Enabled) {
+                if (!Log.OpenFile(out result)) MessageBox.Show(result);
             }
 
             Configuration.ID = Settings.GetInt32("ID");
-            Logs.Write($"ID: {Configuration.ID}", Color.Red);
+            Log.Write($"ID: {Configuration.ID}", Color.Red);
 
             Configuration.Discovery = Settings.GetString("Discovery");
-            Logs.Write($"Discovery: {Configuration.Discovery}", Color.Black);
+            Log.Write($"Discovery: {Configuration.Discovery}", Color.Black);
 
-            Configuration.LoginServerPort = Settings.GetInt32("Port");
-            Logs.Write($"Port: {Configuration.LoginServerPort}", Color.Black);
+            Configuration.Port = Settings.GetInt32("Port");
+            Log.Write($"Port: {Configuration.Port}", Color.Black);
 
-            Configuration.MaximumConnections = Settings.GetInt32("MaximumConnections");
-            Logs.Write($"Maximum Connection: {Configuration.MaximumConnections}", Color.Black);
+            Configuration.MaxConnections = Settings.GetInt32("MaximumConnections");
+            Log.Write($"Maximum Connection: {Configuration.MaxConnections}", Color.Black);
 
             Configuration.Sleep = Settings.GetInt32("Sleep");
-            Logs.Write($"Sleep: {Configuration.Sleep}", Color.Black);
+            Log.Write($"Sleep: {Configuration.Sleep}", Color.Black);
 
             Configuration.Version = Settings.GetString("CheckVersion");
-            Logs.Write($"Version: {Configuration.Version}", Color.BlueViolet);
+            Log.Write($"Version: {Configuration.Version}", Color.BlueViolet);
 
-            result = (Logs.Enabled == true) ? "Logs: Ativado" : "Logs: Desativado";
-            WriteLog(null, new LogsEventArgs(result, Color.Black));
+            result = (Log.Enabled == true) ? "Log: Enabled" : "Log: Disabled";
+            WriteLog(null, new LogEventArgs(result, Color.Black));
 
             GeoIp.Enabled = Settings.GetBoolean("GeoIp");
-            result = (GeoIp.Enabled == true) ? "Ativado" : "Desativado";
-            Logs.Write($"GeoIp: {result}", Color.BlueViolet);
+            result = (GeoIp.Enabled == true) ? "Enabled" : "Disabled";
+            Log.Write($"GeoIp: {result}", Color.BlueViolet);
 
             CheckSum.Enabled = Settings.GetBoolean("CheckSum");
-            result = (CheckSum.Enabled == true) ? "Ativado" : "Desativado";
-            Logs.Write($"CheckSum: {result}", Color.BlueViolet);
+            result = (CheckSum.Enabled == true) ? "Enabled" : "Disabled";
+            Log.Write($"CheckSum: {result}", Color.BlueViolet);
+
+            Configuration.PinCheckTime = Settings.GetInt32("PinCheckTime");
+            Log.Write($"PinCheckTime: {Configuration.PinCheckTime}", Color.BlueViolet);
+
+            Configuration.ConnectIp = Settings.GetString("ConnectIp");
+            Log.Write($"Connect Ip: {Configuration.ConnectIp}", Color.Black);
+
+            Configuration.ConnectPort = Settings.GetInt32("ConnectPort");
+            Log.Write($"Connect Port: {Configuration.ConnectPort}", Color.Black);
 
             if (GeoIp.Enabled) {
-                Logs.Write("Carregando dados ip de países.", Color.Green);
+                Log.Write("Loading country data", Color.Green);
                 GeoIp.ReadFile();
             }
 
             InitializeServerConfig();
             InitializeDatabaseConfig();
 
-            Logs.Write("Connectado ao banco de dados", Color.Green);
+            NetworkClient.Initialize();
 
-            if (!Common_DB.Open(out result))
-                WriteLog(null, new LogsEventArgs(result, Color.Black));
+            Log.Write("Login Server Start", Color.Green);
 
-            Logs.Write("Conectando World Server.", Color.Green);
-
-            WorldNetwork.InitializeWorldServer();
-
-            Logs.Write("Login Server Start.", Color.Green);
-
-            LoginNetwork.InitializeServer();
+            LoginNetwork.Initialize();
 
             #region Tray System
-            trayMenu.MenuItems.Add("Mostrar", ShowForm);
-            trayMenu.MenuItems.Add("Sair", quit_MenuItem_Click);
+            trayMenu.MenuItems.Add("Show", ShowForm);
+            trayMenu.MenuItems.Add("Quit", quit_MenuItem_Click);
 
             trayIcon.Text = "Connect Server @";
             trayIcon.Icon = this.Icon;
@@ -249,18 +254,21 @@ namespace LoginServer {
         public void InitializeServerConfig() {
             var enabled = 0;
 
-            for (var i = 0; i < Constant.MAX_SERVER; i++) {
+            for (var i = 0; i < Constants.MaxServer; i++) {
                 enabled = Settings.GetInt32((i + 1) + "_Enabled");
                 Configuration.Server[i] = new ServerData();
+                Configuration.Server[i].Enabled = Convert.ToBoolean(enabled);
 
-                if (enabled == 0) {
+                if (!Configuration.Server[i].Enabled) {
                     Configuration.Server[i].Name = string.Empty;
                     Configuration.Server[i].WorldServerIP = string.Empty;
                     Configuration.Server[i].WorldServerLocalIP = string.Empty;
+                    Configuration.Server[i].WorldServerPort = 0;
                     Configuration.Server[i].Region = string.Empty;
                     Configuration.Server[i].Status = string.Empty;
                 }
                 else {
+                    Configuration.Server[i].ID = Settings.GetInt32((i + 1) + "_ID");
                     Configuration.Server[i].Name = Settings.GetString((i + 1) + "_Name");
                     Configuration.Server[i].Region = Settings.GetString((i + 1) + "_Region");
                     Configuration.Server[i].WorldServerIP = Settings.GetString((i + 1) + "_WorldServerIP");
@@ -268,7 +276,7 @@ namespace LoginServer {
                     Configuration.Server[i].WorldServerPort = Settings.GetInt32((i + 1) + "_WorldServerPort");
                     Configuration.Server[i].Status = Settings.GetString((i + 1) + "_Status");
 
-                    Logs.Write($"Servidor adicionado: {Configuration.Server[i].Name} {Configuration.Server[i].Region} {Configuration.Server[i].Status}", Color.Coral);
+                    Log.Write($"Added server: {Configuration.Server[i].Name} {Configuration.Server[i].Region} {Configuration.Server[i].Status}", Color.Coral);
                 }
             }
         }
@@ -277,11 +285,28 @@ namespace LoginServer {
         /// Obtém todas as configurações de arquivo.
         /// </summary>
         public void InitializeDatabaseConfig() {
-            Common_DB.Server = Settings.GetString("MySQL_IP");
-            Common_DB.Port = Settings.GetInt32("MySQL_Port");
-            Common_DB.Username = Settings.GetString("MySQL_User");
-            Common_DB.Password = Settings.GetString("MySQL_Pass");
-            Common_DB.Database = Settings.GetString("MySQL_DB");
+            MySQL.Server = Settings.GetString("MySQL_IP");
+            MySQL.Port = Settings.GetInt32("MySQL_Port");
+            MySQL.Username = Settings.GetString("MySQL_User");
+            MySQL.Password = Settings.GetString("MySQL_Pass");
+            MySQL.Database = Settings.GetString("MySQL_DB");
+
+            Log.Write("Trying to connect database", Color.Green);
+
+            MySqlConnection connection = null;
+
+            try {
+                connection = new MySQL().CreateConnection();
+            }
+            catch (MySqlException ex) {
+                Log.Write(ex.Message, Color.Red);
+            }
+
+            if (connection.State == System.Data.ConnectionState.Open) {
+                Log.Write("Database is connected successfully", Color.Green);
+            }
+
+            connection?.Close();
         }
     }
 }

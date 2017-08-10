@@ -34,13 +34,13 @@
             this.file_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.min_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quit_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.config_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reloadSList_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reloadVersion_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clear_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clearsec_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manutençãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.disableLogin_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.config_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clear_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clearsec_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reloadSList_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reloadVersion_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.config_TabPage = new System.Windows.Forms.TabControl();
             this.general_TabPage = new System.Windows.Forms.TabPage();
             this.general_textbox = new System.Windows.Forms.RichTextBox();
@@ -56,8 +56,8 @@
             this.menuStrip.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.file_MenuItem,
-            this.config_MenuItem,
-            this.manutençãoToolStripMenuItem});
+            this.manutençãoToolStripMenuItem,
+            this.config_MenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
@@ -72,63 +72,22 @@
             this.quit_MenuItem});
             this.file_MenuItem.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.file_MenuItem.Name = "file_MenuItem";
-            this.file_MenuItem.Size = new System.Drawing.Size(66, 20);
-            this.file_MenuItem.Text = "Arquivo";
+            this.file_MenuItem.Size = new System.Drawing.Size(40, 20);
+            this.file_MenuItem.Text = "File";
             // 
             // min_MenuItem
             // 
             this.min_MenuItem.Name = "min_MenuItem";
-            this.min_MenuItem.Size = new System.Drawing.Size(132, 22);
-            this.min_MenuItem.Text = "Minimizar";
+            this.min_MenuItem.Size = new System.Drawing.Size(127, 22);
+            this.min_MenuItem.Text = "Minimize";
             this.min_MenuItem.Click += new System.EventHandler(this.min_MenuItem_Click);
             // 
             // quit_MenuItem
             // 
             this.quit_MenuItem.Name = "quit_MenuItem";
-            this.quit_MenuItem.Size = new System.Drawing.Size(132, 22);
-            this.quit_MenuItem.Text = "Sair";
+            this.quit_MenuItem.Size = new System.Drawing.Size(127, 22);
+            this.quit_MenuItem.Text = "Exit";
             this.quit_MenuItem.Click += new System.EventHandler(this.quit_MenuItem_Click);
-            // 
-            // config_MenuItem
-            // 
-            this.config_MenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.reloadSList_MenuItem,
-            this.reloadVersion_MenuItem,
-            this.clear_MenuItem});
-            this.config_MenuItem.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.config_MenuItem.Name = "config_MenuItem";
-            this.config_MenuItem.Size = new System.Drawing.Size(102, 20);
-            this.config_MenuItem.Text = "Configuração";
-            // 
-            // reloadSList_MenuItem
-            // 
-            this.reloadSList_MenuItem.Name = "reloadSList_MenuItem";
-            this.reloadSList_MenuItem.Size = new System.Drawing.Size(245, 22);
-            this.reloadSList_MenuItem.Text = "Recarregar WorldSever List";
-            this.reloadSList_MenuItem.Click += new System.EventHandler(this.reload_MenuItem_Click);
-            // 
-            // reloadVersion_MenuItem
-            // 
-            this.reloadVersion_MenuItem.Name = "reloadVersion_MenuItem";
-            this.reloadVersion_MenuItem.Size = new System.Drawing.Size(245, 22);
-            this.reloadVersion_MenuItem.Text = "Recarregar Versão";
-            this.reloadVersion_MenuItem.Click += new System.EventHandler(this.reloadVersion_MenuItem_Click);
-            // 
-            // clear_MenuItem
-            // 
-            this.clear_MenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clearsec_MenuItem});
-            this.clear_MenuItem.Name = "clear_MenuItem";
-            this.clear_MenuItem.Size = new System.Drawing.Size(245, 22);
-            this.clear_MenuItem.Text = "Limpar Tela";
-            this.clear_MenuItem.Click += new System.EventHandler(this.clear_MenuItem_Click);
-            // 
-            // clearsec_MenuItem
-            // 
-            this.clearsec_MenuItem.Name = "clearsec_MenuItem";
-            this.clearsec_MenuItem.Size = new System.Drawing.Size(156, 22);
-            this.clearsec_MenuItem.Text = "30 segundos";
-            this.clearsec_MenuItem.Click += new System.EventHandler(this.clearsec_MenuItem_Click);
             // 
             // manutençãoToolStripMenuItem
             // 
@@ -136,16 +95,57 @@
             this.disableLogin_MenuItem});
             this.manutençãoToolStripMenuItem.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manutençãoToolStripMenuItem.Name = "manutençãoToolStripMenuItem";
-            this.manutençãoToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
-            this.manutençãoToolStripMenuItem.Text = "Manutenção";
+            this.manutençãoToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
+            this.manutençãoToolStripMenuItem.Text = "Maintenance";
             // 
             // disableLogin_MenuItem
             // 
             this.disableLogin_MenuItem.CheckOnClick = true;
             this.disableLogin_MenuItem.Name = "disableLogin_MenuItem";
-            this.disableLogin_MenuItem.Size = new System.Drawing.Size(179, 22);
-            this.disableLogin_MenuItem.Text = "Desabilitar Login";
+            this.disableLogin_MenuItem.Size = new System.Drawing.Size(208, 22);
+            this.disableLogin_MenuItem.Text = "Disable login attempt";
             this.disableLogin_MenuItem.Click += new System.EventHandler(this.disableLogin_MenuItem_Click);
+            // 
+            // config_MenuItem
+            // 
+            this.config_MenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clear_MenuItem,
+            this.reloadSList_MenuItem,
+            this.reloadVersion_MenuItem});
+            this.config_MenuItem.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.config_MenuItem.Name = "config_MenuItem";
+            this.config_MenuItem.Size = new System.Drawing.Size(104, 20);
+            this.config_MenuItem.Text = "Configuration";
+            // 
+            // clear_MenuItem
+            // 
+            this.clear_MenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clearsec_MenuItem});
+            this.clear_MenuItem.Name = "clear_MenuItem";
+            this.clear_MenuItem.Size = new System.Drawing.Size(217, 22);
+            this.clear_MenuItem.Text = "Clear screen";
+            this.clear_MenuItem.Click += new System.EventHandler(this.clear_MenuItem_Click);
+            // 
+            // clearsec_MenuItem
+            // 
+            this.clearsec_MenuItem.Name = "clearsec_MenuItem";
+            this.clearsec_MenuItem.Size = new System.Drawing.Size(185, 22);
+            this.clearsec_MenuItem.Text = "Every 30 seconds";
+            this.clearsec_MenuItem.Click += new System.EventHandler(this.clearsec_MenuItem_Click);
+            // 
+            // reloadSList_MenuItem
+            // 
+            this.reloadSList_MenuItem.Name = "reloadSList_MenuItem";
+            this.reloadSList_MenuItem.Size = new System.Drawing.Size(217, 22);
+            this.reloadSList_MenuItem.Text = "Reload world sever list";
+            this.reloadSList_MenuItem.Click += new System.EventHandler(this.reload_MenuItem_Click);
+            // 
+            // reloadVersion_MenuItem
+            // 
+            this.reloadVersion_MenuItem.Name = "reloadVersion_MenuItem";
+            this.reloadVersion_MenuItem.Size = new System.Drawing.Size(217, 22);
+            this.reloadVersion_MenuItem.Text = "Reload version";
+            this.reloadVersion_MenuItem.Click += new System.EventHandler(this.reloadVersion_MenuItem_Click);
             // 
             // config_TabPage
             // 
@@ -159,14 +159,14 @@
             // 
             // general_TabPage
             // 
+            this.general_TabPage.BackColor = System.Drawing.SystemColors.Control;
             this.general_TabPage.Controls.Add(this.general_textbox);
             this.general_TabPage.Location = new System.Drawing.Point(4, 23);
             this.general_TabPage.Name = "general_TabPage";
             this.general_TabPage.Padding = new System.Windows.Forms.Padding(3);
             this.general_TabPage.Size = new System.Drawing.Size(529, 318);
             this.general_TabPage.TabIndex = 0;
-            this.general_TabPage.Text = "Geral";
-            this.general_TabPage.UseVisualStyleBackColor = true;
+            this.general_TabPage.Text = "General";
             // 
             // general_textbox
             // 

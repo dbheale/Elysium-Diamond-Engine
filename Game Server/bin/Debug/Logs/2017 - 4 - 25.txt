@@ -1,0 +1,61 @@
+2017/04/25 16:10:41: ID: 252000
+2017/04/25 16:10:41: Game Server Name: Canal 1
+2017/04/25 16:10:41: Discovery: Elysium Diamond #1.0.0
+2017/04/25 16:10:41: Port: 55970
+2017/04/25 16:10:41: MaximumConnections: 2000
+2017/04/25 16:10:41: Sleep: 1
+2017/04/25 16:10:41: Logs: Ativado
+2017/04/25 16:10:41: Carregando config mysql
+2017/04/25 16:10:41: Connectado ao banco de dados
+2017/04/25 16:10:44: WorldServer 1  ID: Artemis
+2017/04/25 16:10:44: WorldServer 2  ID: 
+2017/04/25 16:10:44: WorldServer 3  ID: 
+2017/04/25 16:10:44: WorldServer 4  ID: 
+2017/04/25 16:10:44: WorldServer 5  ID: 
+2017/04/25 16:10:44: Carregando experiência
+2017/04/25 16:10:44: Level Max: 121
+2017/04/25 16:10:44: Exp Max: 22353256174
+2017/04/25 16:10:44: Carregando guilds
+2017/04/25 16:10:44: Carregando membros
+2017/04/25 16:10:44: Carregando classe(s) base
+2017/04/25 16:10:44: Carregando classe(s) incremento
+2017/04/25 16:10:44: Carregando NPC
+2017/04/25 16:10:44: Carregando scripts
+2017/04/25 16:10:44: Game Server Start
+2017/04/25 16:10:52: Discovery Response IPEndPoint: 127.0.0.1
+2017/04/25 16:10:52: Status changed to connected: 127.0.0.1
+2017/04/25 16:11:24: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 41566F9EC5DA031E
+2017/04/25 16:11:24: Discovery Response IPEndPoint: 187.57.69.227
+2017/04/25 16:11:24: Status changed to connected: 187.57.69.227
+2017/04/25 16:11:24: Received From Client: 41566F9EC5DA031E
+2017/04/25 16:11:24: Player Found ID: 2 Name: Sacee
+2017/04/25 16:11:24: Sacee joined map id 1
+2017/04/25 16:12:02: ID: 2 Sacee Status changed to disconnected: 187.57.69.227
+2017/04/25 16:24:40: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 DBB21CD93A3E3A3F
+2017/04/25 16:24:41: Discovery Response IPEndPoint: 187.57.69.227
+2017/04/25 16:24:41: Status changed to connected: 187.57.69.227
+2017/04/25 16:24:41: Received From Client: DBB21CD93A3E3A3F
+2017/04/25 16:24:41: Player Found ID: 3 Name: Teste123
+2017/04/25 16:24:41: Teste123 joined map id 1
+2017/04/25 16:24:43: ID: 3 Teste123 Status changed to disconnected: 187.57.69.227
+2017/04/25 16:38:32: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 E819698A77A41BAD
+2017/04/25 16:38:33: Discovery Response IPEndPoint: 187.57.69.227
+2017/04/25 16:38:33: Status changed to connected: 187.57.69.227
+2017/04/25 16:38:33: Received From Client: E819698A77A41BAD
+2017/04/25 16:38:33: Player Found ID: 3 Name: Teste123
+2017/04/25 16:38:33: Teste123 joined map id 1
+2017/04/25 16:39:16: ID: 3 Teste123 Status changed to disconnected: 187.57.69.227
+2017/04/25 16:39:51: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 551070F396DCCD4A
+2017/04/25 16:39:51: Discovery Response IPEndPoint: 187.57.69.227
+2017/04/25 16:39:51: Status changed to connected: 187.57.69.227
+2017/04/25 16:39:51: Received From Client: 551070F396DCCD4A
+2017/04/25 16:39:51: Player Found ID: 1 Name: Caronne
+2017/04/25 16:39:51: Caronne joined map id 1
+2017/04/25 16:43:49: ID: 1 Caronne Status changed to disconnected: 187.57.69.227
+2017/04/25 16:44:32: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 C932F6DF53A0CBCC
+2017/04/25 16:44:33: Discovery Response IPEndPoint: 187.57.69.227
+2017/04/25 16:44:33: Status changed to connected: 187.57.69.227
+2017/04/25 16:44:33: Received From Client: C932F6DF53A0CBCC
+2017/04/25 16:44:33: Player Found ID: 3 Name: Teste123
+2017/04/25 16:44:33: Teste123 joined map id 1
+2017/04/25 16:44:38: ID: 3 Teste123 Status changed to disconnected: 187.57.69.227

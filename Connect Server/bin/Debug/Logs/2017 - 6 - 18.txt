@@ -1,0 +1,5 @@
+2017/06/18 21:34:57: Discovery: Elysium Diamond #1.0.0
+2017/06/18 21:34:57: Port: 57550
+2017/06/18 21:34:57: Sleep: 1
+2017/06/18 21:34:57: Max Connections: 5
+2017/06/18 21:34:57: Connect Server Start

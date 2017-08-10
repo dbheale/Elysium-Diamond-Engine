@@ -1,16 +1,62 @@
-﻿using Lidgren.Network;
+﻿using System;
+using Lidgren.Network;
 using WorldServer.Server;
 using WorldServer.Common;
 
 namespace WorldServer.Network {
-    public class WorldPacket {
+    public static class WorldPacket {
+        /// <summary>
+        /// Envia o cash para o client.
+        /// </summary>
+        /// <param name="connection"></param>
+        /// <param name="cash"></param>
+        public static void SendCash(NetConnection connection, int cash) {
+            var buffer = WorldNetwork.CreateMessage(10);
+            buffer.Write((short)PacketList.WS_CL_Cash);
+            buffer.Write(cash);
+            WorldNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
+        }
+
+        /// <summary>
+        /// Envia a mensagem da programação de exclusão.
+        /// </summary>
+        /// <param name="connection"></param>
+        /// <param name="time"></param>
+        /// <param name="slot"></param>
+        public static void AlertDeleteCharacter(NetConnection connection, short time, DateTime date, byte slot) {
+            var timespan = DateTime.Now.Subtract(date);
+            var buffer = WorldNetwork.CreateMessage(10);
+
+            buffer.Write((short)PacketList.WS_CL_AlertDeleteCharacter);
+            buffer.Write(time);
+            buffer.Write(slot);
+            buffer.Write((byte)(timespan.Hours * -1)); //multiplica por -1 para transformar em positivo
+            buffer.Write((byte)(timespan.Minutes * -1));
+            buffer.Write((byte)(timespan.Seconds * -1));
+
+            WorldNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
+        }
+
+        /// <summary>
+        /// Remove
+        /// </summary>
+        /// <param name="connection"></param>
+        /// <param name="slot"></param>
+        public static void RemovePendingDelete(NetConnection connection, byte slot) {
+            var buffer = WorldNetwork.CreateMessage(5);
+            buffer.Write((short)PacketList.WS_CL_RemovePendingDelete);
+            buffer.Write(slot);
+
+            WorldNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
+        }
+
         /// <summary>
         /// Envia o pedido de hexid para o cliente.
         /// </summary>
         /// <param name="index"></param>
         public static void NeedHexID(NetConnection connection) {
             var buffer = WorldNetwork.CreateMessage(4);
-            buffer.Write((int)PacketList.WS_CL_NeedPlayerHexID);
+            buffer.Write((short)PacketList.WS_CL_NeedPlayerHexID);
             WorldNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
 
@@ -43,7 +89,7 @@ namespace WorldServer.Network {
         /// <param name="value"></param>
         public static void GameState(string hexID, GameState state) {
             var buffer = WorldNetwork.CreateMessage(5);
-            buffer.Write((int)PacketList.ChangeGameState);
+            buffer.Write((short)PacketList.ChangeGameState);
             buffer.Write((byte)state);
             WorldNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
         }
@@ -53,14 +99,26 @@ namespace WorldServer.Network {
         /// </summary>
         /// <param name="hexID"></param>
         public static void PreLoad(PlayerData pData) {
-            var buffer = WorldNetwork.CreateMessage();
-            buffer.Write((int)PacketList.WS_CL_CharacterPreLoad);
+            TimeSpan date;
 
-            for (var n = 0; n < Constant.MAX_CHARACTER; n++) {
+            var buffer = WorldNetwork.CreateMessage();
+            buffer.Write((short)PacketList.WS_CL_CharacterPreLoad);
+
+            for (var n = 0; n < Constants.MaxCharacter; n++) {
                 buffer.Write(pData.Character[n].Name);
                 buffer.Write(pData.Character[n].Class);
                 buffer.Write(pData.Character[n].Sprite);
                 buffer.Write(pData.Character[n].Level);
+                buffer.Write(pData.Character[n].PendingDeletion);
+
+                if (pData.Character[n].PendingDeletion) {
+                    date = DateTime.Now.Subtract(pData.Character[n].DeletionTime);
+
+                    //multiplica por -1 para transformar em positivo
+                    buffer.Write((byte)(date.Hours * -1));
+                    buffer.Write((byte)(date.Minutes * -1));
+                    buffer.Write((byte)(date.Seconds * -1));
+                }
             }
  
             WorldNetwork.SendDataTo(pData.HexID, buffer, NetDeliveryMethod.ReliableOrdered);
@@ -71,59 +129,13 @@ namespace WorldServer.Network {
         /// </summary>
         /// <param name="connection"></param>
         /// <param name="hexID"></param>
-        public static void GameServerData(NetConnection connection, string hexID) {
+        public static void GameServerData(NetConnection connection, string ip, int port) {
             var buffer = WorldNetwork.CreateMessage();
-            buffer.Write((int)PacketList.WS_CL_GameServerData);
-            buffer.Write(hexID);
-            buffer.Write(Configuration.GameServer[0].GameServerIP);
-            buffer.Write(Configuration.GameServer[0].GameServerPort);
-                
-            WorldNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
-        }     
-
-        /// <summary>
-        /// Envia a resposta para o login server se o usuario foi encontrado.
-        /// </summary>
-        /// <param name="connection"></param>
-        /// <param name="value"></param>
-        /// <param name="username"></param>
-        public static void ConnectedResult(NetConnection connection, bool value, string username) {
-            var buffer = WorldNetwork.CreateMessage();
-            buffer.Write((int)PacketList.LS_WS_IsPlayerConnected);
-            buffer.Write(value);
-            buffer.Write(username);
+            buffer.Write((short)PacketList.WS_CL_GameServerData);
+            buffer.Write(ip);
+            buffer.Write(port);
 
             WorldNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
-        }
-
-        /// <summary>
-        /// Envia a mensagem para todos. 
-        /// </summary>
-        /// <param name="text"></param>
-        public static void GlobalMessage(string from, string msg, MessageType type, MessageChannel channel) {
-            var buffer = WorldNetwork.CreateMessage();
-            buffer.Write((int)PacketList.CL_WS_GlobalChat); //usa o mesmo pacote
-            buffer.Write((byte)type);
-            buffer.Write((byte)channel);
-            buffer.Write(from);
-            buffer.Write(msg);
-
-            WorldNetwork.SendDataToAll(buffer, NetDeliveryMethod.ReliableOrdered);
-        }
-
-        /// <summary>
-        /// Envia a mensagem para o jogador.
-        /// </summary>
-        /// <param name="text"></param>
-        public static void PlayerMessage(NetConnection connection, string from, string msg, MessageType type, MessageChannel channel = MessageChannel.None) {
-            var buffer = WorldNetwork.CreateMessage();
-            buffer.Write((int)PacketList.WS_CL_PlayerMessage); 
-            buffer.Write((byte)type);
-            buffer.Write((byte)channel); 
-            buffer.Write(from);
-            buffer.Write(msg);
-
-            WorldNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
-        }
+        }            
     }
 }

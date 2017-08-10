@@ -4,8 +4,6 @@ using Elysium_Diamond.Resource;
 using Elysium_Diamond.EngineWindow;
 using Elysium_Diamond.Network;
 using Elysium_Diamond.Classes;
-using Elysium_Diamond.Common;
-using Elysium_Diamond.GameClient;
 using Elysium_Diamond.Npcs;
 using SharpDX;
 using SharpDX.Direct3D9;
@@ -24,21 +22,26 @@ namespace Elysium_Diamond.DirectX {
         public static Sprite SpriteDevice { get; set; }
 
         /// <summary>
-        /// Etapa de desenho??
+        /// Etapa de desenho.
         /// </summary>
         public static byte GameState { get; set; }
 
         /// <summary>
-        /// Checa se o mouse foi pressionado.
+        /// Quando o botão esquerdo é pressionado.
         /// </summary>
-        public static bool MouseDown { get; set; }
+        public static bool MouseLeft { get; set; }
 
-        public static bool GameRunning { get; set; } = true;
+        /// <summary>
+        /// Quando o botão direito é pressionado.
+        /// </summary>
+        public static bool MouseRight { get; set; }
 
         /// <summary>
         /// Coordenadas de mouse.
         /// </summary>
         public static Point MousePosition { get; set; }
+
+        public static bool GameRunning { get; set; } = true;
 
         public static int FPS { get; set; }
 
@@ -69,8 +72,8 @@ namespace Elysium_Diamond.DirectX {
                 return true;
             }
             catch (Exception ex) {
-                MessageBox.Show(ex.Message);
-                return false;
+                throw ex;
+     
             }
         }
 
@@ -82,6 +85,17 @@ namespace Elysium_Diamond.DirectX {
                 background.Size = new Size2(1024, 768);
                 background.SourceRect = new Rectangle(0, 0, 1024, 720);
 
+
+                DataManager.Initialize();
+
+                WindowTalent.Initialize();
+                WindowSkill.Initialize();
+                WindowPin.Initialize();
+                WindowCash.Initialize();
+                WindowMail.Initialize();
+                WindowSelectedItem.Initialize();
+                WindowViewTalent.Initialize();
+
                 //Carrega os dados de classe.
                 ClasseManager.Initialize();
 
@@ -89,14 +103,13 @@ namespace Elysium_Diamond.DirectX {
                 NpcManager.OpenData();
 
                 //Carrega os dados de experiencia
-                ExperienceManager.OpenData();
-
+                ExperienceManager.Read();
 
                 EngineFont.Initialize();
                 EngineMessageBox.Initialize();
                 EngineInputBox.Initialize();
                 EngineMultimedia.Initialize();
-  
+
                 WindowLogin.Initialize();
                 WindowServer.Initialize();
                 WindowCharacter.Initialize();
@@ -104,9 +117,9 @@ namespace Elysium_Diamond.DirectX {
 
                 WindowGame.Initialize();
 
-                SpriteManager.Initialize();
+                WindowViewItem.Initialize();
 
-                EngineMultimedia.PlayMusic(0, true);
+                //    EngineMultimedia.PlayMusic(0, true);
 
                 GameState = 1;
                 return true;
@@ -123,21 +136,29 @@ namespace Elysium_Diamond.DirectX {
             Device.Clear(ClearFlags.Target, Color.Black, 1.0f, 0);
             Device.BeginScene();
 
-            background.Draw(); 
-                       
-            if (GameState == 1) { WindowLogin.Draw(); }
+            background.Draw();
+
+            if (GameState == 1) {
+             //   WindowTalent.Visible = true;
+             //   WindowTalent.Draw();
+               // WindowViewTalent.Draw();
+              WindowLogin.Draw();
+            }
             if (GameState == 2) { WindowServer.Draw(); }
-            if (GameState == 3) { WindowCharacter.Draw(); }
+            if (GameState == 3) {
+
+                 WindowCharacter.Draw(); WindowPin.Draw();
+            }
             if (GameState == 4) { WindowNewCharacter.Draw(); }
             if (GameState == 6) {
                 WindowGame.Draw();
             }
-        
+
             EngineInputBox.Draw();
             EngineMessageBox.Draw();
 
-            EngineFont.DrawText(null, "FPS: " + FPS, 925, 0, Color.Coral, EngineFontStyle.Bold);
-            EngineFont.DrawText(null, "Ping: " + Common.Configuration.Latency, 5, 0, Color.Coral, EngineFontStyle.Bold);
+            EngineFont.DrawText("FPS: " + FPS, 925, 0, Color.Coral, EngineFontStyle.Bold);
+            EngineFont.DrawText("Ping: " + Common.Configuration.Latency, 5, 0, Color.Coral, EngineFontStyle.Bold);
 
             Device.EndScene();
             Device.Present();
@@ -145,7 +166,7 @@ namespace Elysium_Diamond.DirectX {
 
         static public void Update() {
             NetworkSocket.ReceiveData();
-  
+
             if (Environment.TickCount >= tcpTick + 1000) {
                 if (!Common.Configuration.Disconnected) {
                     NetworkSocket.DiscoverServer(SocketEnum.LoginServer);
@@ -186,7 +207,5 @@ namespace Elysium_Diamond.DirectX {
 
             Application.Exit();
         }
-
     }
 }
-    

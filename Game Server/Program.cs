@@ -13,6 +13,7 @@ namespace GameServer {
             Application.EnableVisualStyles();
 
             MainForm = new frmMain();
+            MainForm.Show();
 
             Application.Idle += new EventHandler(MainForm.OnApplicationIdle);
 

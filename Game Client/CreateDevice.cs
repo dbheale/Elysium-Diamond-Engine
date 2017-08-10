@@ -143,9 +143,21 @@ namespace Elysium_Diamond {
             }
         }
 
+        const int WM_MOUSEHWHEEL = 0x020E;
+        const int WM_MOUSEWHEEL = 0x020A;
+ 
         IntPtr m_hImc;
         protected override void WndProc(ref System.Windows.Forms.Message m) {
             switch (m.Msg) {
+                case WM_MOUSEWHEEL:
+                
+                 //   value++;
+                    //this.Text = "V:  " + m.LParam + " | " + m.WParam + " / " + value;
+                    break;
+                case WM_MOUSEHWHEEL:
+                  //  this.Text = "H:  " + m.LParam + " | " + m.WParam;
+                    break;
+
                 case WM_IME_SETCONTEXT:
                      if (m.WParam.ToInt32() == 1) {
                          ImmAssociateContext(this.Handle, m_hImc);
@@ -161,7 +173,7 @@ namespace Elysium_Diamond {
                     if (EngineCore.GameState == 1) {
                         if (WindowLogin.textbox[0].CursorEnabled) {
                             ImmSetOpenStatus(m_hImc, true);
-                            SetImeContext(WindowLogin.textbox[0].TextPositionX, WindowLogin.textbox[0].TextPositionY);
+                            SetImeContext(WindowLogin.textbox[0].TextPosition.X, WindowLogin.textbox[0].TextPosition.Y);
                         }
                         else {
                             ImmSetOpenStatus(m_hImc, false);
@@ -250,11 +262,13 @@ namespace Elysium_Diamond {
         }
 
         private void CreateDevice_MouseUp(object sender, MouseEventArgs e) {
-            EngineCore.MouseDown = false;
+            EngineCore.MouseLeft = false;
+            EngineCore.MouseRight = false;
         }
 
         private void CreateDevice_MouseDown(object sender, MouseEventArgs e) {
-            if (e.Button == MouseButtons.Left) { EngineCore.MouseDown = true; }
+            if (e.Button == MouseButtons.Left) { EngineCore.MouseLeft = true; }
+            if (e.Button == MouseButtons.Right) { EngineCore.MouseRight = true; }
         }
 
         private void CreateDevice_KeyDown(object sender, KeyEventArgs e) {
@@ -266,21 +280,58 @@ namespace Elysium_Diamond {
             //     if (e.KeyCode == Keys.D) { GameCharacter.DirUp = false; GameCharacter.DirDown = false; GameCharacter.DirLeft = false; GameCharacter.DirRight = true; }
 
             if (EngineCore.GameState == 6) {
-                if (e.KeyCode == Keys.C) {
-                    if (WindowCharacterStatus.Visible) {
-                        WindowCharacterStatus.Visible = false;
+                if (e.KeyCode == Keys.L) {
+                    if (WindowCash.Visible) {
+                        WindowCash.Visible = false;
                     }
                     else {
-                        WindowCharacterStatus.Visible = true;
+                        WindowCash.Visible = true;
                     }
                 }
 
-                if (e.KeyCode == Keys.Escape) {
+                if (e.KeyCode == Keys.C) {
+                    if (WindowStatus.Visible) {
+                        WindowStatus.Visible = false;
+                    }
+                    else {
+                        WindowStatus.Visible = true;
+                    }
+                }
+
+
+                if (e.KeyCode == Keys.N) {
+                    if (WindowTalent.Visible) {
+                        WindowTalent.Visible = false;
+                    }
+                    else {
+                        WindowTalent.Visible = true;
+                    }
+                }
+
+                if (e.KeyCode == Keys.K) {
+                    if (WindowSkill.Visible) {
+                        WindowSkill.Visible = false;
+                    }
+                    else {
+                        WindowSkill.Visible = true;
+                    }
+                }
+
+                if (e.KeyCode == Keys.Escape || e.KeyCode == Keys.O) {
                     if (WindowOption.Visible) {
                         WindowOption.Visible = false;
                     }
                     else {
                         WindowOption.Visible = true;
+                    }
+                }
+
+                if (e.KeyCode == Keys.I) {
+                    if (WindowInventory.Visible) {
+                        WindowInventory.Visible = false;
+                    }
+                    else {
+                        WindowInventory.Visible = true;
                     }
                 }
 
@@ -370,6 +421,12 @@ namespace Elysium_Diamond {
             if (EngineCore.GameState == 3) {
                 if (!EngineInputBox.Visible) { return; }
 
+                if (WindowPin.Visible) {
+                    if (e.KeyChar == Convert.ToChar(Keys.Tab)) {
+                        WindowPin.SelectTextbox();
+                    }
+                }
+
                 if (EngineInputBox.TextBox.CursorEnabled == true) {
                     if (EngineInputBox.TextBox.Enabled == false) return;
 
@@ -402,17 +459,34 @@ namespace Elysium_Diamond {
             #region GameState 6
             if (EngineCore.GameState == 6) {
 
+                if (WindowCash.BuyItemVisible) {
+                    if (WindowCash.textbox.CursorEnabled == true) {
+                        if (Convert.ToInt32(e.KeyChar) == 8) {
+                            if (WindowCash.textbox.Text.Length > 0) { WindowCash.textbox.RemoveText(); }
+                            return;
+                        }
+
+                        if (ImeModeOn) { return; }
+                        if (WindowCash.textbox.Text.Length <= 20) { WindowCash.textbox.AddText(e.KeyChar); }
+                    }
+
+                    return;
+                }
+
                 if (e.KeyChar == 13) {
                     if (WindowChat.textbox.CursorEnabled) {
                         //envia o texto
                         if (WindowChat.textbox.Text.Length > 0)
-                            WorldPacket.GlobalChat(WindowChat.textbox.Text);
+                            WindowChat.SendChat();
 
                         //limpa o texto e fecha
-                        WindowChat.textbox.Text = string.Empty;
+                        WindowChat.textbox.Clear();
                         WindowChat.textbox.CursorEnabled = false;
+                        WindowChat.Transparency = 120;
                     }else {
+                        WindowChat.textbox.Clear();
                         WindowChat.textbox.CursorEnabled = true;
+                        WindowChat.Transparency = 255;
                     }
                 }
 
@@ -423,10 +497,11 @@ namespace Elysium_Diamond {
                     }
 
                     if (ImeModeOn) { return; }
-                    if (WindowChat.textbox.Text.Length <= 30) { WindowChat.textbox.AddText(e.KeyChar); } }
+                    if (WindowChat.textbox.Text.Length <= 30) { WindowChat.textbox.AddText(e.KeyChar); }
+                }
 
             }
-            #endregion
+            #endregion       
         }
 
         private void CreateDevice_FormClosing(object sender, FormClosingEventArgs e) {

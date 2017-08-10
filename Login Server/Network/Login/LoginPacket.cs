@@ -1,4 +1,5 @@
 ﻿using LoginServer.Common;
+using LoginServer.Server;
 using Lidgren.Network;
 
 namespace LoginServer.Network {
@@ -8,11 +9,11 @@ namespace LoginServer.Network {
         /// </summary>
         /// <param name="hexID"></param>
         /// <param name="hexid"></param>
-        public static void HexID(string hexID, string hexid) {
-            var buffer = LoginNetwork.CreateMessage();
-            buffer.Write((int)PacketList.LS_CL_SendPlayerHexID);
+        public static void HexID(NetConnection connection, string hexid) {
+            var buffer = LoginNetwork.CreateMessage(2);
+            buffer.Write((short)PacketList.LS_CL_SendPlayerHexID);
             buffer.Write(hexid);
-            LoginNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
+            LoginNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
 
         /// <summary>
@@ -20,11 +21,11 @@ namespace LoginServer.Network {
         /// </summary>
         /// <param name="hexID"></param>
         /// <param name="value"></param>
-        public static void GameState(string hexID, GameState state) {
-            var buffer = LoginNetwork.CreateMessage(5);
-            buffer.Write((int)PacketList.ChangeGameState);
+        public static void GameState(NetConnection connection, GameState state) {
+            var buffer = LoginNetwork.CreateMessage(3);
+            buffer.Write((short)PacketList.ChangeGameState);
             buffer.Write((byte)state);
-            LoginNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
+            LoginNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
 
         /// <summary>
@@ -32,21 +33,21 @@ namespace LoginServer.Network {
         /// </summary>
         /// <param name="hexID"></param>
         /// <param name="value"></param>
-        public static void Message(string hexID, int value) {
-            var buffer = LoginNetwork.CreateMessage(4);
+        public static void Message(NetConnection connection, short value) {
+            var buffer = LoginNetwork.CreateMessage(2);
             buffer.Write(value);
-            LoginNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableUnordered);
+            LoginNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableUnordered);
         }
 
         /// <summary>
         /// Envia a lista de servidores.
         /// </summary>
         /// <param name="hexID"></param>
-        public static void ServerList(string hexID) {
+        public static void ServerList(NetConnection connection) {
             var buffer = LoginNetwork.CreateMessage();
-            buffer.Write((int)PacketList.LS_CL_ServerList);
+            buffer.Write((short)PacketList.LS_CL_ServerList);
 
-            for (var n = 0; n < Constant.MAX_SERVER; n++) {
+            for (var n = 0; n < Constants.MaxServer; n++) {
                 buffer.Write(Configuration.Server[n].Name);
                 buffer.Write(Configuration.Server[n].WorldServerIP);
                 buffer.Write(Configuration.Server[n].WorldServerPort);
@@ -54,7 +55,7 @@ namespace LoginServer.Network {
                 buffer.Write(Configuration.Server[n].Status);
             }
 
-            LoginNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
+            LoginNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
     }
 }

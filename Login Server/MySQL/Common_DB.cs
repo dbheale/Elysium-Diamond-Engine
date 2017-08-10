@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Data;
-using System.Threading;
 using MySql.Data.MySqlClient;
 using LoginServer.Common;
 

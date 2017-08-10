@@ -1,0 +1,60 @@
+2017/05/25 5:10:21: ID: -1
+2017/05/25 5:10:21: Discovery: Elysium Diamond #1.0.0
+2017/05/25 5:10:21: Port: 44405
+2017/05/25 5:10:21: Maximum Connection: 1000
+2017/05/25 5:10:21: Sleep: 1
+2017/05/25 5:10:21: Versão: 1.2.10
+2017/05/25 5:10:21: GeoIp: Desativado
+2017/05/25 5:10:21: CheckSum: Desativado
+2017/05/25 5:10:21: PinCheckTime: 15
+2017/05/25 5:10:21: Servidor adicionado: 火星 (JP) 普通
+2017/05/25 5:10:21: Servidor adicionado: 木星 (JP) 普通
+2017/05/25 5:10:21: Servidor adicionado: 화성 (KR) 표준
+2017/05/25 5:10:21: Servidor adicionado: Local Server (BR) Privado
+2017/05/25 5:10:21: Connectado ao banco de dados
+2017/05/25 5:10:21: Conectando World Server
+2017/05/25 5:10:22: Login Server Start
+2017/05/25 5:10:32: Connected World Server #火星
+2017/05/25 5:11:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/25 5:11:10: Status changed to connected: 127.0.0.1
+2017/05/25 5:11:16: User Login: akaruz 127.0.0.1
+2017/05/25 5:11:17: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/25 5:12:33: Status changed to disconnected: 1 akaruz 127.0.0.1 1CC66F188DA6C75F
+2017/05/25 5:15:26: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/25 5:15:26: Status changed to connected: 127.0.0.1
+2017/05/25 5:15:29: User Login: akaruz 127.0.0.1
+2017/05/25 5:15:31: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/25 5:18:42: Status changed to disconnected: 1 akaruz 127.0.0.1 72B4F31595785ACD
+2017/05/25 5:21:41: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/25 5:21:41: Status changed to connected: 127.0.0.1
+2017/05/25 5:21:44: User Login: akaruz 127.0.0.1
+2017/05/25 5:21:46: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/25 5:22:54: Status changed to disconnected: 1 akaruz 127.0.0.1 3236AE9D762E58F8
+2017/05/25 5:25:02: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/25 5:25:02: Status changed to connected: 127.0.0.1
+2017/05/25 5:25:07: User Login: akaruz 127.0.0.1
+2017/05/25 5:25:09: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/25 5:26:09: Status changed to disconnected: 1 akaruz 127.0.0.1 93CF389AE01AFDA4
+2017/05/25 5:27:08: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/25 5:27:08: Status changed to connected: 127.0.0.1
+2017/05/25 5:27:12: User Login: akaruz 127.0.0.1
+2017/05/25 5:27:13: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/25 5:28:56: Status changed to disconnected: 1 akaruz 127.0.0.1 93EDAB3605E02143
+2017/05/25 5:32:36: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/25 5:32:36: Status changed to connected: 127.0.0.1
+2017/05/25 5:32:42: User Login: akaruz 127.0.0.1
+2017/05/25 5:33:13: Status changed to disconnected: 1 akaruz 127.0.0.1 9AC8617856971FA5
+2017/05/25 5:35:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/25 5:35:25: Status changed to connected: 127.0.0.1
+2017/05/25 5:35:37: User Login: akaruz 127.0.0.1
+2017/05/25 5:35:39: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/25 5:37:37: Status changed to disconnected: 1 akaruz 127.0.0.1 7A0F2B605D826C6F
+2017/05/25 5:40:07: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/25 5:40:07: Status changed to connected: 127.0.0.1
+2017/05/25 5:40:11: User Login: akaruz 127.0.0.1
+2017/05/25 5:40:21: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/25 5:41:04: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/25 5:41:04: Status changed to connected: 127.0.0.1
+2017/05/25 5:41:10: User Login: akaruz 127.0.0.1
+2017/05/25 5:41:11: World Server 火星 Login Attempt: akaruz 127.0.0.1
+2017/05/25 5:41:14: Status changed to disconnected: 0  127.0.0.1 74459BD9DC0C9DB4

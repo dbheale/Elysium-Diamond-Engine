@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System.Drawing;
+using System.Collections.Generic;
 using WorldServer.Common;
-using WorldServer.Items;
+using WorldServer.GameItem;
+using Elysium;
 
 namespace WorldServer.Server {
-    public class Classe {
+    public sealed class Classe {
         public int Level { get; set; }
         public int Strenght { get; set; }
         public int Dexterity { get; set; }
@@ -13,7 +15,6 @@ namespace WorldServer.Server {
         public int Wisdom { get; set; }
         public int Will { get; set; }
         public int Mind { get; set; }
-        public int Charisma { get; set; }
         public int Points { get; set; }
 
         /// <summary>
@@ -34,33 +35,21 @@ namespace WorldServer.Server {
         /// <summary>
         /// Items de inicialização do personagem.
         /// </summary>
-        public Item[] EquippedItems = new Item[Constant.MAX_ITEM];
+        public Item[] EquippedItems { get; set; } = new Item[Constants.MaxEquippedItem];
+
+        public Item[] Inventory { get; set; } = new Item[Constants.MaxInventory];
 
         /// <summary>
         /// Construtor
         /// </summary>
         public Classe() {
-            for (var index = 0; index < Constant.MAX_ITEM; index++) {
+            for (var index = 0; index < Constants.MaxEquippedItem; index++) {
                 EquippedItems[index] = new Item();
             }
-        }
 
-        /// <summary>
-        /// Obtem o item.
-        /// </summary>
-        /// <param name="type"></param>
-        /// <returns></returns>
-        public Item GetItem(ItemType type) {
-            return EquippedItems[(int)type];
-        }
-
-        /// <summary>
-        /// Altera um item.
-        /// </summary>
-        /// <param name="type"></param>
-        /// <param name="item"></param>
-        public void SetItem(ItemType type, Item item) {
-            EquippedItems[(int)type] = item;
+            for (var index = 0; index < Constants.MaxInventory; index++) {
+                Inventory[index] = new Item();
+            }
         }
 
         /// <summary>
@@ -99,12 +88,26 @@ namespace WorldServer.Server {
         /// <param name="classeID"></param>
         /// <param name="item"></param>
         /// <param name="type"></param>
-        public static void SetEquippedItem(int classeID, Item item, ItemType type) {
+        public static void SetEquippedItem(int classeID, Item item, EquipSlotType slot) {
             var index = FindClasseIndexByID(classeID);
 
             if (index == -1) return;
 
-            Classes[index].EquippedItems[(int)type] = new Item(item);
+            Classes[index].EquippedItems[(int)slot] = new Item(item);
+        }
+
+        /// <summary>
+        /// Adiciona um item ao inventário.
+        /// </summary>
+        /// <param name="classeID"></param>
+        /// <param name="invslot"></param>
+        /// <param name="item"></param>
+        public static void AddInventoryItem(int classeID, int slot, Item item) {
+            var index = FindClasseIndexByID(classeID);
+
+            if (index == -1) return;
+
+            Classes[index].Inventory[slot] = new Item(item);
         }
     }
 }

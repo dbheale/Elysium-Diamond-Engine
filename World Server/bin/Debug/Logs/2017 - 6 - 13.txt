@@ -1,0 +1,243 @@
+2017/06/13 1:27:20: WorldID: -2
+2017/06/13 1:27:20: Server Name: artemis
+2017/06/13 1:27:20: Discovery: Elysium Diamond #1.0.0
+2017/06/13 1:27:20: Port: 55901
+2017/06/13 1:27:20: Maximum Connections: 1000
+2017/06/13 1:27:20: Logs: Ativado
+2017/06/13 1:27:20: Sleep: 0
+2017/06/13 1:27:20: Pin: False
+2017/06/13 1:27:20: PinMaxAttempt: 5
+2017/06/13 1:27:20: PinBannedTime: 15
+2017/06/13 1:27:20: Carregando config do mysql
+2017/06/13 1:27:20: Connectado ao banco de dados
+2017/06/13 1:27:22: Carregando mensagens do servidor
+2017/06/13 1:27:22: Carregando a loja de items
+2017/06/13 1:27:22: Carregando scripts
+2017/06/13 1:27:23: Create Character: Ativo
+2017/06/13 1:27:23: Delete Character: Ativo
+2017/06/13 1:27:23: Conectando Game Server
+2017/06/13 1:27:23: World Server Start
+2017/06/13 1:34:15: WorldID: -2
+2017/06/13 1:34:15: Server Name: artemis
+2017/06/13 1:34:15: Discovery: Elysium Diamond #1.0.0
+2017/06/13 1:34:15: Port: 55901
+2017/06/13 1:34:15: Maximum Connections: 1000
+2017/06/13 1:34:15: Logs: Ativado
+2017/06/13 1:34:15: Sleep: 0
+2017/06/13 1:34:15: Pin: False
+2017/06/13 1:34:15: PinMaxAttempt: 5
+2017/06/13 1:34:15: PinBannedTime: 15
+2017/06/13 1:34:15: Carregando config do mysql
+2017/06/13 1:34:15: Connectado ao banco de dados
+2017/06/13 1:34:18: Carregando mensagens do servidor
+2017/06/13 1:34:18: Carregando a loja de items
+2017/06/13 1:34:18: Carregando scripts
+2017/06/13 1:34:18: Create Character: Ativo
+2017/06/13 1:34:18: Delete Character: Ativo
+2017/06/13 1:34:18: Conectando Game Server
+2017/06/13 1:34:19: World Server Start
+2017/06/13 2:26:19: WorldID: -2
+2017/06/13 2:26:19: Server Name: artemis
+2017/06/13 2:26:19: Discovery: Elysium Diamond #1.0.0
+2017/06/13 2:26:19: Port: 55901
+2017/06/13 2:26:19: Maximum Connections: 1000
+2017/06/13 2:26:19: Logs: Ativado
+2017/06/13 2:26:19: Sleep: 0
+2017/06/13 2:26:19: Pin: False
+2017/06/13 2:26:19: PinMaxAttempt: 5
+2017/06/13 2:26:19: PinBannedTime: 15
+2017/06/13 2:26:19: Carregando config do mysql
+2017/06/13 2:26:19: Connectado ao banco de dados
+2017/06/13 2:26:21: Carregando mensagens do servidor
+2017/06/13 2:26:21: Carregando a loja de items
+2017/06/13 2:26:21: Carregando scripts
+2017/06/13 2:26:21: Create Character: Ativo
+2017/06/13 2:26:21: Delete Character: Ativo
+2017/06/13 2:26:21: Conectando Game Server
+2017/06/13 2:26:22: World Server Start
+2017/06/13 2:26:24: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 2:26:33: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 2:26:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 2:28:08: WorldID: -2
+2017/06/13 2:28:08: Server Name: artemis
+2017/06/13 2:28:08: Discovery: Elysium Diamond #1.0.0
+2017/06/13 2:28:08: Port: 55901
+2017/06/13 2:28:08: Maximum Connections: 1000
+2017/06/13 2:28:08: Logs: Ativado
+2017/06/13 2:28:08: Sleep: 0
+2017/06/13 2:28:08: Pin: False
+2017/06/13 2:28:08: PinMaxAttempt: 5
+2017/06/13 2:28:08: PinBannedTime: 15
+2017/06/13 2:28:08: Carregando config do mysql
+2017/06/13 2:28:08: Connectado ao banco de dados
+2017/06/13 2:28:11: Carregando mensagens do servidor
+2017/06/13 2:28:11: Carregando a loja de items
+2017/06/13 2:28:11: Carregando scripts
+2017/06/13 2:28:11: Create Character: Ativo
+2017/06/13 2:28:11: Delete Character: Ativo
+2017/06/13 2:28:11: Conectando Game Server
+2017/06/13 2:28:12: World Server Start
+2017/06/13 2:28:13: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 2:28:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 2:28:33: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 2:32:05: WorldID: -2
+2017/06/13 2:32:05: Server Name: artemis
+2017/06/13 2:32:05: Discovery: Elysium Diamond #1.0.0
+2017/06/13 2:32:05: Port: 55901
+2017/06/13 2:32:05: Maximum Connections: 1000
+2017/06/13 2:32:05: Logs: Ativado
+2017/06/13 2:32:05: Sleep: 0
+2017/06/13 2:32:05: Pin: False
+2017/06/13 2:32:05: PinMaxAttempt: 5
+2017/06/13 2:32:05: PinBannedTime: 15
+2017/06/13 2:32:05: Carregando config do mysql
+2017/06/13 2:32:05: Connectado ao banco de dados
+2017/06/13 2:32:07: Carregando mensagens do servidor
+2017/06/13 2:32:07: Carregando a loja de items
+2017/06/13 2:32:07: Carregando scripts
+2017/06/13 2:32:07: Create Character: Ativo
+2017/06/13 2:32:07: Delete Character: Ativo
+2017/06/13 2:32:07: Conectando Game Server
+2017/06/13 2:32:08: World Server Start
+2017/06/13 2:32:09: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 2:32:09: Status changed to connected: 127.0.0.1
+2017/06/13 2:32:09: Login Server ID: -1
+2017/06/13 3:07:01: WorldID: -2
+2017/06/13 3:07:01: Server Name: artemis
+2017/06/13 3:07:01: Discovery: Elysium Diamond #1.0.0
+2017/06/13 3:07:01: Port: 55901
+2017/06/13 3:07:01: Maximum Connections: 1000
+2017/06/13 3:07:01: Logs: Ativado
+2017/06/13 3:07:01: Sleep: 0
+2017/06/13 3:07:01: Pin: False
+2017/06/13 3:07:01: PinMaxAttempt: 5
+2017/06/13 3:07:01: PinBannedTime: 15
+2017/06/13 3:07:01: Carregando config do mysql
+2017/06/13 3:07:01: Connectado ao banco de dados
+2017/06/13 3:07:04: Carregando mensagens do servidor
+2017/06/13 3:07:04: Carregando a loja de items
+2017/06/13 3:07:04: Carregando scripts
+2017/06/13 3:07:04: Create Character: Ativo
+2017/06/13 3:07:04: Delete Character: Ativo
+2017/06/13 3:07:04: Conectando Game Server
+2017/06/13 3:07:05: World Server Start
+2017/06/13 3:07:45: WorldID: -2
+2017/06/13 3:07:45: Server Name: artemis
+2017/06/13 3:07:45: Discovery: Elysium Diamond #1.0.0
+2017/06/13 3:07:45: Port: 55901
+2017/06/13 3:07:45: Maximum Connections: 1000
+2017/06/13 3:07:45: Logs: Ativado
+2017/06/13 3:07:45: Sleep: 0
+2017/06/13 3:07:45: Pin: False
+2017/06/13 3:07:45: PinMaxAttempt: 5
+2017/06/13 3:07:45: PinBannedTime: 15
+2017/06/13 3:07:45: Carregando config do mysql
+2017/06/13 3:07:45: Connectado ao banco de dados
+2017/06/13 3:07:48: Carregando mensagens do servidor
+2017/06/13 3:07:48: Carregando a loja de items
+2017/06/13 3:07:48: Carregando scripts
+2017/06/13 3:07:48: Create Character: Ativo
+2017/06/13 3:07:48: Delete Character: Ativo
+2017/06/13 3:07:48: Conectando Game Server
+2017/06/13 3:07:49: World Server Start
+2017/06/13 3:43:18: WorldID: -2
+2017/06/13 3:43:18: Server Name: artemis
+2017/06/13 3:43:18: Discovery: Elysium Diamond #1.0.0
+2017/06/13 3:43:18: Port: 55901
+2017/06/13 3:43:18: Maximum Connections: 1000
+2017/06/13 3:43:18: Logs: Ativado
+2017/06/13 3:43:18: Sleep: 0
+2017/06/13 3:43:18: Pin: False
+2017/06/13 3:43:18: PinMaxAttempt: 5
+2017/06/13 3:43:18: PinBannedTime: 15
+2017/06/13 3:43:18: Carregando config do mysql
+2017/06/13 3:43:18: Connectado ao banco de dados
+2017/06/13 3:43:21: Carregando mensagens do servidor
+2017/06/13 3:43:21: Carregando a loja de items
+2017/06/13 3:43:21: Carregando scripts
+2017/06/13 3:43:21: Create Character: Ativo
+2017/06/13 3:43:21: Delete Character: Ativo
+2017/06/13 3:43:21: Conectando Game Server
+2017/06/13 3:43:23: World Server Start
+2017/06/13 3:44:19: WorldID: -2
+2017/06/13 3:44:19: Server Name: artemis
+2017/06/13 3:44:19: Discovery: Elysium Diamond #1.0.0
+2017/06/13 3:44:19: Port: 55901
+2017/06/13 3:44:19: Maximum Connections: 1000
+2017/06/13 3:44:19: Logs: Ativado
+2017/06/13 3:44:19: Sleep: 0
+2017/06/13 3:44:19: Pin: False
+2017/06/13 3:44:19: PinMaxAttempt: 5
+2017/06/13 3:44:19: PinBannedTime: 15
+2017/06/13 3:44:19: Carregando config do mysql
+2017/06/13 3:44:19: Connectado ao banco de dados
+2017/06/13 3:44:22: Carregando mensagens do servidor
+2017/06/13 3:44:22: Carregando a loja de items
+2017/06/13 3:44:22: Carregando scripts
+2017/06/13 3:44:22: Create Character: Ativo
+2017/06/13 3:44:22: Delete Character: Ativo
+2017/06/13 3:44:22: Conectando Game Server
+2017/06/13 3:44:25: World Server Start
+2017/06/13 12:50:42: WorldID: -2
+2017/06/13 12:50:42: Server Name: artemis
+2017/06/13 12:50:42: Discovery: Elysium Diamond #1.0.0
+2017/06/13 12:50:42: Port: 55901
+2017/06/13 12:50:42: Maximum Connections: 1000
+2017/06/13 12:50:42: Logs: Ativado
+2017/06/13 12:50:42: Sleep: 0
+2017/06/13 12:50:42: Pin: False
+2017/06/13 12:50:42: PinMaxAttempt: 5
+2017/06/13 12:50:42: PinBannedTime: 15
+2017/06/13 12:50:42: Carregando config do mysql
+2017/06/13 12:50:42: Connectado ao banco de dados
+2017/06/13 12:50:45: Carregando mensagens do servidor
+2017/06/13 12:50:45: Carregando a loja de items
+2017/06/13 12:50:45: Carregando scripts
+2017/06/13 12:50:45: Create Character: Ativo
+2017/06/13 12:50:45: Delete Character: Ativo
+2017/06/13 12:50:45: Conectando Game Server
+2017/06/13 12:50:49: World Server Start
+2017/06/13 12:50:49: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 12:50:50: Status changed to connected: 127.0.0.1
+2017/06/13 12:50:50: Login Server ID: -1
+2017/06/13 13:20:17: WorldID: -2
+2017/06/13 13:20:17: Server Name: artemis
+2017/06/13 13:20:17: Discovery: Elysium Diamond #1.0.0
+2017/06/13 13:20:17: Port: 55901
+2017/06/13 13:20:17: Maximum Connections: 1000
+2017/06/13 13:20:17: Logs: Ativado
+2017/06/13 13:20:17: Sleep: 0
+2017/06/13 13:20:17: Pin: False
+2017/06/13 13:20:17: PinMaxAttempt: 5
+2017/06/13 13:20:17: PinBannedTime: 15
+2017/06/13 13:20:17: Carregando config do mysql
+2017/06/13 13:20:17: Connectado ao banco de dados
+2017/06/13 13:20:19: Carregando mensagens do servidor
+2017/06/13 13:20:19: Carregando a loja de items
+2017/06/13 13:20:19: Carregando scripts
+2017/06/13 13:20:19: Create Character: Ativo
+2017/06/13 13:20:19: Delete Character: Ativo
+2017/06/13 13:20:19: Conectando Game Server
+2017/06/13 13:20:23: World Server Start
+2017/06/13 13:20:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 13:20:24: Status changed to connected: 127.0.0.1
+2017/06/13 13:20:24: Login Server ID: -1
+2017/06/13 13:21:07: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 13:21:07: Status changed to connected: 127.0.0.1
+2017/06/13 13:21:07: Login Server ID: -1
+2017/06/13 13:21:14: Status changed to disconnected: -1  127.0.0.1 
+2017/06/13 13:21:50: Status changed to disconnected: -1  127.0.0.1 
+2017/06/13 13:22:19: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 13:22:19: Status changed to connected: 127.0.0.1
+2017/06/13 13:22:19: Login Server ID: -1
+2017/06/13 13:22:57: Status changed to disconnected: -1  127.0.0.1 
+2017/06/13 13:23:04: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 13:23:04: Status changed to connected: 127.0.0.1
+2017/06/13 13:23:04: Login Server ID: -1
+2017/06/13 13:23:27: Data From Login Server ID: 1 Account: akaruz 1E0764ED186D9589
+2017/06/13 13:23:27: Discovery Response IPEndPoint: 127.0.0.1
+2017/06/13 13:23:27: Status changed to connected: 127.0.0.1
+2017/06/13 13:23:27: Data From Client: 1E0764ED186D9589
+2017/06/13 13:23:27: Player Found ID: 1 Account: akaruz 1E0764ED186D9589
+2017/06/13 13:23:27: PreLoad ID: 1 Account: akaruz
+2017/06/13 13:23:27: Character Deleted: From: 1 Char: 23 AsaDSAD

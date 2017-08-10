@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace LoginServer.Server {
-    public class IpCountry {
+﻿namespace LoginServer.Server {
+    public sealed class IpCountry {
         /// <summary>
         /// Endereço inicial.
         /// </summary>

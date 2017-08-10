@@ -1,0 +1,377 @@
+2017/05/04 0:05:55: ID: 252000
+2017/05/04 0:05:55: Game Server Name: Canal 1
+2017/05/04 0:05:55: Discovery: Elysium Diamond #1.0.0
+2017/05/04 0:05:55: Port: 55970
+2017/05/04 0:05:55: MaximumConnections: 2000
+2017/05/04 0:05:55: Sleep: 1
+2017/05/04 0:05:55: Logs: Ativado
+2017/05/04 0:05:55: Carregando config mysql
+2017/05/04 0:05:55: Connectado ao banco de dados
+2017/05/04 0:05:55: WorldServer 1  ID: Artemis
+2017/05/04 0:05:55: WorldServer 2  ID: 
+2017/05/04 0:05:55: WorldServer 3  ID: 
+2017/05/04 0:05:55: WorldServer 4  ID: 
+2017/05/04 0:05:55: WorldServer 5  ID: 
+2017/05/04 0:05:55: Carregando experiência
+2017/05/04 0:05:55: Level Max: 121
+2017/05/04 0:05:55: Exp Max: 22353256174
+2017/05/04 0:05:55: Carregando guilds
+2017/05/04 0:05:55: Carregando membros
+2017/05/04 0:05:55: Carregando classe(s) base
+2017/05/04 0:05:55: Carregando classe(s) incremento
+2017/05/04 0:05:55: Carregando NPC
+2017/05/04 0:05:55: Carregando scripts
+2017/05/04 0:05:55: Game Server Start
+2017/05/04 0:06:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:06:00: Status changed to connected: 127.0.0.1
+2017/05/04 0:07:48: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 D6C91E2A4647842D
+2017/05/04 0:07:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:07:48: Status changed to connected: 127.0.0.1
+2017/05/04 0:07:48: Received From Client: D6C91E2A4647842D
+2017/05/04 0:07:48: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:07:48: ドラゴン joined map id 1
+2017/05/04 0:08:20: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:08:48: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 48966C318C67C9B8
+2017/05/04 0:08:49: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:08:49: Status changed to connected: 127.0.0.1
+2017/05/04 0:08:49: Received From Client: 48966C318C67C9B8
+2017/05/04 0:08:49: Player Found ID: 1 Name: Caronne
+2017/05/04 0:08:49: Caronne joined map id 1
+2017/05/04 0:09:13: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:09:15: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 48966C318C67C9B8
+2017/05/04 0:09:16: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:09:16: Status changed to connected: 127.0.0.1
+2017/05/04 0:09:16: Received From Client: 48966C318C67C9B8
+2017/05/04 0:09:16: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:09:16: ドラゴン joined map id 1
+2017/05/04 0:09:20: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:09:21: Data From World Server ID: 1 Account: akaruz Char ID: 51 Slot: 2 48966C318C67C9B8
+2017/05/04 0:09:21: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:09:21: Status changed to connected: 127.0.0.1
+2017/05/04 0:09:21: Received From Client: 48966C318C67C9B8
+2017/05/04 0:09:21: Player Found ID: 51 Name: asadasd
+2017/05/04 0:09:21: asadasd joined map id 1
+2017/05/04 0:09:23: ID: 51 asadasd Status changed to disconnected: 127.0.0.1
+2017/05/04 0:09:24: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 48966C318C67C9B8
+2017/05/04 0:09:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:09:25: Status changed to connected: 127.0.0.1
+2017/05/04 0:09:25: Received From Client: 48966C318C67C9B8
+2017/05/04 0:09:25: Player Found ID: 1 Name: Caronne
+2017/05/04 0:09:25: Caronne joined map id 1
+2017/05/04 0:09:38: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:12:34: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 3F086F9FA2B76139
+2017/05/04 0:12:34: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:12:34: Status changed to connected: 127.0.0.1
+2017/05/04 0:12:34: Received From Client: 3F086F9FA2B76139
+2017/05/04 0:12:34: Player Found ID: 1 Name: Caronne
+2017/05/04 0:12:34: Caronne joined map id 1
+2017/05/04 0:12:40: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:13:12: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 92C57E4BD5B4E224
+2017/05/04 0:13:12: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:13:12: Status changed to connected: 127.0.0.1
+2017/05/04 0:13:12: Received From Client: 92C57E4BD5B4E224
+2017/05/04 0:13:12: Player Found ID: 1 Name: Caronne
+2017/05/04 0:13:12: Caronne joined map id 1
+2017/05/04 0:13:19: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:14:21: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 9190B34ED0440235
+2017/05/04 0:14:22: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:14:22: Status changed to connected: 127.0.0.1
+2017/05/04 0:14:22: Received From Client: 9190B34ED0440235
+2017/05/04 0:14:22: Player Found ID: 1 Name: Caronne
+2017/05/04 0:14:22: Caronne joined map id 1
+2017/05/04 0:14:27: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:14:44: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 676C84B50F00F377
+2017/05/04 0:14:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:14:45: Status changed to connected: 127.0.0.1
+2017/05/04 0:14:45: Received From Client: 676C84B50F00F377
+2017/05/04 0:14:45: Player Found ID: 1 Name: Caronne
+2017/05/04 0:14:45: Caronne joined map id 1
+2017/05/04 0:14:49: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:14:50: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 676C84B50F00F377
+2017/05/04 0:14:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:14:50: Status changed to connected: 127.0.0.1
+2017/05/04 0:14:50: Received From Client: 676C84B50F00F377
+2017/05/04 0:14:50: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:14:50: ドラゴン joined map id 1
+2017/05/04 0:15:00: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:15:01: Data From World Server ID: 1 Account: akaruz Char ID: 51 Slot: 2 676C84B50F00F377
+2017/05/04 0:15:02: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:15:02: Status changed to connected: 127.0.0.1
+2017/05/04 0:15:02: Received From Client: 676C84B50F00F377
+2017/05/04 0:15:02: Player Found ID: 51 Name: asadasd
+2017/05/04 0:15:02: asadasd joined map id 1
+2017/05/04 0:15:04: ID: 51 asadasd Status changed to disconnected: 127.0.0.1
+2017/05/04 0:15:05: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 676C84B50F00F377
+2017/05/04 0:15:06: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:15:06: Status changed to connected: 127.0.0.1
+2017/05/04 0:15:06: Received From Client: 676C84B50F00F377
+2017/05/04 0:15:06: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:15:06: ドラゴン joined map id 1
+2017/05/04 0:15:09: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:15:56: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 FCDE9BF470D13A9D
+2017/05/04 0:15:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:15:57: Status changed to connected: 127.0.0.1
+2017/05/04 0:15:57: Received From Client: FCDE9BF470D13A9D
+2017/05/04 0:15:57: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:15:57: ドラゴン joined map id 1
+2017/05/04 0:15:59: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:16:01: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 FCDE9BF470D13A9D
+2017/05/04 0:16:01: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:16:01: Status changed to connected: 127.0.0.1
+2017/05/04 0:16:01: Received From Client: FCDE9BF470D13A9D
+2017/05/04 0:16:01: Player Found ID: 1 Name: Caronne
+2017/05/04 0:16:01: Caronne joined map id 1
+2017/05/04 0:16:03: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:16:03: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 FCDE9BF470D13A9D
+2017/05/04 0:16:04: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:16:04: Status changed to connected: 127.0.0.1
+2017/05/04 0:16:04: Received From Client: FCDE9BF470D13A9D
+2017/05/04 0:16:04: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:16:04: ドラゴン joined map id 1
+2017/05/04 0:16:07: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:16:09: Data From World Server ID: 1 Account: akaruz Char ID: 51 Slot: 2 FCDE9BF470D13A9D
+2017/05/04 0:16:10: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:16:10: Status changed to connected: 127.0.0.1
+2017/05/04 0:16:10: Received From Client: FCDE9BF470D13A9D
+2017/05/04 0:16:10: Player Found ID: 51 Name: asadasd
+2017/05/04 0:16:10: asadasd joined map id 1
+2017/05/04 0:16:14: ID: 51 asadasd Status changed to disconnected: 127.0.0.1
+2017/05/04 0:19:34: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 D8CB7BCD01B86BD3
+2017/05/04 0:19:34: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:19:34: Status changed to connected: 127.0.0.1
+2017/05/04 0:19:34: Received From Client: D8CB7BCD01B86BD3
+2017/05/04 0:19:35: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:19:35: ドラゴン joined map id 1
+2017/05/04 0:20:20: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:21:39: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 36F80FA514A26046
+2017/05/04 0:21:39: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:21:39: Status changed to connected: 127.0.0.1
+2017/05/04 0:21:39: Received From Client: 36F80FA514A26046
+2017/05/04 0:21:39: Player Found ID: 1 Name: Caronne
+2017/05/04 0:21:39: Caronne joined map id 1
+2017/05/04 0:22:23: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:23:22: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 205517373AA88B87
+2017/05/04 0:23:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:23:23: Status changed to connected: 127.0.0.1
+2017/05/04 0:23:23: Received From Client: 205517373AA88B87
+2017/05/04 0:23:23: Player Found ID: 1 Name: Caronne
+2017/05/04 0:23:23: Caronne joined map id 1
+2017/05/04 0:23:30: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:23:31: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 205517373AA88B87
+2017/05/04 0:23:32: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:23:32: Status changed to connected: 127.0.0.1
+2017/05/04 0:23:32: Received From Client: 205517373AA88B87
+2017/05/04 0:23:32: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:23:32: ドラゴン joined map id 1
+2017/05/04 0:23:35: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:23:52: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 8E362EE50CDB4C66
+2017/05/04 0:23:53: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:23:53: Status changed to connected: 127.0.0.1
+2017/05/04 0:23:53: Received From Client: 8E362EE50CDB4C66
+2017/05/04 0:23:53: Player Found ID: 1 Name: Caronne
+2017/05/04 0:23:53: Caronne joined map id 1
+2017/05/04 0:23:58: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:24:33: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 7354E88368AA05B9
+2017/05/04 0:24:34: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:24:34: Status changed to connected: 127.0.0.1
+2017/05/04 0:24:34: Received From Client: 7354E88368AA05B9
+2017/05/04 0:24:34: Player Found ID: 1 Name: Caronne
+2017/05/04 0:24:34: Caronne joined map id 1
+2017/05/04 0:24:37: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:25:31: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 E45D2CE3838156B4
+2017/05/04 0:25:32: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:25:32: Status changed to connected: 127.0.0.1
+2017/05/04 0:25:32: Received From Client: E45D2CE3838156B4
+2017/05/04 0:25:32: Player Found ID: 1 Name: Caronne
+2017/05/04 0:25:32: Caronne joined map id 1
+2017/05/04 0:25:39: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:26:30: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 D405457A82840F23
+2017/05/04 0:26:30: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:26:30: Status changed to connected: 127.0.0.1
+2017/05/04 0:26:30: Received From Client: D405457A82840F23
+2017/05/04 0:26:30: Player Found ID: 1 Name: Caronne
+2017/05/04 0:26:30: Caronne joined map id 1
+2017/05/04 0:26:35: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:26:52: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 6311372858A679DE
+2017/05/04 0:26:53: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:26:53: Status changed to connected: 127.0.0.1
+2017/05/04 0:26:53: Received From Client: 6311372858A679DE
+2017/05/04 0:26:53: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:26:53: ドラゴン joined map id 1
+2017/05/04 0:28:38: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:28:39: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 6311372858A679DE
+2017/05/04 0:28:40: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:28:40: Status changed to connected: 127.0.0.1
+2017/05/04 0:28:40: Received From Client: 6311372858A679DE
+2017/05/04 0:28:40: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:28:40: ドラゴン joined map id 1
+2017/05/04 0:28:53: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:28:55: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 6311372858A679DE
+2017/05/04 0:28:55: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:28:55: Status changed to connected: 127.0.0.1
+2017/05/04 0:28:55: Received From Client: 6311372858A679DE
+2017/05/04 0:28:55: Player Found ID: 1 Name: Caronne
+2017/05/04 0:28:55: Caronne joined map id 1
+2017/05/04 0:28:58: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:28:59: Data From World Server ID: 1 Account: akaruz Char ID: 51 Slot: 2 6311372858A679DE
+2017/05/04 0:29:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:29:00: Status changed to connected: 127.0.0.1
+2017/05/04 0:29:00: Received From Client: 6311372858A679DE
+2017/05/04 0:29:00: Player Found ID: 51 Name: asadasd
+2017/05/04 0:29:00: asadasd joined map id 1
+2017/05/04 0:30:11: ID: 51 asadasd Status changed to disconnected: 127.0.0.1
+2017/05/04 0:30:31: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 7F5B304B517DDA5B
+2017/05/04 0:30:31: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:30:31: Status changed to connected: 127.0.0.1
+2017/05/04 0:30:31: Received From Client: 7F5B304B517DDA5B
+2017/05/04 0:30:31: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:30:31: ドラゴン joined map id 1
+2017/05/04 0:31:21: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:34:45: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 A36ED2C5CCFB38CF
+2017/05/04 0:34:45: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:34:45: Status changed to connected: 127.0.0.1
+2017/05/04 0:34:45: Received From Client: A36ED2C5CCFB38CF
+2017/05/04 0:34:45: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:34:45: ドラゴン joined map id 1
+2017/05/04 0:36:15: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:36:43: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 324416445A967093
+2017/05/04 0:36:44: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:36:44: Status changed to connected: 127.0.0.1
+2017/05/04 0:36:44: Received From Client: 324416445A967093
+2017/05/04 0:36:44: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:36:44: ドラゴン joined map id 1
+2017/05/04 0:41:38: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:41:39: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 324416445A967093
+2017/05/04 0:41:39: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:41:39: Status changed to connected: 127.0.0.1
+2017/05/04 0:41:39: Received From Client: 324416445A967093
+2017/05/04 0:41:39: Player Found ID: 1 Name: Caronne
+2017/05/04 0:41:39: Caronne joined map id 1
+2017/05/04 0:42:01: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 0:42:03: Data From World Server ID: 1 Account: akaruz Char ID: 51 Slot: 2 324416445A967093
+2017/05/04 0:42:03: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:42:03: Status changed to connected: 127.0.0.1
+2017/05/04 0:42:03: Received From Client: 324416445A967093
+2017/05/04 0:42:03: Player Found ID: 51 Name: asadasd
+2017/05/04 0:42:03: asadasd joined map id 1
+2017/05/04 0:42:09: ID: 51 asadasd Status changed to disconnected: 127.0.0.1
+2017/05/04 0:43:53: ID: 252000
+2017/05/04 0:43:53: Game Server Name: Canal 1
+2017/05/04 0:43:53: Discovery: Elysium Diamond #1.0.0
+2017/05/04 0:43:53: Port: 55970
+2017/05/04 0:43:53: MaximumConnections: 2000
+2017/05/04 0:43:53: Sleep: 1
+2017/05/04 0:43:53: Logs: Ativado
+2017/05/04 0:43:53: Carregando config mysql
+2017/05/04 0:43:53: Connectado ao banco de dados
+2017/05/04 0:43:53: WorldServer 1  ID: Artemis
+2017/05/04 0:43:53: WorldServer 2  ID: 
+2017/05/04 0:43:53: WorldServer 3  ID: 
+2017/05/04 0:43:53: WorldServer 4  ID: 
+2017/05/04 0:43:53: WorldServer 5  ID: 
+2017/05/04 0:43:53: Carregando experiência
+2017/05/04 0:43:53: Level Max: 121
+2017/05/04 0:43:53: Exp Max: 22353256174
+2017/05/04 0:43:53: Carregando guilds
+2017/05/04 0:43:53: Carregando membros
+2017/05/04 0:43:53: Carregando classe(s) base
+2017/05/04 0:43:53: Carregando classe(s) incremento
+2017/05/04 0:43:53: Carregando NPC
+2017/05/04 0:43:53: Carregando scripts
+2017/05/04 0:43:53: Game Server Start
+2017/05/04 0:44:00: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:44:00: Status changed to connected: 127.0.0.1
+2017/05/04 0:44:16: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 6B4A4C0C417E22BB
+2017/05/04 0:44:17: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:44:17: Status changed to connected: 127.0.0.1
+2017/05/04 0:44:17: Received From Client: 6B4A4C0C417E22BB
+2017/05/04 0:44:28: ID: 252000
+2017/05/04 0:44:28: Game Server Name: Canal 1
+2017/05/04 0:44:28: Discovery: Elysium Diamond #1.0.0
+2017/05/04 0:44:28: Port: 55970
+2017/05/04 0:44:28: MaximumConnections: 2000
+2017/05/04 0:44:28: Sleep: 1
+2017/05/04 0:44:28: Logs: Ativado
+2017/05/04 0:44:28: Carregando config mysql
+2017/05/04 0:44:28: Connectado ao banco de dados
+2017/05/04 0:44:29: WorldServer 1  ID: Artemis
+2017/05/04 0:44:29: WorldServer 2  ID: 
+2017/05/04 0:44:29: WorldServer 3  ID: 
+2017/05/04 0:44:29: WorldServer 4  ID: 
+2017/05/04 0:44:29: WorldServer 5  ID: 
+2017/05/04 0:44:29: Carregando experiência
+2017/05/04 0:44:29: Level Max: 121
+2017/05/04 0:44:29: Exp Max: 22353256174
+2017/05/04 0:44:29: Carregando guilds
+2017/05/04 0:44:29: Carregando membros
+2017/05/04 0:44:29: Carregando classe(s) base
+2017/05/04 0:44:29: Carregando classe(s) incremento
+2017/05/04 0:44:29: Carregando NPC
+2017/05/04 0:44:29: Carregando scripts
+2017/05/04 0:44:29: Game Server Start
+2017/05/04 0:44:50: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:44:50: Status changed to connected: 127.0.0.1
+2017/05/04 0:44:56: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 C3902097CB6964EF
+2017/05/04 0:44:57: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:44:57: Status changed to connected: 127.0.0.1
+2017/05/04 0:44:57: Received From Client: C3902097CB6964EF
+2017/05/04 0:44:57: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:44:57: ドラゴン joined map id 1
+2017/05/04 0:45:06: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:45:32: Data From World Server ID: 1 Account: akaruz Char ID: 2 Slot: 1 725CE3DD33839933
+2017/05/04 0:45:33: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:45:33: Status changed to connected: 127.0.0.1
+2017/05/04 0:45:33: Received From Client: 725CE3DD33839933
+2017/05/04 0:45:33: Player Found ID: 2 Name: ドラゴン
+2017/05/04 0:45:33: ドラゴン joined map id 1
+2017/05/04 0:45:56: ID: 2 ドラゴン Status changed to disconnected: 127.0.0.1
+2017/05/04 0:52:30: ID: 252000
+2017/05/04 0:52:30: Game Server Name: Canal 1
+2017/05/04 0:52:30: Discovery: Elysium Diamond #1.0.0
+2017/05/04 0:52:30: Port: 55970
+2017/05/04 0:52:30: MaximumConnections: 2000
+2017/05/04 0:52:30: Sleep: 1
+2017/05/04 0:52:30: Logs: Ativado
+2017/05/04 0:52:30: Carregando config mysql
+2017/05/04 0:52:30: Connectado ao banco de dados
+2017/05/04 0:52:30: WorldServer 1  ID: Artemis
+2017/05/04 0:52:30: WorldServer 2  ID: 
+2017/05/04 0:52:30: WorldServer 3  ID: 
+2017/05/04 0:52:30: WorldServer 4  ID: 
+2017/05/04 0:52:30: WorldServer 5  ID: 
+2017/05/04 0:52:30: Carregando experiência
+2017/05/04 0:52:30: Level Max: 121
+2017/05/04 0:52:30: Exp Max: 22353256174
+2017/05/04 0:52:30: Carregando guilds
+2017/05/04 0:52:30: Carregando membros
+2017/05/04 0:52:30: Carregando classe(s) base
+2017/05/04 0:52:30: Carregando classe(s) incremento
+2017/05/04 0:52:30: Carregando NPC
+2017/05/04 0:52:30: Carregando scripts
+2017/05/04 0:52:30: Game Server Start
+2017/05/04 0:52:31: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:52:31: Status changed to connected: 127.0.0.1
+2017/05/04 0:56:24: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:56:24: Status changed to connected: 127.0.0.1
+2017/05/04 0:56:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:56:48: Status changed to connected: 127.0.0.1
+2017/05/04 0:57:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:57:44: Status changed to connected: 127.0.0.1
+2017/05/04 0:59:21: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 0:59:21: Status changed to connected: 127.0.0.1
+2017/05/04 1:01:23: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 1:01:23: Status changed to connected: 127.0.0.1
+2017/05/04 1:01:35: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 B1C63312EA7FBEF5
+2017/05/04 1:01:36: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 1:01:36: Status changed to connected: 127.0.0.1
+2017/05/04 1:01:36: Received From Client: B1C63312EA7FBEF5
+2017/05/04 1:01:36: Player Found ID: 1 Name: Caronne
+2017/05/04 1:01:36: Caronne joined map id 1
+2017/05/04 1:01:49: ID: 1 Caronne Status changed to disconnected: 127.0.0.1
+2017/05/04 1:02:24: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 92539C1F3CF52691
+2017/05/04 1:02:24: Discovery Response IPEndPoint: 127.0.0.1
+2017/05/04 1:02:24: Status changed to connected: 127.0.0.1
+2017/05/04 1:02:24: Received From Client: 92539C1F3CF52691
+2017/05/04 1:02:24: Player Found ID: 1 Name: Caronne
+2017/05/04 1:02:24: Caronne joined map id 1
+2017/05/04 1:02:57: ID: 1 Caronne Status changed to disconnected: 127.0.0.1

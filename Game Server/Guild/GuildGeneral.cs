@@ -72,14 +72,14 @@ namespace GameServer.GameGuild {
             // Verificar se o personagem já está em uma guild ...
             // Se verdadeiro, enviar mensagem de erro
             if (Authentication.FindByHexID(hexID).GuildID >= 1) {
-                //WorldServerPacket.Message(hexID, (int)PacketList.WorldServer_UserAlreadyInGuild);
+                //WorldServerPacket.Message(hexID, (short)PacketList.WorldServer_UserAlreadyInGuild);
                 return;
             }
 
             // Verificar se o nome já existe no banco de dados ...
             // Se verdadeiro, enviar mensagem ...
             if (Guild_DB.ExistGuild(gName)) {
-                //WorldServerPacket.Message(hexID, (int)PacketList.WorldServer_GuildNameInUse);
+                //WorldServerPacket.Message(hexID, (short)PacketList.WorldServer_GuildNameInUse);
                 return;
             }
 

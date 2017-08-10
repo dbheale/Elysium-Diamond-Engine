@@ -1,6 +1,6 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Collections;
+using System.Windows.Forms;
 
 namespace Elysium_Diamond.Resource {
     /// <summary>
@@ -11,7 +11,7 @@ namespace Elysium_Diamond.Resource {
 
         public long this[int index] {
             set {
-                Data[index] = (long)value;
+                Data[index] = value;
             }
             get {
                 return (long)Data[index];
@@ -20,6 +20,8 @@ namespace Elysium_Diamond.Resource {
         }
 
         public static ExperienceManager Experience { get; set; } = new ExperienceManager();
+
+        public static ExperienceManager Talent { get; set; } = new ExperienceManager();
 
         /// <summary>
         /// Adiciona nova entrada de dados.
@@ -31,12 +33,15 @@ namespace Elysium_Diamond.Resource {
         }
 
         /// <summary>
-        /// Abre o arquivo para leitura.
+        /// Abre o arquivo e carrega as informações.
         /// </summary>
         /// <returns></returns>
-        public static bool OpenData() {
-            if (!File.Exists("./Data/experience.bin")) return false;
-
+        public static bool Read() {
+            if (!File.Exists("./Data/experience.bin")) {
+                MessageBox.Show("O arquivo de experiência não foi encontado.");
+                return false;
+            }
+                
             using (FileStream file = new FileStream("./Data/experience.bin", FileMode.Open, FileAccess.Read)) {
                 BinaryReader reader = new BinaryReader(file);
 
@@ -46,7 +51,8 @@ namespace Elysium_Diamond.Resource {
                     var level = reader.ReadInt32();
                     var exp = reader.ReadInt64();
 
-                    Experience.Add(level, exp);  
+                    Experience.Add(level, exp);
+                    Talent.Add(level, exp);
                 }
 
                 reader.Close();

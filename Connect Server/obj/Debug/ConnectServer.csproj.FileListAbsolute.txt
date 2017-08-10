@@ -1,0 +1,19 @@
+C:\Users\DragonicK\Desktop\ConnectServer\bin\Debug\ConnectServer.exe.config
+C:\Users\DragonicK\Desktop\ConnectServer\bin\Debug\ConnectServer.exe
+C:\Users\DragonicK\Desktop\ConnectServer\bin\Debug\ConnectServer.pdb
+C:\Users\DragonicK\Desktop\ConnectServer\obj\Debug\ConnectServer.Properties.Resources.resources
+C:\Users\DragonicK\Desktop\ConnectServer\obj\Debug\ConnectServer.csproj.GenerateResource.Cache
+C:\Users\DragonicK\Desktop\ConnectServer\obj\Debug\ConnectServer.exe
+C:\Users\DragonicK\Desktop\ConnectServer\obj\Debug\ConnectServer.pdb
+C:\Users\DragonicK\Desktop\ConnectServer\obj\Debug\ConnectServer.frmMain.resources
+C:\Users\DragonicK\Desktop\ConnectServer\obj\Debug\ConnectServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Connect Server\bin\Debug\ConnectServer.exe.config
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.pdb
+D:\Programing Files\Elysium Diamond\Connect Server\bin\Debug\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\Connect Server\bin\Debug\ConnectServer.pdb
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.frmMain.resources
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Connect Server\bin\Debug\KeraLua.dll

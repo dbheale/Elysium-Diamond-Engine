@@ -1,0 +1,22 @@
+2017/06/17 1:58:51: ID: 3
+2017/06/17 1:58:51: Game Server Name: Canal 1
+2017/06/17 1:58:51: Discovery: Elysium Diamond #1.0.0
+2017/06/17 1:58:51: Port: 55970
+2017/06/17 1:58:51: MaximumConnections: 1000
+2017/06/17 1:58:51: Sleep: 1
+2017/06/17 1:58:51: Logs: Ativado
+2017/06/17 1:58:51: Carregando config mysql
+2017/06/17 1:58:51: Connectado ao banco de dados
+2017/06/17 1:58:53: Carregando items
+2017/06/17 1:58:53: 12 items carregados
+2017/06/17 1:58:53: Carregando talentos
+2017/06/17 1:58:53: 2 talentos carregados
+2017/06/17 1:58:53: Carregando experiência
+2017/06/17 1:58:53: Max Level: 121 EXP: 22353256174
+2017/06/17 1:58:53: Carregando guilds
+2017/06/17 1:58:53: Carregando membros
+2017/06/17 1:58:53: Carregando classe(s) base
+2017/06/17 1:58:53: Carregando classe(s) incremento
+2017/06/17 1:58:53: Carregando NPC
+2017/06/17 1:58:53: Carregando scripts
+2017/06/17 1:58:53: Game Server Start

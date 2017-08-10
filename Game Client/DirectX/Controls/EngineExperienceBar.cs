@@ -7,16 +7,13 @@ namespace Elysium_Diamond.DirectX {
         /// <summary>
         /// Texturas de fundo e progressão da barra.
         /// </summary>
-        private Texture textureColor,textureBack;
+        private Texture textureColor, textureBack;
 
         /// <summary>
         /// Porcentagem da barra.
         /// </summary>
         public int Percentage { get; set; }
-
-        /// <summary>
-        /// 
-        /// </summary>
+    
         public bool DrawText { get; set; }
 
         /// <summary>
@@ -24,7 +21,7 @@ namespace Elysium_Diamond.DirectX {
         /// </summary>
         /// <param name="width"></param>
         /// <param name="height"></param>
-        public EngineExperienceBar(int width, int height) {
+        public EngineExperienceBar(string name, int width, int height) {
             Name = string.Empty;
             Size = new Size2(width, height);
             SourceRect = new Rectangle(0, 0, width, height);
@@ -33,14 +30,12 @@ namespace Elysium_Diamond.DirectX {
             Color = Color.White;
             Visible = true;
             Enabled = true;
-            DrawTexture = true;
-
             DrawText = true;
             SpriteFlags = SpriteFlags.AlphaBlend;
 
-            textureBack = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\bar_back.png", width, height);
-            textureColor = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\bar_color.png", width, height);
-            Texture = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\bar_border.png", width, height);                
+            textureBack = EngineTexture.TextureFromFile($"./Data/Graphics/{name}_back.png", width, height);
+            textureColor = EngineTexture.TextureFromFile($"./Data/Graphics/{name}_color.png", width, height);
+            Texture = EngineTexture.TextureFromFile($"./Data/Graphics/{name}_border.png", width, height);                
         }
 
         /// <summary>
@@ -52,21 +47,19 @@ namespace Elysium_Diamond.DirectX {
             if (Transparency == 0) { return; }
 
             MouseButtons();
-
-            if (DrawTexture == false) { return; }
        
             EngineCore.SpriteDevice.Begin(SpriteFlags);
             //Desenha o fundo
-            EngineCore.SpriteDevice.Draw(textureBack, new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(Position.X, Position.Y, 0));
+            EngineCore.SpriteDevice.Draw(textureBack, _color, SourceRect, null, _position);
             //Desenha o progresso
-            EngineCore.SpriteDevice.Draw(textureColor, new Color(Color.R, Color.G, Color.B, Transparency), new Rectangle(0, 0, Size.Width * Percentage / 100, Size.Height), new Vector3(0, 0, 0), new Vector3(Position.X, Position.Y, 0));
+            EngineCore.SpriteDevice.Draw(textureColor, _color, new Rectangle(0, 0, Size.Width * Percentage / 100, Size.Height), null, _position);
             //Desenha o restante
-            EngineCore.SpriteDevice.Draw(Texture, new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(Position.X, Position.Y, 0));
+            EngineCore.SpriteDevice.Draw(Texture, _color, SourceRect, null, _position);
             EngineCore.SpriteDevice.End();
 
             if (DrawText == false) { return; }
 
-            EngineFont.DrawText(null, text, new Size2(519, 0), new Point(Position.X, Position.Y + 22), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText(text, new Size2(Size.Width, 0), new Point(Position.X, Position.Y + 22), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
         }
     }
 }

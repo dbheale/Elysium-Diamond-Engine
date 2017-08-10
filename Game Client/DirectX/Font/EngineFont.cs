@@ -57,27 +57,27 @@ namespace Elysium_Diamond.DirectX {
         /// <param name="style">Estilo</param>
         /// <param name="textformat">Formato</param>
         /// <param name="preload">Pré Carregamento</param>
-        public static void DrawText(Sprite sprite, string text, Size2 size, Point point, Color color, EngineFontStyle style, FontDrawFlags textformat, bool preload = false) {
+        public static void DrawText(string text, Size2 size, Point point, Color color, EngineFontStyle style, FontDrawFlags textformat, bool preload = false) {
             if (string.IsNullOrEmpty(text)) { return; }
 
             if (style == EngineFontStyle.Regular) {
-                rect = regular.MeasureText(sprite, text, textformat);
+                rect = regular.MeasureText(null, text, textformat);
                 if (preload) { regular.PreloadText(text); }
-                regular.DrawText(sprite, text, point.X + (size.Width - rect.Width) / 2, (point.Y - 5) + (size.Height - rect.Height) / 2, color);
+                regular.DrawText(null, text, point.X + (size.Width - rect.Width) / 2, (point.Y - 5) + (size.Height - rect.Height) / 2, color);
                 return;
             }
 
             if (style == EngineFontStyle.Bold) {
-                rect = bold.MeasureText(sprite, text, textformat);
+                rect = bold.MeasureText(null, text, textformat);
                 if (preload) { bold.PreloadText(text); }
-                bold.DrawText(sprite, text, point.X + (size.Width - rect.Width) / 2, (point.Y - 5) + (size.Height - rect.Height) / 2, color);
+                bold.DrawText(null, text, point.X + (size.Width - rect.Width) / 2, (point.Y - 5) + (size.Height - rect.Height) / 2, color);
                 return;
             }
 
             if (style == EngineFontStyle.Italic) {
-                rect = italic.MeasureText(sprite, text, textformat);
+                rect = italic.MeasureText(null, text, textformat);
                 if (preload) { italic.PreloadText(text); }
-                italic.DrawText(sprite, text, point.X + (size.Width - rect.Width) / 2, (point.Y - 5) + (size.Height - rect.Height) / 2, color);
+                italic.DrawText(null, text, point.X + (size.Width - rect.Width) / 2, (point.Y - 5) + (size.Height - rect.Height) / 2, color);
             }
         }
 
@@ -88,17 +88,17 @@ namespace Elysium_Diamond.DirectX {
         /// <param name="text">Texto</param>
         /// <param name="textformat">Formato</param>
         /// <returns></returns>
-        public static Rectangle MeasureString(Sprite sprite, EngineFontStyle style, string text, FontDrawFlags textformat) {
+        public static Rectangle MeasureString(EngineFontStyle style, string text, FontDrawFlags textformat) {
             if (style == EngineFontStyle.Regular) {
-                return regular.MeasureText(sprite, text, textformat);
+                return regular.MeasureText(null, text, textformat);
             }
 
             if (style == EngineFontStyle.Bold) {
-                return bold.MeasureText(sprite, text, textformat);
+                return bold.MeasureText(null, text, textformat);
             }
 
             if (style == EngineFontStyle.Italic) {
-                return italic.MeasureText(sprite, text, textformat);
+                return italic.MeasureText(null, text, textformat);
             }
 
             return new Rectangle();
@@ -114,15 +114,15 @@ namespace Elysium_Diamond.DirectX {
         /// <returns></returns>
         public static Rectangle MeasureString(Sprite sprite, EngineFontStyle style, string text, Rectangle rect, FontDrawFlags textformat) {
             if (style == EngineFontStyle.Regular) {
-                return regular.MeasureText(sprite, text, rect, textformat);
+                return regular.MeasureText(null, text, rect, textformat);
             }
 
             if (style == EngineFontStyle.Bold) {
-                return bold.MeasureText(sprite, text, rect, textformat);
+                return bold.MeasureText(null, text, rect, textformat);
             }
 
             if (style == EngineFontStyle.Italic) {
-                return italic.MeasureText(sprite, text, rect, textformat);
+                return italic.MeasureText(null, text, rect, textformat);
             }
 
             return new Rectangle();
@@ -138,7 +138,7 @@ namespace Elysium_Diamond.DirectX {
         /// <param name="color">Cor</param>
         /// <param name="style">Estilo</param>
         /// <param name="preload">Pré Carregamento</param>
-        public static void DrawText(Sprite sprite, string text, int x, int y, Color color, EngineFontStyle style, bool preload = false) {
+        public static void DrawText(string text, int x, int y, Color color, EngineFontStyle style, bool preload = false) {
             if (string.IsNullOrEmpty(text)) { return; }
 
             if (style == EngineFontStyle.Regular) {
@@ -146,7 +146,7 @@ namespace Elysium_Diamond.DirectX {
                     regular.PreloadText(text);
                 }
 
-                regular.DrawText(sprite, text, x, y, color);
+                regular.DrawText(null, text, x, y, color);
                 return;
             }
 
@@ -155,7 +155,7 @@ namespace Elysium_Diamond.DirectX {
                     bold.PreloadText(text);
                 }
 
-                bold.DrawText(sprite, text, x, y, color);
+                bold.DrawText(null, text, x, y, color);
                 return;
             }
 
@@ -164,7 +164,7 @@ namespace Elysium_Diamond.DirectX {
                     italic.PreloadText(text);
                 }
 
-                italic.DrawText(sprite, text, x, y, color);
+                italic.DrawText(null, text, x, y, color);
             }
         }
 
@@ -177,7 +177,7 @@ namespace Elysium_Diamond.DirectX {
         /// <param name="style">Estilo</param>
         /// <param name="textformat">Formato</param>
         /// <param name="preload">Pré Carregamento</param>
-        public static void DrawText(Sprite sprite, string text, Rectangle rec, Color color, EngineFontStyle style, FontDrawFlags textformat, bool preload = false) {
+        public static void DrawText(string text, Rectangle rec, Color color, EngineFontStyle style, FontDrawFlags textformat, bool preload = false) {
             if (string.IsNullOrEmpty(text)) { return; }
 
             if (style == EngineFontStyle.Regular) {
@@ -185,7 +185,7 @@ namespace Elysium_Diamond.DirectX {
                     regular.PreloadText(text);
                 }
 
-                regular.DrawText(sprite, text, rec, textformat, color);
+                regular.DrawText(null, text, rec, textformat, color);
                 return;
             }
 
@@ -194,7 +194,7 @@ namespace Elysium_Diamond.DirectX {
                     bold.PreloadText(text);
                 }
 
-                bold.DrawText(sprite, text, rec, textformat, color);
+                bold.DrawText(null, text, rec, textformat, color);
                 return;
             }
 
@@ -203,7 +203,7 @@ namespace Elysium_Diamond.DirectX {
                     italic.PreloadText(text);
                 }
 
-                italic.DrawText(sprite, text, rec, textformat, color);
+                italic.DrawText(null, text, rec, textformat, color);
             }
         }
     }
