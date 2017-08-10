@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace Elysium {
+namespace Elysium.Service {
     public class PlayerService {
         Hashtable service = new Hashtable();
 

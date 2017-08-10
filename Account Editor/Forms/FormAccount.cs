@@ -61,7 +61,19 @@ namespace AccountEditor {
         private void strip_save_Click(object sender, EventArgs e) {
             if (!VerifyTextbox()) { return; }
 
-            FillPlayerData();
+            FillPlayerData();             
+
+            if (pData.ChangePass) {
+                if (pData.LastPassword.CompareTo(pData.Password) == 0) {
+                    pData.ChangePass = false;
+                }
+            }
+
+            if (pData.ChangePin) {
+                if (pData.LastPin.CompareTo(pData.Pin) == 0) {
+                    pData.ChangePin = false;
+                }
+            }
 
             if (AccountDB.SaveAccountData(pData) > 0) {
                 DarkMessageBox.ShowInformation("As informações do usuário foram atualizadas.", "Aviso");
@@ -90,6 +102,8 @@ namespace AccountEditor {
 
             pData = AccountDB.LoadAccountData(user);
             pData.CharacterName = CharacterDB.GetCharacterNames(pData.ID);
+            pData.ChangePin = false;
+            pData.ChangePass = false;
 
             FillControl();
         }
@@ -238,6 +252,14 @@ namespace AccountEditor {
         /// <param name="e"></param>
         private void TextBox_KeyPress(object sender, KeyPressEventArgs e) {
             if (!char.IsDigit(e.KeyChar) & e.KeyChar != (char)Keys.Back) { e.Handled = true; }
+        }
+
+        private void txt_password_TextChanged(object sender, EventArgs e) {
+            pData.ChangePass = true;
+        }
+
+        private void txt_pin_TextChanged(object sender, EventArgs e) {
+            pData.ChangePin = true;
         }
     }
 }

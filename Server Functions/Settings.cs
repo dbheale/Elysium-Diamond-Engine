@@ -4,7 +4,7 @@ using System.Collections;
 using System.Linq;
 using System.Text;
 
-namespace Elysium {
+namespace Elysium.IO {
     public class Settings {
         /// <summary>
         /// cache de configuração.
@@ -59,7 +59,7 @@ namespace Elysium {
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public static int GetInt16(string key) {
+        public static short GetInt16(string key) {
             return Convert.ToInt16(cache[key]);
         }
 

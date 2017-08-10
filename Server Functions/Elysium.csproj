@@ -40,12 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service.cs" />
     <Compile Include="Settings.cs" />
-    <Compile Include="Logs.cs" />
+    <Compile Include="Log.cs" />
     <Compile Include="PlayerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="LogsEventArgs.cs" />
+    <Compile Include="LogEventArgs.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

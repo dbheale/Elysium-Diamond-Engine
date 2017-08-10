@@ -15,7 +15,6 @@
         public int Wisdom { get; set; }
         public int Will { get; set; }
         public int Mind { get; set; }
-        public int Charisma { get; set; }
         public int Points { get; set; }
         public short WorldID { get; set; }
         public short RegionID { get; set; }

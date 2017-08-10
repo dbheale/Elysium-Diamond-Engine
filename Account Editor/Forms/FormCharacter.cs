@@ -158,7 +158,6 @@ namespace AccountEditor {
             txt_wis.Text = pData.Wisdom.ToString();
             txt_wil.Text = pData.Will.ToString();
             txt_min.Text = pData.Mind.ToString();
-            txt_cha.Text = pData.Charisma.ToString();
         }
 
         /// <summary>
@@ -182,7 +181,6 @@ namespace AccountEditor {
             pData.Wisdom = int.Parse(txt_wis.Text);
             pData.Will = int.Parse(txt_wil.Text);
             pData.Mind = int.Parse(txt_min.Text);
-            pData.Charisma = int.Parse(txt_cha.Text);
             var index = list_classes.SelectedIndices[0];
             pData.ClasseID = Static.Classes[index].ID;
 

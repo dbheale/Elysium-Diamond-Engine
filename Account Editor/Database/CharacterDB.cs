@@ -119,7 +119,6 @@ namespace AccountEditor.Database {
             pData.Wisdom = (int)reader["wisdom"];
             pData.Will = (int)reader["will"];
             pData.Mind = (int)reader["mind"];
-            pData.Charisma = (int)reader["charisma"];
             pData.Points = (int)reader["statpoints"];
             pData.WorldID = Convert.ToInt16(reader["world_id"]);
             pData.RegionID = Convert.ToInt16(reader["region_id"]);
@@ -154,7 +153,6 @@ namespace AccountEditor.Database {
             cmd.Parameters.AddWithValue("?wisdom", pData.Wisdom);
             cmd.Parameters.AddWithValue("?will", pData.Will);
             cmd.Parameters.AddWithValue("?mind", pData.Mind);
-            cmd.Parameters.AddWithValue("?charisma", pData.Charisma);
             cmd.Parameters.AddWithValue("?points", pData.Points);
             cmd.Parameters.AddWithValue("?world", pData.WorldID);
             cmd.Parameters.AddWithValue("?region", pData.RegionID);

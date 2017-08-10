@@ -12,7 +12,7 @@ namespace AccountEditor.Database {
         /// <param name="username">nome de usuário</param>
         /// <returns></returns>
         public static bool ExistAccount(string username) {
-            var query = "SELECT id FROM account WHERE account=?username";
+            var query = "SELECT id FROM accounts WHERE account=?username";
             var cmd = new MySqlCommand(query, MySQL.LoginDB.Connection);
             cmd.Parameters.AddWithValue("?username", username);
             var reader = cmd.ExecuteReader();
@@ -27,7 +27,7 @@ namespace AccountEditor.Database {
         /// </summary>
         /// <param name="pData"></param>
         public static int InsertAccount(Account pData) {
-            var query = "INSERT INTO account (account, password, email, pin, cash, language_id, access_level, active, first_name, ";
+            var query = "INSERT INTO accounts (account, password, email, pin, cash, language_id, access_level, active, first_name, ";
             query += "last_name, location, date_created, creator_ip) ";
             query += "VALUES (?account, ?password, ?email, ?pin, ?cash, ?language_id, ?access_level, ?active, ?first_name, ";
             query += "?last_name, ?location, ?date_created, ?creator_ip)";
@@ -36,7 +36,7 @@ namespace AccountEditor.Database {
             cmd.Parameters.AddWithValue("?account", pData.Username);
             cmd.Parameters.AddWithValue("?password", Hash.Compute(pData.Password));
             cmd.Parameters.AddWithValue("?email", pData.Email);
-            cmd.Parameters.AddWithValue("?pin", pData.Pin);
+            cmd.Parameters.AddWithValue("?pin", Hash.Compute(pData.Pin));
             cmd.Parameters.AddWithValue("?cash", pData.Cash);
             cmd.Parameters.AddWithValue("?language_id", pData.Language);
             cmd.Parameters.AddWithValue("?access_level", pData.Access);
@@ -57,7 +57,7 @@ namespace AccountEditor.Database {
         /// <param name="username"></param>
         /// <returns></returns>
         public static Account LoadAccountData(string username) {
-            var query = "SELECT * FROM account WHERE account=?username";
+            var query = "SELECT * FROM accounts WHERE account=?username";
             var cmd = new MySqlCommand(query, MySQL.LoginDB.Connection);
             cmd.Parameters.AddWithValue("?username", username);
             var reader = cmd.ExecuteReader();
@@ -97,15 +97,15 @@ namespace AccountEditor.Database {
         /// </summary>
         /// <param name="pData"></param>
         public static int SaveAccountData(Account pData) {
-            var query = "UPDATE account SET account=?account, password=?password, email=?email, pin=?pin, cash=?cash, ";
+            var query = "UPDATE accounts SET account=?account, password=?password, email=?email, pin=?pin, cash=?cash, ";
             query += "language_id=?language, access_level=?access, active=?active, first_name=?firstname, last_name=?lastname, ";
             query += "location=?location WHERE id=?id";
 
             var cmd = new MySqlCommand(query, MySQL.LoginDB.Connection);
             cmd.Parameters.AddWithValue("?account", pData.Username);
-            cmd.Parameters.AddWithValue("?password", Hash.Compute(pData.Password));
+            cmd.Parameters.AddWithValue("?password", (pData.ChangePass == true) ? Hash.Compute(pData.Password) : pData.Password);
             cmd.Parameters.AddWithValue("?email", pData.Email);
-            cmd.Parameters.AddWithValue("?pin", pData.Pin);
+            cmd.Parameters.AddWithValue("?pin", (pData.ChangePin == true) ? Hash.Compute(pData.Pin) : pData.Pin);
             cmd.Parameters.AddWithValue("?cash", pData.Cash);
             cmd.Parameters.AddWithValue("?language", pData.Language);
             cmd.Parameters.AddWithValue("?access", pData.Access);
@@ -124,7 +124,7 @@ namespace AccountEditor.Database {
         /// </summary>
         /// <param name="username"></param>
         public static int DeleteAccountData(int id) {
-            var varQuery = "DELETE FROM account WHERE id=?id";
+            var varQuery = "DELETE FROM accounts WHERE id=?id";
             var cmd = new MySqlCommand(varQuery, MySQL.LoginDB.Connection);
             cmd.Parameters.AddWithValue("?id", id);
             var result = cmd.ExecuteNonQuery();

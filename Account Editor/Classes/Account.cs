@@ -22,6 +22,12 @@ namespace AccountEditor {
         public string CurrentIp { get; set; }
         public string IpLast { get; set; }
 
+        //temp
+        public string LastPassword { get; set; }
+        public string LastPin { get; set; }
+        public bool ChangePass = false;
+        public bool ChangePin = false;
+
         public Account() {
             Email = string.Empty;
             FirstName = string.Empty;

@@ -232,6 +232,7 @@
             this.txt_pin.Name = "txt_pin";
             this.txt_pin.Size = new System.Drawing.Size(145, 23);
             this.txt_pin.TabIndex = 15;
+            this.txt_pin.TextChanged += new System.EventHandler(this.txt_pin_TextChanged);
             // 
             // darkLabel1
             // 
@@ -395,6 +396,7 @@
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(145, 23);
             this.txt_password.TabIndex = 9;
+            this.txt_password.TextChanged += new System.EventHandler(this.txt_password_TextChanged);
             // 
             // darkLabel3
             // 
