@@ -4,18 +4,19 @@ O servidor usa mysql como banco de dados; a conexão do projeto usa UDP com a bi
 E no cliente, é usado SharpDX.
 
 #Ferramentas
-Visual Studio 2015 Community<br>
+Visual Studio 2015/2017 Community<br>
 MySQL 5.6
 
 #Requerimentos
-NETFramework 4.5 para os servidores.
+NETFramework 4.5 para os servidores.<br>
 NETFramework 4.0 e DirectX atualizado para o cliente
 
 #Servidores
 O jogo usa 4 servidores para dividir o processamento e aumentar a quantidade de jogares.<br>
 Banco de dados usado, MySQL.
 
-Login: akaruz
+Usuário padrão para testes
+Login: akaruz<br>
 Senha: datamore
 
 ![Screenshot](http://i.imgur.com/9gMp2cI.png)
