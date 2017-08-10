@@ -28,6 +28,8 @@ Personagens<br>
 ![Screenshot](http://i.imgur.com/gmZbMkv.jpg)
 <br>Lista de Servidores<br>
 ![Screenshot](http://i.imgur.com/XP98ojZ.jpg)
+<br>In Game<br>
+![Screenshot](http://i.imgur.com/BxFIMwT.png)
 
 #Autor
 Julio Sperandio
