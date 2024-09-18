@@ -1,0 +1,77 @@
+
+# Compiled object files, binaries, and libraries
+bin/
+obj/
+
+# NuGet Packages
+packages/
+*.nupkg
+project.lock.json
+.nuget/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Image file caches
+*.stackdump
+
+# Backup & snapshot files
+*.bak
+*.swp
+*~
+*.tmp
+*.temp
+
+# Logs
+*.log
+*.tlog
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# JetBrains Rider project settings
+.idea/
+
+# Ignore application configurations
+appsettings*.json
+app.config
+web.config
+
+# Ignore local database
+*.mdf
+*.ldf
+
+# Ignore private keys and sensitive data
+*.pfx
+*.key
+
+# Others
+*.DS_Store
+*.log
+*.lock
+
