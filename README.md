@@ -1,41 +1,44 @@
-# Elysium Game Engine
-Projeto de MMO usando .NET e linguagem C#. 
-O servidor usa mysql como banco de dados; a conexão do projeto usa UDP com a biblioteca lidgren.
-E no cliente, é usado SharpDX.
 
-#Ferramentas
-Visual Studio 2015/2017 Community<br>
-MySQL 5.6
+# MMO Project using .NET and C#
 
-#Requerimentos
-NETFramework 4.5 para os servidores.<br>
-NETFramework 4.0 e DirectX atualizado para o cliente
+The server uses MySQL as the database, and the project uses UDP for the connection with the Lidgren library. On the client side, SharpDX is used.
 
-#Servidores
-O jogo usa 4 servidores para dividir o processamento e aumentar a quantidade de jogares.<br>
-Banco de dados usado, MySQL.
+## Tools
+- **Visual Studio**: 2015/2017 Community
+- **MySQL Version**: 5.6
 
-Usuário padrão para testes
-Login: akaruz<br>
-Senha: datamore
+## Requirements
+- **.NETFramework 4.5** for the servers
+- **.NETFramework 4.0** and updated **DirectX** for the client
+
+## Servers
+The game uses 4 servers to divide processing and increase the number of players.
+
+- Database used: MySQL
+
+## Default Test User
+- **Login**: `akaruz`
+- **Password**: `datamore`
 
 ![Screenshot](http://i.imgur.com/9gMp2cI.png)
 ![Screenshot](http://i.imgur.com/vZwvHu9.png)
 ![Screenshot](http://i.imgur.com/R2WtCGl.png)
 ![Screenshot](http://i.imgur.com/dQNaEgV.png)
 
-#Cliente
-Personagens<br>
+## Client
+# Characters
 ![Screenshot](http://i.imgur.com/gmZbMkv.jpg)
-<br>Lista de Servidores<br>
+
+# Server List
 ![Screenshot](http://i.imgur.com/XP98ojZ.jpg)
-<br>In Game<br>
+
+# In Game
 ![Screenshot](http://i.imgur.com/BxFIMwT.png)
 
-#Autor
+## Author
 Julio Sperandio
 
-#Licença
-Code is MPL licensed: This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+## License
+Code is MPL licensed: This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, you can obtain one at [http://mozilla.org/MPL/2.0/](http://mozilla.org/MPL/2.0/).
 
-Content is licensed under CC-BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/[
+Content is licensed under CC-BY-SA 4.0: [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
