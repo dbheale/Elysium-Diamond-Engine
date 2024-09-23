@@ -68,8 +68,8 @@ namespace Elysium_Diamond.Common {
             using (FileStream file = new FileStream(FILE_CONFIG, FileMode.Open, FileAccess.Read)) {
                 BinaryReader reader = new BinaryReader(file);
 
-                cache.Add("IP", "127.0.0.1");
-                cache.Add("Port", 44405);
+                cache.Add("IP", "localhost");
+                cache.Add("Port", 55970);
                // cache.Add("IP", reader.ReadString());
               //  cache.Add("Port", reader.ReadInt32());
 
@@ -80,8 +80,8 @@ namespace Elysium_Diamond.Common {
          
             //prepare some basic data
             IPAddress[(int)SocketEnum.LoginServer] = new IPAddress((string)cache["IP"], (int)cache["Port"]);
-            IPAddress[(int)SocketEnum.WorldServer] = new IPAddress(string.Empty);
-            IPAddress[(int)SocketEnum.GameServer] = new IPAddress(string.Empty);
+            IPAddress[(int)SocketEnum.WorldServer] = new IPAddress((string)cache["IP"], (int)cache["Port"]);
+            IPAddress[(int)SocketEnum.GameServer] = new IPAddress((string)cache["IP"], (int)cache["Port"]);
 
             return true;
         }

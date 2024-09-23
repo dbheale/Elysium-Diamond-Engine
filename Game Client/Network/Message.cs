@@ -106,7 +106,7 @@ namespace Elysium_Diamond.Network {
 
                 case PacketList.InvalidCharacterName:
                     EngineMessageBox.Enabled = true;
-                    EngineMessageBox.Show("O nome de personagem não foi encontrado");
+                    EngineMessageBox.Show("The character name was not found");
                     WindowCash.WaitData = false;
                     break;
 

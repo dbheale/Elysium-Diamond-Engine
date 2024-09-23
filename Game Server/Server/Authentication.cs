@@ -8,6 +8,7 @@ using GameServer.MySQL;
 using GameServer.Player;
 using Lidgren.Network;
 using Elysium.Logs;
+using Org.BouncyCastle.Utilities;
 
 namespace GameServer.Server {
     public static class Authentication {
@@ -252,7 +253,7 @@ namespace GameServer.Server {
         /// </summary>
         /// <param name="msg"></param>
         public static void Connect(NetIncomingMessage msg) {
-            Log.Write($"Status changed to connected: {msg.SenderEndPoint.Address}", Color.Coral);
+            Log.Write($"Status changed to connected: {msg.SenderEndPoint}", Color.Coral);
             player.Add(new PlayerData(msg.SenderConnection, string.Empty, msg.SenderEndPoint.Address.ToString()));
             GamePacket.NeedHexID(msg.SenderConnection);
             WorldPacket.UpdateUserCount();

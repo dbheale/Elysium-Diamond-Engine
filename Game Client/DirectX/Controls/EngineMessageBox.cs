@@ -85,7 +85,7 @@ namespace Elysium_Diamond.DirectX {
 
             if (Enabled == false) {
                 if (Environment.TickCount >= tick + 10000) {
-                    Text = "Sem conexão";
+                    Text = "No connection";
                     Enabled = true;
                     Common.Configuration.HexID = "";
                     Common.Configuration.IPAddress[(int)SocketEnum.GameServer] = new IPAddress(string.Empty, 0);

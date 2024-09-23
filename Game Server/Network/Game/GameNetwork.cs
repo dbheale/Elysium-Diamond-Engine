@@ -1,9 +1,11 @@
-﻿using System.Drawing;
-using Lidgren.Network;
-using GameServer.Common;
-using GameServer.Server;
-using GameServer.Player;
+﻿using System;
+using System.Drawing;
+using System.Text;
 using Elysium.Logs;
+using GameServer.Common;
+using GameServer.Player;
+using GameServer.Server;
+using Lidgren.Network;
 
 namespace GameServer.Network {
     public static class GameNetwork {
@@ -88,7 +90,7 @@ namespace GameServer.Network {
                         var ip = msg.SenderEndPoint.Address.ToString();
 
                         socket.SendDiscoveryResponse(null, msg.SenderEndPoint);
-                        Log.Write($"Discovery Response IPEndPoint: {msg.SenderEndPoint.Address}", Color.Coral);
+                        Log.Write($"Discovery Response IPEndPoint: {msg.SenderEndPoint}", Color.Coral);
 
                         break;
                     case NetIncomingMessageType.ErrorMessage:

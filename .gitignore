@@ -2,6 +2,8 @@
 # Compiled object files, binaries, and libraries
 bin/
 obj/
+bin/*
+obj/*
 
 # NuGet Packages
 packages/
@@ -20,7 +22,7 @@ project.lock.json
 mono_crash.*
 
 # Build results
-[Dd]ebug
+[Dd]ebug/
 [Rr]elease/
 x64/
 x86/

@@ -70,7 +70,7 @@ namespace Elysium_Diamond.Network {
             WindowCharacter.Player[slot].Time = new TimeSpan(hour, minute, second);
             WindowCharacter.Player[slot].Pending = true;
 
-            EngineMessageBox.Show($"O personagem será excluído em {time} minuto(s).");
+            EngineMessageBox.Show($"The character will be deleted in {time} minute(s).");
         }
 
         public static void RemovePendingDelete(NetIncomingMessage msg) {
@@ -92,7 +92,7 @@ namespace Elysium_Diamond.Network {
             short time = msg.ReadInt16();
 
             EngineMessageBox.Enabled = true;
-            EngineMessageBox.Show($"Incorreto! Tentativas {value} de {max_value}. Penalidade: bloqueio por {time} minutos.");
+            EngineMessageBox.Show($"Incorrect! Attempts {value} out of {max_value}. Penalty: blocked for {time} minutes.");
         }
 
         /// <summary>
@@ -100,7 +100,7 @@ namespace Elysium_Diamond.Network {
         /// </summary>
         public static void IncorrectPin() {
             EngineMessageBox.Enabled = true;
-            EngineMessageBox.Show($"Pin atual inválido.");
+            EngineMessageBox.Show($"Invalid Pin.");
         }
 
         /// <summary>
@@ -108,7 +108,7 @@ namespace Elysium_Diamond.Network {
         /// </summary>
         public static void RegisterPin() {
             EngineMessageBox.Enabled = true;
-            EngineMessageBox.Show("Cadastre o pin de usuário.");
+            EngineMessageBox.Show("Register the user pin.");
             WindowPin.Visible = true;
             WindowPin.ChangeState(PinState.Initialize);
         }
@@ -165,19 +165,19 @@ namespace Elysium_Diamond.Network {
 
             if (status == CashItemPurchaseStatus.InvalidName) {
                 EngineMessageBox.Enabled = true;
-                EngineMessageBox.Show("O nome do personagem não foi encontrado");
+                EngineMessageBox.Show("The character name was not found");
                 WindowCash.WaitData = false;
             }
 
             if (status == CashItemPurchaseStatus.NotEnoughCash) {
                 EngineMessageBox.Enabled = true;
-                EngineMessageBox.Show("Valor insuficiente para a compra");
+                EngineMessageBox.Show("Insufficient amount for the purchase");
                 WindowCash.WaitData = false;
             }
 
             if (status == CashItemPurchaseStatus.InvalidItem ) {
                 EngineMessageBox.Enabled = true;
-                EngineMessageBox.Show("Este item não existe na loja");
+                EngineMessageBox.Show("This item does not exist in the store");
                 WindowCash.BuyItemVisible = false;
                 WindowCash.WaitData = false;
                 WindowCash.Quantity = 1;
@@ -185,7 +185,7 @@ namespace Elysium_Diamond.Network {
 
             if (status == CashItemPurchaseStatus.SuccessPurchase) {
                 EngineMessageBox.Enabled = true;
-                EngineMessageBox.Show("O item foi comprado com sucesso");
+                EngineMessageBox.Show("The item was successfully purchased");
                 WindowCash.BuyItemVisible = false;
                 WindowCash.WaitData = false;
                 WindowCash.Quantity = 1;

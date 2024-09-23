@@ -413,7 +413,7 @@ namespace Elysium_Diamond.EngineWindow {
             for(int n = 0; n < itemText.Count; n++) 
                 EngineFont.DrawText(itemText[n].Text, new Rectangle(BuyItemPosition.X, BuyItemPosition.Y + (n * 20) + 130, 320, 25), itemText[n].Color, EngineFontStyle.Regular, FontDrawFlags.Center);
          
-            EngineFont.DrawText("Insira o nome do personagem", new Rectangle(BuyItemPosition.X, BuyItemPosition.Y + 220, 320, 25), Color.Orange, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText("Enter the character's name", new Rectangle(BuyItemPosition.X, BuyItemPosition.Y + 220, 320, 25), Color.Orange, EngineFontStyle.Regular, FontDrawFlags.Center);
 
             for (int n = 0; n < MAX_BUY_BUTTON; n++) buy_item_button[n].Draw(); 
         }

@@ -129,13 +129,13 @@ namespace Elysium_Diamond.EngineWindow {
 
             if (NetworkSocket.Connected(SocketEnum.LoginServer) == false) {
                 EngineMessageBox.Enabled = true;
-                EngineMessageBox.Show("Sem conexão com o servidor");
+                EngineMessageBox.Show("No connection to the server");
                 return;
             }
 
             if (textbox[0].Text.Length <= 4) {
                 EngineMessageBox.Enabled = true;
-                EngineMessageBox.Show("O nome não pode ser menor que 5 dígitos");
+                EngineMessageBox.Show("The name cannot be shorter than 5 characters");
                 return;
             }
 

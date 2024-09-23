@@ -12,7 +12,7 @@ namespace Elysium_Diamond {
         [STAThread]
         static void Main(string[] args) {
             if (!Configuration.Open()) {
-                MessageBox.Show("Arquivo de configuração não encontrado. O programa será fechado.");
+                MessageBox.Show("Configuration file not found. The program will be closed.");
                 return;
             }
 
@@ -21,12 +21,12 @@ namespace Elysium_Diamond {
             GraphicsDisplay = new CreateDevice();
 
             if (!EngineCore.InitializeDirectX()) {
-                MessageBox.Show("Não foi possível inicializar o Direct3D. O programa será fechado.");
+                MessageBox.Show("Could not initialize Direct3D. The program will be closed.");
                 return;
             }
 
             if (!EngineCore.InitializeEngine()) {
-                MessageBox.Show("Não foi possível inicializar os recursos. O programa será fechado.");
+                MessageBox.Show("Could not initialize the resources. The program will be closed.");
                 return;
             }
 
